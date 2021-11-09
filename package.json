@@ -1,7 +1,7 @@
 {
   "name": "@stdlib/stats-base",
   "version": "0.0.5",
-  "description": "Standard library base statistical functions.",
+  "description": "Base (i.e., lower-level) statistical functions.",
   "license": "Apache-2.0",
   "author": {
     "name": "The Stdlib Authors",
@@ -257,6 +257,7 @@
     "@stdlib/utils-define-read-only-property": "^0.0.x"
   },
   "devDependencies": {
+    "@stdlib/array-filled-by": "^0.0.x",
     "@stdlib/array-float32": "^0.0.x",
     "@stdlib/array-float64": "^0.0.x",
     "@stdlib/array-uint8": "^0.0.x",
@@ -282,7 +283,6 @@
     "@stdlib/blas-ext-base-dsumors": "^0.0.x",
     "@stdlib/blas-ext-base-dsumpw": "^0.0.x",
     "@stdlib/blas-ext-base-gapxsumpw": "^0.0.x",
-    "@stdlib/blas-ext-base-gfill-by": "^0.0.x",
     "@stdlib/blas-ext-base-gsumkbn": "^0.0.x",
     "@stdlib/blas-ext-base-gsumkbn2": "^0.0.x",
     "@stdlib/blas-ext-base-gsumors": "^0.0.x",

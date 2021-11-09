@@ -20,9 +20,9 @@ limitations under the License.
 
 # Base Statistics
 
-[![NPM version][npm-image]][npm-url] [![Build Status][test-image]][test-url] [![Coverage Status][coverage-image]][coverage-url] [![dependencies][dependencies-image]][dependencies-url]
+[![NPM version][npm-image]][npm-url] [![Build Status][test-image]][test-url] [![Coverage Status][coverage-image]][coverage-url] <!-- [![dependencies][dependencies-image]][dependencies-url] -->
 
-> Standard library base statistical functions.
+> Base (i.e., lower-level) statistical functions.
 
 <section class="installation">
 
@@ -44,7 +44,7 @@ var stats = require( '@stdlib/stats-base' );
 
 #### stats
 
-Standard library base statistical functions.
+Namespace containing "base" (i.e., lower-level) statistical functions.
 
 ```javascript
 var ns = stats;
@@ -57,7 +57,7 @@ The namespace contains the following sub-namespaces:
 
 <div class="namespace-toc">
 
--   <span class="signature">[`dists`][@stdlib/stats/base/dists]</span><span class="delimiter">: </span><span class="description">standard library probability distribution modules.</span>
+-   <span class="signature">[`dists`][@stdlib/stats/base/dists]</span><span class="delimiter">: </span><span class="description">base (i.e., lower-level) probability distribution modules.</span>
 
 </div>
 
@@ -322,6 +322,16 @@ console.log( objectKeys( ns ) );
 
 <!-- /.examples -->
 
+<!-- Section for related `stdlib` packages. Do not manually edit this section, as it is automatically populated. -->
+
+<section class="related">
+
+</section>
+
+<!-- /.related -->
+
+<!-- Section for all links. Make sure to keep an empty line after the `section` element and another before the `/section` close. -->
+
 
 <section class="main-repo" >
 
@@ -365,8 +375,12 @@ Copyright &copy; 2016-2021. The Stdlib [Authors][stdlib-authors].
 [coverage-image]: https://img.shields.io/codecov/c/github/stdlib-js/stats-base/main.svg
 [coverage-url]: https://codecov.io/github/stdlib-js/stats-base?branch=main
 
+<!--
+
 [dependencies-image]: https://img.shields.io/david/stdlib-js/stats-base.svg
 [dependencies-url]: https://david-dm.org/stdlib-js/stats-base/main
+
+-->
 
 [chat-image]: https://img.shields.io/gitter/room/stdlib-js/stdlib.svg
 [chat-url]: https://gitter.im/stdlib-js/stdlib/
