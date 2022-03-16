@@ -1,6 +1,6 @@
 {
   "name": "@stdlib/stats-base",
-  "version": "0.0.6",
+  "version": "0.0.0",
   "description": "Base (i.e., lower-level) statistical functions.",
   "license": "Apache-2.0",
   "author": {
