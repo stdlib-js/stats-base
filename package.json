@@ -1,6 +1,6 @@
 {
   "name": "@stdlib/stats-base",
-  "version": "0.1.0",
+  "version": "0.2.0",
   "description": "Base (i.e., lower-level) statistical functions.",
   "license": "Apache-2.0",
   "author": {
@@ -339,7 +339,7 @@
     "@stdlib/math-base-special-betaln": "^0.1.0",
     "@stdlib/math-base-special-binomcoefln": "^0.1.0",
     "@stdlib/math-base-special-ceil": "^0.1.0",
-    "@stdlib/math-base-special-cospi": "^0.1.0",
+    "@stdlib/math-base-special-cospi": "^0.2.0",
     "@stdlib/math-base-special-digamma": "^0.1.0",
     "@stdlib/math-base-special-erf": "^0.1.0",
     "@stdlib/math-base-special-erfc": "^0.1.0",
