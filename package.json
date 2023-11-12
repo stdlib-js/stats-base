@@ -272,7 +272,7 @@
     "@stdlib/assert-is-positive-integer": "^0.1.0",
     "@stdlib/assert-is-positive-number": "^0.1.1",
     "@stdlib/assert-is-probability": "^0.1.1",
-    "@stdlib/bench": "^0.1.0",
+    "@stdlib/bench": "^0.2.0",
     "@stdlib/blas-ext-base-dapxsum": "^0.1.0",
     "@stdlib/blas-ext-base-dapxsumpw": "^0.1.0",
     "@stdlib/blas-ext-base-dsapxsum": "^0.1.0",
