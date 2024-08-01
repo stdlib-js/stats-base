@@ -287,7 +287,7 @@
     "@stdlib/blas-ext-base-gsumkbn2": "^0.2.2",
     "@stdlib/blas-ext-base-gsumors": "^0.2.2",
     "@stdlib/blas-ext-base-gsumpw": "^0.2.2",
-    "@stdlib/blas-ext-base-sapxsum": "^0.2.2",
+    "@stdlib/blas-ext-base-sapxsum": "^0.2.3",
     "@stdlib/blas-ext-base-sapxsumpw": "^0.2.2",
     "@stdlib/blas-ext-base-ssumkbn": "^0.2.2",
     "@stdlib/blas-ext-base-ssumkbn2": "^0.2.2",
