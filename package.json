@@ -376,6 +376,7 @@
     "@stdlib/math-base-tools-sum-series": "^0.2.2",
     "@stdlib/number-float64-base-to-float32": "^0.2.2",
     "@stdlib/random-base-discrete-uniform": "^0.2.1",
+    "@stdlib/random-base-gumbel": "^0.2.1",
     "@stdlib/random-base-randu": "^0.2.1",
     "@stdlib/random-base-uniform": "^0.2.1",
     "@stdlib/stats-base-dists-arcsine": "^0.2.2",
