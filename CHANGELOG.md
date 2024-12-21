@@ -4,11 +4,657 @@
 
 <section class="release" id="unreleased">
 
-## Unreleased (2024-12-01)
+## Unreleased (2024-12-21)
 
 <section class="packages">
 
 ### Packages
+
+<section class="package" id="stats-base-dists-arcsine-cdf-unreleased">
+
+#### [@stdlib/stats/base/dists/arcsine/cdf](https://github.com/stdlib-js/stdlib/tree/develop/lib/node_modules/%40stdlib/stats/base/dists/arcsine/cdf)
+
+<details>
+
+<section class="features">
+
+##### Features
+
+-   [`e7e0f46`](https://github.com/stdlib-js/stdlib/commit/e7e0f4690074d14b9e2b86a6bc3c61d75ce66ac0) - add C implementation for arcsine CDF [(#3354)](https://github.com/stdlib-js/stdlib/pull/3354)
+
+</section>
+
+<!-- /.features -->
+
+<section class="issues">
+
+##### Closed Issues
+
+This release closes the following issue:
+
+[#3384](https://github.com/stdlib-js/stdlib/issues/3384)
+
+</section>
+
+<!-- /.issues -->
+
+</details>
+
+</section>
+
+<!-- /.package -->
+
+<section class="package" id="stats-base-dists-arcsine-entropy-unreleased">
+
+#### [@stdlib/stats/base/dists/arcsine/entropy](https://github.com/stdlib-js/stdlib/tree/develop/lib/node_modules/%40stdlib/stats/base/dists/arcsine/entropy)
+
+<details>
+
+<section class="features">
+
+##### Features
+
+-   [`222ef72`](https://github.com/stdlib-js/stdlib/commit/222ef725730746806fa15ac1d735f0284cf4616e) - add C implementation for `stats/base/dists/arcsine/entropy` [(#3379)](https://github.com/stdlib-js/stdlib/pull/3379)
+
+</section>
+
+<!-- /.features -->
+
+<section class="issues">
+
+##### Closed Issues
+
+This release closes the following issue:
+
+[#3378](https://github.com/stdlib-js/stdlib/issues/3378)
+
+</section>
+
+<!-- /.issues -->
+
+</details>
+
+</section>
+
+<!-- /.package -->
+
+<section class="package" id="stats-base-dists-arcsine-kurtosis-unreleased">
+
+#### [@stdlib/stats/base/dists/arcsine/kurtosis](https://github.com/stdlib-js/stdlib/tree/develop/lib/node_modules/%40stdlib/stats/base/dists/arcsine/kurtosis)
+
+<details>
+
+<section class="features">
+
+##### Features
+
+-   [`31faa3e`](https://github.com/stdlib-js/stdlib/commit/31faa3e761d92fe94a35d941bed6640380e21b37) - add C implementation for `stats/base/dists/arcsine/kurtosis` [(#3388)](https://github.com/stdlib-js/stdlib/pull/3388)
+
+</section>
+
+<!-- /.features -->
+
+<section class="issues">
+
+##### Closed Issues
+
+This release closes the following issue:
+
+[#3385](https://github.com/stdlib-js/stdlib/issues/3385)
+
+</section>
+
+<!-- /.issues -->
+
+</details>
+
+</section>
+
+<!-- /.package -->
+
+<section class="package" id="stats-base-dists-arcsine-logpdf-unreleased">
+
+#### [@stdlib/stats/base/dists/arcsine/logpdf](https://github.com/stdlib-js/stdlib/tree/develop/lib/node_modules/%40stdlib/stats/base/dists/arcsine/logpdf)
+
+<details>
+
+<section class="features">
+
+##### Features
+
+-   [`1d283b5`](https://github.com/stdlib-js/stdlib/commit/1d283b5f174dc2ec7770bd7be861cdb2f146027d) - add C implementation of `stats/base/dists/arcsine/logpdf` [(#3454)](https://github.com/stdlib-js/stdlib/pull/3454)
+
+</section>
+
+<!-- /.features -->
+
+<section class="issues">
+
+##### Closed Issues
+
+This release closes the following issue:
+
+[#3401](https://github.com/stdlib-js/stdlib/issues/3401)
+
+</section>
+
+<!-- /.issues -->
+
+</details>
+
+</section>
+
+<!-- /.package -->
+
+<section class="package" id="stats-base-dists-arcsine-pdf-unreleased">
+
+#### [@stdlib/stats/base/dists/arcsine/pdf](https://github.com/stdlib-js/stdlib/tree/develop/lib/node_modules/%40stdlib/stats/base/dists/arcsine/pdf)
+
+<details>
+
+<section class="features">
+
+##### Features
+
+-   [`fbbdff6`](https://github.com/stdlib-js/stdlib/commit/fbbdff6ed331a65f7baab74249d29b60ec01b101) - add implementation of `stats/base/dists/arcsine/pdf` [(#3455)](https://github.com/stdlib-js/stdlib/pull/3455)
+
+</section>
+
+<!-- /.features -->
+
+<section class="issues">
+
+##### Closed Issues
+
+This release closes the following issue:
+
+[#3402](https://github.com/stdlib-js/stdlib/issues/3402)
+
+</section>
+
+<!-- /.issues -->
+
+</details>
+
+</section>
+
+<!-- /.package -->
+
+<section class="package" id="stats-base-dists-arcsine-variance-unreleased">
+
+#### [@stdlib/stats/base/dists/arcsine/variance](https://github.com/stdlib-js/stdlib/tree/develop/lib/node_modules/%40stdlib/stats/base/dists/arcsine/variance)
+
+<details>
+
+<section class="features">
+
+##### Features
+
+-   [`3688b08`](https://github.com/stdlib-js/stdlib/commit/3688b0821bbfc1e99f33b859a4e090c6b75dc3fa) - add C implementation for `stats/base/dists/arcsine/variance` [(#3968)](https://github.com/stdlib-js/stdlib/pull/3968)
+
+</section>
+
+<!-- /.features -->
+
+<section class="issues">
+
+##### Closed Issues
+
+This release closes the following issue:
+
+[#3410](https://github.com/stdlib-js/stdlib/issues/3410)
+
+</section>
+
+<!-- /.issues -->
+
+</details>
+
+</section>
+
+<!-- /.package -->
+
+<section class="package" id="stats-base-dists-bernoulli-mean-unreleased">
+
+#### [@stdlib/stats/base/dists/bernoulli/mean](https://github.com/stdlib-js/stdlib/tree/develop/lib/node_modules/%40stdlib/stats/base/dists/bernoulli/mean)
+
+<details>
+
+<section class="features">
+
+##### Features
+
+-   [`5019fab`](https://github.com/stdlib-js/stdlib/commit/5019fab885f33507350e6b7ec6a61e1e283d6249) - add C implementation for `stats/base/dists/bernoulli/mean` [(#3451)](https://github.com/stdlib-js/stdlib/pull/3451)
+
+</section>
+
+<!-- /.features -->
+
+<section class="issues">
+
+##### Closed Issues
+
+This release closes the following issue:
+
+[#3414](https://github.com/stdlib-js/stdlib/issues/3414)
+
+</section>
+
+<!-- /.issues -->
+
+</details>
+
+</section>
+
+<!-- /.package -->
+
+<section class="package" id="stats-base-dists-bernoulli-mode-unreleased">
+
+#### [@stdlib/stats/base/dists/bernoulli/mode](https://github.com/stdlib-js/stdlib/tree/develop/lib/node_modules/%40stdlib/stats/base/dists/bernoulli/mode)
+
+<details>
+
+<section class="features">
+
+##### Features
+
+-   [`06258f9`](https://github.com/stdlib-js/stdlib/commit/06258f9815f711fe5154458220c3f381d9b9134c) - add C implementation for `stats/base/dists/bernoulli/mode` [(#3450)](https://github.com/stdlib-js/stdlib/pull/3450)
+
+</section>
+
+<!-- /.features -->
+
+<section class="issues">
+
+##### Closed Issues
+
+This release closes the following issue:
+
+[#3417](https://github.com/stdlib-js/stdlib/issues/3417)
+
+</section>
+
+<!-- /.issues -->
+
+</details>
+
+</section>
+
+<!-- /.package -->
+
+<section class="package" id="stats-base-dists-bernoulli-stdev-unreleased">
+
+#### [@stdlib/stats/base/dists/bernoulli/stdev](https://github.com/stdlib-js/stdlib/tree/develop/lib/node_modules/%40stdlib/stats/base/dists/bernoulli/stdev)
+
+<details>
+
+<section class="features">
+
+##### Features
+
+-   [`3704e0c`](https://github.com/stdlib-js/stdlib/commit/3704e0cc1ae8e4f548ba2b1381e74ea7e8f042fd) - add C implementation for `@stdlib/stats-base/dists/bernoulli/stdev` [(#3683)](https://github.com/stdlib-js/stdlib/pull/3683)
+
+</section>
+
+<!-- /.features -->
+
+<section class="issues">
+
+##### Closed Issues
+
+This release closes the following issue:
+
+[#3421](https://github.com/stdlib-js/stdlib/issues/3421)
+
+</section>
+
+<!-- /.issues -->
+
+</details>
+
+</section>
+
+<!-- /.package -->
+
+<section class="package" id="stats-base-dists-beta-mode-unreleased">
+
+#### [@stdlib/stats/base/dists/beta/mode](https://github.com/stdlib-js/stdlib/tree/develop/lib/node_modules/%40stdlib/stats/base/dists/beta/mode)
+
+<details>
+
+<section class="features">
+
+##### Features
+
+-   [`b018e09`](https://github.com/stdlib-js/stdlib/commit/b018e09b9cdaf0d9cfb06a815b3c3ea0ee2c0067) - add C implementation for `stats/base/dists/beta/mode` [(#3908)](https://github.com/stdlib-js/stdlib/pull/3908)
+
+</section>
+
+<!-- /.features -->
+
+<section class="issues">
+
+##### Closed Issues
+
+This release closes the following issue:
+
+[#3431](https://github.com/stdlib-js/stdlib/issues/3431)
+
+</section>
+
+<!-- /.issues -->
+
+</details>
+
+</section>
+
+<!-- /.package -->
+
+<section class="package" id="stats-base-dists-beta-skewness-unreleased">
+
+#### [@stdlib/stats/base/dists/beta/skewness](https://github.com/stdlib-js/stdlib/tree/develop/lib/node_modules/%40stdlib/stats/base/dists/beta/skewness)
+
+<details>
+
+<section class="features">
+
+##### Features
+
+-   [`9d7f4db`](https://github.com/stdlib-js/stdlib/commit/9d7f4dbd6c71a2a57b2e55a88e5b7ded091cbd67) - add C implementation for `stats/base/dists/beta/skewness` [(#3921)](https://github.com/stdlib-js/stdlib/pull/3921)
+
+</section>
+
+<!-- /.features -->
+
+<section class="issues">
+
+##### Closed Issues
+
+This release closes the following issue:
+
+[#3434](https://github.com/stdlib-js/stdlib/issues/3434)
+
+</section>
+
+<!-- /.issues -->
+
+</details>
+
+</section>
+
+<!-- /.package -->
+
+<section class="package" id="stats-base-dists-beta-stdev-unreleased">
+
+#### [@stdlib/stats/base/dists/beta/stdev](https://github.com/stdlib-js/stdlib/tree/develop/lib/node_modules/%40stdlib/stats/base/dists/beta/stdev)
+
+<details>
+
+<section class="features">
+
+##### Features
+
+-   [`12a3dbf`](https://github.com/stdlib-js/stdlib/commit/12a3dbf094bb89c50ea468b9c75789124940b510) - add C implementation for `@stdlib/stats-base/dists/beta/stdev` [(#3909)](https://github.com/stdlib-js/stdlib/pull/3909)
+
+</section>
+
+<!-- /.features -->
+
+<section class="issues">
+
+##### Closed Issues
+
+This release closes the following issue:
+
+[#3435](https://github.com/stdlib-js/stdlib/issues/3435)
+
+</section>
+
+<!-- /.issues -->
+
+</details>
+
+</section>
+
+<!-- /.package -->
+
+<section class="package" id="stats-base-dists-beta-variance-unreleased">
+
+#### [@stdlib/stats/base/dists/beta/variance](https://github.com/stdlib-js/stdlib/tree/develop/lib/node_modules/%40stdlib/stats/base/dists/beta/variance)
+
+<details>
+
+<section class="features">
+
+##### Features
+
+-   [`bb09b18`](https://github.com/stdlib-js/stdlib/commit/bb09b185f74d2fc05254a2f164119ca05054887f) - add C implementation for `stats/base/dists/beta/variance` [(#3919)](https://github.com/stdlib-js/stdlib/pull/3919)
+
+</section>
+
+<!-- /.features -->
+
+<section class="issues">
+
+##### Closed Issues
+
+This release closes the following issue:
+
+[#3436](https://github.com/stdlib-js/stdlib/issues/3436)
+
+</section>
+
+<!-- /.issues -->
+
+</details>
+
+</section>
+
+<!-- /.package -->
+
+<section class="package" id="stats-base-dists-betaprime-kurtosis-unreleased">
+
+#### [@stdlib/stats/base/dists/betaprime/kurtosis](https://github.com/stdlib-js/stdlib/tree/develop/lib/node_modules/%40stdlib/stats/base/dists/betaprime/kurtosis)
+
+<details>
+
+<section class="features">
+
+##### Features
+
+-   [`1a98e92`](https://github.com/stdlib-js/stdlib/commit/1a98e9262d48a49dde1925c2a1d501511d795f05) - add C implementation for `stats/base/dists/betaprime/kurtosis` [(#3459)](https://github.com/stdlib-js/stdlib/pull/3459)
+
+</section>
+
+<!-- /.features -->
+
+<section class="issues">
+
+##### Closed Issues
+
+This release closes the following issue:
+
+[#3438](https://github.com/stdlib-js/stdlib/issues/3438)
+
+</section>
+
+<!-- /.issues -->
+
+</details>
+
+</section>
+
+<!-- /.package -->
+
+<section class="package" id="stats-base-dists-betaprime-skewness-unreleased">
+
+#### [@stdlib/stats/base/dists/betaprime/skewness](https://github.com/stdlib-js/stdlib/tree/develop/lib/node_modules/%40stdlib/stats/base/dists/betaprime/skewness)
+
+<details>
+
+<section class="features">
+
+##### Features
+
+-   [`0fc07d1`](https://github.com/stdlib-js/stdlib/commit/0fc07d1722a3da70464b37d4de5f6a762468f85e) - add C implementation for `stats/base/dists/betaprime/skewness` [(#3462)](https://github.com/stdlib-js/stdlib/pull/3462)
+
+</section>
+
+<!-- /.features -->
+
+<section class="issues">
+
+##### Closed Issues
+
+This release closes the following issue:
+
+[#3445](https://github.com/stdlib-js/stdlib/issues/3445)
+
+</section>
+
+<!-- /.issues -->
+
+</details>
+
+</section>
+
+<!-- /.package -->
+
+<section class="package" id="stats-base-dists-betaprime-stdev-unreleased">
+
+#### [@stdlib/stats/base/dists/betaprime/stdev](https://github.com/stdlib-js/stdlib/tree/develop/lib/node_modules/%40stdlib/stats/base/dists/betaprime/stdev)
+
+<details>
+
+<section class="features">
+
+##### Features
+
+-   [`d1a200b`](https://github.com/stdlib-js/stdlib/commit/d1a200bc6ab344f9fcd8a33a70712456dbf479d0) - add C implementation for `stats/base/dists/betaprime/stdev` [(#3461)](https://github.com/stdlib-js/stdlib/pull/3461)
+
+</section>
+
+<!-- /.features -->
+
+<section class="issues">
+
+##### Closed Issues
+
+This release closes the following issue:
+
+[#3446](https://github.com/stdlib-js/stdlib/issues/3446)
+
+</section>
+
+<!-- /.issues -->
+
+</details>
+
+</section>
+
+<!-- /.package -->
+
+<section class="package" id="stats-base-dists-betaprime-variance-unreleased">
+
+#### [@stdlib/stats/base/dists/betaprime/variance](https://github.com/stdlib-js/stdlib/tree/develop/lib/node_modules/%40stdlib/stats/base/dists/betaprime/variance)
+
+<details>
+
+<section class="features">
+
+##### Features
+
+-   [`c77a433`](https://github.com/stdlib-js/stdlib/commit/c77a433d6e33ad5f4879d32211d8cfdb4e5fa2c6) - add C implementation for `stats/base/dists/betaprime/variance` [(#3460)](https://github.com/stdlib-js/stdlib/pull/3460)
+
+</section>
+
+<!-- /.features -->
+
+<section class="issues">
+
+##### Closed Issues
+
+This release closes the following issue:
+
+[#3447](https://github.com/stdlib-js/stdlib/issues/3447)
+
+</section>
+
+<!-- /.issues -->
+
+</details>
+
+</section>
+
+<!-- /.package -->
+
+<section class="package" id="stats-base-dists-cauchy-entropy-unreleased">
+
+#### [@stdlib/stats/base/dists/cauchy/entropy](https://github.com/stdlib-js/stdlib/tree/develop/lib/node_modules/%40stdlib/stats/base/dists/cauchy/entropy)
+
+<details>
+
+<section class="features">
+
+##### Features
+
+-   [`ea671df`](https://github.com/stdlib-js/stdlib/commit/ea671dfde903d2ef3f3640ae8ea9505fcaeff726) - add C implementation for `stats/base/dists/cauchy/entropy` [(#3961)](https://github.com/stdlib-js/stdlib/pull/3961)
+
+</section>
+
+<!-- /.features -->
+
+<section class="issues">
+
+##### Closed Issues
+
+This release closes the following issue:
+
+[#3480](https://github.com/stdlib-js/stdlib/issues/3480)
+
+</section>
+
+<!-- /.issues -->
+
+</details>
+
+</section>
+
+<!-- /.package -->
+
+<section class="package" id="stats-base-dists-chi-mode-unreleased">
+
+#### [@stdlib/stats/base/dists/chi/mode](https://github.com/stdlib-js/stdlib/tree/develop/lib/node_modules/%40stdlib/stats/base/dists/chi/mode)
+
+<details>
+
+<section class="features">
+
+##### Features
+
+-   [`a6f8779`](https://github.com/stdlib-js/stdlib/commit/a6f8779298b6200a63ad80f40e6769bdf3ccc58d) - add C implementation for `stats/base/dists/chi/mode` [(#3965)](https://github.com/stdlib-js/stdlib/pull/3965)
+
+</section>
+
+<!-- /.features -->
+
+<section class="issues">
+
+##### Closed Issues
+
+This release closes the following issue:
+
+[#3494](https://github.com/stdlib-js/stdlib/issues/3494)
+
+</section>
+
+<!-- /.issues -->
+
+</details>
+
+</section>
+
+<!-- /.package -->
 
 <section class="package" id="stats-base-dists-chisquare-unreleased">
 
@@ -23,6 +669,74 @@
 This release closes the following issue:
 
 [#1619](https://github.com/stdlib-js/stdlib/issues/1619)
+
+</section>
+
+<!-- /.issues -->
+
+</details>
+
+</section>
+
+<!-- /.package -->
+
+<section class="package" id="stats-base-dists-chisquare-entropy-unreleased">
+
+#### [@stdlib/stats/base/dists/chisquare/entropy](https://github.com/stdlib-js/stdlib/tree/develop/lib/node_modules/%40stdlib/stats/base/dists/chisquare/entropy)
+
+<details>
+
+<section class="features">
+
+##### Features
+
+-   [`7a87244`](https://github.com/stdlib-js/stdlib/commit/7a872442e344e03a69d987f0f7b89d1344d5547c) - add C implementation for `stats/base/dists/chisquare/entropy` [(#4007)](https://github.com/stdlib-js/stdlib/pull/4007)
+
+</section>
+
+<!-- /.features -->
+
+<section class="issues">
+
+##### Closed Issues
+
+This release closes the following issue:
+
+[#3501](https://github.com/stdlib-js/stdlib/issues/3501)
+
+</section>
+
+<!-- /.issues -->
+
+</details>
+
+</section>
+
+<!-- /.package -->
+
+<section class="package" id="stats-base-dists-chisquare-skewness-unreleased">
+
+#### [@stdlib/stats/base/dists/chisquare/skewness](https://github.com/stdlib-js/stdlib/tree/develop/lib/node_modules/%40stdlib/stats/base/dists/chisquare/skewness)
+
+<details>
+
+<section class="features">
+
+##### Features
+
+-   [`118284b`](https://github.com/stdlib-js/stdlib/commit/118284b97293f409c1769047675bed85ddf4dd20) - add C implementation for `stats/base/dists/chisquare/skewness` [(#4005)](https://github.com/stdlib-js/stdlib/pull/4005)
+
+</section>
+
+<!-- /.features -->
+
+<section class="issues">
+
+##### Closed Issues
+
+This release closes the following issue:
+
+[#3510](https://github.com/stdlib-js/stdlib/issues/3510)
 
 </section>
 
@@ -58,6 +772,856 @@ This release closes the following issue:
 
 <!-- /.package -->
 
+<section class="package" id="stats-base-dists-degenerate-variance-unreleased">
+
+#### [@stdlib/stats/base/dists/degenerate/variance](https://github.com/stdlib-js/stdlib/tree/develop/lib/node_modules/%40stdlib/stats/base/dists/degenerate/variance)
+
+<details>
+
+<section class="features">
+
+##### Features
+
+-   [`974b609`](https://github.com/stdlib-js/stdlib/commit/974b6094ed693a4a4fc732f9f0de082e2ab3cf89) - add C implementation for `stats/base/dists/degenerate/variance` [(#4022)](https://github.com/stdlib-js/stdlib/pull/4022)
+
+</section>
+
+<!-- /.features -->
+
+<section class="issues">
+
+##### Closed Issues
+
+This release closes the following issue:
+
+[#3548](https://github.com/stdlib-js/stdlib/issues/3548)
+
+</section>
+
+<!-- /.issues -->
+
+</details>
+
+</section>
+
+<!-- /.package -->
+
+<section class="package" id="stats-base-dists-exponential-kurtosis-unreleased">
+
+#### [@stdlib/stats/base/dists/exponential/kurtosis](https://github.com/stdlib-js/stdlib/tree/develop/lib/node_modules/%40stdlib/stats/base/dists/exponential/kurtosis)
+
+<details>
+
+<section class="features">
+
+##### Features
+
+-   [`5bb4ea6`](https://github.com/stdlib-js/stdlib/commit/5bb4ea62d91c1b6ab5210e80db10d44ab2748189) - add C implementation for `stats/base/dists/exponential/kurtosis` [(#4058)](https://github.com/stdlib-js/stdlib/pull/4058)
+
+</section>
+
+<!-- /.features -->
+
+<section class="issues">
+
+##### Closed Issues
+
+This release closes the following issue:
+
+[#3582](https://github.com/stdlib-js/stdlib/issues/3582)
+
+</section>
+
+<!-- /.issues -->
+
+</details>
+
+</section>
+
+<!-- /.package -->
+
+<section class="package" id="stats-base-dists-exponential-mean-unreleased">
+
+#### [@stdlib/stats/base/dists/exponential/mean](https://github.com/stdlib-js/stdlib/tree/develop/lib/node_modules/%40stdlib/stats/base/dists/exponential/mean)
+
+<details>
+
+<section class="features">
+
+##### Features
+
+-   [`724d581`](https://github.com/stdlib-js/stdlib/commit/724d58131a5f47d333a0f062e56d489ce1605aa6) - add C implementation for `stats/base/dists/exponential/mean` [(#4046)](https://github.com/stdlib-js/stdlib/pull/4046)
+
+</section>
+
+<!-- /.features -->
+
+<section class="issues">
+
+##### Closed Issues
+
+This release closes the following issue:
+
+[#3585](https://github.com/stdlib-js/stdlib/issues/3585)
+
+</section>
+
+<!-- /.issues -->
+
+</details>
+
+</section>
+
+<!-- /.package -->
+
+<section class="package" id="stats-base-dists-exponential-median-unreleased">
+
+#### [@stdlib/stats/base/dists/exponential/median](https://github.com/stdlib-js/stdlib/tree/develop/lib/node_modules/%40stdlib/stats/base/dists/exponential/median)
+
+<details>
+
+<section class="features">
+
+##### Features
+
+-   [`9d4ff4d`](https://github.com/stdlib-js/stdlib/commit/9d4ff4d2ea4c7b3244b3855124790aef5f526f41) - add C implementation for `stats/base/dists/exponential/median` [(#4049)](https://github.com/stdlib-js/stdlib/pull/4049)
+
+</section>
+
+<!-- /.features -->
+
+<section class="issues">
+
+##### Closed Issues
+
+This release closes the following issue:
+
+[#3586](https://github.com/stdlib-js/stdlib/issues/3586)
+
+</section>
+
+<!-- /.issues -->
+
+</details>
+
+</section>
+
+<!-- /.package -->
+
+<section class="package" id="stats-base-dists-exponential-mode-unreleased">
+
+#### [@stdlib/stats/base/dists/exponential/mode](https://github.com/stdlib-js/stdlib/tree/develop/lib/node_modules/%40stdlib/stats/base/dists/exponential/mode)
+
+<details>
+
+<section class="features">
+
+##### Features
+
+-   [`7d9b63d`](https://github.com/stdlib-js/stdlib/commit/7d9b63ddd452bf4cc171bdd21cf666274d3eeb56) - add C implementation for `stats/base/dists/exponential/mode` [(#4047)](https://github.com/stdlib-js/stdlib/pull/4047)
+
+</section>
+
+<!-- /.features -->
+
+<section class="issues">
+
+##### Closed Issues
+
+This release closes the following issue:
+
+[#3588](https://github.com/stdlib-js/stdlib/issues/3588)
+
+</section>
+
+<!-- /.issues -->
+
+</details>
+
+</section>
+
+<!-- /.package -->
+
+<section class="package" id="stats-base-dists-exponential-skewness-unreleased">
+
+#### [@stdlib/stats/base/dists/exponential/skewness](https://github.com/stdlib-js/stdlib/tree/develop/lib/node_modules/%40stdlib/stats/base/dists/exponential/skewness)
+
+<details>
+
+<section class="features">
+
+##### Features
+
+-   [`584df38`](https://github.com/stdlib-js/stdlib/commit/584df38b388c730c3291dae63ef9241802e5371d) - add C implementation for `stats/base/dists/exponential/skewness` [(#4056)](https://github.com/stdlib-js/stdlib/pull/4056)
+
+</section>
+
+<!-- /.features -->
+
+<section class="issues">
+
+##### Closed Issues
+
+This release closes the following issue:
+
+[#3591](https://github.com/stdlib-js/stdlib/issues/3591)
+
+</section>
+
+<!-- /.issues -->
+
+</details>
+
+</section>
+
+<!-- /.package -->
+
+<section class="package" id="stats-base-dists-exponential-stdev-unreleased">
+
+#### [@stdlib/stats/base/dists/exponential/stdev](https://github.com/stdlib-js/stdlib/tree/develop/lib/node_modules/%40stdlib/stats/base/dists/exponential/stdev)
+
+<details>
+
+<section class="features">
+
+##### Features
+
+-   [`7e400e0`](https://github.com/stdlib-js/stdlib/commit/7e400e030ed237390ac962a15f031d15708bd381) - add C implementation for `stats/base/dists/exponential/stdev` [(#4063)](https://github.com/stdlib-js/stdlib/pull/4063)
+
+</section>
+
+<!-- /.features -->
+
+<section class="issues">
+
+##### Closed Issues
+
+This release closes the following issue:
+
+[#3592](https://github.com/stdlib-js/stdlib/issues/3592)
+
+</section>
+
+<!-- /.issues -->
+
+</details>
+
+</section>
+
+<!-- /.package -->
+
+<section class="package" id="stats-base-dists-f-entropy-unreleased">
+
+#### [@stdlib/stats/base/dists/f/entropy](https://github.com/stdlib-js/stdlib/tree/develop/lib/node_modules/%40stdlib/stats/base/dists/f/entropy)
+
+<details>
+
+<section class="features">
+
+##### Features
+
+-   [`df52159`](https://github.com/stdlib-js/stdlib/commit/df521591cd6b8d5bb9cfa241e241231d45319285) - add C implementation for `stats/base/dists/f/entropy` [(#4044)](https://github.com/stdlib-js/stdlib/pull/4044)
+
+</section>
+
+<!-- /.features -->
+
+<section class="issues">
+
+##### Closed Issues
+
+This release closes the following issue:
+
+[#3595](https://github.com/stdlib-js/stdlib/issues/3595)
+
+</section>
+
+<!-- /.issues -->
+
+</details>
+
+</section>
+
+<!-- /.package -->
+
+<section class="package" id="stats-base-dists-f-kurtosis-unreleased">
+
+#### [@stdlib/stats/base/dists/f/kurtosis](https://github.com/stdlib-js/stdlib/tree/develop/lib/node_modules/%40stdlib/stats/base/dists/f/kurtosis)
+
+<details>
+
+<section class="features">
+
+##### Features
+
+-   [`67eacfd`](https://github.com/stdlib-js/stdlib/commit/67eacfd73be1ac9ac96595eee7dabd21ccdc2ffb) - add C implementation for `stats/base/dists/f/kurtosis` [(#4043)](https://github.com/stdlib-js/stdlib/pull/4043)
+
+</section>
+
+<!-- /.features -->
+
+<section class="issues">
+
+##### Closed Issues
+
+This release closes the following issue:
+
+[#3596](https://github.com/stdlib-js/stdlib/issues/3596)
+
+</section>
+
+<!-- /.issues -->
+
+</details>
+
+</section>
+
+<!-- /.package -->
+
+<section class="package" id="stats-base-dists-f-mean-unreleased">
+
+#### [@stdlib/stats/base/dists/f/mean](https://github.com/stdlib-js/stdlib/tree/develop/lib/node_modules/%40stdlib/stats/base/dists/f/mean)
+
+<details>
+
+<section class="features">
+
+##### Features
+
+-   [`b283652`](https://github.com/stdlib-js/stdlib/commit/b2836521feb83b741d0190d7600f297f0379851f) - add C implementation for `stats/base/dists/f/mean` [(#4033)](https://github.com/stdlib-js/stdlib/pull/4033)
+
+</section>
+
+<!-- /.features -->
+
+<section class="issues">
+
+##### Closed Issues
+
+This release closes the following issue:
+
+[#3597](https://github.com/stdlib-js/stdlib/issues/3597)
+
+</section>
+
+<!-- /.issues -->
+
+</details>
+
+</section>
+
+<!-- /.package -->
+
+<section class="package" id="stats-base-dists-f-mode-unreleased">
+
+#### [@stdlib/stats/base/dists/f/mode](https://github.com/stdlib-js/stdlib/tree/develop/lib/node_modules/%40stdlib/stats/base/dists/f/mode)
+
+<details>
+
+<section class="features">
+
+##### Features
+
+-   [`242b011`](https://github.com/stdlib-js/stdlib/commit/242b011a78ef3fce16befeca9e36629096e952c1) - add C implementation for `stats/base/dists/f/mode` [(#4036)](https://github.com/stdlib-js/stdlib/pull/4036)
+
+</section>
+
+<!-- /.features -->
+
+<section class="issues">
+
+##### Closed Issues
+
+This release closes the following issue:
+
+[#3598](https://github.com/stdlib-js/stdlib/issues/3598)
+
+</section>
+
+<!-- /.issues -->
+
+</details>
+
+</section>
+
+<!-- /.package -->
+
+<section class="package" id="stats-base-dists-f-skewness-unreleased">
+
+#### [@stdlib/stats/base/dists/f/skewness](https://github.com/stdlib-js/stdlib/tree/develop/lib/node_modules/%40stdlib/stats/base/dists/f/skewness)
+
+<details>
+
+<section class="features">
+
+##### Features
+
+-   [`9c225d9`](https://github.com/stdlib-js/stdlib/commit/9c225d9d649ffd725037384783d67f9dddee87a4) - add C implementation for `stats/base/dists/f/skewness` [(#4041)](https://github.com/stdlib-js/stdlib/pull/4041)
+
+</section>
+
+<!-- /.features -->
+
+<section class="issues">
+
+##### Closed Issues
+
+This release closes the following issue:
+
+[#3601](https://github.com/stdlib-js/stdlib/issues/3601)
+
+</section>
+
+<!-- /.issues -->
+
+</details>
+
+</section>
+
+<!-- /.package -->
+
+<section class="package" id="stats-base-dists-f-variance-unreleased">
+
+#### [@stdlib/stats/base/dists/f/variance](https://github.com/stdlib-js/stdlib/tree/develop/lib/node_modules/%40stdlib/stats/base/dists/f/variance)
+
+<details>
+
+<section class="features">
+
+##### Features
+
+-   [`0cab817`](https://github.com/stdlib-js/stdlib/commit/0cab817744fa607bd863eadf32204b36e668d31c) - add C implementation for `stats/base/dists/f/variance` [(#4042)](https://github.com/stdlib-js/stdlib/pull/4042)
+
+</section>
+
+<!-- /.features -->
+
+<section class="issues">
+
+##### Closed Issues
+
+This release closes the following issue:
+
+[#3603](https://github.com/stdlib-js/stdlib/issues/3603)
+
+</section>
+
+<!-- /.issues -->
+
+</details>
+
+</section>
+
+<!-- /.package -->
+
+<section class="package" id="stats-base-dists-gamma-kurtosis-unreleased">
+
+#### [@stdlib/stats/base/dists/gamma/kurtosis](https://github.com/stdlib-js/stdlib/tree/develop/lib/node_modules/%40stdlib/stats/base/dists/gamma/kurtosis)
+
+<details>
+
+<section class="features">
+
+##### Features
+
+-   [`cf1fd6a`](https://github.com/stdlib-js/stdlib/commit/cf1fd6a5a6e83c345aa5ad0ff830c0cbbfa3a15d) - add C implementation for `stats/base/dists/gamma/kurtosis` [(#4129)](https://github.com/stdlib-js/stdlib/pull/4129)
+
+</section>
+
+<!-- /.features -->
+
+<section class="issues">
+
+##### Closed Issues
+
+This release closes the following issue:
+
+[#3619](https://github.com/stdlib-js/stdlib/issues/3619)
+
+</section>
+
+<!-- /.issues -->
+
+</details>
+
+</section>
+
+<!-- /.package -->
+
+<section class="package" id="stats-base-dists-gamma-mean-unreleased">
+
+#### [@stdlib/stats/base/dists/gamma/mean](https://github.com/stdlib-js/stdlib/tree/develop/lib/node_modules/%40stdlib/stats/base/dists/gamma/mean)
+
+<details>
+
+<section class="features">
+
+##### Features
+
+-   [`8627f7a`](https://github.com/stdlib-js/stdlib/commit/8627f7a099aeb10863e83e4a1005dc4749b5d371) - add C implementation for `stats/base/dists/gamma/mean` [(#4122)](https://github.com/stdlib-js/stdlib/pull/4122)
+
+</section>
+
+<!-- /.features -->
+
+<section class="issues">
+
+##### Closed Issues
+
+This release closes the following issue:
+
+[#3622](https://github.com/stdlib-js/stdlib/issues/3622)
+
+</section>
+
+<!-- /.issues -->
+
+</details>
+
+</section>
+
+<!-- /.package -->
+
+<section class="package" id="stats-base-dists-gamma-mode-unreleased">
+
+#### [@stdlib/stats/base/dists/gamma/mode](https://github.com/stdlib-js/stdlib/tree/develop/lib/node_modules/%40stdlib/stats/base/dists/gamma/mode)
+
+<details>
+
+<section class="features">
+
+##### Features
+
+-   [`8e65742`](https://github.com/stdlib-js/stdlib/commit/8e65742b7b96655c166c7fc11d2399d7ca2bad01) - add C implementation for `stats/base/dists/gamma/mode` [(#4123)](https://github.com/stdlib-js/stdlib/pull/4123)
+
+</section>
+
+<!-- /.features -->
+
+<section class="issues">
+
+##### Closed Issues
+
+This release closes the following issue:
+
+[#3624](https://github.com/stdlib-js/stdlib/issues/3624)
+
+</section>
+
+<!-- /.issues -->
+
+</details>
+
+</section>
+
+<!-- /.package -->
+
+<section class="package" id="stats-base-dists-gamma-skewness-unreleased">
+
+#### [@stdlib/stats/base/dists/gamma/skewness](https://github.com/stdlib-js/stdlib/tree/develop/lib/node_modules/%40stdlib/stats/base/dists/gamma/skewness)
+
+<details>
+
+<section class="features">
+
+##### Features
+
+-   [`6043777`](https://github.com/stdlib-js/stdlib/commit/6043777df454d2e288e0f00ebe7cbc3b26423c1b) - add C implementation for `stats/base/dists/gamma/skewness` [(#4124)](https://github.com/stdlib-js/stdlib/pull/4124)
+
+</section>
+
+<!-- /.features -->
+
+<section class="issues">
+
+##### Closed Issues
+
+This release closes the following issue:
+
+[#3627](https://github.com/stdlib-js/stdlib/issues/3627)
+
+</section>
+
+<!-- /.issues -->
+
+</details>
+
+</section>
+
+<!-- /.package -->
+
+<section class="package" id="stats-base-dists-gamma-stdev-unreleased">
+
+#### [@stdlib/stats/base/dists/gamma/stdev](https://github.com/stdlib-js/stdlib/tree/develop/lib/node_modules/%40stdlib/stats/base/dists/gamma/stdev)
+
+<details>
+
+<section class="features">
+
+##### Features
+
+-   [`83aeb94`](https://github.com/stdlib-js/stdlib/commit/83aeb942ded7a90ee0b954fedc683f7b46ddd5e7) - add C implementation for `stats/base/dists/gamma/stdev` [(#4128)](https://github.com/stdlib-js/stdlib/pull/4128)
+
+</section>
+
+<!-- /.features -->
+
+<section class="issues">
+
+##### Closed Issues
+
+This release closes the following issue:
+
+[#3628](https://github.com/stdlib-js/stdlib/issues/3628)
+
+</section>
+
+<!-- /.issues -->
+
+</details>
+
+</section>
+
+<!-- /.package -->
+
+<section class="package" id="stats-base-dists-gumbel-variance-unreleased">
+
+#### [@stdlib/stats/base/dists/gumbel/variance](https://github.com/stdlib-js/stdlib/tree/develop/lib/node_modules/%40stdlib/stats/base/dists/gumbel/variance)
+
+<details>
+
+<section class="features">
+
+##### Features
+
+-   [`bb39734`](https://github.com/stdlib-js/stdlib/commit/bb39734352cdccbee4633abe450e1b2f1cda75ee) - add C implementation for `stats/base/dists/gumbel/variance` [(#3967)](https://github.com/stdlib-js/stdlib/pull/3967)
+
+</section>
+
+<!-- /.features -->
+
+<section class="issues">
+
+##### Closed Issues
+
+This release closes the following issue:
+
+[#3656](https://github.com/stdlib-js/stdlib/issues/3656)
+
+</section>
+
+<!-- /.issues -->
+
+</details>
+
+</section>
+
+<!-- /.package -->
+
+<section class="package" id="stats-base-dists-invgamma-entropy-unreleased">
+
+#### [@stdlib/stats/base/dists/invgamma/entropy](https://github.com/stdlib-js/stdlib/tree/develop/lib/node_modules/%40stdlib/stats/base/dists/invgamma/entropy)
+
+<details>
+
+<section class="features">
+
+##### Features
+
+-   [`e9d539e`](https://github.com/stdlib-js/stdlib/commit/e9d539ed6f0185d2455a45b5e29bd50d5c556db5) - add C implementation for `stats/base/dists/invgamma/entropy` [(#3682)](https://github.com/stdlib-js/stdlib/pull/3682)
+
+</section>
+
+<!-- /.features -->
+
+<section class="issues">
+
+##### Closed Issues
+
+This release closes the following issue:
+
+[#3671](https://github.com/stdlib-js/stdlib/issues/3671)
+
+</section>
+
+<!-- /.issues -->
+
+</details>
+
+</section>
+
+<!-- /.package -->
+
+<section class="package" id="stats-base-dists-invgamma-kurtosis-unreleased">
+
+#### [@stdlib/stats/base/dists/invgamma/kurtosis](https://github.com/stdlib-js/stdlib/tree/develop/lib/node_modules/%40stdlib/stats/base/dists/invgamma/kurtosis)
+
+<details>
+
+<section class="features">
+
+##### Features
+
+-   [`150755b`](https://github.com/stdlib-js/stdlib/commit/150755bdfc256d687e34cddd85a8f075fe4d4ab4) - add C implementation for `stats/base/dists/invgamma/kurtosis`   [(#4120)](https://github.com/stdlib-js/stdlib/pull/4120)
+
+</section>
+
+<!-- /.features -->
+
+<section class="issues">
+
+##### Closed Issues
+
+This release closes the following issue:
+
+[#3672](https://github.com/stdlib-js/stdlib/issues/3672)
+
+</section>
+
+<!-- /.issues -->
+
+</details>
+
+</section>
+
+<!-- /.package -->
+
+<section class="package" id="stats-base-dists-invgamma-mean-unreleased">
+
+#### [@stdlib/stats/base/dists/invgamma/mean](https://github.com/stdlib-js/stdlib/tree/develop/lib/node_modules/%40stdlib/stats/base/dists/invgamma/mean)
+
+<details>
+
+<section class="features">
+
+##### Features
+
+-   [`dd6359a`](https://github.com/stdlib-js/stdlib/commit/dd6359af1005e76df487cc727e82eb0464a00352) - add C implementation for `stats/base/dists/invgamma/mean`   [(#4116)](https://github.com/stdlib-js/stdlib/pull/4116)
+
+</section>
+
+<!-- /.features -->
+
+<section class="issues">
+
+##### Closed Issues
+
+This release closes the following issue:
+
+[#3674](https://github.com/stdlib-js/stdlib/issues/3674)
+
+</section>
+
+<!-- /.issues -->
+
+</details>
+
+</section>
+
+<!-- /.package -->
+
+<section class="package" id="stats-base-dists-invgamma-mode-unreleased">
+
+#### [@stdlib/stats/base/dists/invgamma/mode](https://github.com/stdlib-js/stdlib/tree/develop/lib/node_modules/%40stdlib/stats/base/dists/invgamma/mode)
+
+<details>
+
+<section class="features">
+
+##### Features
+
+-   [`026462b`](https://github.com/stdlib-js/stdlib/commit/026462b6936fe27d7d7b2983e026e74339ceeed8) - add C implementation for `stats/base/dists/invgamma/mode`   [(#4117)](https://github.com/stdlib-js/stdlib/pull/4117)
+
+</section>
+
+<!-- /.features -->
+
+<section class="issues">
+
+##### Closed Issues
+
+This release closes the following issue:
+
+[#3675](https://github.com/stdlib-js/stdlib/issues/3675)
+
+</section>
+
+<!-- /.issues -->
+
+</details>
+
+</section>
+
+<!-- /.package -->
+
+<section class="package" id="stats-base-dists-invgamma-skewness-unreleased">
+
+#### [@stdlib/stats/base/dists/invgamma/skewness](https://github.com/stdlib-js/stdlib/tree/develop/lib/node_modules/%40stdlib/stats/base/dists/invgamma/skewness)
+
+<details>
+
+<section class="features">
+
+##### Features
+
+-   [`eaf7676`](https://github.com/stdlib-js/stdlib/commit/eaf7676c507f5ac5788df7d4fe2501acc7d76494) - add C implementation for `stats/base/dists/invgamma/skewness`   [(#4119)](https://github.com/stdlib-js/stdlib/pull/4119)
+
+</section>
+
+<!-- /.features -->
+
+<section class="issues">
+
+##### Closed Issues
+
+This release closes the following issue:
+
+[#3678](https://github.com/stdlib-js/stdlib/issues/3678)
+
+</section>
+
+<!-- /.issues -->
+
+</details>
+
+</section>
+
+<!-- /.package -->
+
+<section class="package" id="stats-base-dists-invgamma-stdev-unreleased">
+
+#### [@stdlib/stats/base/dists/invgamma/stdev](https://github.com/stdlib-js/stdlib/tree/develop/lib/node_modules/%40stdlib/stats/base/dists/invgamma/stdev)
+
+<details>
+
+<section class="features">
+
+##### Features
+
+-   [`4bea27a`](https://github.com/stdlib-js/stdlib/commit/4bea27aa3beda0297d8860b3cd4f66f824cd1ddf) - add C implementation for `stats/base/dists/invgamma/stdev`   [(#4118)](https://github.com/stdlib-js/stdlib/pull/4118)
+
+</section>
+
+<!-- /.features -->
+
+<section class="issues">
+
+##### Closed Issues
+
+This release closes the following issue:
+
+[#3679](https://github.com/stdlib-js/stdlib/issues/3679)
+
+</section>
+
+<!-- /.issues -->
+
+</details>
+
+</section>
+
+<!-- /.package -->
+
 <section class="package" id="stats-base-dists-kumaraswamy-unreleased">
 
 #### [@stdlib/stats/base/dists/kumaraswamy](https://github.com/stdlib-js/stdlib/tree/develop/lib/node_modules/%40stdlib/stats/base/dists/kumaraswamy)
@@ -71,6 +1635,40 @@ This release closes the following issue:
 This release closes the following issue:
 
 [#1632](https://github.com/stdlib-js/stdlib/issues/1632)
+
+</section>
+
+<!-- /.issues -->
+
+</details>
+
+</section>
+
+<!-- /.package -->
+
+<section class="package" id="stats-base-dists-kumaraswamy-median-unreleased">
+
+#### [@stdlib/stats/base/dists/kumaraswamy/median](https://github.com/stdlib-js/stdlib/tree/develop/lib/node_modules/%40stdlib/stats/base/dists/kumaraswamy/median)
+
+<details>
+
+<section class="features">
+
+##### Features
+
+-   [`fc5df17`](https://github.com/stdlib-js/stdlib/commit/fc5df1769306302648f8ed492455558447c47d8f) - add C implementation for `stats/base/dists/kumaraswamy/median` [(#4020)](https://github.com/stdlib-js/stdlib/pull/4020)
+
+</section>
+
+<!-- /.features -->
+
+<section class="issues">
+
+##### Closed Issues
+
+This release closes the following issue:
+
+[#3701](https://github.com/stdlib-js/stdlib/issues/3701)
 
 </section>
 
@@ -99,6 +1697,1116 @@ This release closes the following issue:
 </section>
 
 <!-- /.issues -->
+
+</details>
+
+</section>
+
+<!-- /.package -->
+
+<section class="package" id="stats-base-dists-laplace-entropy-unreleased">
+
+#### [@stdlib/stats/base/dists/laplace/entropy](https://github.com/stdlib-js/stdlib/tree/develop/lib/node_modules/%40stdlib/stats/base/dists/laplace/entropy)
+
+<details>
+
+<section class="features">
+
+##### Features
+
+-   [`3c0ff2c`](https://github.com/stdlib-js/stdlib/commit/3c0ff2cdae8f78f99cdf09db8dc150f3f0e2cd67) - add C implementation  for `stats/base/dists/laplace/entropy` [(#4025)](https://github.com/stdlib-js/stdlib/pull/4025)
+
+</section>
+
+<!-- /.features -->
+
+<section class="issues">
+
+##### Closed Issues
+
+This release closes the following issue:
+
+[#3709](https://github.com/stdlib-js/stdlib/issues/3709)
+
+</section>
+
+<!-- /.issues -->
+
+</details>
+
+</section>
+
+<!-- /.package -->
+
+<section class="package" id="stats-base-dists-laplace-variance-unreleased">
+
+#### [@stdlib/stats/base/dists/laplace/variance](https://github.com/stdlib-js/stdlib/tree/develop/lib/node_modules/%40stdlib/stats/base/dists/laplace/variance)
+
+<details>
+
+<section class="features">
+
+##### Features
+
+-   [`2b67875`](https://github.com/stdlib-js/stdlib/commit/2b67875eca43c4846a5b048971eab7bf898216e9) - add C implementation for `stats/base/dists/laplace/variance` [(#3948)](https://github.com/stdlib-js/stdlib/pull/3948)
+
+</section>
+
+<!-- /.features -->
+
+<section class="issues">
+
+##### Closed Issues
+
+This release closes the following issue:
+
+[#3721](https://github.com/stdlib-js/stdlib/issues/3721)
+
+</section>
+
+<!-- /.issues -->
+
+</details>
+
+</section>
+
+<!-- /.package -->
+
+<section class="package" id="stats-base-dists-logistic-mean-unreleased">
+
+#### [@stdlib/stats/base/dists/logistic/mean](https://github.com/stdlib-js/stdlib/tree/develop/lib/node_modules/%40stdlib/stats/base/dists/logistic/mean)
+
+<details>
+
+<section class="features">
+
+##### Features
+
+-   [`113f340`](https://github.com/stdlib-js/stdlib/commit/113f3407b59c22f8b20a38147ef3470a8b30cd4a) - add C implementation for `stats/base/dists/logistic/mean` [(#4028)](https://github.com/stdlib-js/stdlib/pull/4028)
+
+</section>
+
+<!-- /.features -->
+
+<section class="issues">
+
+##### Closed Issues
+
+This release closes the following issue:
+
+[#3738](https://github.com/stdlib-js/stdlib/issues/3738)
+
+</section>
+
+<!-- /.issues -->
+
+</details>
+
+</section>
+
+<!-- /.package -->
+
+<section class="package" id="stats-base-dists-logistic-median-unreleased">
+
+#### [@stdlib/stats/base/dists/logistic/median](https://github.com/stdlib-js/stdlib/tree/develop/lib/node_modules/%40stdlib/stats/base/dists/logistic/median)
+
+<details>
+
+<section class="features">
+
+##### Features
+
+-   [`7eb69d4`](https://github.com/stdlib-js/stdlib/commit/7eb69d4e7b7b998a98772fa118c16707a0160e92) - add C implementation for `stats/base/dists/logistic/median` [(#4031)](https://github.com/stdlib-js/stdlib/pull/4031)
+
+</section>
+
+<!-- /.features -->
+
+<section class="issues">
+
+##### Closed Issues
+
+This release closes the following issue:
+
+[#3739](https://github.com/stdlib-js/stdlib/issues/3739)
+
+</section>
+
+<!-- /.issues -->
+
+</details>
+
+</section>
+
+<!-- /.package -->
+
+<section class="package" id="stats-base-dists-logistic-mode-unreleased">
+
+#### [@stdlib/stats/base/dists/logistic/mode](https://github.com/stdlib-js/stdlib/tree/develop/lib/node_modules/%40stdlib/stats/base/dists/logistic/mode)
+
+<details>
+
+<section class="features">
+
+##### Features
+
+-   [`7cff91f`](https://github.com/stdlib-js/stdlib/commit/7cff91f740c92525f6fe5fd1bbd9101babff3298) - add C implementation for `stats/base/dists/logistic/mode` [(#4029)](https://github.com/stdlib-js/stdlib/pull/4029)
+
+</section>
+
+<!-- /.features -->
+
+<section class="issues">
+
+##### Closed Issues
+
+This release closes the following issue:
+
+[#3741](https://github.com/stdlib-js/stdlib/issues/3741)
+
+</section>
+
+<!-- /.issues -->
+
+</details>
+
+</section>
+
+<!-- /.package -->
+
+<section class="package" id="stats-base-dists-logistic-skewness-unreleased">
+
+#### [@stdlib/stats/base/dists/logistic/skewness](https://github.com/stdlib-js/stdlib/tree/develop/lib/node_modules/%40stdlib/stats/base/dists/logistic/skewness)
+
+<details>
+
+<section class="features">
+
+##### Features
+
+-   [`6c141f4`](https://github.com/stdlib-js/stdlib/commit/6c141f4c169d080eec1867c421aa6ffa88b9ebfd) - add C implementation for `stats/base/dists/logistic/skewness` [(#4038)](https://github.com/stdlib-js/stdlib/pull/4038)
+
+</section>
+
+<!-- /.features -->
+
+<section class="issues">
+
+##### Closed Issues
+
+This release closes the following issue:
+
+[#3744](https://github.com/stdlib-js/stdlib/issues/3744)
+
+</section>
+
+<!-- /.issues -->
+
+</details>
+
+</section>
+
+<!-- /.package -->
+
+<section class="package" id="stats-base-dists-logistic-variance-unreleased">
+
+#### [@stdlib/stats/base/dists/logistic/variance](https://github.com/stdlib-js/stdlib/tree/develop/lib/node_modules/%40stdlib/stats/base/dists/logistic/variance)
+
+<details>
+
+<section class="features">
+
+##### Features
+
+-   [`9685979`](https://github.com/stdlib-js/stdlib/commit/968597945b0e8d1042ce17b6e08ca0f3e64058b4) - add C implementation for `stats/base/dists/logistic/variance` [(#3994)](https://github.com/stdlib-js/stdlib/pull/3994)
+
+</section>
+
+<!-- /.features -->
+
+<section class="issues">
+
+##### Closed Issues
+
+This release closes the following issue:
+
+[#3746](https://github.com/stdlib-js/stdlib/issues/3746)
+
+</section>
+
+<!-- /.issues -->
+
+</details>
+
+</section>
+
+<!-- /.package -->
+
+<section class="package" id="stats-base-dists-lognormal-variance-unreleased">
+
+#### [@stdlib/stats/base/dists/lognormal/variance](https://github.com/stdlib-js/stdlib/tree/develop/lib/node_modules/%40stdlib/stats/base/dists/lognormal/variance)
+
+<details>
+
+<section class="features">
+
+##### Features
+
+-   [`7be886c`](https://github.com/stdlib-js/stdlib/commit/7be886c5eb2ff9894cc8088c1defb60eebd029b6) - add C implementation for `stats/base/dists/lognormal/variance` [(#3992)](https://github.com/stdlib-js/stdlib/pull/3992)
+
+</section>
+
+<!-- /.features -->
+
+<section class="issues">
+
+##### Closed Issues
+
+This release closes the following issue:
+
+[#3759](https://github.com/stdlib-js/stdlib/issues/3759)
+
+</section>
+
+<!-- /.issues -->
+
+</details>
+
+</section>
+
+<!-- /.package -->
+
+<section class="package" id="stats-base-dists-normal-stdev-unreleased">
+
+#### [@stdlib/stats/base/dists/normal/stdev](https://github.com/stdlib-js/stdlib/tree/develop/lib/node_modules/%40stdlib/stats/base/dists/normal/stdev)
+
+<details>
+
+<section class="features">
+
+##### Features
+
+-   [`7550aab`](https://github.com/stdlib-js/stdlib/commit/7550aabe1fa42666821032ad60b42437ee7e304e) - add C implementation for `stats/base/dists/normal/stdev` [(#4003)](https://github.com/stdlib-js/stdlib/pull/4003)
+
+</section>
+
+<!-- /.features -->
+
+<section class="issues">
+
+##### Closed Issues
+
+This release closes the following issue:
+
+[#3783](https://github.com/stdlib-js/stdlib/issues/3783)
+
+</section>
+
+<!-- /.issues -->
+
+</details>
+
+</section>
+
+<!-- /.package -->
+
+<section class="package" id="stats-base-dists-pareto-type1-skewness-unreleased">
+
+#### [@stdlib/stats/base/dists/pareto-type1/skewness](https://github.com/stdlib-js/stdlib/tree/develop/lib/node_modules/%40stdlib/stats/base/dists/pareto-type1/skewness)
+
+<details>
+
+<section class="features">
+
+##### Features
+
+-   [`a146971`](https://github.com/stdlib-js/stdlib/commit/a1469718890f5a007c6c7343757b621274dad0e0) - add C implementation for `stats/base/dists/pareto-type1/skewness` [(#3927)](https://github.com/stdlib-js/stdlib/pull/3927)
+
+</section>
+
+<!-- /.features -->
+
+<section class="issues">
+
+##### Closed Issues
+
+This release closes the following issue:
+
+[#3865](https://github.com/stdlib-js/stdlib/issues/3865)
+
+</section>
+
+<!-- /.issues -->
+
+</details>
+
+</section>
+
+<!-- /.package -->
+
+<section class="package" id="stats-base-dists-pareto-type1-stdev-unreleased">
+
+#### [@stdlib/stats/base/dists/pareto-type1/stdev](https://github.com/stdlib-js/stdlib/tree/develop/lib/node_modules/%40stdlib/stats/base/dists/pareto-type1/stdev)
+
+<details>
+
+<section class="features">
+
+##### Features
+
+-   [`5ebf34e`](https://github.com/stdlib-js/stdlib/commit/5ebf34e758b2a328d2f4d9fa3500cb0233c687cf) - add C implementation for `stats/dists/pareto-type1/stdev` [(#3925)](https://github.com/stdlib-js/stdlib/pull/3925)
+
+</section>
+
+<!-- /.features -->
+
+<section class="issues">
+
+##### Closed Issues
+
+This release closes the following issue:
+
+[#3866](https://github.com/stdlib-js/stdlib/issues/3866)
+
+</section>
+
+<!-- /.issues -->
+
+</details>
+
+</section>
+
+<!-- /.package -->
+
+<section class="package" id="stats-base-dists-poisson-mean-unreleased">
+
+#### [@stdlib/stats/base/dists/poisson/mean](https://github.com/stdlib-js/stdlib/tree/develop/lib/node_modules/%40stdlib/stats/base/dists/poisson/mean)
+
+<details>
+
+<section class="features">
+
+##### Features
+
+-   [`3550fc4`](https://github.com/stdlib-js/stdlib/commit/3550fc4a653ce3d56e01a36752dd5e9f47db3586) - add C implementation for `@stdlib/stats-base/dists/poisson/mean` [(#3973)](https://github.com/stdlib-js/stdlib/pull/3973)
+
+</section>
+
+<!-- /.features -->
+
+<section class="issues">
+
+##### Closed Issues
+
+This release closes the following issue:
+
+[#3789](https://github.com/stdlib-js/stdlib/issues/3789)
+
+</section>
+
+<!-- /.issues -->
+
+</details>
+
+</section>
+
+<!-- /.package -->
+
+<section class="package" id="stats-base-dists-poisson-variance-unreleased">
+
+#### [@stdlib/stats/base/dists/poisson/variance](https://github.com/stdlib-js/stdlib/tree/develop/lib/node_modules/%40stdlib/stats/base/dists/poisson/variance)
+
+<details>
+
+<section class="features">
+
+##### Features
+
+-   [`0e2d82a`](https://github.com/stdlib-js/stdlib/commit/0e2d82a0e55b279370365e56b765922321a69e05) - add C implementation for `stats/base/dists/poisson/variance` [(#3933)](https://github.com/stdlib-js/stdlib/pull/3933)
+
+</section>
+
+<!-- /.features -->
+
+<section class="issues">
+
+##### Closed Issues
+
+This release closes the following issue:
+
+[#3797](https://github.com/stdlib-js/stdlib/issues/3797)
+
+</section>
+
+<!-- /.issues -->
+
+</details>
+
+</section>
+
+<!-- /.package -->
+
+<section class="package" id="stats-base-dists-rayleigh-cdf-unreleased">
+
+#### [@stdlib/stats/base/dists/rayleigh/cdf](https://github.com/stdlib-js/stdlib/tree/develop/lib/node_modules/%40stdlib/stats/base/dists/rayleigh/cdf)
+
+<details>
+
+<section class="features">
+
+##### Features
+
+-   [`d7f5b56`](https://github.com/stdlib-js/stdlib/commit/d7f5b56fc072abf167bd5eb5e2163833715f2211) - add C implementation of `stats/base/dists/rayleigh/cdf` [(#3931)](https://github.com/stdlib-js/stdlib/pull/3931)
+
+</section>
+
+<!-- /.features -->
+
+<section class="issues">
+
+##### Closed Issues
+
+This release closes the following issue:
+
+[#3798](https://github.com/stdlib-js/stdlib/issues/3798)
+
+</section>
+
+<!-- /.issues -->
+
+</details>
+
+</section>
+
+<!-- /.package -->
+
+<section class="package" id="stats-base-dists-rayleigh-entropy-unreleased">
+
+#### [@stdlib/stats/base/dists/rayleigh/entropy](https://github.com/stdlib-js/stdlib/tree/develop/lib/node_modules/%40stdlib/stats/base/dists/rayleigh/entropy)
+
+<details>
+
+<section class="features">
+
+##### Features
+
+-   [`4c46667`](https://github.com/stdlib-js/stdlib/commit/4c466676e6dc28dc112a042096f94286f2e599a5) - add C implementation of `stats/base/dists/rayleigh/entropy` [(#3956)](https://github.com/stdlib-js/stdlib/pull/3956)
+
+</section>
+
+<!-- /.features -->
+
+<section class="issues">
+
+##### Closed Issues
+
+This release closes the following issue:
+
+[#3799](https://github.com/stdlib-js/stdlib/issues/3799)
+
+</section>
+
+<!-- /.issues -->
+
+</details>
+
+</section>
+
+<!-- /.package -->
+
+<section class="package" id="stats-base-dists-rayleigh-logcdf-unreleased">
+
+#### [@stdlib/stats/base/dists/rayleigh/logcdf](https://github.com/stdlib-js/stdlib/tree/develop/lib/node_modules/%40stdlib/stats/base/dists/rayleigh/logcdf)
+
+<details>
+
+<section class="features">
+
+##### Features
+
+-   [`3a05645`](https://github.com/stdlib-js/stdlib/commit/3a05645a2054675503b44dffb2f6817298bc9bd9) - add C implementation of `stats/base/dists/rayleigh/logcdf` [(#3957)](https://github.com/stdlib-js/stdlib/pull/3957)
+
+</section>
+
+<!-- /.features -->
+
+<section class="issues">
+
+##### Closed Issues
+
+This release closes the following issue:
+
+[#3801](https://github.com/stdlib-js/stdlib/issues/3801)
+
+</section>
+
+<!-- /.issues -->
+
+</details>
+
+</section>
+
+<!-- /.package -->
+
+<section class="package" id="stats-base-dists-rayleigh-mean-unreleased">
+
+#### [@stdlib/stats/base/dists/rayleigh/mean](https://github.com/stdlib-js/stdlib/tree/develop/lib/node_modules/%40stdlib/stats/base/dists/rayleigh/mean)
+
+<details>
+
+<section class="features">
+
+##### Features
+
+-   [`9d270ad`](https://github.com/stdlib-js/stdlib/commit/9d270ad8299ceb0723b1b805e738fbe19faa6520) - add C implementation for `stats/base/dists/rayleigh/mean` [(#4026)](https://github.com/stdlib-js/stdlib/pull/4026)
+
+</section>
+
+<!-- /.features -->
+
+<section class="issues">
+
+##### Closed Issues
+
+This release closes the following issue:
+
+[#3803](https://github.com/stdlib-js/stdlib/issues/3803)
+
+</section>
+
+<!-- /.issues -->
+
+</details>
+
+</section>
+
+<!-- /.package -->
+
+<section class="package" id="stats-base-dists-rayleigh-mode-unreleased">
+
+#### [@stdlib/stats/base/dists/rayleigh/mode](https://github.com/stdlib-js/stdlib/tree/develop/lib/node_modules/%40stdlib/stats/base/dists/rayleigh/mode)
+
+<details>
+
+<section class="features">
+
+##### Features
+
+-   [`ed04d90`](https://github.com/stdlib-js/stdlib/commit/ed04d90cd3540e5a3b0b5cb49f623c62935edd1e) - add C implementation for `stats/base/dists/rayleigh/mode` [(#4024)](https://github.com/stdlib-js/stdlib/pull/4024)
+
+</section>
+
+<!-- /.features -->
+
+<section class="issues">
+
+##### Closed Issues
+
+This release closes the following issue:
+
+[#3806](https://github.com/stdlib-js/stdlib/issues/3806)
+
+</section>
+
+<!-- /.issues -->
+
+</details>
+
+</section>
+
+<!-- /.package -->
+
+<section class="package" id="stats-base-dists-rayleigh-pdf-unreleased">
+
+#### [@stdlib/stats/base/dists/rayleigh/pdf](https://github.com/stdlib-js/stdlib/tree/develop/lib/node_modules/%40stdlib/stats/base/dists/rayleigh/pdf)
+
+<details>
+
+<section class="features">
+
+##### Features
+
+-   [`c0d9c76`](https://github.com/stdlib-js/stdlib/commit/c0d9c760c9657e28d6b1d3daf5013708a928ae6c) - add C implementation `stats/base/dists/rayleigh/pdf` [(#3945)](https://github.com/stdlib-js/stdlib/pull/3945)
+
+</section>
+
+<!-- /.features -->
+
+<section class="issues">
+
+##### Closed Issues
+
+This release closes the following issue:
+
+[#3807](https://github.com/stdlib-js/stdlib/issues/3807)
+
+</section>
+
+<!-- /.issues -->
+
+</details>
+
+</section>
+
+<!-- /.package -->
+
+<section class="package" id="stats-base-dists-rayleigh-variance-unreleased">
+
+#### [@stdlib/stats/base/dists/rayleigh/variance](https://github.com/stdlib-js/stdlib/tree/develop/lib/node_modules/%40stdlib/stats/base/dists/rayleigh/variance)
+
+<details>
+
+<section class="features">
+
+##### Features
+
+-   [`c242bc2`](https://github.com/stdlib-js/stdlib/commit/c242bc2a4e128472277ea8545c6811ea2cbbd736) - add C implementation for `stats/base/dists/rayleigh/variance` [(#3990)](https://github.com/stdlib-js/stdlib/pull/3990)
+
+</section>
+
+<!-- /.features -->
+
+<section class="issues">
+
+##### Closed Issues
+
+This release closes the following issue:
+
+[#3811](https://github.com/stdlib-js/stdlib/issues/3811)
+
+</section>
+
+<!-- /.issues -->
+
+</details>
+
+</section>
+
+<!-- /.package -->
+
+<section class="package" id="stats-base-dists-t-kurtosis-unreleased">
+
+#### [@stdlib/stats/base/dists/t/kurtosis](https://github.com/stdlib-js/stdlib/tree/develop/lib/node_modules/%40stdlib/stats/base/dists/t/kurtosis)
+
+<details>
+
+<section class="features">
+
+##### Features
+
+-   [`6a2b590`](https://github.com/stdlib-js/stdlib/commit/6a2b590b118fef59a3e3a9e40854973d02a8b8fc) - add C implementation for `stats/base/dists/t/kurtosis` [(#3905)](https://github.com/stdlib-js/stdlib/pull/3905)
+
+</section>
+
+<!-- /.features -->
+
+<section class="issues">
+
+##### Closed Issues
+
+This release closes the following issue:
+
+[#3871](https://github.com/stdlib-js/stdlib/issues/3871)
+
+</section>
+
+<!-- /.issues -->
+
+</details>
+
+</section>
+
+<!-- /.package -->
+
+<section class="package" id="stats-base-dists-t-logpdf-unreleased">
+
+#### [@stdlib/stats/base/dists/t/logpdf](https://github.com/stdlib-js/stdlib/tree/develop/lib/node_modules/%40stdlib/stats/base/dists/t/logpdf)
+
+<details>
+
+<section class="features">
+
+##### Features
+
+-   [`ad7c388`](https://github.com/stdlib-js/stdlib/commit/ad7c3880af37bccd159b6623f92d4b0212eaf0db) - add C implementation for `stats/base/dists/t/logpdf` [(#3934)](https://github.com/stdlib-js/stdlib/pull/3934)
+
+</section>
+
+<!-- /.features -->
+
+<section class="issues">
+
+##### Closed Issues
+
+This release closes the following issue:
+
+[#3873](https://github.com/stdlib-js/stdlib/issues/3873)
+
+</section>
+
+<!-- /.issues -->
+
+</details>
+
+</section>
+
+<!-- /.package -->
+
+<section class="package" id="stats-base-dists-t-mean-unreleased">
+
+#### [@stdlib/stats/base/dists/t/mean](https://github.com/stdlib-js/stdlib/tree/develop/lib/node_modules/%40stdlib/stats/base/dists/t/mean)
+
+<details>
+
+<section class="features">
+
+##### Features
+
+-   [`03494c2`](https://github.com/stdlib-js/stdlib/commit/03494c2d20c88a2ab68fdd9fbf79c396e1885440) - add C implementation for `stats/base/dists/t/mean` [(#3922)](https://github.com/stdlib-js/stdlib/pull/3922)
+
+</section>
+
+<!-- /.features -->
+
+<section class="issues">
+
+##### Closed Issues
+
+This release closes the following issue:
+
+[#3874](https://github.com/stdlib-js/stdlib/issues/3874)
+
+</section>
+
+<!-- /.issues -->
+
+</details>
+
+</section>
+
+<!-- /.package -->
+
+<section class="package" id="stats-base-dists-t-skewness-unreleased">
+
+#### [@stdlib/stats/base/dists/t/skewness](https://github.com/stdlib-js/stdlib/tree/develop/lib/node_modules/%40stdlib/stats/base/dists/t/skewness)
+
+<details>
+
+<section class="features">
+
+##### Features
+
+-   [`e661ffe`](https://github.com/stdlib-js/stdlib/commit/e661ffe97297b6876bbc2c8bb89cd6a3e25d3fbd) - add C implementation for `stats/base/dists/t/skewness` [(#3920)](https://github.com/stdlib-js/stdlib/pull/3920)
+
+</section>
+
+<!-- /.features -->
+
+<section class="issues">
+
+##### Closed Issues
+
+This release closes the following issue:
+
+[#3879](https://github.com/stdlib-js/stdlib/issues/3879)
+
+</section>
+
+<!-- /.issues -->
+
+</details>
+
+</section>
+
+<!-- /.package -->
+
+<section class="package" id="stats-base-dists-t-stdev-unreleased">
+
+#### [@stdlib/stats/base/dists/t/stdev](https://github.com/stdlib-js/stdlib/tree/develop/lib/node_modules/%40stdlib/stats/base/dists/t/stdev)
+
+<details>
+
+<section class="features">
+
+##### Features
+
+-   [`94aa4aa`](https://github.com/stdlib-js/stdlib/commit/94aa4aafa4f6e98f8e51285daa212e1402254b10) - add C implementation for `stats/base/dists/t/stdev` [(#3923)](https://github.com/stdlib-js/stdlib/pull/3923)
+
+</section>
+
+<!-- /.features -->
+
+<section class="issues">
+
+##### Closed Issues
+
+This release closes the following issue:
+
+[#3880](https://github.com/stdlib-js/stdlib/issues/3880)
+
+</section>
+
+<!-- /.issues -->
+
+</details>
+
+</section>
+
+<!-- /.package -->
+
+<section class="package" id="stats-base-dists-triangular-mean-unreleased">
+
+#### [@stdlib/stats/base/dists/triangular/mean](https://github.com/stdlib-js/stdlib/tree/develop/lib/node_modules/%40stdlib/stats/base/dists/triangular/mean)
+
+<details>
+
+<section class="features">
+
+##### Features
+
+-   [`b884459`](https://github.com/stdlib-js/stdlib/commit/b8844596b7f57a356ff38333c0c5da9b63401874) - add C implementation for `stats/base/dists/triangular/mean` [(#4006)](https://github.com/stdlib-js/stdlib/pull/4006)
+
+</section>
+
+<!-- /.features -->
+
+<section class="issues">
+
+##### Closed Issues
+
+This release closes the following issue:
+
+[#3816](https://github.com/stdlib-js/stdlib/issues/3816)
+
+</section>
+
+<!-- /.issues -->
+
+</details>
+
+</section>
+
+<!-- /.package -->
+
+<section class="package" id="stats-base-dists-triangular-median-unreleased">
+
+#### [@stdlib/stats/base/dists/triangular/median](https://github.com/stdlib-js/stdlib/tree/develop/lib/node_modules/%40stdlib/stats/base/dists/triangular/median)
+
+<details>
+
+<section class="features">
+
+##### Features
+
+-   [`8bb1cf3`](https://github.com/stdlib-js/stdlib/commit/8bb1cf3e5a003c54a909412cda9143d85ec10f30) - add C implementation for `dist/triangular/median` [(#4004)](https://github.com/stdlib-js/stdlib/pull/4004)
+
+</section>
+
+<!-- /.features -->
+
+<section class="issues">
+
+##### Closed Issues
+
+This release closes the following issue:
+
+[#3817](https://github.com/stdlib-js/stdlib/issues/3817)
+
+</section>
+
+<!-- /.issues -->
+
+</details>
+
+</section>
+
+<!-- /.package -->
+
+<section class="package" id="stats-base-dists-triangular-mode-unreleased">
+
+#### [@stdlib/stats/base/dists/triangular/mode](https://github.com/stdlib-js/stdlib/tree/develop/lib/node_modules/%40stdlib/stats/base/dists/triangular/mode)
+
+<details>
+
+<section class="features">
+
+##### Features
+
+-   [`daf43b2`](https://github.com/stdlib-js/stdlib/commit/daf43b2052a0ad89fa4c72caee6d7caedcc4cc38) - add C implementation for `stats/base/dists/triangular/mode` [(#4008)](https://github.com/stdlib-js/stdlib/pull/4008)
+
+</section>
+
+<!-- /.features -->
+
+<section class="issues">
+
+##### Closed Issues
+
+This release closes the following issue:
+
+[#3819](https://github.com/stdlib-js/stdlib/issues/3819)
+
+</section>
+
+<!-- /.issues -->
+
+</details>
+
+</section>
+
+<!-- /.package -->
+
+<section class="package" id="stats-base-dists-uniform-entropy-unreleased">
+
+#### [@stdlib/stats/base/dists/uniform/entropy](https://github.com/stdlib-js/stdlib/tree/develop/lib/node_modules/%40stdlib/stats/base/dists/uniform/entropy)
+
+<details>
+
+<section class="features">
+
+##### Features
+
+-   [`4d6fbbd`](https://github.com/stdlib-js/stdlib/commit/4d6fbbd6ec73ee9d0ccb3bba1869f34d184329dd) - add C implementation for `stats/base/dists/uniform/entropy` [(#4021)](https://github.com/stdlib-js/stdlib/pull/4021)
+
+</section>
+
+<!-- /.features -->
+
+<section class="issues">
+
+##### Closed Issues
+
+This release closes the following issue:
+
+[#3826](https://github.com/stdlib-js/stdlib/issues/3826)
+
+</section>
+
+<!-- /.issues -->
+
+</details>
+
+</section>
+
+<!-- /.package -->
+
+<section class="package" id="stats-base-dists-uniform-pdf-unreleased">
+
+#### [@stdlib/stats/base/dists/uniform/pdf](https://github.com/stdlib-js/stdlib/tree/develop/lib/node_modules/%40stdlib/stats/base/dists/uniform/pdf)
+
+<details>
+
+<section class="features">
+
+##### Features
+
+-   [`27824a1`](https://github.com/stdlib-js/stdlib/commit/27824a1f3c90218cfe5f3be923f8f879d98ed9dc) - add C implementation for `stats/base/dists/uniform/pdf` [(#3949)](https://github.com/stdlib-js/stdlib/pull/3949)
+
+</section>
+
+<!-- /.features -->
+
+<section class="issues">
+
+##### Closed Issues
+
+This release closes the following issue:
+
+[#3833](https://github.com/stdlib-js/stdlib/issues/3833)
+
+</section>
+
+<!-- /.issues -->
+
+</details>
+
+</section>
+
+<!-- /.package -->
+
+<section class="package" id="stats-base-dists-uniform-variance-unreleased">
+
+#### [@stdlib/stats/base/dists/uniform/variance](https://github.com/stdlib-js/stdlib/tree/develop/lib/node_modules/%40stdlib/stats/base/dists/uniform/variance)
+
+<details>
+
+<section class="features">
+
+##### Features
+
+-   [`930ed98`](https://github.com/stdlib-js/stdlib/commit/930ed98207b9ae67f00b23917755589dbbd03fe5) - add C implementation for `stats/base/dists/uniform/variance` [(#3951)](https://github.com/stdlib-js/stdlib/pull/3951)
+
+</section>
+
+<!-- /.features -->
+
+<section class="issues">
+
+##### Closed Issues
+
+This release closes the following issue:
+
+[#3837](https://github.com/stdlib-js/stdlib/issues/3837)
+
+</section>
+
+<!-- /.issues -->
+
+</details>
+
+</section>
+
+<!-- /.package -->
+
+<section class="package" id="stats-base-dists-weibull-mean-unreleased">
+
+#### [@stdlib/stats/base/dists/weibull/mean](https://github.com/stdlib-js/stdlib/tree/develop/lib/node_modules/%40stdlib/stats/base/dists/weibull/mean)
+
+<details>
+
+<section class="features">
+
+##### Features
+
+-   [`db1d12e`](https://github.com/stdlib-js/stdlib/commit/db1d12e38135bf8e67b497e80e9f352e1bcb25cb) - add C implementation for `stats/base/dist/weibull/mean` [(#4052)](https://github.com/stdlib-js/stdlib/pull/4052)
+
+</section>
+
+<!-- /.features -->
+
+<section class="issues">
+
+##### Closed Issues
+
+This release closes the following issue:
+
+[#3843](https://github.com/stdlib-js/stdlib/issues/3843)
+
+</section>
+
+<!-- /.issues -->
+
+</details>
+
+</section>
+
+<!-- /.package -->
+
+<section class="package" id="stats-base-dmax-unreleased">
+
+#### [@stdlib/stats/base/dmax](https://github.com/stdlib-js/stdlib/tree/develop/lib/node_modules/%40stdlib/stats/base/dmax)
+
+<details>
+
+<section class="features">
+
+##### Features
+
+-   [`9ff9694`](https://github.com/stdlib-js/stdlib/commit/9ff9694ed033ca90462c7afe4c44aba1ef42d11c) - add C ndarray interface and refactor implementation
+
+</section>
+
+<!-- /.features -->
 
 </details>
 
@@ -186,9 +2894,9 @@ A total of 3 issues were closed in this release:
 
 ### Closed Issues
 
-A total of 7 issues were closed in this release:
+A total of 86 issues were closed in this release:
 
-[#1619](https://github.com/stdlib-js/stdlib/issues/1619), [#1620](https://github.com/stdlib-js/stdlib/issues/1620), [#1632](https://github.com/stdlib-js/stdlib/issues/1632), [#1633](https://github.com/stdlib-js/stdlib/issues/1633), [#3236](https://github.com/stdlib-js/stdlib/issues/3236), [#3237](https://github.com/stdlib-js/stdlib/issues/3237), [#3238](https://github.com/stdlib-js/stdlib/issues/3238)
+[#1619](https://github.com/stdlib-js/stdlib/issues/1619), [#1620](https://github.com/stdlib-js/stdlib/issues/1620), [#1632](https://github.com/stdlib-js/stdlib/issues/1632), [#1633](https://github.com/stdlib-js/stdlib/issues/1633), [#3236](https://github.com/stdlib-js/stdlib/issues/3236), [#3237](https://github.com/stdlib-js/stdlib/issues/3237), [#3238](https://github.com/stdlib-js/stdlib/issues/3238), [#3378](https://github.com/stdlib-js/stdlib/issues/3378), [#3384](https://github.com/stdlib-js/stdlib/issues/3384), [#3385](https://github.com/stdlib-js/stdlib/issues/3385), [#3401](https://github.com/stdlib-js/stdlib/issues/3401), [#3402](https://github.com/stdlib-js/stdlib/issues/3402), [#3410](https://github.com/stdlib-js/stdlib/issues/3410), [#3414](https://github.com/stdlib-js/stdlib/issues/3414), [#3417](https://github.com/stdlib-js/stdlib/issues/3417), [#3421](https://github.com/stdlib-js/stdlib/issues/3421), [#3431](https://github.com/stdlib-js/stdlib/issues/3431), [#3434](https://github.com/stdlib-js/stdlib/issues/3434), [#3435](https://github.com/stdlib-js/stdlib/issues/3435), [#3436](https://github.com/stdlib-js/stdlib/issues/3436), [#3438](https://github.com/stdlib-js/stdlib/issues/3438), [#3445](https://github.com/stdlib-js/stdlib/issues/3445), [#3446](https://github.com/stdlib-js/stdlib/issues/3446), [#3447](https://github.com/stdlib-js/stdlib/issues/3447), [#3480](https://github.com/stdlib-js/stdlib/issues/3480), [#3494](https://github.com/stdlib-js/stdlib/issues/3494), [#3501](https://github.com/stdlib-js/stdlib/issues/3501), [#3510](https://github.com/stdlib-js/stdlib/issues/3510), [#3548](https://github.com/stdlib-js/stdlib/issues/3548), [#3582](https://github.com/stdlib-js/stdlib/issues/3582), [#3585](https://github.com/stdlib-js/stdlib/issues/3585), [#3586](https://github.com/stdlib-js/stdlib/issues/3586), [#3588](https://github.com/stdlib-js/stdlib/issues/3588), [#3591](https://github.com/stdlib-js/stdlib/issues/3591), [#3592](https://github.com/stdlib-js/stdlib/issues/3592), [#3595](https://github.com/stdlib-js/stdlib/issues/3595), [#3596](https://github.com/stdlib-js/stdlib/issues/3596), [#3597](https://github.com/stdlib-js/stdlib/issues/3597), [#3598](https://github.com/stdlib-js/stdlib/issues/3598), [#3601](https://github.com/stdlib-js/stdlib/issues/3601), [#3603](https://github.com/stdlib-js/stdlib/issues/3603), [#3619](https://github.com/stdlib-js/stdlib/issues/3619), [#3622](https://github.com/stdlib-js/stdlib/issues/3622), [#3624](https://github.com/stdlib-js/stdlib/issues/3624), [#3627](https://github.com/stdlib-js/stdlib/issues/3627), [#3628](https://github.com/stdlib-js/stdlib/issues/3628), [#3656](https://github.com/stdlib-js/stdlib/issues/3656), [#3671](https://github.com/stdlib-js/stdlib/issues/3671), [#3672](https://github.com/stdlib-js/stdlib/issues/3672), [#3674](https://github.com/stdlib-js/stdlib/issues/3674), [#3675](https://github.com/stdlib-js/stdlib/issues/3675), [#3678](https://github.com/stdlib-js/stdlib/issues/3678), [#3679](https://github.com/stdlib-js/stdlib/issues/3679), [#3701](https://github.com/stdlib-js/stdlib/issues/3701), [#3709](https://github.com/stdlib-js/stdlib/issues/3709), [#3721](https://github.com/stdlib-js/stdlib/issues/3721), [#3738](https://github.com/stdlib-js/stdlib/issues/3738), [#3739](https://github.com/stdlib-js/stdlib/issues/3739), [#3741](https://github.com/stdlib-js/stdlib/issues/3741), [#3744](https://github.com/stdlib-js/stdlib/issues/3744), [#3746](https://github.com/stdlib-js/stdlib/issues/3746), [#3759](https://github.com/stdlib-js/stdlib/issues/3759), [#3783](https://github.com/stdlib-js/stdlib/issues/3783), [#3789](https://github.com/stdlib-js/stdlib/issues/3789), [#3797](https://github.com/stdlib-js/stdlib/issues/3797), [#3798](https://github.com/stdlib-js/stdlib/issues/3798), [#3799](https://github.com/stdlib-js/stdlib/issues/3799), [#3801](https://github.com/stdlib-js/stdlib/issues/3801), [#3803](https://github.com/stdlib-js/stdlib/issues/3803), [#3806](https://github.com/stdlib-js/stdlib/issues/3806), [#3807](https://github.com/stdlib-js/stdlib/issues/3807), [#3811](https://github.com/stdlib-js/stdlib/issues/3811), [#3816](https://github.com/stdlib-js/stdlib/issues/3816), [#3817](https://github.com/stdlib-js/stdlib/issues/3817), [#3819](https://github.com/stdlib-js/stdlib/issues/3819), [#3826](https://github.com/stdlib-js/stdlib/issues/3826), [#3833](https://github.com/stdlib-js/stdlib/issues/3833), [#3837](https://github.com/stdlib-js/stdlib/issues/3837), [#3843](https://github.com/stdlib-js/stdlib/issues/3843), [#3865](https://github.com/stdlib-js/stdlib/issues/3865), [#3866](https://github.com/stdlib-js/stdlib/issues/3866), [#3871](https://github.com/stdlib-js/stdlib/issues/3871), [#3873](https://github.com/stdlib-js/stdlib/issues/3873), [#3874](https://github.com/stdlib-js/stdlib/issues/3874), [#3879](https://github.com/stdlib-js/stdlib/issues/3879), [#3880](https://github.com/stdlib-js/stdlib/issues/3880)
 
 </section>
 
@@ -198,19 +2906,29 @@ A total of 7 issues were closed in this release:
 
 ### Contributors
 
-A total of 11 people contributed to this release. Thank you to the following contributors:
+A total of 21 people contributed to this release. Thank you to the following contributors:
 
+-   Aadish Jain
+-   Aayush Khanna
 -   Athan Reines
+-   Desh Deepak Kant
+-   Divyansh Seth
+-   Gururaj Gurram
 -   Kohantika Nath
+-   Manvith M
 -   Neeraj Pathak
 -   Philipp Burckhardt
+-   Prashant Kumar Yadav
 -   Pratyush Kumar Chouhan
 -   Ruthwik Chikoti
--   Shivam
+-   Shivam Ahir
 -   Tufailahmed Bargir
 -   UtkershBasnet
+-   Vinit Pandit
+-   Vivek Maurya
+-   Vivek maurya
+-   aayush0325
 -   olenkabilonizhka
--   shivam Ahir
 
 </section>
 
@@ -222,6 +2940,117 @@ A total of 11 people contributed to this release. Thank you to the following con
 
 <details>
 
+-   [`9a70521`](https://github.com/stdlib-js/stdlib/commit/9a70521fa60f2f847cdec20bad13e8ec5a33f24b) - **docs:** update namespace ToCs _(by Athan Reines)_
+-   [`f13ddb2`](https://github.com/stdlib-js/stdlib/commit/f13ddb2eb01e5520b6fa98634bbf9de76793036f) - **style:** use spaces for alignment in C comments _(by Philipp Burckhardt)_
+-   [`83aeb94`](https://github.com/stdlib-js/stdlib/commit/83aeb942ded7a90ee0b954fedc683f7b46ddd5e7) - **feat:** add C implementation for `stats/base/dists/gamma/stdev` [(#4128)](https://github.com/stdlib-js/stdlib/pull/4128) _(by Prashant Kumar Yadav, Philipp Burckhardt)_
+-   [`9d4ff4d`](https://github.com/stdlib-js/stdlib/commit/9d4ff4d2ea4c7b3244b3855124790aef5f526f41) - **feat:** add C implementation for `stats/base/dists/exponential/median` [(#4049)](https://github.com/stdlib-js/stdlib/pull/4049) _(by Prashant Kumar Yadav, Philipp Burckhardt)_
+-   [`b884459`](https://github.com/stdlib-js/stdlib/commit/b8844596b7f57a356ff38333c0c5da9b63401874) - **feat:** add C implementation for `stats/base/dists/triangular/mean` [(#4006)](https://github.com/stdlib-js/stdlib/pull/4006) _(by Prashant Kumar Yadav, Philipp Burckhardt)_
+-   [`6043777`](https://github.com/stdlib-js/stdlib/commit/6043777df454d2e288e0f00ebe7cbc3b26423c1b) - **feat:** add C implementation for `stats/base/dists/gamma/skewness` [(#4124)](https://github.com/stdlib-js/stdlib/pull/4124) _(by Prashant Kumar Yadav, Philipp Burckhardt)_
+-   [`8e65742`](https://github.com/stdlib-js/stdlib/commit/8e65742b7b96655c166c7fc11d2399d7ca2bad01) - **feat:** add C implementation for `stats/base/dists/gamma/mode` [(#4123)](https://github.com/stdlib-js/stdlib/pull/4123) _(by Prashant Kumar Yadav, Philipp Burckhardt)_
+-   [`cf1fd6a`](https://github.com/stdlib-js/stdlib/commit/cf1fd6a5a6e83c345aa5ad0ff830c0cbbfa3a15d) - **feat:** add C implementation for `stats/base/dists/gamma/kurtosis` [(#4129)](https://github.com/stdlib-js/stdlib/pull/4129) _(by Prashant Kumar Yadav)_
+-   [`8627f7a`](https://github.com/stdlib-js/stdlib/commit/8627f7a099aeb10863e83e4a1005dc4749b5d371) - **feat:** add C implementation for `stats/base/dists/gamma/mean` [(#4122)](https://github.com/stdlib-js/stdlib/pull/4122) _(by Prashant Kumar Yadav)_
+-   [`026462b`](https://github.com/stdlib-js/stdlib/commit/026462b6936fe27d7d7b2983e026e74339ceeed8) - **feat:** add C implementation for `stats/base/dists/invgamma/mode`   [(#4117)](https://github.com/stdlib-js/stdlib/pull/4117) _(by Vivek maurya)_
+-   [`150755b`](https://github.com/stdlib-js/stdlib/commit/150755bdfc256d687e34cddd85a8f075fe4d4ab4) - **feat:** add C implementation for `stats/base/dists/invgamma/kurtosis`   [(#4120)](https://github.com/stdlib-js/stdlib/pull/4120) _(by Vivek maurya)_
+-   [`4bea27a`](https://github.com/stdlib-js/stdlib/commit/4bea27aa3beda0297d8860b3cd4f66f824cd1ddf) - **feat:** add C implementation for `stats/base/dists/invgamma/stdev`   [(#4118)](https://github.com/stdlib-js/stdlib/pull/4118) _(by Vivek maurya)_
+-   [`eaf7676`](https://github.com/stdlib-js/stdlib/commit/eaf7676c507f5ac5788df7d4fe2501acc7d76494) - **feat:** add C implementation for `stats/base/dists/invgamma/skewness`   [(#4119)](https://github.com/stdlib-js/stdlib/pull/4119) _(by Vivek maurya)_
+-   [`dd6359a`](https://github.com/stdlib-js/stdlib/commit/dd6359af1005e76df487cc727e82eb0464a00352) - **feat:** add C implementation for `stats/base/dists/invgamma/mean`   [(#4116)](https://github.com/stdlib-js/stdlib/pull/4116) _(by Vivek maurya)_
+-   [`5e05d49`](https://github.com/stdlib-js/stdlib/commit/5e05d493f9016307aac6f95f081a3dae65c4e3c2) - **refactor:** update `stats/base/dmaxabs` native addon from C++ to C [(#4079)](https://github.com/stdlib-js/stdlib/pull/4079) _(by Aayush Khanna)_
+-   [`9ff9694`](https://github.com/stdlib-js/stdlib/commit/9ff9694ed033ca90462c7afe4c44aba1ef42d11c) - **feat:** add C ndarray interface and refactor implementation _(by Athan Reines)_
+-   [`430e40e`](https://github.com/stdlib-js/stdlib/commit/430e40eda1d5a379561b434df31fc3bc5dcc2ce3) - **refactor:** update `stats/base/dmeanpw` native addon from C++ to C [(#4101)](https://github.com/stdlib-js/stdlib/pull/4101) _(by Aayush Khanna)_
+-   [`dbb5935`](https://github.com/stdlib-js/stdlib/commit/dbb59359010b9ac0a404604914d5db63f8fadcbc) - **refactor:** update `stats/base/dmeanpn` native addon from C++ to C [(#4100)](https://github.com/stdlib-js/stdlib/pull/4100) _(by Aayush Khanna)_
+-   [`dcbceb5`](https://github.com/stdlib-js/stdlib/commit/dcbceb58fd01d6d5515059445629c61880f4ef71) - **refactor:** update `stats/base/dmeanors` native addon from C++ to C [(#4099)](https://github.com/stdlib-js/stdlib/pull/4099) _(by Aayush Khanna)_
+-   [`86eb8a8`](https://github.com/stdlib-js/stdlib/commit/86eb8a850f2c9d952bc72b803cc4637e076d8259) - **refactor:** update `stats/base/dmeanlipw` native addon from C++ to C [(#4098)](https://github.com/stdlib-js/stdlib/pull/4098) _(by Aayush Khanna)_
+-   [`1a7bfb6`](https://github.com/stdlib-js/stdlib/commit/1a7bfb650c61d686bde53fda82476edb5c29cafd) - **refactor:** update `stats/base/dmeanli` native addon from C++ to C [(#4097)](https://github.com/stdlib-js/stdlib/pull/4097) _(by Aayush Khanna)_
+-   [`50d8e54`](https://github.com/stdlib-js/stdlib/commit/50d8e54ed3c99385ff43453104fd52e0f63195ed) - **refactor:** update `stats/base/dmeankbn2` native addon from C++ to C [(#4096)](https://github.com/stdlib-js/stdlib/pull/4096) _(by Aayush Khanna)_
+-   [`cd88134`](https://github.com/stdlib-js/stdlib/commit/cd88134c3868e25b911a76b25ac0e066b727ada6) - **refactor:** update `stats/base/dmeankbn` native addon from C++ to C [(#4088)](https://github.com/stdlib-js/stdlib/pull/4088) _(by Aayush Khanna)_
+-   [`adcd151`](https://github.com/stdlib-js/stdlib/commit/adcd1512dd078e156f23564c3b5a88d717fb130a) - **refactor:** update `stats/base/dmean` native addon from C++ to C [(#4087)](https://github.com/stdlib-js/stdlib/pull/4087) _(by Aayush Khanna)_
+-   [`59846f8`](https://github.com/stdlib-js/stdlib/commit/59846f8bb24fb1c74fee9742c3c74bc1c84b293a) - **refactor:** update `stats/base/dmaxsorted` native addon from C++ to C [(#4084)](https://github.com/stdlib-js/stdlib/pull/4084) _(by Aayush Khanna)_
+-   [`e20fc92`](https://github.com/stdlib-js/stdlib/commit/e20fc92ffce656a95a804b2b72d822aad4e7b227) - **refactor:** update `stats/base/dmaxabssorted` native addon from C++ to C [(#4080)](https://github.com/stdlib-js/stdlib/pull/4080) _(by Aayush Khanna)_
+-   [`2cbb06c`](https://github.com/stdlib-js/stdlib/commit/2cbb06c836012da88b028b373948705de9ccd970) - **refactor:** update `stats/base/dcuminabs` native addon from C++ to C [(#4075)](https://github.com/stdlib-js/stdlib/pull/4075) _(by Aayush Khanna)_
+-   [`f0f7c37`](https://github.com/stdlib-js/stdlib/commit/f0f7c37fac61c123c48e72e49c41552263aa32a0) - **refactor:** update `stats/base/dcumin` native addon from C++ to C [(#4074)](https://github.com/stdlib-js/stdlib/pull/4074) _(by Aayush Khanna)_
+-   [`fd70f66`](https://github.com/stdlib-js/stdlib/commit/fd70f66305c6bb5a01cfa5fa4e8b983703ab98d2) - **refactor:** update `stats/base/dcumaxabs` native addon from C++ to C [(#4073)](https://github.com/stdlib-js/stdlib/pull/4073) _(by Aayush Khanna)_
+-   [`267321a`](https://github.com/stdlib-js/stdlib/commit/267321a4e77cf14de5e85b36fa223a973eb605bc) - **refactor:** update `stats/base/dcumax` native addon from C++ to C [(#4072)](https://github.com/stdlib-js/stdlib/pull/4072) _(by Aayush Khanna)_
+-   [`7d33299`](https://github.com/stdlib-js/stdlib/commit/7d3329935deb3341763de86fc185c9c726684afc) - **refactor:** update `stats/base/dmax` native addon from C++ to C [(#4051)](https://github.com/stdlib-js/stdlib/pull/4051) _(by Aayush Khanna, stdlib-bot)_
+-   [`9c225d9`](https://github.com/stdlib-js/stdlib/commit/9c225d9d649ffd725037384783d67f9dddee87a4) - **feat:** add C implementation for `stats/base/dists/f/skewness` [(#4041)](https://github.com/stdlib-js/stdlib/pull/4041) _(by Vivek maurya, Philipp Burckhardt)_
+-   [`0cab817`](https://github.com/stdlib-js/stdlib/commit/0cab817744fa607bd863eadf32204b36e668d31c) - **feat:** add C implementation for `stats/base/dists/f/variance` [(#4042)](https://github.com/stdlib-js/stdlib/pull/4042) _(by Vivek maurya, Philipp Burckhardt)_
+-   [`724d581`](https://github.com/stdlib-js/stdlib/commit/724d58131a5f47d333a0f062e56d489ce1605aa6) - **feat:** add C implementation for `stats/base/dists/exponential/mean` [(#4046)](https://github.com/stdlib-js/stdlib/pull/4046) _(by Prashant Kumar Yadav)_
+-   [`ed04d90`](https://github.com/stdlib-js/stdlib/commit/ed04d90cd3540e5a3b0b5cb49f623c62935edd1e) - **feat:** add C implementation for `stats/base/dists/rayleigh/mode` [(#4024)](https://github.com/stdlib-js/stdlib/pull/4024) _(by Prashant Kumar Yadav)_
+-   [`daf43b2`](https://github.com/stdlib-js/stdlib/commit/daf43b2052a0ad89fa4c72caee6d7caedcc4cc38) - **feat:** add C implementation for `stats/base/dists/triangular/mode` [(#4008)](https://github.com/stdlib-js/stdlib/pull/4008) _(by Prashant Kumar Yadav, Philipp Burckhardt)_
+-   [`3c0ff2c`](https://github.com/stdlib-js/stdlib/commit/3c0ff2cdae8f78f99cdf09db8dc150f3f0e2cd67) - **feat:** add C implementation  for `stats/base/dists/laplace/entropy` [(#4025)](https://github.com/stdlib-js/stdlib/pull/4025) _(by Aayush Khanna, Philipp Burckhardt)_
+-   [`8bb1cf3`](https://github.com/stdlib-js/stdlib/commit/8bb1cf3e5a003c54a909412cda9143d85ec10f30) - **feat:** add C implementation for `dist/triangular/median` [(#4004)](https://github.com/stdlib-js/stdlib/pull/4004) _(by Divyansh Seth, Philipp Burckhardt)_
+-   [`fc5df17`](https://github.com/stdlib-js/stdlib/commit/fc5df1769306302648f8ed492455558447c47d8f) - **feat:** add C implementation for `stats/base/dists/kumaraswamy/median` [(#4020)](https://github.com/stdlib-js/stdlib/pull/4020) _(by Desh Deepak Kant, Philipp Burckhardt)_
+-   [`9d270ad`](https://github.com/stdlib-js/stdlib/commit/9d270ad8299ceb0723b1b805e738fbe19faa6520) - **feat:** add C implementation for `stats/base/dists/rayleigh/mean` [(#4026)](https://github.com/stdlib-js/stdlib/pull/4026) _(by Prashant Kumar Yadav, Philipp Burckhardt)_
+-   [`7d9b63d`](https://github.com/stdlib-js/stdlib/commit/7d9b63ddd452bf4cc171bdd21cf666274d3eeb56) - **feat:** add C implementation for `stats/base/dists/exponential/mode` [(#4047)](https://github.com/stdlib-js/stdlib/pull/4047) _(by Prashant Kumar Yadav, Philipp Burckhardt)_
+-   [`7eb69d4`](https://github.com/stdlib-js/stdlib/commit/7eb69d4e7b7b998a98772fa118c16707a0160e92) - **feat:** add C implementation for `stats/base/dists/logistic/median` [(#4031)](https://github.com/stdlib-js/stdlib/pull/4031) _(by Prashant Kumar Yadav)_
+-   [`db1d12e`](https://github.com/stdlib-js/stdlib/commit/db1d12e38135bf8e67b497e80e9f352e1bcb25cb) - **feat:** add C implementation for `stats/base/dist/weibull/mean` [(#4052)](https://github.com/stdlib-js/stdlib/pull/4052) _(by Divyansh Seth, Philipp Burckhardt)_
+-   [`974b609`](https://github.com/stdlib-js/stdlib/commit/974b6094ed693a4a4fc732f9f0de082e2ab3cf89) - **feat:** add C implementation for `stats/base/dists/degenerate/variance` [(#4022)](https://github.com/stdlib-js/stdlib/pull/4022) _(by Aayush Khanna)_
+-   [`242b011`](https://github.com/stdlib-js/stdlib/commit/242b011a78ef3fce16befeca9e36629096e952c1) - **feat:** add C implementation for `stats/base/dists/f/mode` [(#4036)](https://github.com/stdlib-js/stdlib/pull/4036) _(by Vivek maurya, Philipp Burckhardt)_
+-   [`6c141f4`](https://github.com/stdlib-js/stdlib/commit/6c141f4c169d080eec1867c421aa6ffa88b9ebfd) - **feat:** add C implementation for `stats/base/dists/logistic/skewness` [(#4038)](https://github.com/stdlib-js/stdlib/pull/4038) _(by Prashant Kumar Yadav)_
+-   [`df52159`](https://github.com/stdlib-js/stdlib/commit/df521591cd6b8d5bb9cfa241e241231d45319285) - **feat:** add C implementation for `stats/base/dists/f/entropy` [(#4044)](https://github.com/stdlib-js/stdlib/pull/4044) _(by Vivek maurya, Philipp Burckhardt)_
+-   [`67eacfd`](https://github.com/stdlib-js/stdlib/commit/67eacfd73be1ac9ac96595eee7dabd21ccdc2ffb) - **feat:** add C implementation for `stats/base/dists/f/kurtosis` [(#4043)](https://github.com/stdlib-js/stdlib/pull/4043) _(by Vivek maurya, Philipp Burckhardt)_
+-   [`7e400e0`](https://github.com/stdlib-js/stdlib/commit/7e400e030ed237390ac962a15f031d15708bd381) - **feat:** add C implementation for `stats/base/dists/exponential/stdev` [(#4063)](https://github.com/stdlib-js/stdlib/pull/4063) _(by Prashant Kumar Yadav, Philipp Burckhardt)_
+-   [`7cff91f`](https://github.com/stdlib-js/stdlib/commit/7cff91f740c92525f6fe5fd1bbd9101babff3298) - **feat:** add C implementation for `stats/base/dists/logistic/mode` [(#4029)](https://github.com/stdlib-js/stdlib/pull/4029) _(by Prashant Kumar Yadav)_
+-   [`5bb4ea6`](https://github.com/stdlib-js/stdlib/commit/5bb4ea62d91c1b6ab5210e80db10d44ab2748189) - **feat:** add C implementation for `stats/base/dists/exponential/kurtosis` [(#4058)](https://github.com/stdlib-js/stdlib/pull/4058) _(by Prashant Kumar Yadav)_
+-   [`113f340`](https://github.com/stdlib-js/stdlib/commit/113f3407b59c22f8b20a38147ef3470a8b30cd4a) - **feat:** add C implementation for `stats/base/dists/logistic/mean` [(#4028)](https://github.com/stdlib-js/stdlib/pull/4028) _(by Prashant Kumar Yadav, Philipp Burckhardt)_
+-   [`584df38`](https://github.com/stdlib-js/stdlib/commit/584df38b388c730c3291dae63ef9241802e5371d) - **feat:** add C implementation for `stats/base/dists/exponential/skewness` [(#4056)](https://github.com/stdlib-js/stdlib/pull/4056) _(by Prashant Kumar Yadav, Philipp Burckhardt)_
+-   [`4d6fbbd`](https://github.com/stdlib-js/stdlib/commit/4d6fbbd6ec73ee9d0ccb3bba1869f34d184329dd) - **feat:** add C implementation for `stats/base/dists/uniform/entropy` [(#4021)](https://github.com/stdlib-js/stdlib/pull/4021) _(by Divyansh Seth, Philipp Burckhardt)_
+-   [`b283652`](https://github.com/stdlib-js/stdlib/commit/b2836521feb83b741d0190d7600f297f0379851f) - **feat:** add C implementation for `stats/base/dists/f/mean` [(#4033)](https://github.com/stdlib-js/stdlib/pull/4033) _(by Vivek maurya)_
+-   [`118284b`](https://github.com/stdlib-js/stdlib/commit/118284b97293f409c1769047675bed85ddf4dd20) - **feat:** add C implementation for `stats/base/dists/chisquare/skewness` [(#4005)](https://github.com/stdlib-js/stdlib/pull/4005) _(by Vivek maurya, Philipp Burckhardt)_
+-   [`7a87244`](https://github.com/stdlib-js/stdlib/commit/7a872442e344e03a69d987f0f7b89d1344d5547c) - **feat:** add C implementation for `stats/base/dists/chisquare/entropy` [(#4007)](https://github.com/stdlib-js/stdlib/pull/4007) _(by Vivek maurya, Philipp Burckhardt)_
+-   [`7550aab`](https://github.com/stdlib-js/stdlib/commit/7550aabe1fa42666821032ad60b42437ee7e304e) - **feat:** add C implementation for `stats/base/dists/normal/stdev` [(#4003)](https://github.com/stdlib-js/stdlib/pull/4003) _(by Manvith M, Philipp Burckhardt)_
+-   [`8bf8285`](https://github.com/stdlib-js/stdlib/commit/8bf8285aba0ecbd00ae145c4c5c098cd28135814) - **chore:** minor clean-up _(by Philipp Burckhardt)_
+-   [`9685979`](https://github.com/stdlib-js/stdlib/commit/968597945b0e8d1042ce17b6e08ca0f3e64058b4) - **feat:** add C implementation for `stats/base/dists/logistic/variance` [(#3994)](https://github.com/stdlib-js/stdlib/pull/3994) _(by Aayush Khanna, stdlib-bot)_
+-   [`c0d9c76`](https://github.com/stdlib-js/stdlib/commit/c0d9c760c9657e28d6b1d3daf5013708a928ae6c) - **feat:** add C implementation `stats/base/dists/rayleigh/pdf` [(#3945)](https://github.com/stdlib-js/stdlib/pull/3945) _(by Vinit Pandit, Philipp Burckhardt)_
+-   [`3a05645`](https://github.com/stdlib-js/stdlib/commit/3a05645a2054675503b44dffb2f6817298bc9bd9) - **feat:** add C implementation of `stats/base/dists/rayleigh/logcdf` [(#3957)](https://github.com/stdlib-js/stdlib/pull/3957) _(by Vinit Pandit, Philipp Burckhardt)_
+-   [`7be886c`](https://github.com/stdlib-js/stdlib/commit/7be886c5eb2ff9894cc8088c1defb60eebd029b6) - **feat:** add C implementation for `stats/base/dists/lognormal/variance` [(#3992)](https://github.com/stdlib-js/stdlib/pull/3992) _(by Aayush Khanna)_
+-   [`c242bc2`](https://github.com/stdlib-js/stdlib/commit/c242bc2a4e128472277ea8545c6811ea2cbbd736) - **feat:** add C implementation for `stats/base/dists/rayleigh/variance` [(#3990)](https://github.com/stdlib-js/stdlib/pull/3990) _(by Aayush Khanna)_
+-   [`5ebf34e`](https://github.com/stdlib-js/stdlib/commit/5ebf34e758b2a328d2f4d9fa3500cb0233c687cf) - **feat:** add C implementation for `stats/dists/pareto-type1/stdev` [(#3925)](https://github.com/stdlib-js/stdlib/pull/3925) _(by Gururaj Gurram, Philipp Burckhardt)_
+-   [`4c46667`](https://github.com/stdlib-js/stdlib/commit/4c466676e6dc28dc112a042096f94286f2e599a5) - **feat:** add C implementation of `stats/base/dists/rayleigh/entropy` [(#3956)](https://github.com/stdlib-js/stdlib/pull/3956) _(by Vinit Pandit, Philipp Burckhardt)_
+-   [`a6f8779`](https://github.com/stdlib-js/stdlib/commit/a6f8779298b6200a63ad80f40e6769bdf3ccc58d) - **feat:** add C implementation for `stats/base/dists/chi/mode` [(#3965)](https://github.com/stdlib-js/stdlib/pull/3965) _(by Vivek maurya, Philipp Burckhardt)_
+-   [`ea671df`](https://github.com/stdlib-js/stdlib/commit/ea671dfde903d2ef3f3640ae8ea9505fcaeff726) - **feat:** add C implementation for `stats/base/dists/cauchy/entropy` [(#3961)](https://github.com/stdlib-js/stdlib/pull/3961) _(by Vivek maurya, Philipp Burckhardt)_
+-   [`3550fc4`](https://github.com/stdlib-js/stdlib/commit/3550fc4a653ce3d56e01a36752dd5e9f47db3586) - **feat:** add C implementation for `@stdlib/stats-base/dists/poisson/mean` [(#3973)](https://github.com/stdlib-js/stdlib/pull/3973) _(by Divyansh Seth, Philipp Burckhardt)_
+-   [`27824a1`](https://github.com/stdlib-js/stdlib/commit/27824a1f3c90218cfe5f3be923f8f879d98ed9dc) - **feat:** add C implementation for `stats/base/dists/uniform/pdf` [(#3949)](https://github.com/stdlib-js/stdlib/pull/3949) _(by Divyansh Seth, Philipp Burckhardt)_
+-   [`bb39734`](https://github.com/stdlib-js/stdlib/commit/bb39734352cdccbee4633abe450e1b2f1cda75ee) - **feat:** add C implementation for `stats/base/dists/gumbel/variance` [(#3967)](https://github.com/stdlib-js/stdlib/pull/3967) _(by Aayush Khanna, Philipp Burckhardt)_
+-   [`3688b08`](https://github.com/stdlib-js/stdlib/commit/3688b0821bbfc1e99f33b859a4e090c6b75dc3fa) - **feat:** add C implementation for `stats/base/dists/arcsine/variance` [(#3968)](https://github.com/stdlib-js/stdlib/pull/3968) _(by Aayush Khanna, Philipp Burckhardt)_
+-   [`ccbaa42`](https://github.com/stdlib-js/stdlib/commit/ccbaa42486fd36b15e2c17b0d30e0b0508f533d6) - **style:** fix formatting _(by Athan Reines)_
+-   [`6a2b590`](https://github.com/stdlib-js/stdlib/commit/6a2b590b118fef59a3e3a9e40854973d02a8b8fc) - **feat:** add C implementation for `stats/base/dists/t/kurtosis` [(#3905)](https://github.com/stdlib-js/stdlib/pull/3905) _(by Aayush Khanna, aayush0325)_
+-   [`2b67875`](https://github.com/stdlib-js/stdlib/commit/2b67875eca43c4846a5b048971eab7bf898216e9) - **feat:** add C implementation for `stats/base/dists/laplace/variance` [(#3948)](https://github.com/stdlib-js/stdlib/pull/3948) _(by Aayush Khanna, stdlib-bot)_
+-   [`930ed98`](https://github.com/stdlib-js/stdlib/commit/930ed98207b9ae67f00b23917755589dbbd03fe5) - **feat:** add C implementation for `stats/base/dists/uniform/variance` [(#3951)](https://github.com/stdlib-js/stdlib/pull/3951) _(by Aayush Khanna)_
+-   [`ad7c388`](https://github.com/stdlib-js/stdlib/commit/ad7c3880af37bccd159b6623f92d4b0212eaf0db) - **feat:** add C implementation for `stats/base/dists/t/logpdf` [(#3934)](https://github.com/stdlib-js/stdlib/pull/3934) _(by Aadish Jain, Philipp Burckhardt)_
+-   [`d7f5b56`](https://github.com/stdlib-js/stdlib/commit/d7f5b56fc072abf167bd5eb5e2163833715f2211) - **feat:** add C implementation of `stats/base/dists/rayleigh/cdf` [(#3931)](https://github.com/stdlib-js/stdlib/pull/3931) _(by Vinit Pandit, Philipp Burckhardt)_
+-   [`bb09b18`](https://github.com/stdlib-js/stdlib/commit/bb09b185f74d2fc05254a2f164119ca05054887f) - **feat:** add C implementation for `stats/base/dists/beta/variance` [(#3919)](https://github.com/stdlib-js/stdlib/pull/3919) _(by Vivek maurya, Philipp Burckhardt)_
+-   [`0e2d82a`](https://github.com/stdlib-js/stdlib/commit/0e2d82a0e55b279370365e56b765922321a69e05) - **feat:** add C implementation for `stats/base/dists/poisson/variance` [(#3933)](https://github.com/stdlib-js/stdlib/pull/3933) _(by Aayush Khanna, Philipp Burckhardt, stdlib-bot)_
+-   [`b018e09`](https://github.com/stdlib-js/stdlib/commit/b018e09b9cdaf0d9cfb06a815b3c3ea0ee2c0067) - **feat:** add C implementation for `stats/base/dists/beta/mode` [(#3908)](https://github.com/stdlib-js/stdlib/pull/3908) _(by Vivek maurya, Philipp Burckhardt)_
+-   [`ed99b85`](https://github.com/stdlib-js/stdlib/commit/ed99b8564b5ea451e094ea331eab9df470df96eb) - **chore:** minor clean-up _(by Philipp Burckhardt)_
+-   [`0e887d5`](https://github.com/stdlib-js/stdlib/commit/0e887d567344c8a31a382266389022ec26f2bcca) - **style:** add missing spaces _(by Philipp Burckhardt)_
+-   [`ff25e13`](https://github.com/stdlib-js/stdlib/commit/ff25e1324e1507cc076078e82badce7fdf7915f6) - **docs:** remove excess whitespace _(by Philipp Burckhardt)_
+-   [`6bbf2d6`](https://github.com/stdlib-js/stdlib/commit/6bbf2d67034e056190594bf2bceca4eb40a66b6f) - **style:** fix indentation _(by Philipp Burckhardt)_
+-   [`0756fb5`](https://github.com/stdlib-js/stdlib/commit/0756fb583ae0061031335704fdc46805f408f9c9) - **style:** remove empty lines _(by Philipp Burckhardt)_
+-   [`cfc0665`](https://github.com/stdlib-js/stdlib/commit/cfc0665435a1f99158d7fed39b8873dea6aa6209) - **docs:** add missing private tag _(by Philipp Burckhardt)_
+-   [`e450426`](https://github.com/stdlib-js/stdlib/commit/e450426813957ec4de5e31434edb969741db7c94) - **bench:** add missing native suffix _(by Philipp Burckhardt)_
+-   [`3b4998d`](https://github.com/stdlib-js/stdlib/commit/3b4998d26569c2c7ac9cd437dadcdbe06da0093d) - **chore:** minor clean-up _(by Philipp Burckhardt)_
+-   [`3c1789f`](https://github.com/stdlib-js/stdlib/commit/3c1789fdfe3ae56635ddf84fb5dfe229237794fa) - **docs:** add missing private annotations and decimals _(by Philipp Burckhardt)_
+-   [`03494c2`](https://github.com/stdlib-js/stdlib/commit/03494c2d20c88a2ab68fdd9fbf79c396e1885440) - **feat:** add C implementation for `stats/base/dists/t/mean` [(#3922)](https://github.com/stdlib-js/stdlib/pull/3922) _(by Aadish Jain, Philipp Burckhardt)_
+-   [`a146971`](https://github.com/stdlib-js/stdlib/commit/a1469718890f5a007c6c7343757b621274dad0e0) - **feat:** add C implementation for `stats/base/dists/pareto-type1/skewness` [(#3927)](https://github.com/stdlib-js/stdlib/pull/3927) _(by Gururaj Gurram, Philipp Burckhardt)_
+-   [`9d7f4db`](https://github.com/stdlib-js/stdlib/commit/9d7f4dbd6c71a2a57b2e55a88e5b7ded091cbd67) - **feat:** add C implementation for `stats/base/dists/beta/skewness` [(#3921)](https://github.com/stdlib-js/stdlib/pull/3921) _(by Vivek maurya, Philipp Burckhardt)_
+-   [`94aa4aa`](https://github.com/stdlib-js/stdlib/commit/94aa4aafa4f6e98f8e51285daa212e1402254b10) - **feat:** add C implementation for `stats/base/dists/t/stdev` [(#3923)](https://github.com/stdlib-js/stdlib/pull/3923) _(by Aayush Khanna, stdlib-bot)_
+-   [`fbbdff6`](https://github.com/stdlib-js/stdlib/commit/fbbdff6ed331a65f7baab74249d29b60ec01b101) - **feat:** add implementation of `stats/base/dists/arcsine/pdf` [(#3455)](https://github.com/stdlib-js/stdlib/pull/3455) _(by Vinit Pandit)_
+-   [`e661ffe`](https://github.com/stdlib-js/stdlib/commit/e661ffe97297b6876bbc2c8bb89cd6a3e25d3fbd) - **feat:** add C implementation for `stats/base/dists/t/skewness` [(#3920)](https://github.com/stdlib-js/stdlib/pull/3920) _(by Aayush Khanna, Philipp Burckhardt, stdlib-bot)_
+-   [`b8c41df`](https://github.com/stdlib-js/stdlib/commit/b8c41df78cd2cdc9cd3c3c6b223759d32f4f6e14) - **docs:** update related packages sections [(#3915)](https://github.com/stdlib-js/stdlib/pull/3915) _(by stdlib-bot)_
+-   [`3704e0c`](https://github.com/stdlib-js/stdlib/commit/3704e0cc1ae8e4f548ba2b1381e74ea7e8f042fd) - **feat:** add C implementation for `@stdlib/stats-base/dists/bernoulli/stdev` [(#3683)](https://github.com/stdlib-js/stdlib/pull/3683) _(by Vivek maurya, Philipp Burckhardt)_
+-   [`06258f9`](https://github.com/stdlib-js/stdlib/commit/06258f9815f711fe5154458220c3f381d9b9134c) - **feat:** add C implementation for `stats/base/dists/bernoulli/mode` [(#3450)](https://github.com/stdlib-js/stdlib/pull/3450) _(by Vivek maurya, Philipp Burckhardt, stdlib-bot)_
+-   [`12a3dbf`](https://github.com/stdlib-js/stdlib/commit/12a3dbf094bb89c50ea468b9c75789124940b510) - **feat:** add C implementation for `@stdlib/stats-base/dists/beta/stdev` [(#3909)](https://github.com/stdlib-js/stdlib/pull/3909) _(by Vivek maurya, Vivek Maurya)_
+-   [`1a98e92`](https://github.com/stdlib-js/stdlib/commit/1a98e9262d48a49dde1925c2a1d501511d795f05) - **feat:** add C implementation for `stats/base/dists/betaprime/kurtosis` [(#3459)](https://github.com/stdlib-js/stdlib/pull/3459) _(by Aayush Khanna, Philipp Burckhardt, stdlib-bot)_
+-   [`c77a433`](https://github.com/stdlib-js/stdlib/commit/c77a433d6e33ad5f4879d32211d8cfdb4e5fa2c6) - **feat:** add C implementation for `stats/base/dists/betaprime/variance` [(#3460)](https://github.com/stdlib-js/stdlib/pull/3460) _(by Aayush Khanna, Philipp Burckhardt, stdlib-bot)_
+-   [`0fc07d1`](https://github.com/stdlib-js/stdlib/commit/0fc07d1722a3da70464b37d4de5f6a762468f85e) - **feat:** add C implementation for `stats/base/dists/betaprime/skewness` [(#3462)](https://github.com/stdlib-js/stdlib/pull/3462) _(by Aayush Khanna, Philipp Burckhardt, stdlib-bot)_
+-   [`31faa3e`](https://github.com/stdlib-js/stdlib/commit/31faa3e761d92fe94a35d941bed6640380e21b37) - **feat:** add C implementation for `stats/base/dists/arcsine/kurtosis` [(#3388)](https://github.com/stdlib-js/stdlib/pull/3388) _(by Aayush Khanna, Philipp Burckhardt, stdlib-bot)_
+-   [`e9d539e`](https://github.com/stdlib-js/stdlib/commit/e9d539ed6f0185d2455a45b5e29bd50d5c556db5) - **feat:** add C implementation for `stats/base/dists/invgamma/entropy` [(#3682)](https://github.com/stdlib-js/stdlib/pull/3682) _(by Aayush Khanna, Philipp Burckhardt, stdlib-bot)_
+-   [`222ef72`](https://github.com/stdlib-js/stdlib/commit/222ef725730746806fa15ac1d735f0284cf4616e) - **feat:** add C implementation for `stats/base/dists/arcsine/entropy` [(#3379)](https://github.com/stdlib-js/stdlib/pull/3379) _(by Aayush Khanna, Philipp Burckhardt)_
+-   [`5019fab`](https://github.com/stdlib-js/stdlib/commit/5019fab885f33507350e6b7ec6a61e1e283d6249) - **feat:** add C implementation for `stats/base/dists/bernoulli/mean` [(#3451)](https://github.com/stdlib-js/stdlib/pull/3451) _(by Vivek maurya, Athan Reines, stdlib-bot)_
+-   [`be1e1c4`](https://github.com/stdlib-js/stdlib/commit/be1e1c4a2e5d9a1e0ebc0e2f0a4244c50d4142c5) - **bench:** fix missing namespace _(by Athan Reines)_
+-   [`d1a200b`](https://github.com/stdlib-js/stdlib/commit/d1a200bc6ab344f9fcd8a33a70712456dbf479d0) - **feat:** add C implementation for `stats/base/dists/betaprime/stdev` [(#3461)](https://github.com/stdlib-js/stdlib/pull/3461) _(by Aayush Khanna, Philipp Burckhardt, stdlib-bot)_
+-   [`1d283b5`](https://github.com/stdlib-js/stdlib/commit/1d283b5f174dc2ec7770bd7be861cdb2f146027d) - **feat:** add C implementation of `stats/base/dists/arcsine/logpdf` [(#3454)](https://github.com/stdlib-js/stdlib/pull/3454) _(by Vinit Pandit, Philipp Burckhardt)_
+-   [`e7e0f46`](https://github.com/stdlib-js/stdlib/commit/e7e0f4690074d14b9e2b86a6bc3c61d75ce66ac0) - **feat:** add C implementation for arcsine CDF [(#3354)](https://github.com/stdlib-js/stdlib/pull/3354) _(by Philipp Burckhardt, Athan Reines, stdlib-bot)_
 -   [`f8dc5fc`](https://github.com/stdlib-js/stdlib/commit/f8dc5fce6476df26e8703b8af8028dfd1477a515) - **docs:** fix C lint errors [(#3249)](https://github.com/stdlib-js/stdlib/pull/3249) _(by Neeraj Pathak, Athan Reines)_
 -   [`28bdda3`](https://github.com/stdlib-js/stdlib/commit/28bdda3affa89470bbdf531cb3bbc233c85d3d17) - **docs:** improve examples of `stats/base/dists/chisquare` namespace [(#2678)](https://github.com/stdlib-js/stdlib/pull/2678) _(by Kohantika Nath, Philipp Burckhardt)_
 -   [`4e1c68b`](https://github.com/stdlib-js/stdlib/commit/4e1c68b10906fea989b1a785405eb17d68553461) - **docs:** improve examples of `stats/base/dists/kumaraswamy` [(#2605)](https://github.com/stdlib-js/stdlib/pull/2605) _(by Ruthwik Chikoti, Philipp Burckhardt)_
@@ -229,10 +3058,10 @@ A total of 11 people contributed to this release. Thank you to the following con
 -   [`fdd3963`](https://github.com/stdlib-js/stdlib/commit/fdd3963096904e999191e354dede1ca59461adc2) - **chore:** minor clean-up _(by Philipp Burckhardt)_
 -   [`e5b993a`](https://github.com/stdlib-js/stdlib/commit/e5b993a1b314d478be07dabc12a7b349872e4427) - **docs:** improve README examples of `stats/base/dists/cosine` namespace [(#2669)](https://github.com/stdlib-js/stdlib/pull/2669) _(by Kohantika Nath, Kohantika Nath, Philipp Burckhardt)_
 -   [`43e7a33`](https://github.com/stdlib-js/stdlib/commit/43e7a3386606e54475e872d24ddf11fa6c122c42) - **chore:** minor clean-up after code review _(by Philipp Burckhardt)_
--   [`f0ab00b`](https://github.com/stdlib-js/stdlib/commit/f0ab00bf081e55b928de80320c75dc42e713ad3d) - **docs:** improve README examples of `stats/base/dists/chi` namespace [(#1803)](https://github.com/stdlib-js/stdlib/pull/1803) _(by Shivam, Philipp Burckhardt)_
--   [`caaf0d9`](https://github.com/stdlib-js/stdlib/commit/caaf0d9f3597fac939a52fb15bdf6465fa0a3125) - **docs:** improve README examples of `stats/base/dists/geometric` namespace [(#1801)](https://github.com/stdlib-js/stdlib/pull/1801) _(by Shivam, Philipp Burckhardt, shivam Ahir)_
--   [`e399bfd`](https://github.com/stdlib-js/stdlib/commit/e399bfd09baf0b50ea9beb49f65867cd1a1e45b7) - **docs:** improve README examples of `stats/base/dists/gamma` namespace [(#1804)](https://github.com/stdlib-js/stdlib/pull/1804) _(by Shivam, Philipp Burckhardt, shivam Ahir)_
--   [`6c3b249`](https://github.com/stdlib-js/stdlib/commit/6c3b2492906413f1d994aebe9dbc12b11245f108) - **docs:** improve README examples of `stats/base/dists/invgamma namespace` [(#1808)](https://github.com/stdlib-js/stdlib/pull/1808) _(by Shivam, Philipp Burckhardt, shivam Ahir)_
+-   [`f0ab00b`](https://github.com/stdlib-js/stdlib/commit/f0ab00bf081e55b928de80320c75dc42e713ad3d) - **docs:** improve README examples of `stats/base/dists/chi` namespace [(#1803)](https://github.com/stdlib-js/stdlib/pull/1803) _(by Shivam Ahir, Philipp Burckhardt)_
+-   [`caaf0d9`](https://github.com/stdlib-js/stdlib/commit/caaf0d9f3597fac939a52fb15bdf6465fa0a3125) - **docs:** improve README examples of `stats/base/dists/geometric` namespace [(#1801)](https://github.com/stdlib-js/stdlib/pull/1801) _(by Shivam Ahir, Philipp Burckhardt, shivam Ahir)_
+-   [`e399bfd`](https://github.com/stdlib-js/stdlib/commit/e399bfd09baf0b50ea9beb49f65867cd1a1e45b7) - **docs:** improve README examples of `stats/base/dists/gamma` namespace [(#1804)](https://github.com/stdlib-js/stdlib/pull/1804) _(by Shivam Ahir, Philipp Burckhardt, shivam Ahir)_
+-   [`6c3b249`](https://github.com/stdlib-js/stdlib/commit/6c3b2492906413f1d994aebe9dbc12b11245f108) - **docs:** improve README examples of `stats/base/dists/invgamma namespace` [(#1808)](https://github.com/stdlib-js/stdlib/pull/1808) _(by Shivam Ahir, Philipp Burckhardt, shivam Ahir)_
 -   [`61912b7`](https://github.com/stdlib-js/stdlib/commit/61912b7eed6c5f60d074210347d31472da963b22) - **docs:** improve examples of `stats/base/dists/exponential` namespace _(by UtkershBasnet, Philipp Burckhardt)_
 -   [`abf0407`](https://github.com/stdlib-js/stdlib/commit/abf040787f6598438b0100a729a8331b7f80f62f) - **chore:** resolve lint errors in TS files _(by Philipp Burckhardt)_
 -   [`7fb04a9`](https://github.com/stdlib-js/stdlib/commit/7fb04a92ebae797788f7047feac1caaf6a7a1f4f) - **style:** add missing spaces around parentheses _(by Philipp Burckhardt)_
@@ -271,13 +3100,13 @@ A total of 11 people contributed to this release. Thank you to the following con
 
 A total of 7 people contributed to this release. Thank you to the following contributors:
 
+-   Ahmed Atwa
 -   Athan Reines
 -   Jaimin Godhani
 -   Muhammad Haris
--   NightKnight
+-   Nishant Shinde
 -   Philipp Burckhardt
 -   Rejoan Sardar
--   nishant-s7
 
 </section>
 
@@ -296,7 +3125,7 @@ A total of 7 people contributed to this release. Thank you to the following cont
 -   [`9669982`](https://github.com/stdlib-js/stdlib/commit/966998214dc39efece0cbd557786bc5dde4adcb8) - **style:** resolve lint error _(by Athan Reines)_
 -   [`352993d`](https://github.com/stdlib-js/stdlib/commit/352993db5c4a41180aa78951a0bc1c9faa8aefc4) - **docs:** improve examples of `stats/base/dists/studentized-range` _(by Rejoan Sardar, Philipp Burckhardt)_
 -   [`cc5d91f`](https://github.com/stdlib-js/stdlib/commit/cc5d91fb3df5155821344d6fffbeef23f37e8153) - **style:** remove blank line [(#2339)](https://github.com/stdlib-js/stdlib/pull/2339) _(by stdlib-bot, Philipp Burckhardt)_
--   [`922122e`](https://github.com/stdlib-js/stdlib/commit/922122e319c37170f16e14ce5d074273fd7f0675) - **docs:** improve examples for `stats/base/dists/normal` namespace _(by NightKnight, Philipp Burckhardt)_
+-   [`922122e`](https://github.com/stdlib-js/stdlib/commit/922122e319c37170f16e14ce5d074273fd7f0675) - **docs:** improve examples for `stats/base/dists/normal` namespace _(by Ahmed Atwa, Philipp Burckhardt)_
 -   [`c3ebfa8`](https://github.com/stdlib-js/stdlib/commit/c3ebfa80e311db338b171ebf8eb5f46bc66e9bf6) - **docs:** update namespace table of contents and address spelling errors _(by Philipp Burckhardt)_
 -   [`ac73b91`](https://github.com/stdlib-js/stdlib/commit/ac73b9195cf4f4e087dca2df535ac49831e1aa07) - **docs:** satisfy spellchecker _(by Philipp Burckhardt)_
 -   [`867726b`](https://github.com/stdlib-js/stdlib/commit/867726bb7ef6851ca0986ecdb91bf5a5f246ee5a) - **docs:** update examples in `stats/base/dists/uniform` _(by Muhammad Haris, Philipp Burckhardt)_
@@ -305,8 +3134,8 @@ A total of 7 people contributed to this release. Thank you to the following cont
 -   [`e7f1ecd`](https://github.com/stdlib-js/stdlib/commit/e7f1ecd587d5f59ca83c4a4d964d225cb616ac4e) - **docs:** improve README examples of `stats/base/dists/truncated-normal` _(by Rejoan Sardar, Philipp Burckhardt)_
 -   [`37f46fe`](https://github.com/stdlib-js/stdlib/commit/37f46fe9b23d465c21db3aff241d67345a7cd70a) - **docs:** improve README examples of `stats/base/dists/negative-binomial` _(by Rejoan Sardar, Philipp Burckhardt)_
 -   [`452d183`](https://github.com/stdlib-js/stdlib/commit/452d183cf423413fd1c6c8844a92c8e1a998315b) - **docs:** improve README examples for `stats/base/dists/rayleigh` namespace _(by Jaimin Godhani, Philipp Burckhardt)_
--   [`8b0d39d`](https://github.com/stdlib-js/stdlib/commit/8b0d39d2047d445437c597ce5e5962241f0c9056) - **docs:** improve README examples of `stats/base/dists/binomial` namespace _(by nishant-s7, Philipp Burckhardt)_
--   [`d66f5d6`](https://github.com/stdlib-js/stdlib/commit/d66f5d6f7a564b08f57fa210c63a311e5f76df10) - **docs:** improve README examples of `stats/base/dists/poisson` namespace _(by nishant-s7, Philipp Burckhardt)_
+-   [`8b0d39d`](https://github.com/stdlib-js/stdlib/commit/8b0d39d2047d445437c597ce5e5962241f0c9056) - **docs:** improve README examples of `stats/base/dists/binomial` namespace _(by Nishant Shinde, Philipp Burckhardt)_
+-   [`d66f5d6`](https://github.com/stdlib-js/stdlib/commit/d66f5d6f7a564b08f57fa210c63a311e5f76df10) - **docs:** improve README examples of `stats/base/dists/poisson` namespace _(by Nishant Shinde, Philipp Burckhardt)_
 -   [`26d6bde`](https://github.com/stdlib-js/stdlib/commit/26d6bdeb841cc8b23c1bc233a237f1b099ab7a84) - **docs:** improve README examples for `stats/base/dists/t` namespace [(#1728)](https://github.com/stdlib-js/stdlib/pull/1728) _(by Jaimin Godhani)_
 
 </details>
