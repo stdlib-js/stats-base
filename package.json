@@ -381,6 +381,7 @@
     "@stdlib/random-array-discrete-uniform": "^0.2.1",
     "@stdlib/random-array-exponential": "^0.2.1",
     "@stdlib/random-array-uniform": "^0.2.1",
+    "@stdlib/random-base-bernoulli": "^0.2.1",
     "@stdlib/random-base-chi": "^0.2.1",
     "@stdlib/random-base-discrete-uniform": "^0.2.1",
     "@stdlib/random-base-gamma": "^0.2.1",
