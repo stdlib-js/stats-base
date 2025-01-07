@@ -261,6 +261,7 @@
     "@stdlib/array-filled-by": "^0.2.1",
     "@stdlib/array-float32": "^0.2.2",
     "@stdlib/array-float64": "^0.2.2",
+    "@stdlib/array-int32": "^0.2.2",
     "@stdlib/array-linspace": "^0.2.1",
     "@stdlib/array-uint8": "^0.2.2",
     "@stdlib/assert-has-own-property": "^0.2.2",
