@@ -4,7 +4,7 @@
 
 <section class="release" id="unreleased">
 
-## Unreleased (2025-01-07)
+## Unreleased (2025-01-09)
 
 <section class="packages">
 
@@ -50,6 +50,16 @@
 
 <!-- /.features -->
 
+<section class="bug-fixes">
+
+##### Bug Fixes
+
+-   [`99378ce`](https://github.com/stdlib-js/stdlib/commit/99378ce076b7c6ec7b0ff29aa1ad8feac9121113) - wrap void function call in `API_SUFFIX` [(#4603)](https://github.com/stdlib-js/stdlib/pull/4603)
+
+</section>
+
+<!-- /.bug-fixes -->
+
 </details>
 
 </section>
@@ -71,6 +81,16 @@
 </section>
 
 <!-- /.features -->
+
+<section class="bug-fixes">
+
+##### Bug Fixes
+
+-   [`99378ce`](https://github.com/stdlib-js/stdlib/commit/99378ce076b7c6ec7b0ff29aa1ad8feac9121113) - wrap void function call in `API_SUFFIX` [(#4603)](https://github.com/stdlib-js/stdlib/pull/4603)
+
+</section>
+
+<!-- /.bug-fixes -->
 
 </details>
 
@@ -94,6 +114,16 @@
 
 <!-- /.features -->
 
+<section class="bug-fixes">
+
+##### Bug Fixes
+
+-   [`99378ce`](https://github.com/stdlib-js/stdlib/commit/99378ce076b7c6ec7b0ff29aa1ad8feac9121113) - wrap void function call in `API_SUFFIX` [(#4603)](https://github.com/stdlib-js/stdlib/pull/4603)
+
+</section>
+
+<!-- /.bug-fixes -->
+
 </details>
 
 </section>
@@ -116,6 +146,16 @@
 
 <!-- /.features -->
 
+<section class="bug-fixes">
+
+##### Bug Fixes
+
+-   [`99378ce`](https://github.com/stdlib-js/stdlib/commit/99378ce076b7c6ec7b0ff29aa1ad8feac9121113) - wrap void function call in `API_SUFFIX` [(#4603)](https://github.com/stdlib-js/stdlib/pull/4603)
+
+</section>
+
+<!-- /.bug-fixes -->
+
 </details>
 
 </section>
@@ -132,6 +172,7 @@
 
 ##### Features
 
+-   [`3283517`](https://github.com/stdlib-js/stdlib/commit/32835176f21ecd14cbf81a51699d49533ff63fe6) - add C implementation for `stats/base/dists/binomial/variance` [(#3929)](https://github.com/stdlib-js/stdlib/pull/3929)
 -   [`8447e7a`](https://github.com/stdlib-js/stdlib/commit/8447e7a2a28a2f5cdca879dea9a6ebe56783b82f) - add C implementation for `stats/base/dists/binomial/mode` [(#3947)](https://github.com/stdlib-js/stdlib/pull/3947)
 
 </section>
@@ -142,9 +183,9 @@
 
 ##### Closed Issues
 
-This release closes the following issue:
+A total of 2 issues were closed in this release:
 
-[#3472](https://github.com/stdlib-js/stdlib/issues/3472)
+[#3472](https://github.com/stdlib-js/stdlib/issues/3472), [#3477](https://github.com/stdlib-js/stdlib/issues/3477)
 
 </section>
 
@@ -951,6 +992,40 @@ This release closes the following issue:
 This release closes the following issue:
 
 [#3501](https://github.com/stdlib-js/stdlib/issues/3501)
+
+</section>
+
+<!-- /.issues -->
+
+</details>
+
+</section>
+
+<!-- /.package -->
+
+<section class="package" id="stats-base-dists-chisquare-mgf-unreleased">
+
+#### [@stdlib/stats/base/dists/chisquare/mgf](https://github.com/stdlib-js/stdlib/tree/develop/lib/node_modules/%40stdlib/stats/base/dists/chisquare/mgf)
+
+<details>
+
+<section class="features">
+
+##### Features
+
+-   [`6def8d6`](https://github.com/stdlib-js/stdlib/commit/6def8d6af0309beb3e207ae21b4266f142edfa48) - add C implementation for `stats/base/dists/chisquare/mgf` [(#4593)](https://github.com/stdlib-js/stdlib/pull/4593)
+
+</section>
+
+<!-- /.features -->
+
+<section class="issues">
+
+##### Closed Issues
+
+This release closes the following issue:
+
+[#3506](https://github.com/stdlib-js/stdlib/issues/3506)
 
 </section>
 
@@ -1961,6 +2036,40 @@ This release closes the following issue:
 This release closes the following issue:
 
 [#3631](https://github.com/stdlib-js/stdlib/issues/3631)
+
+</section>
+
+<!-- /.issues -->
+
+</details>
+
+</section>
+
+<!-- /.package -->
+
+<section class="package" id="stats-base-dists-geometric-mean-unreleased">
+
+#### [@stdlib/stats/base/dists/geometric/mean](https://github.com/stdlib-js/stdlib/tree/develop/lib/node_modules/%40stdlib/stats/base/dists/geometric/mean)
+
+<details>
+
+<section class="features">
+
+##### Features
+
+-   [`25c58d7`](https://github.com/stdlib-js/stdlib/commit/25c58d7ac0e986e155529e272d57d076b292da44) - add C implementation for `stats/base/dists/geometric/mean` [(#4089)](https://github.com/stdlib-js/stdlib/pull/4089)
+
+</section>
+
+<!-- /.features -->
+
+<section class="issues">
+
+##### Closed Issues
+
+This release closes the following issue:
+
+[#3635](https://github.com/stdlib-js/stdlib/issues/3635)
 
 </section>
 
@@ -4404,6 +4513,16 @@ This release closes the following issue:
 
 <!-- /.features -->
 
+<section class="bug-fixes">
+
+##### Bug Fixes
+
+-   [`7e63aad`](https://github.com/stdlib-js/stdlib/commit/7e63aad8c0b42330b0933973bddea8d1c5e84862) - wrap function calls in `API_SUFFIX` in native addons [(#4646)](https://github.com/stdlib-js/stdlib/pull/4646)
+
+</section>
+
+<!-- /.bug-fixes -->
+
 </details>
 
 </section>
@@ -4425,6 +4544,16 @@ This release closes the following issue:
 </section>
 
 <!-- /.features -->
+
+<section class="bug-fixes">
+
+##### Bug Fixes
+
+-   [`7e63aad`](https://github.com/stdlib-js/stdlib/commit/7e63aad8c0b42330b0933973bddea8d1c5e84862) - wrap function calls in `API_SUFFIX` in native addons [(#4646)](https://github.com/stdlib-js/stdlib/pull/4646)
+
+</section>
+
+<!-- /.bug-fixes -->
 
 </details>
 
@@ -4448,6 +4577,16 @@ This release closes the following issue:
 
 <!-- /.features -->
 
+<section class="bug-fixes">
+
+##### Bug Fixes
+
+-   [`7e63aad`](https://github.com/stdlib-js/stdlib/commit/7e63aad8c0b42330b0933973bddea8d1c5e84862) - wrap function calls in `API_SUFFIX` in native addons [(#4646)](https://github.com/stdlib-js/stdlib/pull/4646)
+
+</section>
+
+<!-- /.bug-fixes -->
+
 </details>
 
 </section>
@@ -4465,6 +4604,38 @@ This release closes the following issue:
 ##### Features
 
 -   [`f36eb5d`](https://github.com/stdlib-js/stdlib/commit/f36eb5d4b86b5e50150a5760cea64ed1de2275e4) - add C ndarray interface and refactor implementation for `stats/base/dmaxsorted` [(#4456)](https://github.com/stdlib-js/stdlib/pull/4456)
+
+</section>
+
+<!-- /.features -->
+
+<section class="bug-fixes">
+
+##### Bug Fixes
+
+-   [`7e63aad`](https://github.com/stdlib-js/stdlib/commit/7e63aad8c0b42330b0933973bddea8d1c5e84862) - wrap function calls in `API_SUFFIX` in native addons [(#4646)](https://github.com/stdlib-js/stdlib/pull/4646)
+
+</section>
+
+<!-- /.bug-fixes -->
+
+</details>
+
+</section>
+
+<!-- /.package -->
+
+<section class="package" id="stats-base-dmeanwd-unreleased">
+
+#### [@stdlib/stats/base/dmeanwd](https://github.com/stdlib-js/stdlib/tree/develop/lib/node_modules/%40stdlib/stats/base/dmeanwd)
+
+<details>
+
+<section class="features">
+
+##### Features
+
+-   [`4c1b774`](https://github.com/stdlib-js/stdlib/commit/4c1b774cde259bba78be12cfe897e1bec49a0430) - add C ndarray interface and refactor implementation for `stats/base/dmeanwd` [(#4493)](https://github.com/stdlib-js/stdlib/pull/4493)
 
 </section>
 
@@ -4492,6 +4663,16 @@ This release closes the following issue:
 
 <!-- /.features -->
 
+<section class="bug-fixes">
+
+##### Bug Fixes
+
+-   [`7e63aad`](https://github.com/stdlib-js/stdlib/commit/7e63aad8c0b42330b0933973bddea8d1c5e84862) - wrap function calls in `API_SUFFIX` in native addons [(#4646)](https://github.com/stdlib-js/stdlib/pull/4646)
+
+</section>
+
+<!-- /.bug-fixes -->
+
 </details>
 
 </section>
@@ -4513,6 +4694,16 @@ This release closes the following issue:
 </section>
 
 <!-- /.features -->
+
+<section class="bug-fixes">
+
+##### Bug Fixes
+
+-   [`7e63aad`](https://github.com/stdlib-js/stdlib/commit/7e63aad8c0b42330b0933973bddea8d1c5e84862) - wrap function calls in `API_SUFFIX` in native addons [(#4646)](https://github.com/stdlib-js/stdlib/pull/4646)
+
+</section>
+
+<!-- /.bug-fixes -->
 
 </details>
 
@@ -4536,6 +4727,16 @@ This release closes the following issue:
 
 <!-- /.features -->
 
+<section class="bug-fixes">
+
+##### Bug Fixes
+
+-   [`7e63aad`](https://github.com/stdlib-js/stdlib/commit/7e63aad8c0b42330b0933973bddea8d1c5e84862) - wrap function calls in `API_SUFFIX` in native addons [(#4646)](https://github.com/stdlib-js/stdlib/pull/4646)
+
+</section>
+
+<!-- /.bug-fixes -->
+
 </details>
 
 </section>
@@ -4557,6 +4758,16 @@ This release closes the following issue:
 </section>
 
 <!-- /.features -->
+
+<section class="bug-fixes">
+
+##### Bug Fixes
+
+-   [`7e63aad`](https://github.com/stdlib-js/stdlib/commit/7e63aad8c0b42330b0933973bddea8d1c5e84862) - wrap function calls in `API_SUFFIX` in native addons [(#4646)](https://github.com/stdlib-js/stdlib/pull/4646)
+
+</section>
+
+<!-- /.bug-fixes -->
 
 </details>
 
@@ -4580,6 +4791,16 @@ This release closes the following issue:
 
 <!-- /.features -->
 
+<section class="bug-fixes">
+
+##### Bug Fixes
+
+-   [`7e63aad`](https://github.com/stdlib-js/stdlib/commit/7e63aad8c0b42330b0933973bddea8d1c5e84862) - wrap function calls in `API_SUFFIX` in native addons [(#4646)](https://github.com/stdlib-js/stdlib/pull/4646)
+
+</section>
+
+<!-- /.bug-fixes -->
+
 </details>
 
 </section>
@@ -4601,6 +4822,16 @@ This release closes the following issue:
 </section>
 
 <!-- /.features -->
+
+<section class="bug-fixes">
+
+##### Bug Fixes
+
+-   [`7e63aad`](https://github.com/stdlib-js/stdlib/commit/7e63aad8c0b42330b0933973bddea8d1c5e84862) - wrap function calls in `API_SUFFIX` in native addons [(#4646)](https://github.com/stdlib-js/stdlib/pull/4646)
+
+</section>
+
+<!-- /.bug-fixes -->
 
 </details>
 
@@ -4624,6 +4855,16 @@ This release closes the following issue:
 
 <!-- /.features -->
 
+<section class="bug-fixes">
+
+##### Bug Fixes
+
+-   [`7e63aad`](https://github.com/stdlib-js/stdlib/commit/7e63aad8c0b42330b0933973bddea8d1c5e84862) - wrap function calls in `API_SUFFIX` in native addons [(#4646)](https://github.com/stdlib-js/stdlib/pull/4646)
+
+</section>
+
+<!-- /.bug-fixes -->
+
 </details>
 
 </section>
@@ -4645,6 +4886,16 @@ This release closes the following issue:
 </section>
 
 <!-- /.features -->
+
+<section class="bug-fixes">
+
+##### Bug Fixes
+
+-   [`7e63aad`](https://github.com/stdlib-js/stdlib/commit/7e63aad8c0b42330b0933973bddea8d1c5e84862) - wrap function calls in `API_SUFFIX` in native addons [(#4646)](https://github.com/stdlib-js/stdlib/pull/4646)
+
+</section>
+
+<!-- /.bug-fixes -->
 
 </details>
 
@@ -4668,6 +4919,16 @@ This release closes the following issue:
 
 <!-- /.features -->
 
+<section class="bug-fixes">
+
+##### Bug Fixes
+
+-   [`7e63aad`](https://github.com/stdlib-js/stdlib/commit/7e63aad8c0b42330b0933973bddea8d1c5e84862) - wrap function calls in `API_SUFFIX` in native addons [(#4646)](https://github.com/stdlib-js/stdlib/pull/4646)
+
+</section>
+
+<!-- /.bug-fixes -->
+
 </details>
 
 </section>
@@ -4689,6 +4950,16 @@ This release closes the following issue:
 </section>
 
 <!-- /.features -->
+
+<section class="bug-fixes">
+
+##### Bug Fixes
+
+-   [`7e63aad`](https://github.com/stdlib-js/stdlib/commit/7e63aad8c0b42330b0933973bddea8d1c5e84862) - wrap function calls in `API_SUFFIX` in native addons [(#4646)](https://github.com/stdlib-js/stdlib/pull/4646)
+
+</section>
+
+<!-- /.bug-fixes -->
 
 </details>
 
@@ -4712,6 +4983,16 @@ This release closes the following issue:
 
 <!-- /.features -->
 
+<section class="bug-fixes">
+
+##### Bug Fixes
+
+-   [`7e63aad`](https://github.com/stdlib-js/stdlib/commit/7e63aad8c0b42330b0933973bddea8d1c5e84862) - wrap function calls in `API_SUFFIX` in native addons [(#4646)](https://github.com/stdlib-js/stdlib/pull/4646)
+
+</section>
+
+<!-- /.bug-fixes -->
+
 </details>
 
 </section>
@@ -4733,6 +5014,16 @@ This release closes the following issue:
 </section>
 
 <!-- /.features -->
+
+<section class="bug-fixes">
+
+##### Bug Fixes
+
+-   [`7e63aad`](https://github.com/stdlib-js/stdlib/commit/7e63aad8c0b42330b0933973bddea8d1c5e84862) - wrap function calls in `API_SUFFIX` in native addons [(#4646)](https://github.com/stdlib-js/stdlib/pull/4646)
+
+</section>
+
+<!-- /.bug-fixes -->
 
 </details>
 
@@ -4756,6 +5047,16 @@ This release closes the following issue:
 
 <!-- /.features -->
 
+<section class="bug-fixes">
+
+##### Bug Fixes
+
+-   [`7e63aad`](https://github.com/stdlib-js/stdlib/commit/7e63aad8c0b42330b0933973bddea8d1c5e84862) - wrap function calls in `API_SUFFIX` in native addons [(#4646)](https://github.com/stdlib-js/stdlib/pull/4646)
+
+</section>
+
+<!-- /.bug-fixes -->
+
 </details>
 
 </section>
@@ -4778,6 +5079,16 @@ This release closes the following issue:
 
 <!-- /.features -->
 
+<section class="bug-fixes">
+
+##### Bug Fixes
+
+-   [`7e63aad`](https://github.com/stdlib-js/stdlib/commit/7e63aad8c0b42330b0933973bddea8d1c5e84862) - wrap function calls in `API_SUFFIX` in native addons [(#4646)](https://github.com/stdlib-js/stdlib/pull/4646)
+
+</section>
+
+<!-- /.bug-fixes -->
+
 </details>
 
 </section>
@@ -4795,6 +5106,114 @@ This release closes the following issue:
 ##### Features
 
 -   [`836075d`](https://github.com/stdlib-js/stdlib/commit/836075d7019a49d806ca116492fa853382758f75) - add C ndarray interface and refactor implementation for `stats/base/drange` [(#4239)](https://github.com/stdlib-js/stdlib/pull/4239)
+
+</section>
+
+<!-- /.features -->
+
+<section class="bug-fixes">
+
+##### Bug Fixes
+
+-   [`7e63aad`](https://github.com/stdlib-js/stdlib/commit/7e63aad8c0b42330b0933973bddea8d1c5e84862) - wrap function calls in `API_SUFFIX` in native addons [(#4646)](https://github.com/stdlib-js/stdlib/pull/4646)
+
+</section>
+
+<!-- /.bug-fixes -->
+
+</details>
+
+</section>
+
+<!-- /.package -->
+
+<section class="package" id="stats-base-dstdevch-unreleased">
+
+#### [@stdlib/stats/base/dstdevch](https://github.com/stdlib-js/stdlib/tree/develop/lib/node_modules/%40stdlib/stats/base/dstdevch)
+
+<details>
+
+<section class="features">
+
+##### Features
+
+-   [`f229b4a`](https://github.com/stdlib-js/stdlib/commit/f229b4a8d90fd206460ad508f67da1578609cdbb) - add C ndarray interface and refactor implementation for `stats/base/dstdevch` [(#4619)](https://github.com/stdlib-js/stdlib/pull/4619)
+
+</section>
+
+<!-- /.features -->
+
+<section class="bug-fixes">
+
+##### Bug Fixes
+
+-   [`7e63aad`](https://github.com/stdlib-js/stdlib/commit/7e63aad8c0b42330b0933973bddea8d1c5e84862) - wrap function calls in `API_SUFFIX` in native addons [(#4646)](https://github.com/stdlib-js/stdlib/pull/4646)
+
+</section>
+
+<!-- /.bug-fixes -->
+
+</details>
+
+</section>
+
+<!-- /.package -->
+
+<section class="package" id="stats-base-dstdevtk-unreleased">
+
+#### [@stdlib/stats/base/dstdevtk](https://github.com/stdlib-js/stdlib/tree/develop/lib/node_modules/%40stdlib/stats/base/dstdevtk)
+
+<details>
+
+<section class="features">
+
+##### Features
+
+-   [`4fae05a`](https://github.com/stdlib-js/stdlib/commit/4fae05a8a8d1851c1619b58d1b262fd903cec395) - add C ndarray interface and refactor implementation for `stats/base/dstdevtk` [(#4621)](https://github.com/stdlib-js/stdlib/pull/4621)
+
+</section>
+
+<!-- /.features -->
+
+</details>
+
+</section>
+
+<!-- /.package -->
+
+<section class="package" id="stats-base-dstdevwd-unreleased">
+
+#### [@stdlib/stats/base/dstdevwd](https://github.com/stdlib-js/stdlib/tree/develop/lib/node_modules/%40stdlib/stats/base/dstdevwd)
+
+<details>
+
+<section class="features">
+
+##### Features
+
+-   [`b4af7cd`](https://github.com/stdlib-js/stdlib/commit/b4af7cd6caca695d965bedf217a6ad0b5afd5b57) - add C ndarray interface and refactor implementation for `stats/base/dstdevwd` [(#4620)](https://github.com/stdlib-js/stdlib/pull/4620)
+
+</section>
+
+<!-- /.features -->
+
+</details>
+
+</section>
+
+<!-- /.package -->
+
+<section class="package" id="stats-base-dstdevyc-unreleased">
+
+#### [@stdlib/stats/base/dstdevyc](https://github.com/stdlib-js/stdlib/tree/develop/lib/node_modules/%40stdlib/stats/base/dstdevyc)
+
+<details>
+
+<section class="features">
+
+##### Features
+
+-   [`41cf529`](https://github.com/stdlib-js/stdlib/commit/41cf529795453c99f7621b5d253970498d11fd28) - add C ndarray interface and refactor implementation for `stats/base/dstdevyc` [(#4628)](https://github.com/stdlib-js/stdlib/pull/4628)
 
 </section>
 
@@ -4822,6 +5241,16 @@ This release closes the following issue:
 
 <!-- /.features -->
 
+<section class="bug-fixes">
+
+##### Bug Fixes
+
+-   [`7e63aad`](https://github.com/stdlib-js/stdlib/commit/7e63aad8c0b42330b0933973bddea8d1c5e84862) - wrap function calls in `API_SUFFIX` in native addons [(#4646)](https://github.com/stdlib-js/stdlib/pull/4646)
+
+</section>
+
+<!-- /.bug-fixes -->
+
 </details>
 
 </section>
@@ -4843,6 +5272,16 @@ This release closes the following issue:
 </section>
 
 <!-- /.features -->
+
+<section class="bug-fixes">
+
+##### Bug Fixes
+
+-   [`7e63aad`](https://github.com/stdlib-js/stdlib/commit/7e63aad8c0b42330b0933973bddea8d1c5e84862) - wrap function calls in `API_SUFFIX` in native addons [(#4646)](https://github.com/stdlib-js/stdlib/pull/4646)
+
+</section>
+
+<!-- /.bug-fixes -->
 
 </details>
 
@@ -4866,6 +5305,16 @@ This release closes the following issue:
 
 <!-- /.features -->
 
+<section class="bug-fixes">
+
+##### Bug Fixes
+
+-   [`7e63aad`](https://github.com/stdlib-js/stdlib/commit/7e63aad8c0b42330b0933973bddea8d1c5e84862) - wrap function calls in `API_SUFFIX` in native addons [(#4646)](https://github.com/stdlib-js/stdlib/pull/4646)
+
+</section>
+
+<!-- /.bug-fixes -->
+
 </details>
 
 </section>
@@ -4887,6 +5336,16 @@ This release closes the following issue:
 </section>
 
 <!-- /.features -->
+
+<section class="bug-fixes">
+
+##### Bug Fixes
+
+-   [`7e63aad`](https://github.com/stdlib-js/stdlib/commit/7e63aad8c0b42330b0933973bddea8d1c5e84862) - wrap function calls in `API_SUFFIX` in native addons [(#4646)](https://github.com/stdlib-js/stdlib/pull/4646)
+
+</section>
+
+<!-- /.bug-fixes -->
 
 </details>
 
@@ -4910,6 +5369,16 @@ This release closes the following issue:
 
 <!-- /.features -->
 
+<section class="bug-fixes">
+
+##### Bug Fixes
+
+-   [`7e63aad`](https://github.com/stdlib-js/stdlib/commit/7e63aad8c0b42330b0933973bddea8d1c5e84862) - wrap function calls in `API_SUFFIX` in native addons [(#4646)](https://github.com/stdlib-js/stdlib/pull/4646)
+
+</section>
+
+<!-- /.bug-fixes -->
+
 </details>
 
 </section>
@@ -4931,6 +5400,16 @@ This release closes the following issue:
 </section>
 
 <!-- /.features -->
+
+<section class="bug-fixes">
+
+##### Bug Fixes
+
+-   [`99378ce`](https://github.com/stdlib-js/stdlib/commit/99378ce076b7c6ec7b0ff29aa1ad8feac9121113) - wrap void function call in `API_SUFFIX` [(#4603)](https://github.com/stdlib-js/stdlib/pull/4603)
+
+</section>
+
+<!-- /.bug-fixes -->
 
 <section class="issues">
 
@@ -4988,6 +5467,16 @@ A total of 3 issues were closed in this release:
 
 <!-- /.features -->
 
+<section class="bug-fixes">
+
+##### Bug Fixes
+
+-   [`7e63aad`](https://github.com/stdlib-js/stdlib/commit/7e63aad8c0b42330b0933973bddea8d1c5e84862) - wrap function calls in `API_SUFFIX` in native addons [(#4646)](https://github.com/stdlib-js/stdlib/pull/4646)
+
+</section>
+
+<!-- /.bug-fixes -->
+
 </details>
 
 </section>
@@ -5009,6 +5498,16 @@ A total of 3 issues were closed in this release:
 </section>
 
 <!-- /.features -->
+
+<section class="bug-fixes">
+
+##### Bug Fixes
+
+-   [`7e63aad`](https://github.com/stdlib-js/stdlib/commit/7e63aad8c0b42330b0933973bddea8d1c5e84862) - wrap function calls in `API_SUFFIX` in native addons [(#4646)](https://github.com/stdlib-js/stdlib/pull/4646)
+
+</section>
+
+<!-- /.bug-fixes -->
 
 </details>
 
@@ -5032,6 +5531,16 @@ A total of 3 issues were closed in this release:
 
 <!-- /.features -->
 
+<section class="bug-fixes">
+
+##### Bug Fixes
+
+-   [`7e63aad`](https://github.com/stdlib-js/stdlib/commit/7e63aad8c0b42330b0933973bddea8d1c5e84862) - wrap function calls in `API_SUFFIX` in native addons [(#4646)](https://github.com/stdlib-js/stdlib/pull/4646)
+
+</section>
+
+<!-- /.bug-fixes -->
+
 </details>
 
 </section>
@@ -5053,6 +5562,16 @@ A total of 3 issues were closed in this release:
 </section>
 
 <!-- /.features -->
+
+<section class="bug-fixes">
+
+##### Bug Fixes
+
+-   [`7e63aad`](https://github.com/stdlib-js/stdlib/commit/7e63aad8c0b42330b0933973bddea8d1c5e84862) - wrap function calls in `API_SUFFIX` in native addons [(#4646)](https://github.com/stdlib-js/stdlib/pull/4646)
+
+</section>
+
+<!-- /.bug-fixes -->
 
 </details>
 
@@ -5076,6 +5595,16 @@ A total of 3 issues were closed in this release:
 
 <!-- /.features -->
 
+<section class="bug-fixes">
+
+##### Bug Fixes
+
+-   [`7e63aad`](https://github.com/stdlib-js/stdlib/commit/7e63aad8c0b42330b0933973bddea8d1c5e84862) - wrap function calls in `API_SUFFIX` in native addons [(#4646)](https://github.com/stdlib-js/stdlib/pull/4646)
+
+</section>
+
+<!-- /.bug-fixes -->
+
 </details>
 
 </section>
@@ -5097,6 +5626,16 @@ A total of 3 issues were closed in this release:
 </section>
 
 <!-- /.features -->
+
+<section class="bug-fixes">
+
+##### Bug Fixes
+
+-   [`7e63aad`](https://github.com/stdlib-js/stdlib/commit/7e63aad8c0b42330b0933973bddea8d1c5e84862) - wrap function calls in `API_SUFFIX` in native addons [(#4646)](https://github.com/stdlib-js/stdlib/pull/4646)
+
+</section>
+
+<!-- /.bug-fixes -->
 
 </details>
 
@@ -5120,6 +5659,16 @@ A total of 3 issues were closed in this release:
 
 <!-- /.features -->
 
+<section class="bug-fixes">
+
+##### Bug Fixes
+
+-   [`7e63aad`](https://github.com/stdlib-js/stdlib/commit/7e63aad8c0b42330b0933973bddea8d1c5e84862) - wrap function calls in `API_SUFFIX` in native addons [(#4646)](https://github.com/stdlib-js/stdlib/pull/4646)
+
+</section>
+
+<!-- /.bug-fixes -->
+
 </details>
 
 </section>
@@ -5141,6 +5690,16 @@ A total of 3 issues were closed in this release:
 </section>
 
 <!-- /.features -->
+
+<section class="bug-fixes">
+
+##### Bug Fixes
+
+-   [`7e63aad`](https://github.com/stdlib-js/stdlib/commit/7e63aad8c0b42330b0933973bddea8d1c5e84862) - wrap function calls in `API_SUFFIX` in native addons [(#4646)](https://github.com/stdlib-js/stdlib/pull/4646)
+
+</section>
+
+<!-- /.bug-fixes -->
 
 </details>
 
@@ -5164,6 +5723,16 @@ A total of 3 issues were closed in this release:
 
 <!-- /.features -->
 
+<section class="bug-fixes">
+
+##### Bug Fixes
+
+-   [`7e63aad`](https://github.com/stdlib-js/stdlib/commit/7e63aad8c0b42330b0933973bddea8d1c5e84862) - wrap function calls in `API_SUFFIX` in native addons [(#4646)](https://github.com/stdlib-js/stdlib/pull/4646)
+
+</section>
+
+<!-- /.bug-fixes -->
+
 </details>
 
 </section>
@@ -5185,6 +5754,16 @@ A total of 3 issues were closed in this release:
 </section>
 
 <!-- /.features -->
+
+<section class="bug-fixes">
+
+##### Bug Fixes
+
+-   [`7e63aad`](https://github.com/stdlib-js/stdlib/commit/7e63aad8c0b42330b0933973bddea8d1c5e84862) - wrap function calls in `API_SUFFIX` in native addons [(#4646)](https://github.com/stdlib-js/stdlib/pull/4646)
+
+</section>
+
+<!-- /.bug-fixes -->
 
 </details>
 
@@ -5208,6 +5787,16 @@ A total of 3 issues were closed in this release:
 
 <!-- /.features -->
 
+<section class="bug-fixes">
+
+##### Bug Fixes
+
+-   [`7e63aad`](https://github.com/stdlib-js/stdlib/commit/7e63aad8c0b42330b0933973bddea8d1c5e84862) - wrap function calls in `API_SUFFIX` in native addons [(#4646)](https://github.com/stdlib-js/stdlib/pull/4646)
+
+</section>
+
+<!-- /.bug-fixes -->
+
 </details>
 
 </section>
@@ -5229,6 +5818,16 @@ A total of 3 issues were closed in this release:
 </section>
 
 <!-- /.features -->
+
+<section class="bug-fixes">
+
+##### Bug Fixes
+
+-   [`7e63aad`](https://github.com/stdlib-js/stdlib/commit/7e63aad8c0b42330b0933973bddea8d1c5e84862) - wrap function calls in `API_SUFFIX` in native addons [(#4646)](https://github.com/stdlib-js/stdlib/pull/4646)
+
+</section>
+
+<!-- /.bug-fixes -->
 
 </details>
 
@@ -5252,6 +5851,16 @@ A total of 3 issues were closed in this release:
 
 <!-- /.features -->
 
+<section class="bug-fixes">
+
+##### Bug Fixes
+
+-   [`7e63aad`](https://github.com/stdlib-js/stdlib/commit/7e63aad8c0b42330b0933973bddea8d1c5e84862) - wrap function calls in `API_SUFFIX` in native addons [(#4646)](https://github.com/stdlib-js/stdlib/pull/4646)
+
+</section>
+
+<!-- /.bug-fixes -->
+
 </details>
 
 </section>
@@ -5273,6 +5882,16 @@ A total of 3 issues were closed in this release:
 </section>
 
 <!-- /.features -->
+
+<section class="bug-fixes">
+
+##### Bug Fixes
+
+-   [`7e63aad`](https://github.com/stdlib-js/stdlib/commit/7e63aad8c0b42330b0933973bddea8d1c5e84862) - wrap function calls in `API_SUFFIX` in native addons [(#4646)](https://github.com/stdlib-js/stdlib/pull/4646)
+
+</section>
+
+<!-- /.bug-fixes -->
 
 <section class="issues">
 
@@ -5308,6 +5927,16 @@ A total of 3 issues were closed in this release:
 
 <!-- /.features -->
 
+<section class="bug-fixes">
+
+##### Bug Fixes
+
+-   [`7e63aad`](https://github.com/stdlib-js/stdlib/commit/7e63aad8c0b42330b0933973bddea8d1c5e84862) - wrap function calls in `API_SUFFIX` in native addons [(#4646)](https://github.com/stdlib-js/stdlib/pull/4646)
+
+</section>
+
+<!-- /.bug-fixes -->
+
 </details>
 
 </section>
@@ -5329,6 +5958,16 @@ A total of 3 issues were closed in this release:
 </section>
 
 <!-- /.features -->
+
+<section class="bug-fixes">
+
+##### Bug Fixes
+
+-   [`7e63aad`](https://github.com/stdlib-js/stdlib/commit/7e63aad8c0b42330b0933973bddea8d1c5e84862) - wrap function calls in `API_SUFFIX` in native addons [(#4646)](https://github.com/stdlib-js/stdlib/pull/4646)
+
+</section>
+
+<!-- /.bug-fixes -->
 
 </details>
 
@@ -5352,6 +5991,16 @@ A total of 3 issues were closed in this release:
 
 <!-- /.features -->
 
+<section class="bug-fixes">
+
+##### Bug Fixes
+
+-   [`7e63aad`](https://github.com/stdlib-js/stdlib/commit/7e63aad8c0b42330b0933973bddea8d1c5e84862) - wrap function calls in `API_SUFFIX` in native addons [(#4646)](https://github.com/stdlib-js/stdlib/pull/4646)
+
+</section>
+
+<!-- /.bug-fixes -->
+
 </details>
 
 </section>
@@ -5374,6 +6023,16 @@ A total of 3 issues were closed in this release:
 
 <!-- /.features -->
 
+<section class="bug-fixes">
+
+##### Bug Fixes
+
+-   [`7e63aad`](https://github.com/stdlib-js/stdlib/commit/7e63aad8c0b42330b0933973bddea8d1c5e84862) - wrap function calls in `API_SUFFIX` in native addons [(#4646)](https://github.com/stdlib-js/stdlib/pull/4646)
+
+</section>
+
+<!-- /.bug-fixes -->
+
 </details>
 
 </section>
@@ -5395,6 +6054,16 @@ A total of 3 issues were closed in this release:
 </section>
 
 <!-- /.features -->
+
+<section class="bug-fixes">
+
+##### Bug Fixes
+
+-   [`7e63aad`](https://github.com/stdlib-js/stdlib/commit/7e63aad8c0b42330b0933973bddea8d1c5e84862) - wrap function calls in `API_SUFFIX` in native addons [(#4646)](https://github.com/stdlib-js/stdlib/pull/4646)
+
+</section>
+
+<!-- /.bug-fixes -->
 
 </details>
 
@@ -5442,6 +6111,16 @@ A total of 3 issues were closed in this release:
 
 <!-- /.features -->
 
+<section class="bug-fixes">
+
+##### Bug Fixes
+
+-   [`7e63aad`](https://github.com/stdlib-js/stdlib/commit/7e63aad8c0b42330b0933973bddea8d1c5e84862) - wrap function calls in `API_SUFFIX` in native addons [(#4646)](https://github.com/stdlib-js/stdlib/pull/4646)
+
+</section>
+
+<!-- /.bug-fixes -->
+
 </details>
 
 </section>
@@ -5464,6 +6143,16 @@ A total of 3 issues were closed in this release:
 
 <!-- /.features -->
 
+<section class="bug-fixes">
+
+##### Bug Fixes
+
+-   [`7e63aad`](https://github.com/stdlib-js/stdlib/commit/7e63aad8c0b42330b0933973bddea8d1c5e84862) - wrap function calls in `API_SUFFIX` in native addons [(#4646)](https://github.com/stdlib-js/stdlib/pull/4646)
+
+</section>
+
+<!-- /.bug-fixes -->
+
 </details>
 
 </section>
@@ -5478,9 +6167,9 @@ A total of 3 issues were closed in this release:
 
 ### Closed Issues
 
-A total of 118 issues were closed in this release:
+A total of 121 issues were closed in this release:
 
-[#1619](https://github.com/stdlib-js/stdlib/issues/1619), [#1620](https://github.com/stdlib-js/stdlib/issues/1620), [#1632](https://github.com/stdlib-js/stdlib/issues/1632), [#1633](https://github.com/stdlib-js/stdlib/issues/1633), [#3236](https://github.com/stdlib-js/stdlib/issues/3236), [#3237](https://github.com/stdlib-js/stdlib/issues/3237), [#3238](https://github.com/stdlib-js/stdlib/issues/3238), [#3378](https://github.com/stdlib-js/stdlib/issues/3378), [#3384](https://github.com/stdlib-js/stdlib/issues/3384), [#3385](https://github.com/stdlib-js/stdlib/issues/3385), [#3401](https://github.com/stdlib-js/stdlib/issues/3401), [#3402](https://github.com/stdlib-js/stdlib/issues/3402), [#3410](https://github.com/stdlib-js/stdlib/issues/3410), [#3412](https://github.com/stdlib-js/stdlib/issues/3412), [#3414](https://github.com/stdlib-js/stdlib/issues/3414), [#3417](https://github.com/stdlib-js/stdlib/issues/3417), [#3421](https://github.com/stdlib-js/stdlib/issues/3421), [#3428](https://github.com/stdlib-js/stdlib/issues/3428), [#3431](https://github.com/stdlib-js/stdlib/issues/3431), [#3434](https://github.com/stdlib-js/stdlib/issues/3434), [#3435](https://github.com/stdlib-js/stdlib/issues/3435), [#3436](https://github.com/stdlib-js/stdlib/issues/3436), [#3438](https://github.com/stdlib-js/stdlib/issues/3438), [#3445](https://github.com/stdlib-js/stdlib/issues/3445), [#3446](https://github.com/stdlib-js/stdlib/issues/3446), [#3447](https://github.com/stdlib-js/stdlib/issues/3447), [#3472](https://github.com/stdlib-js/stdlib/issues/3472), [#3480](https://github.com/stdlib-js/stdlib/issues/3480), [#3484](https://github.com/stdlib-js/stdlib/issues/3484), [#3494](https://github.com/stdlib-js/stdlib/issues/3494), [#3501](https://github.com/stdlib-js/stdlib/issues/3501), [#3510](https://github.com/stdlib-js/stdlib/issues/3510), [#3519](https://github.com/stdlib-js/stdlib/issues/3519), [#3521](https://github.com/stdlib-js/stdlib/issues/3521), [#3524](https://github.com/stdlib-js/stdlib/issues/3524), [#3525](https://github.com/stdlib-js/stdlib/issues/3525), [#3548](https://github.com/stdlib-js/stdlib/issues/3548), [#3582](https://github.com/stdlib-js/stdlib/issues/3582), [#3583](https://github.com/stdlib-js/stdlib/issues/3583), [#3585](https://github.com/stdlib-js/stdlib/issues/3585), [#3586](https://github.com/stdlib-js/stdlib/issues/3586), [#3588](https://github.com/stdlib-js/stdlib/issues/3588), [#3591](https://github.com/stdlib-js/stdlib/issues/3591), [#3592](https://github.com/stdlib-js/stdlib/issues/3592), [#3595](https://github.com/stdlib-js/stdlib/issues/3595), [#3596](https://github.com/stdlib-js/stdlib/issues/3596), [#3597](https://github.com/stdlib-js/stdlib/issues/3597), [#3598](https://github.com/stdlib-js/stdlib/issues/3598), [#3601](https://github.com/stdlib-js/stdlib/issues/3601), [#3602](https://github.com/stdlib-js/stdlib/issues/3602), [#3603](https://github.com/stdlib-js/stdlib/issues/3603), [#3614](https://github.com/stdlib-js/stdlib/issues/3614), [#3615](https://github.com/stdlib-js/stdlib/issues/3615), [#3616](https://github.com/stdlib-js/stdlib/issues/3616), [#3619](https://github.com/stdlib-js/stdlib/issues/3619), [#3622](https://github.com/stdlib-js/stdlib/issues/3622), [#3624](https://github.com/stdlib-js/stdlib/issues/3624), [#3627](https://github.com/stdlib-js/stdlib/issues/3627), [#3628](https://github.com/stdlib-js/stdlib/issues/3628), [#3631](https://github.com/stdlib-js/stdlib/issues/3631), [#3639](https://github.com/stdlib-js/stdlib/issues/3639), [#3656](https://github.com/stdlib-js/stdlib/issues/3656), [#3671](https://github.com/stdlib-js/stdlib/issues/3671), [#3672](https://github.com/stdlib-js/stdlib/issues/3672), [#3674](https://github.com/stdlib-js/stdlib/issues/3674), [#3675](https://github.com/stdlib-js/stdlib/issues/3675), [#3678](https://github.com/stdlib-js/stdlib/issues/3678), [#3679](https://github.com/stdlib-js/stdlib/issues/3679), [#3701](https://github.com/stdlib-js/stdlib/issues/3701), [#3709](https://github.com/stdlib-js/stdlib/issues/3709), [#3710](https://github.com/stdlib-js/stdlib/issues/3710), [#3716](https://github.com/stdlib-js/stdlib/issues/3716), [#3719](https://github.com/stdlib-js/stdlib/issues/3719), [#3720](https://github.com/stdlib-js/stdlib/issues/3720), [#3721](https://github.com/stdlib-js/stdlib/issues/3721), [#3735](https://github.com/stdlib-js/stdlib/issues/3735), [#3738](https://github.com/stdlib-js/stdlib/issues/3738), [#3739](https://github.com/stdlib-js/stdlib/issues/3739), [#3741](https://github.com/stdlib-js/stdlib/issues/3741), [#3744](https://github.com/stdlib-js/stdlib/issues/3744), [#3746](https://github.com/stdlib-js/stdlib/issues/3746), [#3759](https://github.com/stdlib-js/stdlib/issues/3759), [#3772](https://github.com/stdlib-js/stdlib/issues/3772), [#3783](https://github.com/stdlib-js/stdlib/issues/3783), [#3789](https://github.com/stdlib-js/stdlib/issues/3789), [#3797](https://github.com/stdlib-js/stdlib/issues/3797), [#3798](https://github.com/stdlib-js/stdlib/issues/3798), [#3799](https://github.com/stdlib-js/stdlib/issues/3799), [#3801](https://github.com/stdlib-js/stdlib/issues/3801), [#3802](https://github.com/stdlib-js/stdlib/issues/3802), [#3803](https://github.com/stdlib-js/stdlib/issues/3803), [#3804](https://github.com/stdlib-js/stdlib/issues/3804), [#3806](https://github.com/stdlib-js/stdlib/issues/3806), [#3807](https://github.com/stdlib-js/stdlib/issues/3807), [#3811](https://github.com/stdlib-js/stdlib/issues/3811), [#3812](https://github.com/stdlib-js/stdlib/issues/3812), [#3813](https://github.com/stdlib-js/stdlib/issues/3813), [#3816](https://github.com/stdlib-js/stdlib/issues/3816), [#3817](https://github.com/stdlib-js/stdlib/issues/3817), [#3818](https://github.com/stdlib-js/stdlib/issues/3818), [#3819](https://github.com/stdlib-js/stdlib/issues/3819), [#3820](https://github.com/stdlib-js/stdlib/issues/3820), [#3822](https://github.com/stdlib-js/stdlib/issues/3822), [#3823](https://github.com/stdlib-js/stdlib/issues/3823), [#3826](https://github.com/stdlib-js/stdlib/issues/3826), [#3830](https://github.com/stdlib-js/stdlib/issues/3830), [#3831](https://github.com/stdlib-js/stdlib/issues/3831), [#3833](https://github.com/stdlib-js/stdlib/issues/3833), [#3837](https://github.com/stdlib-js/stdlib/issues/3837), [#3843](https://github.com/stdlib-js/stdlib/issues/3843), [#3865](https://github.com/stdlib-js/stdlib/issues/3865), [#3866](https://github.com/stdlib-js/stdlib/issues/3866), [#3871](https://github.com/stdlib-js/stdlib/issues/3871), [#3873](https://github.com/stdlib-js/stdlib/issues/3873), [#3874](https://github.com/stdlib-js/stdlib/issues/3874), [#3876](https://github.com/stdlib-js/stdlib/issues/3876), [#3879](https://github.com/stdlib-js/stdlib/issues/3879), [#3880](https://github.com/stdlib-js/stdlib/issues/3880)
+[#1619](https://github.com/stdlib-js/stdlib/issues/1619), [#1620](https://github.com/stdlib-js/stdlib/issues/1620), [#1632](https://github.com/stdlib-js/stdlib/issues/1632), [#1633](https://github.com/stdlib-js/stdlib/issues/1633), [#3236](https://github.com/stdlib-js/stdlib/issues/3236), [#3237](https://github.com/stdlib-js/stdlib/issues/3237), [#3238](https://github.com/stdlib-js/stdlib/issues/3238), [#3378](https://github.com/stdlib-js/stdlib/issues/3378), [#3384](https://github.com/stdlib-js/stdlib/issues/3384), [#3385](https://github.com/stdlib-js/stdlib/issues/3385), [#3401](https://github.com/stdlib-js/stdlib/issues/3401), [#3402](https://github.com/stdlib-js/stdlib/issues/3402), [#3410](https://github.com/stdlib-js/stdlib/issues/3410), [#3412](https://github.com/stdlib-js/stdlib/issues/3412), [#3414](https://github.com/stdlib-js/stdlib/issues/3414), [#3417](https://github.com/stdlib-js/stdlib/issues/3417), [#3421](https://github.com/stdlib-js/stdlib/issues/3421), [#3428](https://github.com/stdlib-js/stdlib/issues/3428), [#3431](https://github.com/stdlib-js/stdlib/issues/3431), [#3434](https://github.com/stdlib-js/stdlib/issues/3434), [#3435](https://github.com/stdlib-js/stdlib/issues/3435), [#3436](https://github.com/stdlib-js/stdlib/issues/3436), [#3438](https://github.com/stdlib-js/stdlib/issues/3438), [#3445](https://github.com/stdlib-js/stdlib/issues/3445), [#3446](https://github.com/stdlib-js/stdlib/issues/3446), [#3447](https://github.com/stdlib-js/stdlib/issues/3447), [#3472](https://github.com/stdlib-js/stdlib/issues/3472), [#3477](https://github.com/stdlib-js/stdlib/issues/3477), [#3480](https://github.com/stdlib-js/stdlib/issues/3480), [#3484](https://github.com/stdlib-js/stdlib/issues/3484), [#3494](https://github.com/stdlib-js/stdlib/issues/3494), [#3501](https://github.com/stdlib-js/stdlib/issues/3501), [#3506](https://github.com/stdlib-js/stdlib/issues/3506), [#3510](https://github.com/stdlib-js/stdlib/issues/3510), [#3519](https://github.com/stdlib-js/stdlib/issues/3519), [#3521](https://github.com/stdlib-js/stdlib/issues/3521), [#3524](https://github.com/stdlib-js/stdlib/issues/3524), [#3525](https://github.com/stdlib-js/stdlib/issues/3525), [#3548](https://github.com/stdlib-js/stdlib/issues/3548), [#3582](https://github.com/stdlib-js/stdlib/issues/3582), [#3583](https://github.com/stdlib-js/stdlib/issues/3583), [#3585](https://github.com/stdlib-js/stdlib/issues/3585), [#3586](https://github.com/stdlib-js/stdlib/issues/3586), [#3588](https://github.com/stdlib-js/stdlib/issues/3588), [#3591](https://github.com/stdlib-js/stdlib/issues/3591), [#3592](https://github.com/stdlib-js/stdlib/issues/3592), [#3595](https://github.com/stdlib-js/stdlib/issues/3595), [#3596](https://github.com/stdlib-js/stdlib/issues/3596), [#3597](https://github.com/stdlib-js/stdlib/issues/3597), [#3598](https://github.com/stdlib-js/stdlib/issues/3598), [#3601](https://github.com/stdlib-js/stdlib/issues/3601), [#3602](https://github.com/stdlib-js/stdlib/issues/3602), [#3603](https://github.com/stdlib-js/stdlib/issues/3603), [#3614](https://github.com/stdlib-js/stdlib/issues/3614), [#3615](https://github.com/stdlib-js/stdlib/issues/3615), [#3616](https://github.com/stdlib-js/stdlib/issues/3616), [#3619](https://github.com/stdlib-js/stdlib/issues/3619), [#3622](https://github.com/stdlib-js/stdlib/issues/3622), [#3624](https://github.com/stdlib-js/stdlib/issues/3624), [#3627](https://github.com/stdlib-js/stdlib/issues/3627), [#3628](https://github.com/stdlib-js/stdlib/issues/3628), [#3631](https://github.com/stdlib-js/stdlib/issues/3631), [#3635](https://github.com/stdlib-js/stdlib/issues/3635), [#3639](https://github.com/stdlib-js/stdlib/issues/3639), [#3656](https://github.com/stdlib-js/stdlib/issues/3656), [#3671](https://github.com/stdlib-js/stdlib/issues/3671), [#3672](https://github.com/stdlib-js/stdlib/issues/3672), [#3674](https://github.com/stdlib-js/stdlib/issues/3674), [#3675](https://github.com/stdlib-js/stdlib/issues/3675), [#3678](https://github.com/stdlib-js/stdlib/issues/3678), [#3679](https://github.com/stdlib-js/stdlib/issues/3679), [#3701](https://github.com/stdlib-js/stdlib/issues/3701), [#3709](https://github.com/stdlib-js/stdlib/issues/3709), [#3710](https://github.com/stdlib-js/stdlib/issues/3710), [#3716](https://github.com/stdlib-js/stdlib/issues/3716), [#3719](https://github.com/stdlib-js/stdlib/issues/3719), [#3720](https://github.com/stdlib-js/stdlib/issues/3720), [#3721](https://github.com/stdlib-js/stdlib/issues/3721), [#3735](https://github.com/stdlib-js/stdlib/issues/3735), [#3738](https://github.com/stdlib-js/stdlib/issues/3738), [#3739](https://github.com/stdlib-js/stdlib/issues/3739), [#3741](https://github.com/stdlib-js/stdlib/issues/3741), [#3744](https://github.com/stdlib-js/stdlib/issues/3744), [#3746](https://github.com/stdlib-js/stdlib/issues/3746), [#3759](https://github.com/stdlib-js/stdlib/issues/3759), [#3772](https://github.com/stdlib-js/stdlib/issues/3772), [#3783](https://github.com/stdlib-js/stdlib/issues/3783), [#3789](https://github.com/stdlib-js/stdlib/issues/3789), [#3797](https://github.com/stdlib-js/stdlib/issues/3797), [#3798](https://github.com/stdlib-js/stdlib/issues/3798), [#3799](https://github.com/stdlib-js/stdlib/issues/3799), [#3801](https://github.com/stdlib-js/stdlib/issues/3801), [#3802](https://github.com/stdlib-js/stdlib/issues/3802), [#3803](https://github.com/stdlib-js/stdlib/issues/3803), [#3804](https://github.com/stdlib-js/stdlib/issues/3804), [#3806](https://github.com/stdlib-js/stdlib/issues/3806), [#3807](https://github.com/stdlib-js/stdlib/issues/3807), [#3811](https://github.com/stdlib-js/stdlib/issues/3811), [#3812](https://github.com/stdlib-js/stdlib/issues/3812), [#3813](https://github.com/stdlib-js/stdlib/issues/3813), [#3816](https://github.com/stdlib-js/stdlib/issues/3816), [#3817](https://github.com/stdlib-js/stdlib/issues/3817), [#3818](https://github.com/stdlib-js/stdlib/issues/3818), [#3819](https://github.com/stdlib-js/stdlib/issues/3819), [#3820](https://github.com/stdlib-js/stdlib/issues/3820), [#3822](https://github.com/stdlib-js/stdlib/issues/3822), [#3823](https://github.com/stdlib-js/stdlib/issues/3823), [#3826](https://github.com/stdlib-js/stdlib/issues/3826), [#3830](https://github.com/stdlib-js/stdlib/issues/3830), [#3831](https://github.com/stdlib-js/stdlib/issues/3831), [#3833](https://github.com/stdlib-js/stdlib/issues/3833), [#3837](https://github.com/stdlib-js/stdlib/issues/3837), [#3843](https://github.com/stdlib-js/stdlib/issues/3843), [#3865](https://github.com/stdlib-js/stdlib/issues/3865), [#3866](https://github.com/stdlib-js/stdlib/issues/3866), [#3871](https://github.com/stdlib-js/stdlib/issues/3871), [#3873](https://github.com/stdlib-js/stdlib/issues/3873), [#3874](https://github.com/stdlib-js/stdlib/issues/3874), [#3876](https://github.com/stdlib-js/stdlib/issues/3876), [#3879](https://github.com/stdlib-js/stdlib/issues/3879), [#3880](https://github.com/stdlib-js/stdlib/issues/3880)
 
 </section>
 
@@ -5490,7 +6179,7 @@ A total of 118 issues were closed in this release:
 
 ### Contributors
 
-A total of 22 people contributed to this release. Thank you to the following contributors:
+A total of 23 people contributed to this release. Thank you to the following contributors:
 
 -   Aadish Jain
 -   Aayush Khanna
@@ -5500,6 +6189,7 @@ A total of 22 people contributed to this release. Thank you to the following con
 -   Divyansh Seth
 -   Gururaj Gurram
 -   Jaysukh Makvana
+-   Karan Anand
 -   Kohantika Nath
 -   Manvith M
 -   Neeraj Pathak
@@ -5525,6 +6215,25 @@ A total of 22 people contributed to this release. Thank you to the following con
 
 <details>
 
+-   [`1d7a2df`](https://github.com/stdlib-js/stdlib/commit/1d7a2dfcb1cb9bae13f6ecd63aca3c4741433d29) - **docs:** update namespace TypeScript declarations [(#4656)](https://github.com/stdlib-js/stdlib/pull/4656) _(by stdlib-bot)_
+-   [`41cf529`](https://github.com/stdlib-js/stdlib/commit/41cf529795453c99f7621b5d253970498d11fd28) - **feat:** add C ndarray interface and refactor implementation for `stats/base/dstdevyc` [(#4628)](https://github.com/stdlib-js/stdlib/pull/4628) _(by Aayush Khanna, Athan Reines)_
+-   [`4c1b774`](https://github.com/stdlib-js/stdlib/commit/4c1b774cde259bba78be12cfe897e1bec49a0430) - **feat:** add C ndarray interface and refactor implementation for `stats/base/dmeanwd` [(#4493)](https://github.com/stdlib-js/stdlib/pull/4493) _(by Aayush Khanna)_
+-   [`7e63aad`](https://github.com/stdlib-js/stdlib/commit/7e63aad8c0b42330b0933973bddea8d1c5e84862) - **fix:** wrap function calls in `API_SUFFIX` in native addons [(#4646)](https://github.com/stdlib-js/stdlib/pull/4646) _(by Aayush Khanna)_
+-   [`6def8d6`](https://github.com/stdlib-js/stdlib/commit/6def8d6af0309beb3e207ae21b4266f142edfa48) - **feat:** add C implementation for `stats/base/dists/chisquare/mgf` [(#4593)](https://github.com/stdlib-js/stdlib/pull/4593) _(by Karan Anand, Philipp Burckhardt, stdlib-bot)_
+-   [`4fae05a`](https://github.com/stdlib-js/stdlib/commit/4fae05a8a8d1851c1619b58d1b262fd903cec395) - **feat:** add C ndarray interface and refactor implementation for `stats/base/dstdevtk` [(#4621)](https://github.com/stdlib-js/stdlib/pull/4621) _(by Aayush Khanna, Athan Reines)_
+-   [`b4af7cd`](https://github.com/stdlib-js/stdlib/commit/b4af7cd6caca695d965bedf217a6ad0b5afd5b57) - **feat:** add C ndarray interface and refactor implementation for `stats/base/dstdevwd` [(#4620)](https://github.com/stdlib-js/stdlib/pull/4620) _(by Aayush Khanna, Athan Reines)_
+-   [`f229b4a`](https://github.com/stdlib-js/stdlib/commit/f229b4a8d90fd206460ad508f67da1578609cdbb) - **feat:** add C ndarray interface and refactor implementation for `stats/base/dstdevch` [(#4619)](https://github.com/stdlib-js/stdlib/pull/4619) _(by Aayush Khanna, Athan Reines)_
+-   [`8948253`](https://github.com/stdlib-js/stdlib/commit/89482536c64814ff08216f1e8f8ee80ff13d574f) - **refactor:** update `stats/base/smeanlipw` native addon from C++ to C [(#4605)](https://github.com/stdlib-js/stdlib/pull/4605) _(by Vivek Maurya)_
+-   [`7d83b83`](https://github.com/stdlib-js/stdlib/commit/7d83b837055b388bd26d9eeb42f709042a257a4d) - **refactor:** update `stats/base/smeanors` native addon from C++ to C [(#4606)](https://github.com/stdlib-js/stdlib/pull/4606) _(by Vivek Maurya)_
+-   [`c2bba5e`](https://github.com/stdlib-js/stdlib/commit/c2bba5eb639fddbb573c17c252f877cb4192023c) - **refactor:** update `stats/base/smeanpn` native addon from C++ to C [(#4607)](https://github.com/stdlib-js/stdlib/pull/4607) _(by Vivek Maurya)_
+-   [`6e4d0b4`](https://github.com/stdlib-js/stdlib/commit/6e4d0b4ca7e0723d8af03e25cb1b8751a3464b58) - **refactor:** update `stats/base/snanmeanpn` native addon from C++ to C [(#4611)](https://github.com/stdlib-js/stdlib/pull/4611) _(by Vivek Maurya)_
+-   [`493839b`](https://github.com/stdlib-js/stdlib/commit/493839b95a9be8fe1680237242935904c7dd9c6f) - **refactor:** update `stats/base/snanmeanors` native addon from C++ to C [(#4610)](https://github.com/stdlib-js/stdlib/pull/4610) _(by Vivek Maurya)_
+-   [`86e5846`](https://github.com/stdlib-js/stdlib/commit/86e58462513d0ee81c45611b190a7d75fbc003c0) - **refactor:** update `stats/base/snanmean` native addon from C++ to C [(#4609)](https://github.com/stdlib-js/stdlib/pull/4609) _(by Vivek Maurya)_
+-   [`5ef836c`](https://github.com/stdlib-js/stdlib/commit/5ef836cd3679fc6a70b1c486a5f673afeb8c0c34) - **refactor:** update `stats/base/smeanpw` native addon from C++ to C [(#4608)](https://github.com/stdlib-js/stdlib/pull/4608) _(by Vivek Maurya)_
+-   [`3283517`](https://github.com/stdlib-js/stdlib/commit/32835176f21ecd14cbf81a51699d49533ff63fe6) - **feat:** add C implementation for `stats/base/dists/binomial/variance` [(#3929)](https://github.com/stdlib-js/stdlib/pull/3929) _(by Prashant Kumar Yadav, Athan Reines, Philipp Burckhardt)_
+-   [`99378ce`](https://github.com/stdlib-js/stdlib/commit/99378ce076b7c6ec7b0ff29aa1ad8feac9121113) - **fix:** wrap void function call in `API_SUFFIX` [(#4603)](https://github.com/stdlib-js/stdlib/pull/4603) _(by Aayush Khanna)_
+-   [`25c58d7`](https://github.com/stdlib-js/stdlib/commit/25c58d7ac0e986e155529e272d57d076b292da44) - **feat:** add C implementation for `stats/base/dists/geometric/mean` [(#4089)](https://github.com/stdlib-js/stdlib/pull/4089) _(by Prashant Kumar Yadav, Philipp Burckhardt, stdlib-bot)_
+-   [`dd8cae0`](https://github.com/stdlib-js/stdlib/commit/dd8cae03bdcf1a9d28ea9c0614301011e9a1bff1) - **docs:** update namespace TypeScript declaration comments [(#4623)](https://github.com/stdlib-js/stdlib/pull/4623) _(by stdlib-bot)_
 -   [`d5eda91`](https://github.com/stdlib-js/stdlib/commit/d5eda9164e34525b36a44fc1383e80a1cce61734) - **docs:** update namespace table of contents [(#4625)](https://github.com/stdlib-js/stdlib/pull/4625) _(by stdlib-bot, Philipp Burckhardt)_
 -   [`8447e7a`](https://github.com/stdlib-js/stdlib/commit/8447e7a2a28a2f5cdca879dea9a6ebe56783b82f) - **feat:** add C implementation for `stats/base/dists/binomial/mode` [(#3947)](https://github.com/stdlib-js/stdlib/pull/3947) _(by Prashant Kumar Yadav, Philipp Burckhardt)_
 -   [`e919ac9`](https://github.com/stdlib-js/stdlib/commit/e919ac977a84e594a03d68e4c3748cd68bc9bf4e) - **style:** fix indentation in manifest.json files [(#4599)](https://github.com/stdlib-js/stdlib/pull/4599) _(by Aayush Khanna)_
@@ -5541,6 +6250,7 @@ A total of 22 people contributed to this release. Thank you to the following con
 -   [`2aefb73`](https://github.com/stdlib-js/stdlib/commit/2aefb7376a3362808b39543863e4fb7a59751579) - **refactor:** update `stats/base/dnanstdevch` native addon from C++ to C [(#4539)](https://github.com/stdlib-js/stdlib/pull/4539) _(by Dhruv Arvind Singh)_
 -   [`9232789`](https://github.com/stdlib-js/stdlib/commit/92327895344d85080fd3af6c9b36d09c72225dc0) - **refactor:** update `stats/base/dnanstdevyc` native addon from C++ to C [(#4536)](https://github.com/stdlib-js/stdlib/pull/4536) _(by Dhruv Arvind Singh)_
 -   [`6f6d429`](https://github.com/stdlib-js/stdlib/commit/6f6d4291fa5a2fcad82ad6c0175ac2b7c92808d9) - **refactor:** update `stats/base/dnanvarianceyc` native addon from C++ to C [(#4535)](https://github.com/stdlib-js/stdlib/pull/4535) _(by Dhruv Arvind Singh)_
+-   [`746eae4`](https://github.com/stdlib-js/stdlib/commit/746eae4688b31749105a872b58aaa5e7fb017ae0) - **docs:** fix argument order _(by Athan Reines)_
 -   [`3087276`](https://github.com/stdlib-js/stdlib/commit/30872761a18267dd805bec065b83ea96fd2d8d32) - **feat:** add C implementation for `stats/base/dists/frechet/variance` [(#4577)](https://github.com/stdlib-js/stdlib/pull/4577) _(by Manvith M, Philipp Burckhardt)_
 -   [`19d5c61`](https://github.com/stdlib-js/stdlib/commit/19d5c612fe1e9b65f13d61adab0d11d49ba7916a) - **feat:** add C implementation for `stats/base/dists/frechet/stdev` [(#4576)](https://github.com/stdlib-js/stdlib/pull/4576) _(by Manvith M, Philipp Burckhardt)_
 -   [`3b44fd4`](https://github.com/stdlib-js/stdlib/commit/3b44fd415b1115445a74ff9a13111823b99a85a0) - **feat:** add C implementation for `stats/base/dists/frechet/skewness` [(#4573)](https://github.com/stdlib-js/stdlib/pull/4573) _(by Manvith M, Philipp Burckhardt)_
