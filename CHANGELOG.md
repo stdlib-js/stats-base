@@ -4,7 +4,7 @@
 
 <section class="release" id="unreleased">
 
-## Unreleased (2025-01-09)
+## Unreleased (2025-01-11)
 
 <section class="packages">
 
@@ -1231,6 +1231,108 @@ This release closes the following issue:
 
 <!-- /.package -->
 
+<section class="package" id="stats-base-dists-degenerate-mean-unreleased">
+
+#### [@stdlib/stats/base/dists/degenerate/mean](https://github.com/stdlib-js/stdlib/tree/develop/lib/node_modules/%40stdlib/stats/base/dists/degenerate/mean)
+
+<details>
+
+<section class="features">
+
+##### Features
+
+-   [`645652a`](https://github.com/stdlib-js/stdlib/commit/645652a48d327b846509cb6221074a3a0038563c) - add c implementation of `stats/base/dists/degenerate/mean` [(#4533)](https://github.com/stdlib-js/stdlib/pull/4533)
+
+</section>
+
+<!-- /.features -->
+
+<section class="issues">
+
+##### Closed Issues
+
+This release closes the following issue:
+
+[#3540](https://github.com/stdlib-js/stdlib/issues/3540)
+
+</section>
+
+<!-- /.issues -->
+
+</details>
+
+</section>
+
+<!-- /.package -->
+
+<section class="package" id="stats-base-dists-degenerate-mode-unreleased">
+
+#### [@stdlib/stats/base/dists/degenerate/mode](https://github.com/stdlib-js/stdlib/tree/develop/lib/node_modules/%40stdlib/stats/base/dists/degenerate/mode)
+
+<details>
+
+<section class="features">
+
+##### Features
+
+-   [`77c3c12`](https://github.com/stdlib-js/stdlib/commit/77c3c12285e6c44e28a31345e2f2737b087b1f0a) - add C implementation for `stats/base/dists/degenerate/mode` [(#4580)](https://github.com/stdlib-js/stdlib/pull/4580)
+
+</section>
+
+<!-- /.features -->
+
+<section class="issues">
+
+##### Closed Issues
+
+This release closes the following issue:
+
+[#3543](https://github.com/stdlib-js/stdlib/issues/3543)
+
+</section>
+
+<!-- /.issues -->
+
+</details>
+
+</section>
+
+<!-- /.package -->
+
+<section class="package" id="stats-base-dists-degenerate-stdev-unreleased">
+
+#### [@stdlib/stats/base/dists/degenerate/stdev](https://github.com/stdlib-js/stdlib/tree/develop/lib/node_modules/%40stdlib/stats/base/dists/degenerate/stdev)
+
+<details>
+
+<section class="features">
+
+##### Features
+
+-   [`1e58d32`](https://github.com/stdlib-js/stdlib/commit/1e58d32e9f8cb369c33fb2a6e9f2b59d2db58467) - add C implementation for `stats/base/dists/degenerate/stdev` [(#4588)](https://github.com/stdlib-js/stdlib/pull/4588)
+
+</section>
+
+<!-- /.features -->
+
+<section class="issues">
+
+##### Closed Issues
+
+This release closes the following issue:
+
+[#3547](https://github.com/stdlib-js/stdlib/issues/3547)
+
+</section>
+
+<!-- /.issues -->
+
+</details>
+
+</section>
+
+<!-- /.package -->
+
 <section class="package" id="stats-base-dists-degenerate-variance-unreleased">
 
 #### [@stdlib/stats/base/dists/degenerate/variance](https://github.com/stdlib-js/stdlib/tree/develop/lib/node_modules/%40stdlib/stats/base/dists/degenerate/variance)
@@ -1254,6 +1356,108 @@ This release closes the following issue:
 This release closes the following issue:
 
 [#3548](https://github.com/stdlib-js/stdlib/issues/3548)
+
+</section>
+
+<!-- /.issues -->
+
+</details>
+
+</section>
+
+<!-- /.package -->
+
+<section class="package" id="stats-base-dists-discrete-uniform-entropy-unreleased">
+
+#### [@stdlib/stats/base/dists/discrete-uniform/entropy](https://github.com/stdlib-js/stdlib/tree/develop/lib/node_modules/%40stdlib/stats/base/dists/discrete-uniform/entropy)
+
+<details>
+
+<section class="features">
+
+##### Features
+
+-   [`622e347`](https://github.com/stdlib-js/stdlib/commit/622e3479c4bd745e26b6ac72d0b512dc8e4595af) - add C implementation for `stats/base/dists/discrete-uniform/entropy` [(#4636)](https://github.com/stdlib-js/stdlib/pull/4636)
+
+</section>
+
+<!-- /.features -->
+
+<section class="issues">
+
+##### Closed Issues
+
+This release closes the following issue:
+
+[#3550](https://github.com/stdlib-js/stdlib/issues/3550)
+
+</section>
+
+<!-- /.issues -->
+
+</details>
+
+</section>
+
+<!-- /.package -->
+
+<section class="package" id="stats-base-dists-discrete-uniform-mean-unreleased">
+
+#### [@stdlib/stats/base/dists/discrete-uniform/mean](https://github.com/stdlib-js/stdlib/tree/develop/lib/node_modules/%40stdlib/stats/base/dists/discrete-uniform/mean)
+
+<details>
+
+<section class="features">
+
+##### Features
+
+-   [`773e934`](https://github.com/stdlib-js/stdlib/commit/773e9345811ce7fe6d910b35b9f60ccc6d1312d1) - add C implementation for `stats/base/dists/discrete-uniform/mean` [(#4530)](https://github.com/stdlib-js/stdlib/pull/4530)
+
+</section>
+
+<!-- /.features -->
+
+<section class="issues">
+
+##### Closed Issues
+
+This release closes the following issue:
+
+[#3554](https://github.com/stdlib-js/stdlib/issues/3554)
+
+</section>
+
+<!-- /.issues -->
+
+</details>
+
+</section>
+
+<!-- /.package -->
+
+<section class="package" id="stats-base-dists-discrete-uniform-median-unreleased">
+
+#### [@stdlib/stats/base/dists/discrete-uniform/median](https://github.com/stdlib-js/stdlib/tree/develop/lib/node_modules/%40stdlib/stats/base/dists/discrete-uniform/median)
+
+<details>
+
+<section class="features">
+
+##### Features
+
+-   [`9900036`](https://github.com/stdlib-js/stdlib/commit/99000366d9c3c78af1df630e49f85fc47440ee89) - add C implementation for `stats/base/dists/discrete-uniform/median` [(#4531)](https://github.com/stdlib-js/stdlib/pull/4531)
+
+</section>
+
+<!-- /.features -->
+
+<section class="issues">
+
+##### Closed Issues
+
+This release closes the following issue:
+
+[#3555](https://github.com/stdlib-js/stdlib/issues/3555)
 
 </section>
 
@@ -4183,6 +4387,40 @@ This release closes the following issue:
 
 <!-- /.package -->
 
+<section class="package" id="stats-base-dists-triangular-variance-unreleased">
+
+#### [@stdlib/stats/base/dists/triangular/variance](https://github.com/stdlib-js/stdlib/tree/develop/lib/node_modules/%40stdlib/stats/base/dists/triangular/variance)
+
+<details>
+
+<section class="features">
+
+##### Features
+
+-   [`1040b76`](https://github.com/stdlib-js/stdlib/commit/1040b76eca609dd8557525b79be6903dcf8c607d) - add C implementation for `stats/base/dists/triangular/variance` [(#4000)](https://github.com/stdlib-js/stdlib/pull/4000)
+
+</section>
+
+<!-- /.features -->
+
+<section class="issues">
+
+##### Closed Issues
+
+This release closes the following issue:
+
+[#3824](https://github.com/stdlib-js/stdlib/issues/3824)
+
+</section>
+
+<!-- /.issues -->
+
+</details>
+
+</section>
+
+<!-- /.package -->
+
 <section class="package" id="stats-base-dists-uniform-entropy-unreleased">
 
 #### [@stdlib/stats/base/dists/uniform/entropy](https://github.com/stdlib-js/stdlib/tree/develop/lib/node_modules/%40stdlib/stats/base/dists/uniform/entropy)
@@ -5127,6 +5365,28 @@ This release closes the following issue:
 
 <!-- /.package -->
 
+<section class="package" id="stats-base-dsemwd-unreleased">
+
+#### [@stdlib/stats/base/dsemwd](https://github.com/stdlib-js/stdlib/tree/develop/lib/node_modules/%40stdlib/stats/base/dsemwd)
+
+<details>
+
+<section class="features">
+
+##### Features
+
+-   [`3901a45`](https://github.com/stdlib-js/stdlib/commit/3901a450ad8218885b513e8501f3e8cbb97a6492) - add C ndarray interface and refactor implementation for `stats/base/dsemwd` [(#4662)](https://github.com/stdlib-js/stdlib/pull/4662)
+
+</section>
+
+<!-- /.features -->
+
+</details>
+
+</section>
+
+<!-- /.package -->
+
 <section class="package" id="stats-base-dstdevch-unreleased">
 
 #### [@stdlib/stats/base/dstdevch](https://github.com/stdlib-js/stdlib/tree/develop/lib/node_modules/%40stdlib/stats/base/dstdevch)
@@ -5434,6 +5694,16 @@ A total of 3 issues were closed in this release:
 #### [@stdlib/stats/base/scumaxabs](https://github.com/stdlib-js/stdlib/tree/develop/lib/node_modules/%40stdlib/stats/base/scumaxabs)
 
 <details>
+
+<section class="features">
+
+##### Features
+
+-   [`0619690`](https://github.com/stdlib-js/stdlib/commit/0619690c1a69a402ba6315631506302f010d6404) - add C ndarray interface and refactor implementation for `stats/base/scumaxabs` [(#4684)](https://github.com/stdlib-js/stdlib/pull/4684)
+
+</section>
+
+<!-- /.features -->
 
 <section class="bug-fixes">
 
@@ -6167,9 +6437,9 @@ A total of 3 issues were closed in this release:
 
 ### Closed Issues
 
-A total of 121 issues were closed in this release:
+A total of 128 issues were closed in this release:
 
-[#1619](https://github.com/stdlib-js/stdlib/issues/1619), [#1620](https://github.com/stdlib-js/stdlib/issues/1620), [#1632](https://github.com/stdlib-js/stdlib/issues/1632), [#1633](https://github.com/stdlib-js/stdlib/issues/1633), [#3236](https://github.com/stdlib-js/stdlib/issues/3236), [#3237](https://github.com/stdlib-js/stdlib/issues/3237), [#3238](https://github.com/stdlib-js/stdlib/issues/3238), [#3378](https://github.com/stdlib-js/stdlib/issues/3378), [#3384](https://github.com/stdlib-js/stdlib/issues/3384), [#3385](https://github.com/stdlib-js/stdlib/issues/3385), [#3401](https://github.com/stdlib-js/stdlib/issues/3401), [#3402](https://github.com/stdlib-js/stdlib/issues/3402), [#3410](https://github.com/stdlib-js/stdlib/issues/3410), [#3412](https://github.com/stdlib-js/stdlib/issues/3412), [#3414](https://github.com/stdlib-js/stdlib/issues/3414), [#3417](https://github.com/stdlib-js/stdlib/issues/3417), [#3421](https://github.com/stdlib-js/stdlib/issues/3421), [#3428](https://github.com/stdlib-js/stdlib/issues/3428), [#3431](https://github.com/stdlib-js/stdlib/issues/3431), [#3434](https://github.com/stdlib-js/stdlib/issues/3434), [#3435](https://github.com/stdlib-js/stdlib/issues/3435), [#3436](https://github.com/stdlib-js/stdlib/issues/3436), [#3438](https://github.com/stdlib-js/stdlib/issues/3438), [#3445](https://github.com/stdlib-js/stdlib/issues/3445), [#3446](https://github.com/stdlib-js/stdlib/issues/3446), [#3447](https://github.com/stdlib-js/stdlib/issues/3447), [#3472](https://github.com/stdlib-js/stdlib/issues/3472), [#3477](https://github.com/stdlib-js/stdlib/issues/3477), [#3480](https://github.com/stdlib-js/stdlib/issues/3480), [#3484](https://github.com/stdlib-js/stdlib/issues/3484), [#3494](https://github.com/stdlib-js/stdlib/issues/3494), [#3501](https://github.com/stdlib-js/stdlib/issues/3501), [#3506](https://github.com/stdlib-js/stdlib/issues/3506), [#3510](https://github.com/stdlib-js/stdlib/issues/3510), [#3519](https://github.com/stdlib-js/stdlib/issues/3519), [#3521](https://github.com/stdlib-js/stdlib/issues/3521), [#3524](https://github.com/stdlib-js/stdlib/issues/3524), [#3525](https://github.com/stdlib-js/stdlib/issues/3525), [#3548](https://github.com/stdlib-js/stdlib/issues/3548), [#3582](https://github.com/stdlib-js/stdlib/issues/3582), [#3583](https://github.com/stdlib-js/stdlib/issues/3583), [#3585](https://github.com/stdlib-js/stdlib/issues/3585), [#3586](https://github.com/stdlib-js/stdlib/issues/3586), [#3588](https://github.com/stdlib-js/stdlib/issues/3588), [#3591](https://github.com/stdlib-js/stdlib/issues/3591), [#3592](https://github.com/stdlib-js/stdlib/issues/3592), [#3595](https://github.com/stdlib-js/stdlib/issues/3595), [#3596](https://github.com/stdlib-js/stdlib/issues/3596), [#3597](https://github.com/stdlib-js/stdlib/issues/3597), [#3598](https://github.com/stdlib-js/stdlib/issues/3598), [#3601](https://github.com/stdlib-js/stdlib/issues/3601), [#3602](https://github.com/stdlib-js/stdlib/issues/3602), [#3603](https://github.com/stdlib-js/stdlib/issues/3603), [#3614](https://github.com/stdlib-js/stdlib/issues/3614), [#3615](https://github.com/stdlib-js/stdlib/issues/3615), [#3616](https://github.com/stdlib-js/stdlib/issues/3616), [#3619](https://github.com/stdlib-js/stdlib/issues/3619), [#3622](https://github.com/stdlib-js/stdlib/issues/3622), [#3624](https://github.com/stdlib-js/stdlib/issues/3624), [#3627](https://github.com/stdlib-js/stdlib/issues/3627), [#3628](https://github.com/stdlib-js/stdlib/issues/3628), [#3631](https://github.com/stdlib-js/stdlib/issues/3631), [#3635](https://github.com/stdlib-js/stdlib/issues/3635), [#3639](https://github.com/stdlib-js/stdlib/issues/3639), [#3656](https://github.com/stdlib-js/stdlib/issues/3656), [#3671](https://github.com/stdlib-js/stdlib/issues/3671), [#3672](https://github.com/stdlib-js/stdlib/issues/3672), [#3674](https://github.com/stdlib-js/stdlib/issues/3674), [#3675](https://github.com/stdlib-js/stdlib/issues/3675), [#3678](https://github.com/stdlib-js/stdlib/issues/3678), [#3679](https://github.com/stdlib-js/stdlib/issues/3679), [#3701](https://github.com/stdlib-js/stdlib/issues/3701), [#3709](https://github.com/stdlib-js/stdlib/issues/3709), [#3710](https://github.com/stdlib-js/stdlib/issues/3710), [#3716](https://github.com/stdlib-js/stdlib/issues/3716), [#3719](https://github.com/stdlib-js/stdlib/issues/3719), [#3720](https://github.com/stdlib-js/stdlib/issues/3720), [#3721](https://github.com/stdlib-js/stdlib/issues/3721), [#3735](https://github.com/stdlib-js/stdlib/issues/3735), [#3738](https://github.com/stdlib-js/stdlib/issues/3738), [#3739](https://github.com/stdlib-js/stdlib/issues/3739), [#3741](https://github.com/stdlib-js/stdlib/issues/3741), [#3744](https://github.com/stdlib-js/stdlib/issues/3744), [#3746](https://github.com/stdlib-js/stdlib/issues/3746), [#3759](https://github.com/stdlib-js/stdlib/issues/3759), [#3772](https://github.com/stdlib-js/stdlib/issues/3772), [#3783](https://github.com/stdlib-js/stdlib/issues/3783), [#3789](https://github.com/stdlib-js/stdlib/issues/3789), [#3797](https://github.com/stdlib-js/stdlib/issues/3797), [#3798](https://github.com/stdlib-js/stdlib/issues/3798), [#3799](https://github.com/stdlib-js/stdlib/issues/3799), [#3801](https://github.com/stdlib-js/stdlib/issues/3801), [#3802](https://github.com/stdlib-js/stdlib/issues/3802), [#3803](https://github.com/stdlib-js/stdlib/issues/3803), [#3804](https://github.com/stdlib-js/stdlib/issues/3804), [#3806](https://github.com/stdlib-js/stdlib/issues/3806), [#3807](https://github.com/stdlib-js/stdlib/issues/3807), [#3811](https://github.com/stdlib-js/stdlib/issues/3811), [#3812](https://github.com/stdlib-js/stdlib/issues/3812), [#3813](https://github.com/stdlib-js/stdlib/issues/3813), [#3816](https://github.com/stdlib-js/stdlib/issues/3816), [#3817](https://github.com/stdlib-js/stdlib/issues/3817), [#3818](https://github.com/stdlib-js/stdlib/issues/3818), [#3819](https://github.com/stdlib-js/stdlib/issues/3819), [#3820](https://github.com/stdlib-js/stdlib/issues/3820), [#3822](https://github.com/stdlib-js/stdlib/issues/3822), [#3823](https://github.com/stdlib-js/stdlib/issues/3823), [#3826](https://github.com/stdlib-js/stdlib/issues/3826), [#3830](https://github.com/stdlib-js/stdlib/issues/3830), [#3831](https://github.com/stdlib-js/stdlib/issues/3831), [#3833](https://github.com/stdlib-js/stdlib/issues/3833), [#3837](https://github.com/stdlib-js/stdlib/issues/3837), [#3843](https://github.com/stdlib-js/stdlib/issues/3843), [#3865](https://github.com/stdlib-js/stdlib/issues/3865), [#3866](https://github.com/stdlib-js/stdlib/issues/3866), [#3871](https://github.com/stdlib-js/stdlib/issues/3871), [#3873](https://github.com/stdlib-js/stdlib/issues/3873), [#3874](https://github.com/stdlib-js/stdlib/issues/3874), [#3876](https://github.com/stdlib-js/stdlib/issues/3876), [#3879](https://github.com/stdlib-js/stdlib/issues/3879), [#3880](https://github.com/stdlib-js/stdlib/issues/3880)
+[#1619](https://github.com/stdlib-js/stdlib/issues/1619), [#1620](https://github.com/stdlib-js/stdlib/issues/1620), [#1632](https://github.com/stdlib-js/stdlib/issues/1632), [#1633](https://github.com/stdlib-js/stdlib/issues/1633), [#3236](https://github.com/stdlib-js/stdlib/issues/3236), [#3237](https://github.com/stdlib-js/stdlib/issues/3237), [#3238](https://github.com/stdlib-js/stdlib/issues/3238), [#3378](https://github.com/stdlib-js/stdlib/issues/3378), [#3384](https://github.com/stdlib-js/stdlib/issues/3384), [#3385](https://github.com/stdlib-js/stdlib/issues/3385), [#3401](https://github.com/stdlib-js/stdlib/issues/3401), [#3402](https://github.com/stdlib-js/stdlib/issues/3402), [#3410](https://github.com/stdlib-js/stdlib/issues/3410), [#3412](https://github.com/stdlib-js/stdlib/issues/3412), [#3414](https://github.com/stdlib-js/stdlib/issues/3414), [#3417](https://github.com/stdlib-js/stdlib/issues/3417), [#3421](https://github.com/stdlib-js/stdlib/issues/3421), [#3428](https://github.com/stdlib-js/stdlib/issues/3428), [#3431](https://github.com/stdlib-js/stdlib/issues/3431), [#3434](https://github.com/stdlib-js/stdlib/issues/3434), [#3435](https://github.com/stdlib-js/stdlib/issues/3435), [#3436](https://github.com/stdlib-js/stdlib/issues/3436), [#3438](https://github.com/stdlib-js/stdlib/issues/3438), [#3445](https://github.com/stdlib-js/stdlib/issues/3445), [#3446](https://github.com/stdlib-js/stdlib/issues/3446), [#3447](https://github.com/stdlib-js/stdlib/issues/3447), [#3472](https://github.com/stdlib-js/stdlib/issues/3472), [#3477](https://github.com/stdlib-js/stdlib/issues/3477), [#3480](https://github.com/stdlib-js/stdlib/issues/3480), [#3484](https://github.com/stdlib-js/stdlib/issues/3484), [#3494](https://github.com/stdlib-js/stdlib/issues/3494), [#3501](https://github.com/stdlib-js/stdlib/issues/3501), [#3506](https://github.com/stdlib-js/stdlib/issues/3506), [#3510](https://github.com/stdlib-js/stdlib/issues/3510), [#3519](https://github.com/stdlib-js/stdlib/issues/3519), [#3521](https://github.com/stdlib-js/stdlib/issues/3521), [#3524](https://github.com/stdlib-js/stdlib/issues/3524), [#3525](https://github.com/stdlib-js/stdlib/issues/3525), [#3540](https://github.com/stdlib-js/stdlib/issues/3540), [#3543](https://github.com/stdlib-js/stdlib/issues/3543), [#3547](https://github.com/stdlib-js/stdlib/issues/3547), [#3548](https://github.com/stdlib-js/stdlib/issues/3548), [#3550](https://github.com/stdlib-js/stdlib/issues/3550), [#3554](https://github.com/stdlib-js/stdlib/issues/3554), [#3555](https://github.com/stdlib-js/stdlib/issues/3555), [#3582](https://github.com/stdlib-js/stdlib/issues/3582), [#3583](https://github.com/stdlib-js/stdlib/issues/3583), [#3585](https://github.com/stdlib-js/stdlib/issues/3585), [#3586](https://github.com/stdlib-js/stdlib/issues/3586), [#3588](https://github.com/stdlib-js/stdlib/issues/3588), [#3591](https://github.com/stdlib-js/stdlib/issues/3591), [#3592](https://github.com/stdlib-js/stdlib/issues/3592), [#3595](https://github.com/stdlib-js/stdlib/issues/3595), [#3596](https://github.com/stdlib-js/stdlib/issues/3596), [#3597](https://github.com/stdlib-js/stdlib/issues/3597), [#3598](https://github.com/stdlib-js/stdlib/issues/3598), [#3601](https://github.com/stdlib-js/stdlib/issues/3601), [#3602](https://github.com/stdlib-js/stdlib/issues/3602), [#3603](https://github.com/stdlib-js/stdlib/issues/3603), [#3614](https://github.com/stdlib-js/stdlib/issues/3614), [#3615](https://github.com/stdlib-js/stdlib/issues/3615), [#3616](https://github.com/stdlib-js/stdlib/issues/3616), [#3619](https://github.com/stdlib-js/stdlib/issues/3619), [#3622](https://github.com/stdlib-js/stdlib/issues/3622), [#3624](https://github.com/stdlib-js/stdlib/issues/3624), [#3627](https://github.com/stdlib-js/stdlib/issues/3627), [#3628](https://github.com/stdlib-js/stdlib/issues/3628), [#3631](https://github.com/stdlib-js/stdlib/issues/3631), [#3635](https://github.com/stdlib-js/stdlib/issues/3635), [#3639](https://github.com/stdlib-js/stdlib/issues/3639), [#3656](https://github.com/stdlib-js/stdlib/issues/3656), [#3671](https://github.com/stdlib-js/stdlib/issues/3671), [#3672](https://github.com/stdlib-js/stdlib/issues/3672), [#3674](https://github.com/stdlib-js/stdlib/issues/3674), [#3675](https://github.com/stdlib-js/stdlib/issues/3675), [#3678](https://github.com/stdlib-js/stdlib/issues/3678), [#3679](https://github.com/stdlib-js/stdlib/issues/3679), [#3701](https://github.com/stdlib-js/stdlib/issues/3701), [#3709](https://github.com/stdlib-js/stdlib/issues/3709), [#3710](https://github.com/stdlib-js/stdlib/issues/3710), [#3716](https://github.com/stdlib-js/stdlib/issues/3716), [#3719](https://github.com/stdlib-js/stdlib/issues/3719), [#3720](https://github.com/stdlib-js/stdlib/issues/3720), [#3721](https://github.com/stdlib-js/stdlib/issues/3721), [#3735](https://github.com/stdlib-js/stdlib/issues/3735), [#3738](https://github.com/stdlib-js/stdlib/issues/3738), [#3739](https://github.com/stdlib-js/stdlib/issues/3739), [#3741](https://github.com/stdlib-js/stdlib/issues/3741), [#3744](https://github.com/stdlib-js/stdlib/issues/3744), [#3746](https://github.com/stdlib-js/stdlib/issues/3746), [#3759](https://github.com/stdlib-js/stdlib/issues/3759), [#3772](https://github.com/stdlib-js/stdlib/issues/3772), [#3783](https://github.com/stdlib-js/stdlib/issues/3783), [#3789](https://github.com/stdlib-js/stdlib/issues/3789), [#3797](https://github.com/stdlib-js/stdlib/issues/3797), [#3798](https://github.com/stdlib-js/stdlib/issues/3798), [#3799](https://github.com/stdlib-js/stdlib/issues/3799), [#3801](https://github.com/stdlib-js/stdlib/issues/3801), [#3802](https://github.com/stdlib-js/stdlib/issues/3802), [#3803](https://github.com/stdlib-js/stdlib/issues/3803), [#3804](https://github.com/stdlib-js/stdlib/issues/3804), [#3806](https://github.com/stdlib-js/stdlib/issues/3806), [#3807](https://github.com/stdlib-js/stdlib/issues/3807), [#3811](https://github.com/stdlib-js/stdlib/issues/3811), [#3812](https://github.com/stdlib-js/stdlib/issues/3812), [#3813](https://github.com/stdlib-js/stdlib/issues/3813), [#3816](https://github.com/stdlib-js/stdlib/issues/3816), [#3817](https://github.com/stdlib-js/stdlib/issues/3817), [#3818](https://github.com/stdlib-js/stdlib/issues/3818), [#3819](https://github.com/stdlib-js/stdlib/issues/3819), [#3820](https://github.com/stdlib-js/stdlib/issues/3820), [#3822](https://github.com/stdlib-js/stdlib/issues/3822), [#3823](https://github.com/stdlib-js/stdlib/issues/3823), [#3824](https://github.com/stdlib-js/stdlib/issues/3824), [#3826](https://github.com/stdlib-js/stdlib/issues/3826), [#3830](https://github.com/stdlib-js/stdlib/issues/3830), [#3831](https://github.com/stdlib-js/stdlib/issues/3831), [#3833](https://github.com/stdlib-js/stdlib/issues/3833), [#3837](https://github.com/stdlib-js/stdlib/issues/3837), [#3843](https://github.com/stdlib-js/stdlib/issues/3843), [#3865](https://github.com/stdlib-js/stdlib/issues/3865), [#3866](https://github.com/stdlib-js/stdlib/issues/3866), [#3871](https://github.com/stdlib-js/stdlib/issues/3871), [#3873](https://github.com/stdlib-js/stdlib/issues/3873), [#3874](https://github.com/stdlib-js/stdlib/issues/3874), [#3876](https://github.com/stdlib-js/stdlib/issues/3876), [#3879](https://github.com/stdlib-js/stdlib/issues/3879), [#3880](https://github.com/stdlib-js/stdlib/issues/3880)
 
 </section>
 
@@ -6215,6 +6485,16 @@ A total of 23 people contributed to this release. Thank you to the following con
 
 <details>
 
+-   [`ba7f732`](https://github.com/stdlib-js/stdlib/commit/ba7f7328fc7fe6e2049f79421f152303daa1f290) - **docs:** update namespace table of contents [(#4693)](https://github.com/stdlib-js/stdlib/pull/4693) _(by stdlib-bot, Philipp Burckhardt)_
+-   [`773e934`](https://github.com/stdlib-js/stdlib/commit/773e9345811ce7fe6d910b35b9f60ccc6d1312d1) - **feat:** add C implementation for `stats/base/dists/discrete-uniform/mean` [(#4530)](https://github.com/stdlib-js/stdlib/pull/4530) _(by Prashant Kumar Yadav, Philipp Burckhardt)_
+-   [`9900036`](https://github.com/stdlib-js/stdlib/commit/99000366d9c3c78af1df630e49f85fc47440ee89) - **feat:** add C implementation for `stats/base/dists/discrete-uniform/median` [(#4531)](https://github.com/stdlib-js/stdlib/pull/4531) _(by Prashant Kumar Yadav, Philipp Burckhardt)_
+-   [`645652a`](https://github.com/stdlib-js/stdlib/commit/645652a48d327b846509cb6221074a3a0038563c) - **feat:** add c implementation of `stats/base/dists/degenerate/mean` [(#4533)](https://github.com/stdlib-js/stdlib/pull/4533) _(by Vinit Pandit, stdlib-bot, Philipp Burckhardt)_
+-   [`1e58d32`](https://github.com/stdlib-js/stdlib/commit/1e58d32e9f8cb369c33fb2a6e9f2b59d2db58467) - **feat:** add C implementation for `stats/base/dists/degenerate/stdev` [(#4588)](https://github.com/stdlib-js/stdlib/pull/4588) _(by Karan Anand, Philipp Burckhardt)_
+-   [`622e347`](https://github.com/stdlib-js/stdlib/commit/622e3479c4bd745e26b6ac72d0b512dc8e4595af) - **feat:** add C implementation for `stats/base/dists/discrete-uniform/entropy` [(#4636)](https://github.com/stdlib-js/stdlib/pull/4636) _(by Prashant Kumar Yadav, Philipp Burckhardt)_
+-   [`0619690`](https://github.com/stdlib-js/stdlib/commit/0619690c1a69a402ba6315631506302f010d6404) - **feat:** add C ndarray interface and refactor implementation for `stats/base/scumaxabs` [(#4684)](https://github.com/stdlib-js/stdlib/pull/4684) _(by Aayush Khanna)_
+-   [`77c3c12`](https://github.com/stdlib-js/stdlib/commit/77c3c12285e6c44e28a31345e2f2737b087b1f0a) - **feat:** add C implementation for `stats/base/dists/degenerate/mode` [(#4580)](https://github.com/stdlib-js/stdlib/pull/4580) _(by Karan Anand, Philipp Burckhardt)_
+-   [`1040b76`](https://github.com/stdlib-js/stdlib/commit/1040b76eca609dd8557525b79be6903dcf8c607d) - **feat:** add C implementation for `stats/base/dists/triangular/variance` [(#4000)](https://github.com/stdlib-js/stdlib/pull/4000) _(by Prashant Kumar Yadav, Philipp Burckhardt, stdlib-bot)_
+-   [`3901a45`](https://github.com/stdlib-js/stdlib/commit/3901a450ad8218885b513e8501f3e8cbb97a6492) - **feat:** add C ndarray interface and refactor implementation for `stats/base/dsemwd` [(#4662)](https://github.com/stdlib-js/stdlib/pull/4662) _(by Aayush Khanna)_
 -   [`76642bf`](https://github.com/stdlib-js/stdlib/commit/76642bf477c7431527bdeef8b979e92e8d93e6bb) - **docs:** update namespace table of contents [(#4658)](https://github.com/stdlib-js/stdlib/pull/4658) _(by stdlib-bot)_
 -   [`1d7a2df`](https://github.com/stdlib-js/stdlib/commit/1d7a2dfcb1cb9bae13f6ecd63aca3c4741433d29) - **docs:** update namespace TypeScript declarations [(#4656)](https://github.com/stdlib-js/stdlib/pull/4656) _(by stdlib-bot)_
 -   [`41cf529`](https://github.com/stdlib-js/stdlib/commit/41cf529795453c99f7621b5d253970498d11fd28) - **feat:** add C ndarray interface and refactor implementation for `stats/base/dstdevyc` [(#4628)](https://github.com/stdlib-js/stdlib/pull/4628) _(by Aayush Khanna, Athan Reines)_
