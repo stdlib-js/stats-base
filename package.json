@@ -377,6 +377,7 @@
     "@stdlib/math-base-special-sinh": "^0.2.3",
     "@stdlib/math-base-special-sinpi": "^0.3.0",
     "@stdlib/math-base-special-sqrt": "^0.2.2",
+    "@stdlib/math-base-special-sqrtf": "^0.2.2",
     "@stdlib/math-base-special-tan": "^0.3.0",
     "@stdlib/math-base-special-trunc": "^0.2.2",
     "@stdlib/math-base-tools-sum-series": "^0.2.2",
