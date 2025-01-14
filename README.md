@@ -104,7 +104,7 @@ The namespace contains the following statistical functions:
 -   <span class="signature">[`dmaxsorted( N, x, strideX )`][@stdlib/stats/base/dmaxsorted]</span><span class="delimiter">: </span><span class="description">calculate the maximum value of a sorted double-precision floating-point strided array.</span>
 -   <span class="signature">[`dmean( N, x, stride )`][@stdlib/stats/base/dmean]</span><span class="delimiter">: </span><span class="description">calculate the arithmetic mean of a double-precision floating-point strided array.</span>
 -   <span class="signature">[`dmeankbn( N, x, stride )`][@stdlib/stats/base/dmeankbn]</span><span class="delimiter">: </span><span class="description">calculate the arithmetic mean of a double-precision floating-point strided array using an improved Kahan–Babuška algorithm.</span>
--   <span class="signature">[`dmeankbn2( N, x, stride )`][@stdlib/stats/base/dmeankbn2]</span><span class="delimiter">: </span><span class="description">calculate the arithmetic mean of a double-precision floating-point strided array using a second-order iterative Kahan–Babuška algorithm.</span>
+-   <span class="signature">[`dmeankbn2( N, x, strideX )`][@stdlib/stats/base/dmeankbn2]</span><span class="delimiter">: </span><span class="description">calculate the arithmetic mean of a double-precision floating-point strided array using a second-order iterative Kahan–Babuška algorithm.</span>
 -   <span class="signature">[`dmeanli( N, x, stride )`][@stdlib/stats/base/dmeanli]</span><span class="delimiter">: </span><span class="description">calculate the arithmetic mean of a double-precision floating-point strided array using a one-pass trial mean algorithm.</span>
 -   <span class="signature">[`dmeanlipw( N, x, stride )`][@stdlib/stats/base/dmeanlipw]</span><span class="delimiter">: </span><span class="description">calculate the arithmetic mean of a double-precision floating-point strided array using a one-pass trial mean algorithm with pairwise summation.</span>
 -   <span class="signature">[`dmeanors( N, x, stride )`][@stdlib/stats/base/dmeanors]</span><span class="delimiter">: </span><span class="description">calculate the arithmetic mean of a double-precision floating-point strided array using ordinary recursive summation.</span>
@@ -370,6 +370,11 @@ For more information on the project, filing bug reports and feature requests, an
 
 ---
 
+## License
+
+See [LICENSE][stdlib-license].
+
+
 ## Copyright
 
 Copyright &copy; 2016-2025. The Stdlib [Authors][stdlib-authors].
@@ -415,6 +420,8 @@ Copyright &copy; 2016-2025. The Stdlib [Authors][stdlib-authors].
 [esm-url]: https://github.com/stdlib-js/stats-base/tree/esm
 [esm-readme]: https://github.com/stdlib-js/stats-base/blob/esm/README.md
 [branches-url]: https://github.com/stdlib-js/stats-base/blob/main/branches.md
+
+[stdlib-license]: https://raw.githubusercontent.com/stdlib-js/stats-base/main/LICENSE
 
 <!-- <toc-links> -->
 
