@@ -45,7 +45,6 @@
     "@stdlib/stats-base-dcumin": "^0.2.2",
     "@stdlib/stats-base-dcuminabs": "^0.2.2",
     "@stdlib/stats-base-dists": "^0.2.2",
-    "@stdlib/stats-base-dmax": "^0.2.2",
     "@stdlib/stats-base-dmaxabs": "^0.2.2",
     "@stdlib/stats-base-dmaxabssorted": "^0.2.2",
     "@stdlib/stats-base-dmaxsorted": "^0.2.2",
