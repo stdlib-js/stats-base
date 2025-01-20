@@ -72,6 +72,65 @@
 
 <!-- /.bug-fixes -->
 
+<section class="breaking-changes">
+
+##### BREAKING CHANGES
+
+-   [`a99f045`](https://github.com/stdlib-js/stdlib/commit/a99f0459d3f658f0944d9a7adf21c0a0b30f3d9f): remove `stats/base/dcumax`
+
+    -   To migrate, users should update their require/import paths to use
+        `@stdlib/stats-strided/dcumax` which provides the same API and implementation.
+        Ref: https://github.com/stdlib-js/stdlib/issues/4797
+        ---
+        type: pre_commit_static_analysis_report
+        description: Results of running static analysis checks when committing changes.
+        report:
+          - task: lint_filenames
+            status: passed
+          - task: lint_editorconfig
+            status: passed
+          - task: lint_markdown
+            status: na
+          - task: lint_package_json
+            status: na
+          - task: lint_repl_help
+            status: na
+          - task: lint_javascript_src
+            status: na
+          - task: lint_javascript_cli
+            status: na
+          - task: lint_javascript_examples
+            status: na
+          - task: lint_javascript_tests
+            status: na
+          - task: lint_javascript_benchmarks
+            status: na
+          - task: lint_python
+            status: na
+          - task: lint_r
+            status: na
+          - task: lint_c_src
+            status: na
+          - task: lint_c_examples
+            status: na
+          - task: lint_c_benchmarks
+            status: na
+          - task: lint_c_tests_fixtures
+            status: na
+          - task: lint_shell
+            status: na
+          - task: lint_typescript_declarations
+            status: na
+          - task: lint_typescript_tests
+            status: na
+          - task: lint_license_headers
+            status: passed
+        ---
+
+</section>
+
+<!-- /.breaking-changes -->
+
 </details>
 
 </section>
@@ -8302,6 +8361,57 @@ A total of 3 issues were closed in this release:
 
 ### BREAKING CHANGES
 
+-   [`a99f045`](https://github.com/stdlib-js/stdlib/commit/a99f0459d3f658f0944d9a7adf21c0a0b30f3d9f): remove `stats/base/dcumax`
+
+    -   To migrate, users should update their require/import paths to use
+        `@stdlib/stats-strided/dcumax` which provides the same API and implementation.
+        Ref: https://github.com/stdlib-js/stdlib/issues/4797
+        ---
+        type: pre_commit_static_analysis_report
+        description: Results of running static analysis checks when committing changes.
+        report:
+          - task: lint_filenames
+            status: passed
+          - task: lint_editorconfig
+            status: passed
+          - task: lint_markdown
+            status: na
+          - task: lint_package_json
+            status: na
+          - task: lint_repl_help
+            status: na
+          - task: lint_javascript_src
+            status: na
+          - task: lint_javascript_cli
+            status: na
+          - task: lint_javascript_examples
+            status: na
+          - task: lint_javascript_tests
+            status: na
+          - task: lint_javascript_benchmarks
+            status: na
+          - task: lint_python
+            status: na
+          - task: lint_r
+            status: na
+          - task: lint_c_src
+            status: na
+          - task: lint_c_examples
+            status: na
+          - task: lint_c_benchmarks
+            status: na
+          - task: lint_c_tests_fixtures
+            status: na
+          - task: lint_shell
+            status: na
+          - task: lint_typescript_declarations
+            status: na
+          - task: lint_typescript_tests
+            status: na
+          - task: lint_license_headers
+            status: passed
+        ---
+
 -   [`0eac1eb`](https://github.com/stdlib-js/stdlib/commit/0eac1ebde891ba75b8c4939119a6c4b7c88ceed8): remove `dmax`
 
     -   To migrate, users should access `dmax` via the `stats/strided` namespace.
@@ -8444,6 +8554,15 @@ A total of 25 people contributed to this release. Thank you to the following con
 
 <details>
 
+-   [`a99f045`](https://github.com/stdlib-js/stdlib/commit/a99f0459d3f658f0944d9a7adf21c0a0b30f3d9f) - **remove:** remove `stats/base/dcumax` _(by aayush0325)_
+-   [`7fdd232`](https://github.com/stdlib-js/stdlib/commit/7fdd232cf5861d0f25fad1a23d05143211e84d92) - **refactor:** update paths _(by aayush0325)_
+-   [`05b5326`](https://github.com/stdlib-js/stdlib/commit/05b5326d097c6f4ebf4af11c6e92d5da1410caca) - **chore:** minor clean-up _(by Philipp Burckhardt)_
+-   [`d199580`](https://github.com/stdlib-js/stdlib/commit/d19958025c3494ec94440c4d4d66e580d145e71e) - **test:** correcly pass options for native tests _(by Philipp Burckhardt)_
+-   [`a203308`](https://github.com/stdlib-js/stdlib/commit/a2033080838f7056796d2bd6f0096e11c25c7da4) - **chore:** add missing empty lines _(by Philipp Burckhardt)_
+-   [`8ada47e`](https://github.com/stdlib-js/stdlib/commit/8ada47eedd19ea9f21a8edc342ee3583e92ac857) - **chore:** fix indentation _(by Philipp Burckhardt)_
+-   [`cc32a34`](https://github.com/stdlib-js/stdlib/commit/cc32a344ed92962e2168da1f961748f934238cf8) - **chore:** minor clean-up _(by Philipp Burckhardt)_
+-   [`33a4af8`](https://github.com/stdlib-js/stdlib/commit/33a4af8ea02d79120618cb4d50edb87d8aeab6a0) - **chore:** remove extra spaces _(by Philipp Burckhardt)_
+-   [`fd465c2`](https://github.com/stdlib-js/stdlib/commit/fd465c2f1bee458f350ed4a0bc2e008fecdd6886) - **chore:** minor clean-up _(by Philipp Burckhardt)_
 -   [`c33e77a`](https://github.com/stdlib-js/stdlib/commit/c33e77afcecf3ff1290791f4e521ad240b0500b7) - **docs:** update namespace table of contents [(#4819)](https://github.com/stdlib-js/stdlib/pull/4819) _(by stdlib-bot)_
 -   [`20b9402`](https://github.com/stdlib-js/stdlib/commit/20b940262ef8f8f01a640a481636808f5213e039) - **docs:** update namespace TypeScript declaration comments [(#4817)](https://github.com/stdlib-js/stdlib/pull/4817) _(by stdlib-bot)_
 -   [`4486641`](https://github.com/stdlib-js/stdlib/commit/44866418235df4d9f1e5ec38b918f53f1703b908) - **docs:** update related packages sections [(#4816)](https://github.com/stdlib-js/stdlib/pull/4816) _(by stdlib-bot)_
