@@ -316,7 +316,6 @@
     "@stdlib/constants-float64-pinf": "^0.2.2",
     "@stdlib/constants-float64-sqrt-half-pi": "^0.2.2",
     "@stdlib/constants-float64-sqrt-pi": "^0.2.2",
-    "@stdlib/constants-float64-sqrt-three": "^0.2.2",
     "@stdlib/constants-float64-sqrt-two": "^0.2.2",
     "@stdlib/constants-float64-sqrt-two-pi": "^0.2.2",
     "@stdlib/constants-float64-two-pi": "^0.2.2",
