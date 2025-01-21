@@ -40,7 +40,6 @@
     "@stdlib/stats-base-cumaxabs": "^0.2.2",
     "@stdlib/stats-base-cumin": "^0.2.2",
     "@stdlib/stats-base-cuminabs": "^0.2.2",
-    "@stdlib/stats-base-dcumaxabs": "^0.2.2",
     "@stdlib/stats-base-dcumin": "^0.2.2",
     "@stdlib/stats-base-dcuminabs": "^0.2.2",
     "@stdlib/stats-base-dists": "^0.2.2",
