@@ -4,7 +4,7 @@
 
 <section class="release" id="unreleased">
 
-## Unreleased (2025-01-21)
+## Unreleased (2025-01-22)
 
 <section class="packages">
 
@@ -8672,6 +8672,10 @@ A total of 24 people contributed to this release. Thank you to the following con
 
 <details>
 
+-   [`063163f`](https://github.com/stdlib-js/stdlib/commit/063163f04276c85b781b5e58e0e8853ac3b36f0c) - **docs:** update namespace table of contents [(#4845)](https://github.com/stdlib-js/stdlib/pull/4845) _(by stdlib-bot)_
+-   [`68894a1`](https://github.com/stdlib-js/stdlib/commit/68894a16cc999587091fdc3b014d21b64d3dde79) - **bench:** refactor random number generation in `stats/base/dists/betaprime` [(#4840)](https://github.com/stdlib-js/stdlib/pull/4840) _(by Karan Anand)_
+-   [`af55f0d`](https://github.com/stdlib-js/stdlib/commit/af55f0d6d6b4d06c36f46357740ea89a4639ab5b) - **bench:** refactor random number generation in `stats/base/dists/binomial` [(#4841)](https://github.com/stdlib-js/stdlib/pull/4841) _(by Karan Anand)_
+-   [`9394549`](https://github.com/stdlib-js/stdlib/commit/939454926b745326a5b14bcd0924a0526baa93da) - **bench:** refactor random number generation in `stats/base/dists/beta` [(#4837)](https://github.com/stdlib-js/stdlib/pull/4837) _(by Karan Anand)_
 -   [`bb45118`](https://github.com/stdlib-js/stdlib/commit/bb45118e4e70b095a561d3e9ff63cc9002a52764) - **docs:** update namespace table of contents [(#4830)](https://github.com/stdlib-js/stdlib/pull/4830) _(by stdlib-bot, Athan Reines)_
 -   [`3bb92d5`](https://github.com/stdlib-js/stdlib/commit/3bb92d53b8e3008858733e64dca33c7b55d36a58) - **remove:** remove `stats/base/dcumaxabs` _(by Aayush Khanna)_
 -   [`2360eb3`](https://github.com/stdlib-js/stdlib/commit/2360eb3f0a25330f16ae302f9ed4a13c9fe96af1) - **refactor:** update paths _(by Aayush Khanna)_
