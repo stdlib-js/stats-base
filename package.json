@@ -820,7 +820,7 @@
     "@stdlib/stats-base-dists-rayleigh-logcdf": "^0.2.2",
     "@stdlib/stats-base-dists-rayleigh-logpdf": "^0.2.2",
     "@stdlib/stats-base-dists-rayleigh-mean": "^0.2.2",
-    "@stdlib/stats-base-dists-rayleigh-median": "github:stdlib-js/stats-base-dists-rayleigh-median#main",
+    "@stdlib/stats-base-dists-rayleigh-median": "^0.2.2",
     "@stdlib/stats-base-dists-rayleigh-mgf": "^0.2.2",
     "@stdlib/stats-base-dists-rayleigh-mode": "^0.2.2",
     "@stdlib/stats-base-dists-rayleigh-pdf": "^0.2.2",
