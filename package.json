@@ -41,7 +41,6 @@
     "@stdlib/stats-base-cumin": "^0.2.2",
     "@stdlib/stats-base-cuminabs": "^0.2.2",
     "@stdlib/stats-base-dcumin": "^0.2.2",
-    "@stdlib/stats-base-dcuminabs": "^0.2.2",
     "@stdlib/stats-base-dists": "^0.2.2",
     "@stdlib/stats-base-dmaxabs": "^0.2.2",
     "@stdlib/stats-base-dmaxabssorted": "^0.2.2",
@@ -254,7 +253,9 @@
     "@stdlib/utils-define-read-only-property": "^0.2.2"
   },
   "devDependencies": {
+    "@stdlib/array-base-arraylike2object": "^0.2.1",
     "@stdlib/array-base-linspace": "^0.2.2",
+    "@stdlib/array-base-to-accessor-array": "^0.2.2",
     "@stdlib/array-filled-by": "^0.2.1",
     "@stdlib/array-float32": "^0.2.2",
     "@stdlib/array-float64": "^0.2.2",
