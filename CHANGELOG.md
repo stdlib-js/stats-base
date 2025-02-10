@@ -10057,6 +10057,7 @@ A total of 27 people contributed to this release. Thank you to the following con
 
 <details>
 
+-   [`d6e1030`](https://github.com/stdlib-js/stdlib/commit/d6e103056ea873a0cc9fa63fa60b56ff61d9a041) - **docs:** update namespace TypeScript declarations [(#5152)](https://github.com/stdlib-js/stdlib/pull/5152) _(by stdlib-bot)_
 -   [`9a0d2cb`](https://github.com/stdlib-js/stdlib/commit/9a0d2cb8183bc4f1a13eb2ff212d0d0570b60a68) - **docs:** update namespace table of contents [(#5154)](https://github.com/stdlib-js/stdlib/pull/5154) _(by stdlib-bot)_
 -   [`911e179`](https://github.com/stdlib-js/stdlib/commit/911e1793885aced96a177f2ea54300503b2c2a26) - **docs:** clean-up of C docstrings _(by Philipp Burckhardt)_
 -   [`e61b1de`](https://github.com/stdlib-js/stdlib/commit/e61b1dee3334bacf30d213de5b5f1c7868c0753b) - **docs:** clean-up of C docstrings _(by Philipp Burckhardt)_
