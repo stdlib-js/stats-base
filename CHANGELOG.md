@@ -8069,6 +8069,94 @@ This release closes the following issue:
 
 <!-- /.bug-fixes -->
 
+<section class="breaking-changes">
+
+##### BREAKING CHANGES
+
+-   [`f3b5a12`](https://github.com/stdlib-js/stdlib/commit/f3b5a127398b5f1dd325c80f18d286986f477a95): remove `stats/base/dmaxsorted`
+
+    -   To migrate, users should update their require/import paths to use
+        `@stdlib/stats-strided/dmaxsorted` which provides the same API and implementation.
+        Ref: https://github.com/stdlib-js/stdlib/issues/4797
+        ---
+        type: pre_commit_static_analysis_report
+        description: Results of running static analysis checks when committing changes.
+        report:
+          - task: lint_filenames
+            status: passed
+          - task: lint_editorconfig
+            status: passed
+          - task: lint_markdown
+            status: na
+          - task: lint_package_json
+            status: na
+          - task: lint_repl_help
+            status: na
+          - task: lint_javascript_src
+            status: na
+          - task: lint_javascript_cli
+            status: na
+          - task: lint_javascript_examples
+            status: na
+          - task: lint_javascript_tests
+            status: na
+          - task: lint_javascript_benchmarks
+            status: na
+          - task: lint_python
+            status: na
+          - task: lint_r
+            status: na
+          - task: lint_c_src
+            status: na
+          - task: lint_c_examples
+            status: na
+          - task: lint_c_benchmarks
+            status: na
+          - task: lint_c_tests_fixtures
+            status: na
+          - task: lint_shell
+            status: na
+          - task: lint_typescript_declarations
+            status: na
+          - task: lint_typescript_tests
+            status: na
+          - task: lint_license_headers
+            status: passed
+        ---
+        ---
+        type: pre_push_report
+        description: Results of running various checks prior to pushing changes.
+        report:
+          - task: run_javascript_examples
+            status: passed
+          - task: run_c_examples
+            status: passed
+          - task: run_cpp_examples
+            status: na
+          - task: run_javascript_readme_examples
+            status: passed
+          - task: run_c_benchmarks
+            status: passed
+          - task: run_cpp_benchmarks
+            status: na
+          - task: run_fortran_benchmarks
+            status: na
+          - task: run_javascript_benchmarks
+            status: passed
+          - task: run_julia_benchmarks
+            status: na
+          - task: run_python_benchmarks
+            status: na
+          - task: run_r_benchmarks
+            status: na
+          - task: run_javascript_tests
+            status: passed
+        ---
+
+</section>
+
+<!-- /.breaking-changes -->
+
 </details>
 
 </section>
@@ -10502,6 +10590,86 @@ A total of 3 issues were closed in this release:
 
 ### BREAKING CHANGES
 
+-   [`f3b5a12`](https://github.com/stdlib-js/stdlib/commit/f3b5a127398b5f1dd325c80f18d286986f477a95): remove `stats/base/dmaxsorted`
+
+    -   To migrate, users should update their require/import paths to use
+        `@stdlib/stats-strided/dmaxsorted` which provides the same API and implementation.
+        Ref: https://github.com/stdlib-js/stdlib/issues/4797
+        ---
+        type: pre_commit_static_analysis_report
+        description: Results of running static analysis checks when committing changes.
+        report:
+          - task: lint_filenames
+            status: passed
+          - task: lint_editorconfig
+            status: passed
+          - task: lint_markdown
+            status: na
+          - task: lint_package_json
+            status: na
+          - task: lint_repl_help
+            status: na
+          - task: lint_javascript_src
+            status: na
+          - task: lint_javascript_cli
+            status: na
+          - task: lint_javascript_examples
+            status: na
+          - task: lint_javascript_tests
+            status: na
+          - task: lint_javascript_benchmarks
+            status: na
+          - task: lint_python
+            status: na
+          - task: lint_r
+            status: na
+          - task: lint_c_src
+            status: na
+          - task: lint_c_examples
+            status: na
+          - task: lint_c_benchmarks
+            status: na
+          - task: lint_c_tests_fixtures
+            status: na
+          - task: lint_shell
+            status: na
+          - task: lint_typescript_declarations
+            status: na
+          - task: lint_typescript_tests
+            status: na
+          - task: lint_license_headers
+            status: passed
+        ---
+        ---
+        type: pre_push_report
+        description: Results of running various checks prior to pushing changes.
+        report:
+          - task: run_javascript_examples
+            status: passed
+          - task: run_c_examples
+            status: passed
+          - task: run_cpp_examples
+            status: na
+          - task: run_javascript_readme_examples
+            status: passed
+          - task: run_c_benchmarks
+            status: passed
+          - task: run_cpp_benchmarks
+            status: na
+          - task: run_fortran_benchmarks
+            status: na
+          - task: run_javascript_benchmarks
+            status: passed
+          - task: run_julia_benchmarks
+            status: na
+          - task: run_python_benchmarks
+            status: na
+          - task: run_r_benchmarks
+            status: na
+          - task: run_javascript_tests
+            status: passed
+        ---
+
 -   [`bab2e82`](https://github.com/stdlib-js/stdlib/commit/bab2e82c7fa73d2852da6ac47808af7272b87de3): remove `stats/base/dmaxabssorted`
 
     -   To migrate, users should update their require/import paths to use
@@ -11012,6 +11180,8 @@ A total of 31 people contributed to this release. Thank you to the following con
 
 <details>
 
+-   [`f3b5a12`](https://github.com/stdlib-js/stdlib/commit/f3b5a127398b5f1dd325c80f18d286986f477a95) - **remove:** remove `stats/base/dmaxsorted` _(by Aayush Khanna)_
+-   [`be99898`](https://github.com/stdlib-js/stdlib/commit/be99898a6ff41dd12c15b620a65a3cbb0d215522) - **refactor:** update paths _(by Aayush Khanna)_
 -   [`bab2e82`](https://github.com/stdlib-js/stdlib/commit/bab2e82c7fa73d2852da6ac47808af7272b87de3) - **remove:** remove `stats/base/dmaxabssorted` _(by Aayush Khanna)_
 -   [`51d53b8`](https://github.com/stdlib-js/stdlib/commit/51d53b83453f782299b81ab7859625f2816f10ed) - **refactor:** update paths _(by Aayush Khanna)_
 -   [`ae8e7b9`](https://github.com/stdlib-js/stdlib/commit/ae8e7b9f2140d1a5b98e8bc03fb909df3171d410) - **feat:** update namespace TypeScript declarations [(#5254)](https://github.com/stdlib-js/stdlib/pull/5254) _(by stdlib-bot)_
