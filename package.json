@@ -42,7 +42,6 @@
     "@stdlib/stats-base-cuminabs": "^0.2.2",
     "@stdlib/stats-base-dcumin": "^0.2.2",
     "@stdlib/stats-base-dists": "^0.2.2",
-    "@stdlib/stats-base-dmaxabssorted": "^0.2.2",
     "@stdlib/stats-base-dmaxsorted": "^0.2.2",
     "@stdlib/stats-base-dmean": "^0.2.2",
     "@stdlib/stats-base-dmeankbn": "^0.2.2",
