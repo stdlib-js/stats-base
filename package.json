@@ -43,7 +43,6 @@
     "@stdlib/stats-base-dcumin": "^0.2.2",
     "@stdlib/stats-base-dists": "^0.2.2",
     "@stdlib/stats-base-dmean": "^0.2.2",
-    "@stdlib/stats-base-dmeanli": "^0.2.2",
     "@stdlib/stats-base-dmeanlipw": "^0.2.2",
     "@stdlib/stats-base-dmeanors": "^0.2.2",
     "@stdlib/stats-base-dmeanpn": "^0.2.2",
@@ -246,6 +245,7 @@
     "@stdlib/stats-base-variancewd": "^0.2.2",
     "@stdlib/stats-base-varianceyc": "^0.2.2",
     "@stdlib/stats-strided-dmeankbn2": "github:stdlib-js/stats-strided-dmeankbn2#main",
+    "@stdlib/stats-strided-dmeanli": "github:stdlib-js/stats-strided-dmeanli#main",
     "@stdlib/utils-define-read-only-property": "^0.2.2"
   },
   "devDependencies": {
@@ -270,7 +270,6 @@
     "@stdlib/assert-is-positive-integer": "^0.2.2",
     "@stdlib/assert-is-positive-number": "^0.2.2",
     "@stdlib/assert-is-probability": "^0.2.2",
-    "@stdlib/blas-ext-base-dapxsum": "^0.2.2",
     "@stdlib/blas-ext-base-dapxsumpw": "^0.2.2",
     "@stdlib/blas-ext-base-dcusum": "^0.2.2",
     "@stdlib/blas-ext-base-dnannsumpw": "^0.2.2",
