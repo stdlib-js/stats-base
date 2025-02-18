@@ -44,7 +44,6 @@
     "@stdlib/stats-base-dists": "^0.2.2",
     "@stdlib/stats-base-dmean": "^0.2.2",
     "@stdlib/stats-base-dmeanpn": "^0.2.2",
-    "@stdlib/stats-base-dmeanpw": "^0.2.2",
     "@stdlib/stats-base-dmeanstdev": "^0.2.2",
     "@stdlib/stats-base-dmeanstdevpn": "^0.2.2",
     "@stdlib/stats-base-dmeanvar": "^0.2.2",
@@ -246,6 +245,7 @@
     "@stdlib/stats-strided-dmeanli": "github:stdlib-js/stats-strided-dmeanli#main",
     "@stdlib/stats-strided-dmeanlipw": "github:stdlib-js/stats-strided-dmeanlipw#main",
     "@stdlib/stats-strided-dmeanors": "github:stdlib-js/stats-strided-dmeanors#main",
+    "@stdlib/stats-strided-dmeanpw": "github:stdlib-js/stats-strided-dmeanpw#main",
     "@stdlib/utils-define-read-only-property": "^0.2.2"
   },
   "devDependencies": {
