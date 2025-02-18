@@ -78,6 +78,28 @@
 
 <!-- /.package -->
 
+<section class="package" id="stats-base-cumax-unreleased">
+
+#### [@stdlib/stats/base/cumax](https://github.com/stdlib-js/stdlib/tree/develop/lib/node_modules/%40stdlib/stats/base/cumax)
+
+<details>
+
+<section class="features">
+
+##### Features
+
+-   [`11f1341`](https://github.com/stdlib-js/stdlib/commit/11f1341134c5d6c7c0ecd82c99dff766e08e731a) - add support for accessor arrays and refactor `stats/base/cumax`
+
+</section>
+
+<!-- /.features -->
+
+</details>
+
+</section>
+
+<!-- /.package -->
+
 <section class="package" id="stats-base-dcumax-unreleased">
 
 #### [@stdlib/stats/base/dcumax](https://github.com/stdlib-js/stdlib/tree/develop/lib/node_modules/%40stdlib/stats/base/dcumax)
@@ -9146,6 +9168,94 @@ This release closes the following issue:
 
 <!-- /.features -->
 
+<section class="breaking-changes">
+
+##### BREAKING CHANGES
+
+-   [`db61643`](https://github.com/stdlib-js/stdlib/commit/db61643b84dad9323e5465c79b34c97b85e3016b): remove `stats/base/dmeankbn2`
+
+    -   To migrate, users should update their require/import paths to use
+        `@stdlib/stats-strided/dmeankbn2` which provides the same API and implementation.
+        Ref: https://github.com/stdlib-js/stdlib/issues/4797
+        ---
+        type: pre_commit_static_analysis_report
+        description: Results of running static analysis checks when committing changes.
+        report:
+          - task: lint_filenames
+            status: passed
+          - task: lint_editorconfig
+            status: passed
+          - task: lint_markdown
+            status: na
+          - task: lint_package_json
+            status: na
+          - task: lint_repl_help
+            status: na
+          - task: lint_javascript_src
+            status: na
+          - task: lint_javascript_cli
+            status: na
+          - task: lint_javascript_examples
+            status: na
+          - task: lint_javascript_tests
+            status: na
+          - task: lint_javascript_benchmarks
+            status: na
+          - task: lint_python
+            status: na
+          - task: lint_r
+            status: na
+          - task: lint_c_src
+            status: na
+          - task: lint_c_examples
+            status: na
+          - task: lint_c_benchmarks
+            status: na
+          - task: lint_c_tests_fixtures
+            status: na
+          - task: lint_shell
+            status: na
+          - task: lint_typescript_declarations
+            status: na
+          - task: lint_typescript_tests
+            status: na
+          - task: lint_license_headers
+            status: passed
+        ---
+        ---
+        type: pre_push_report
+        description: Results of running various checks prior to pushing changes.
+        report:
+          - task: run_javascript_examples
+            status: passed
+          - task: run_c_examples
+            status: passed
+          - task: run_cpp_examples
+            status: na
+          - task: run_javascript_readme_examples
+            status: passed
+          - task: run_c_benchmarks
+            status: passed
+          - task: run_cpp_benchmarks
+            status: na
+          - task: run_fortran_benchmarks
+            status: na
+          - task: run_javascript_benchmarks
+            status: passed
+          - task: run_julia_benchmarks
+            status: na
+          - task: run_python_benchmarks
+            status: na
+          - task: run_r_benchmarks
+            status: na
+          - task: run_javascript_tests
+            status: passed
+        ---
+
+</section>
+
+<!-- /.breaking-changes -->
+
 </details>
 
 </section>
@@ -11535,6 +11645,86 @@ A total of 3 issues were closed in this release:
 
 ### BREAKING CHANGES
 
+-   [`db61643`](https://github.com/stdlib-js/stdlib/commit/db61643b84dad9323e5465c79b34c97b85e3016b): remove `stats/base/dmeankbn2`
+
+    -   To migrate, users should update their require/import paths to use
+        `@stdlib/stats-strided/dmeankbn2` which provides the same API and implementation.
+        Ref: https://github.com/stdlib-js/stdlib/issues/4797
+        ---
+        type: pre_commit_static_analysis_report
+        description: Results of running static analysis checks when committing changes.
+        report:
+          - task: lint_filenames
+            status: passed
+          - task: lint_editorconfig
+            status: passed
+          - task: lint_markdown
+            status: na
+          - task: lint_package_json
+            status: na
+          - task: lint_repl_help
+            status: na
+          - task: lint_javascript_src
+            status: na
+          - task: lint_javascript_cli
+            status: na
+          - task: lint_javascript_examples
+            status: na
+          - task: lint_javascript_tests
+            status: na
+          - task: lint_javascript_benchmarks
+            status: na
+          - task: lint_python
+            status: na
+          - task: lint_r
+            status: na
+          - task: lint_c_src
+            status: na
+          - task: lint_c_examples
+            status: na
+          - task: lint_c_benchmarks
+            status: na
+          - task: lint_c_tests_fixtures
+            status: na
+          - task: lint_shell
+            status: na
+          - task: lint_typescript_declarations
+            status: na
+          - task: lint_typescript_tests
+            status: na
+          - task: lint_license_headers
+            status: passed
+        ---
+        ---
+        type: pre_push_report
+        description: Results of running various checks prior to pushing changes.
+        report:
+          - task: run_javascript_examples
+            status: passed
+          - task: run_c_examples
+            status: passed
+          - task: run_cpp_examples
+            status: na
+          - task: run_javascript_readme_examples
+            status: passed
+          - task: run_c_benchmarks
+            status: passed
+          - task: run_cpp_benchmarks
+            status: na
+          - task: run_fortran_benchmarks
+            status: na
+          - task: run_javascript_benchmarks
+            status: passed
+          - task: run_julia_benchmarks
+            status: na
+          - task: run_python_benchmarks
+            status: na
+          - task: run_r_benchmarks
+            status: na
+          - task: run_javascript_tests
+            status: passed
+        ---
+
 -   [`cfada54`](https://github.com/stdlib-js/stdlib/commit/cfada54a59fd74da628a2c918325a59debd25d3d): remove `dmaxsorted`, `dmaxabssorted`, and `dmeankbn`
 
     -   To migrate, users should access the removed symbols via the `stats/strided` namespace.
@@ -12210,6 +12400,9 @@ A total of 32 people contributed to this release. Thank you to the following con
 
 <details>
 
+-   [`db61643`](https://github.com/stdlib-js/stdlib/commit/db61643b84dad9323e5465c79b34c97b85e3016b) - **remove:** remove `stats/base/dmeankbn2` _(by Aayush Khanna)_
+-   [`0bba6a2`](https://github.com/stdlib-js/stdlib/commit/0bba6a27810dd0e3c37ddc201c07b938f4ddc3ad) - **refactor:** update paths _(by Aayush Khanna)_
+-   [`11f1341`](https://github.com/stdlib-js/stdlib/commit/11f1341134c5d6c7c0ecd82c99dff766e08e731a) - **feat:** add support for accessor arrays and refactor `stats/base/cumax` _(by Vivek Maurya, stdlib-bot)_
 -   [`cfada54`](https://github.com/stdlib-js/stdlib/commit/cfada54a59fd74da628a2c918325a59debd25d3d) - **feat:** update namespace TypeScript declarations [(#5277)](https://github.com/stdlib-js/stdlib/pull/5277) _(by stdlib-bot)_
 -   [`a437539`](https://github.com/stdlib-js/stdlib/commit/a437539905254dcb01dff5011322c432f44f02bd) - **docs:** update namespace table of contents [(#5279)](https://github.com/stdlib-js/stdlib/pull/5279) _(by stdlib-bot)_
 -   [`0d255bc`](https://github.com/stdlib-js/stdlib/commit/0d255bc39e0a122554fbc972be6c0973abb2c48a) - **bench:** refactor random number generation in JS benchmarks for `stats/base/dists/logistic` [(#5139)](https://github.com/stdlib-js/stdlib/pull/5139) _(by GK Bishnoi, Gopi Kishan)_
