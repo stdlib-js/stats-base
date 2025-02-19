@@ -105,7 +105,7 @@ The namespace contains the following statistical functions:
 -   <span class="signature">[`dmediansorted( N, x, strideX )`][@stdlib/stats/strided/dmediansorted]</span><span class="delimiter">: </span><span class="description">calculate the median value of a sorted double-precision floating-point strided array.</span>
 -   <span class="signature">[`dmidrange( N, x, strideX )`][@stdlib/stats/strided/dmidrange]</span><span class="delimiter">: </span><span class="description">calculate the mid-range of a double-precision floating-point strided array.</span>
 -   <span class="signature">[`dmin( N, x, strideX )`][@stdlib/stats/strided/dmin]</span><span class="delimiter">: </span><span class="description">calculate the minimum value of a double-precision floating-point strided array.</span>
--   <span class="signature">[`dminabs( N, x, strideX )`][@stdlib/stats/base/dminabs]</span><span class="delimiter">: </span><span class="description">calculate the minimum absolute value of a double-precision floating-point strided array.</span>
+-   <span class="signature">[`dminabs( N, x, strideX )`][@stdlib/stats/strided/dminabs]</span><span class="delimiter">: </span><span class="description">calculate the minimum absolute value of a double-precision floating-point strided array.</span>
 -   <span class="signature">[`dminsorted( N, x, strideX )`][@stdlib/stats/base/dminsorted]</span><span class="delimiter">: </span><span class="description">calculate the minimum value of a sorted double-precision floating-point strided array.</span>
 -   <span class="signature">[`dmskmax( N, x, strideX, mask, strideMask )`][@stdlib/stats/base/dmskmax]</span><span class="delimiter">: </span><span class="description">calculate the maximum value of a double-precision floating-point strided array according to a mask.</span>
 -   <span class="signature">[`dmskmin( N, x, strideX, mask, strideMask )`][@stdlib/stats/base/dmskmin]</span><span class="delimiter">: </span><span class="description">calculate the minimum value of a double-precision floating-point strided array according to a mask.</span>
@@ -442,7 +442,7 @@ Copyright &copy; 2016-2025. The Stdlib [Authors][stdlib-authors].
 
 [@stdlib/stats/strided/dmin]: https://github.com/stdlib-js/stats-strided-dmin
 
-[@stdlib/stats/base/dminabs]: https://github.com/stdlib-js/stats-base-dminabs
+[@stdlib/stats/strided/dminabs]: https://github.com/stdlib-js/stats-strided-dminabs
 
 [@stdlib/stats/base/dminsorted]: https://github.com/stdlib-js/stats-base-dminsorted
 
