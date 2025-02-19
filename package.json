@@ -48,7 +48,6 @@
     "@stdlib/stats-base-dmeanstdevpn": "^0.2.2",
     "@stdlib/stats-base-dmeanvar": "^0.2.2",
     "@stdlib/stats-base-dmeanvarpn": "^0.2.2",
-    "@stdlib/stats-base-dmin": "^0.2.2",
     "@stdlib/stats-base-dminabs": "^0.2.2",
     "@stdlib/stats-base-dminsorted": "^0.2.2",
     "@stdlib/stats-base-dmskmax": "^0.2.2",
@@ -246,6 +245,7 @@
     "@stdlib/stats-strided-dmeanwd": "github:stdlib-js/stats-strided-dmeanwd#main",
     "@stdlib/stats-strided-dmediansorted": "github:stdlib-js/stats-strided-dmediansorted#main",
     "@stdlib/stats-strided-dmidrange": "github:stdlib-js/stats-strided-dmidrange#main",
+    "@stdlib/stats-strided-dmin": "github:stdlib-js/stats-strided-dmin#main",
     "@stdlib/utils-define-read-only-property": "^0.2.2"
   },
   "devDependencies": {
