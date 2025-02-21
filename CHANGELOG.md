@@ -4,7 +4,7 @@
 
 <section class="release" id="unreleased">
 
-## Unreleased (2025-02-20)
+## Unreleased (2025-02-21)
 
 <section class="packages">
 
@@ -111,6 +111,28 @@
 ##### Features
 
 -   [`c17d1c9`](https://github.com/stdlib-js/stdlib/commit/c17d1c95b7537c91a8d4da9ba24b555895067e66) - add support for accessor arrays and refactor `stats/base/cumaxabs` [(#5289)](https://github.com/stdlib-js/stdlib/pull/5289)
+
+</section>
+
+<!-- /.features -->
+
+</details>
+
+</section>
+
+<!-- /.package -->
+
+<section class="package" id="stats-base-cumin-unreleased">
+
+#### [@stdlib/stats/base/cumin](https://github.com/stdlib-js/stdlib/tree/develop/lib/node_modules/%40stdlib/stats/base/cumin)
+
+<details>
+
+<section class="features">
+
+##### Features
+
+-   [`528efd8`](https://github.com/stdlib-js/stdlib/commit/528efd8000eb7b910f64e63796a8a7c2fdfa03cd) - add support for accessor arrays and refactor `stats/base/cumin` [(#5335)](https://github.com/stdlib-js/stdlib/pull/5335)
 
 </section>
 
@@ -1490,6 +1512,50 @@ This release closes the following issue:
 </section>
 
 <!-- /.issues -->
+
+</details>
+
+</section>
+
+<!-- /.package -->
+
+<section class="package" id="stats-base-dists-bradford-median-unreleased">
+
+#### [@stdlib/stats/base/dists/bradford/median](https://github.com/stdlib-js/stdlib/tree/develop/lib/node_modules/%40stdlib/stats/base/dists/bradford/median)
+
+<details>
+
+<section class="features">
+
+##### Features
+
+-   [`996c248`](https://github.com/stdlib-js/stdlib/commit/996c2482be0f57c7f11f7ff03fdf3b859c45c58b) - add `stats/base/dists/bradford/median` [(#5275)](https://github.com/stdlib-js/stdlib/pull/5275)
+
+</section>
+
+<!-- /.features -->
+
+</details>
+
+</section>
+
+<!-- /.package -->
+
+<section class="package" id="stats-base-dists-bradford-mode-unreleased">
+
+#### [@stdlib/stats/base/dists/bradford/mode](https://github.com/stdlib-js/stdlib/tree/develop/lib/node_modules/%40stdlib/stats/base/dists/bradford/mode)
+
+<details>
+
+<section class="features">
+
+##### Features
+
+-   [`21f8e14`](https://github.com/stdlib-js/stdlib/commit/21f8e1488e983bf951e590558a96ffee0bc956cc) - add `stats/base/dists/bradford/mode` [(#5315)](https://github.com/stdlib-js/stdlib/pull/5315)
+
+</section>
+
+<!-- /.features -->
 
 </details>
 
@@ -10556,6 +10622,94 @@ This release closes the following issue:
 
 <!-- /.bug-fixes -->
 
+<section class="breaking-changes">
+
+##### BREAKING CHANGES
+
+-   [`0f7184d`](https://github.com/stdlib-js/stdlib/commit/0f7184d6a265711ee717b9cc80da681111083b87): remove `stats/base/dnanmax`
+
+    -   To migrate, users should update their require/import paths to use
+        `@stdlib/stats-strided/dnanmax` which provides the same API and implementation.
+        Ref: https://github.com/stdlib-js/stdlib/issues/4797
+        ---
+        type: pre_commit_static_analysis_report
+        description: Results of running static analysis checks when committing changes.
+        report:
+          - task: lint_filenames
+            status: passed
+          - task: lint_editorconfig
+            status: passed
+          - task: lint_markdown
+            status: na
+          - task: lint_package_json
+            status: na
+          - task: lint_repl_help
+            status: na
+          - task: lint_javascript_src
+            status: na
+          - task: lint_javascript_cli
+            status: na
+          - task: lint_javascript_examples
+            status: na
+          - task: lint_javascript_tests
+            status: na
+          - task: lint_javascript_benchmarks
+            status: na
+          - task: lint_python
+            status: na
+          - task: lint_r
+            status: na
+          - task: lint_c_src
+            status: na
+          - task: lint_c_examples
+            status: na
+          - task: lint_c_benchmarks
+            status: na
+          - task: lint_c_tests_fixtures
+            status: na
+          - task: lint_shell
+            status: na
+          - task: lint_typescript_declarations
+            status: na
+          - task: lint_typescript_tests
+            status: na
+          - task: lint_license_headers
+            status: passed
+        ---
+        ---
+        type: pre_push_report
+        description: Results of running various checks prior to pushing changes.
+        report:
+          - task: run_javascript_examples
+            status: passed
+          - task: run_c_examples
+            status: passed
+          - task: run_cpp_examples
+            status: na
+          - task: run_javascript_readme_examples
+            status: passed
+          - task: run_c_benchmarks
+            status: passed
+          - task: run_cpp_benchmarks
+            status: na
+          - task: run_fortran_benchmarks
+            status: na
+          - task: run_javascript_benchmarks
+            status: passed
+          - task: run_julia_benchmarks
+            status: na
+          - task: run_python_benchmarks
+            status: na
+          - task: run_r_benchmarks
+            status: na
+          - task: run_javascript_tests
+            status: passed
+        ---
+
+</section>
+
+<!-- /.breaking-changes -->
+
 </details>
 
 </section>
@@ -12579,6 +12733,86 @@ A total of 3 issues were closed in this release:
 
 ### BREAKING CHANGES
 
+-   [`0f7184d`](https://github.com/stdlib-js/stdlib/commit/0f7184d6a265711ee717b9cc80da681111083b87): remove `stats/base/dnanmax`
+
+    -   To migrate, users should update their require/import paths to use
+        `@stdlib/stats-strided/dnanmax` which provides the same API and implementation.
+        Ref: https://github.com/stdlib-js/stdlib/issues/4797
+        ---
+        type: pre_commit_static_analysis_report
+        description: Results of running static analysis checks when committing changes.
+        report:
+          - task: lint_filenames
+            status: passed
+          - task: lint_editorconfig
+            status: passed
+          - task: lint_markdown
+            status: na
+          - task: lint_package_json
+            status: na
+          - task: lint_repl_help
+            status: na
+          - task: lint_javascript_src
+            status: na
+          - task: lint_javascript_cli
+            status: na
+          - task: lint_javascript_examples
+            status: na
+          - task: lint_javascript_tests
+            status: na
+          - task: lint_javascript_benchmarks
+            status: na
+          - task: lint_python
+            status: na
+          - task: lint_r
+            status: na
+          - task: lint_c_src
+            status: na
+          - task: lint_c_examples
+            status: na
+          - task: lint_c_benchmarks
+            status: na
+          - task: lint_c_tests_fixtures
+            status: na
+          - task: lint_shell
+            status: na
+          - task: lint_typescript_declarations
+            status: na
+          - task: lint_typescript_tests
+            status: na
+          - task: lint_license_headers
+            status: passed
+        ---
+        ---
+        type: pre_push_report
+        description: Results of running various checks prior to pushing changes.
+        report:
+          - task: run_javascript_examples
+            status: passed
+          - task: run_c_examples
+            status: passed
+          - task: run_cpp_examples
+            status: na
+          - task: run_javascript_readme_examples
+            status: passed
+          - task: run_c_benchmarks
+            status: passed
+          - task: run_cpp_benchmarks
+            status: na
+          - task: run_fortran_benchmarks
+            status: na
+          - task: run_javascript_benchmarks
+            status: passed
+          - task: run_julia_benchmarks
+            status: na
+          - task: run_python_benchmarks
+            status: na
+          - task: run_r_benchmarks
+            status: na
+          - task: run_javascript_tests
+            status: passed
+        ---
+
 -   [`29ba714`](https://github.com/stdlib-js/stdlib/commit/29ba714fd2884948aed64281c3f66e803dcfdb30): remove `stats/base/dminsorted`
 
     -   To migrate, users should update their require/import paths to use
@@ -14135,6 +14369,12 @@ A total of 33 people contributed to this release. Thank you to the following con
 
 <details>
 
+-   [`0f7184d`](https://github.com/stdlib-js/stdlib/commit/0f7184d6a265711ee717b9cc80da681111083b87) - **remove:** remove `stats/base/dnanmax` _(by Aayush Khanna)_
+-   [`b644709`](https://github.com/stdlib-js/stdlib/commit/b64470944253e6c2be920aa4e066146bd9ab11f2) - **refactor:** update paths _(by Aayush Khanna)_
+-   [`7fc07a2`](https://github.com/stdlib-js/stdlib/commit/7fc07a2122bb9e862ae7e2237dd48096051199dd) - **docs:** fix missing section tags in various READMEs [(#5322)](https://github.com/stdlib-js/stdlib/pull/5322) _(by Saurabh Singh)_
+-   [`528efd8`](https://github.com/stdlib-js/stdlib/commit/528efd8000eb7b910f64e63796a8a7c2fdfa03cd) - **feat:** add support for accessor arrays and refactor `stats/base/cumin` [(#5335)](https://github.com/stdlib-js/stdlib/pull/5335) _(by Vivek Maurya, Athan Reines)_
+-   [`21f8e14`](https://github.com/stdlib-js/stdlib/commit/21f8e1488e983bf951e590558a96ffee0bc956cc) - **feat:** add `stats/base/dists/bradford/mode` [(#5315)](https://github.com/stdlib-js/stdlib/pull/5315) _(by Karan Anand)_
+-   [`996c248`](https://github.com/stdlib-js/stdlib/commit/996c2482be0f57c7f11f7ff03fdf3b859c45c58b) - **feat:** add `stats/base/dists/bradford/median` [(#5275)](https://github.com/stdlib-js/stdlib/pull/5275) _(by Karan Anand, Philipp Burckhardt)_
 -   [`29ba714`](https://github.com/stdlib-js/stdlib/commit/29ba714fd2884948aed64281c3f66e803dcfdb30) - **remove:** remove `stats/base/dminsorted` _(by Aayush Khanna)_
 -   [`a951a6d`](https://github.com/stdlib-js/stdlib/commit/a951a6d2ed9891399cba81b0834fe73b851247b7) - **refactor:** update paths _(by Aayush Khanna)_
 -   [`13fc14e`](https://github.com/stdlib-js/stdlib/commit/13fc14e776090d0c8917b7a7a4757dd8b9051d71) - **docs:** update namespace table of contents [(#5332)](https://github.com/stdlib-js/stdlib/pull/5332) _(by stdlib-bot)_
