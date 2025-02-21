@@ -14537,6 +14537,7 @@ A total of 33 people contributed to this release. Thank you to the following con
 
 <details>
 
+-   [`bf18c77`](https://github.com/stdlib-js/stdlib/commit/bf18c7705ea5e96e733a13f20844bf975a4dac18) - **docs:** update namespace table of contents [(#5351)](https://github.com/stdlib-js/stdlib/pull/5351) _(by stdlib-bot)_
 -   [`87172d0`](https://github.com/stdlib-js/stdlib/commit/87172d04e51a36c86533f8d8efa96ef778b2d9ec) - **remove:** remove `stats/base/dnanmaxabs` _(by Aayush Khanna)_
 -   [`472883d`](https://github.com/stdlib-js/stdlib/commit/472883d6f2df01f1ed09c4fab80fd7068b8af214) - **refactor:** update paths _(by Aayush Khanna)_
 -   [`0f7184d`](https://github.com/stdlib-js/stdlib/commit/0f7184d6a265711ee717b9cc80da681111083b87) - **remove:** remove `stats/base/dnanmax` _(by Aayush Khanna)_
