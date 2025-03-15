@@ -4,7 +4,7 @@
 
 <section class="release" id="unreleased">
 
-## Unreleased (2025-03-13)
+## Unreleased (2025-03-15)
 
 <section class="packages">
 
@@ -20,6 +20,7 @@
 
 ##### Features
 
+-   [`3da41b7`](https://github.com/stdlib-js/stdlib/commit/3da41b7ccb754f5ffa7f4f9fc61799d570871a19) - update namespace TypeScript declarations [(#6058)](https://github.com/stdlib-js/stdlib/pull/6058)
 -   [`87abb74`](https://github.com/stdlib-js/stdlib/commit/87abb743fe577742c81ce1be6b5b8477da33b5f2) - update namespace TypeScript declarations [(#6008)](https://github.com/stdlib-js/stdlib/pull/6008)
 -   [`2f0aa48`](https://github.com/stdlib-js/stdlib/commit/2f0aa48ef6d561779d4bd4c4a54fe00a5a26c0e1) - update namespace TypeScript declarations [(#5436)](https://github.com/stdlib-js/stdlib/pull/5436)
 -   [`31d673e`](https://github.com/stdlib-js/stdlib/commit/31d673e7ec3a7393b6b689d9ab724b783deef4ce) - update namespace TypeScript declarations [(#5385)](https://github.com/stdlib-js/stdlib/pull/5385)
@@ -13044,6 +13045,50 @@ This release closes the following issue:
 
 <!-- /.package -->
 
+<section class="package" id="stats-base-dnanstdevch-unreleased">
+
+#### [@stdlib/stats/base/dnanstdevch](https://github.com/stdlib-js/stdlib/tree/develop/lib/node_modules/%40stdlib/stats/base/dnanstdevch)
+
+<details>
+
+<section class="features">
+
+##### Features
+
+-   [`5883c68`](https://github.com/stdlib-js/stdlib/commit/5883c680f228c9b8781e495979e60166e6e91e79) - add C ndarray interface and refactor implementation for `stats/base/dnanstdevch` [(#5422)](https://github.com/stdlib-js/stdlib/pull/5422)
+
+</section>
+
+<!-- /.features -->
+
+</details>
+
+</section>
+
+<!-- /.package -->
+
+<section class="package" id="stats-base-dnanstdevpn-unreleased">
+
+#### [@stdlib/stats/base/dnanstdevpn](https://github.com/stdlib-js/stdlib/tree/develop/lib/node_modules/%40stdlib/stats/base/dnanstdevpn)
+
+<details>
+
+<section class="features">
+
+##### Features
+
+-   [`caa35d1`](https://github.com/stdlib-js/stdlib/commit/caa35d1abb3fc347fd43e0910ff412e93b511754) - add C ndarray interface and refactor implementation for `stats/base/dnanstdevpn` [(#5494)](https://github.com/stdlib-js/stdlib/pull/5494)
+
+</section>
+
+<!-- /.features -->
+
+</details>
+
+</section>
+
+<!-- /.package -->
+
 <section class="package" id="stats-base-dnanstdevtk-unreleased">
 
 #### [@stdlib/stats/base/dnanstdevtk](https://github.com/stdlib-js/stdlib/tree/develop/lib/node_modules/%40stdlib/stats/base/dnanstdevtk)
@@ -13123,6 +13168,28 @@ This release closes the following issue:
 ##### Features
 
 -   [`e1b7184`](https://github.com/stdlib-js/stdlib/commit/e1b7184cd08ad496335c6acb76170e027fcc86ce) - add C ndarray interface and refactor implementation for `stats/base/dnanstdevyc` [(#5394)](https://github.com/stdlib-js/stdlib/pull/5394)
+
+</section>
+
+<!-- /.features -->
+
+</details>
+
+</section>
+
+<!-- /.package -->
+
+<section class="package" id="stats-base-dnanvariance-unreleased">
+
+#### [@stdlib/stats/base/dnanvariance](https://github.com/stdlib-js/stdlib/tree/develop/lib/node_modules/%40stdlib/stats/base/dnanvariance)
+
+<details>
+
+<section class="features">
+
+##### Features
+
+-   [`42252d8`](https://github.com/stdlib-js/stdlib/commit/42252d8953a420e826e3b80377a582ff52dce85b) - add C ndarray interface and refactor implementation for `stats/base/dnanvariance` [(#5396)](https://github.com/stdlib-js/stdlib/pull/5396)
 
 </section>
 
@@ -13707,6 +13774,28 @@ This release closes the following issue:
 ##### Features
 
 -   [`41cf529`](https://github.com/stdlib-js/stdlib/commit/41cf529795453c99f7621b5d253970498d11fd28) - add C ndarray interface and refactor implementation for `stats/base/dstdevyc` [(#4628)](https://github.com/stdlib-js/stdlib/pull/4628)
+
+</section>
+
+<!-- /.features -->
+
+</details>
+
+</section>
+
+<!-- /.package -->
+
+<section class="package" id="stats-base-dsvariancepn-unreleased">
+
+#### [@stdlib/stats/base/dsvariancepn](https://github.com/stdlib-js/stdlib/tree/develop/lib/node_modules/%40stdlib/stats/base/dsvariancepn)
+
+<details>
+
+<section class="features">
+
+##### Features
+
+-   [`2cb9d07`](https://github.com/stdlib-js/stdlib/commit/2cb9d076ac8129702b76a672350a6c25068d5b26) - add C ndarray interface and refactor implementation for `stats/base/dsvariancepn` [(#5547)](https://github.com/stdlib-js/stdlib/pull/5547)
 
 </section>
 
@@ -14914,6 +15003,50 @@ A total of 3 issues were closed in this release:
 ##### Features
 
 -   [`d0b776a`](https://github.com/stdlib-js/stdlib/commit/d0b776aace0d50f6b385f5babd7655aa2c0578a3) - add C ndarray interface and refactor implementation for `stats/base/snanmeanors` [(#4786)](https://github.com/stdlib-js/stdlib/pull/4786)
+
+</section>
+
+<!-- /.features -->
+
+</details>
+
+</section>
+
+<!-- /.package -->
+
+<section class="package" id="stats-base-snanmeanpn-unreleased">
+
+#### [@stdlib/stats/base/snanmeanpn](https://github.com/stdlib-js/stdlib/tree/develop/lib/node_modules/%40stdlib/stats/base/snanmeanpn)
+
+<details>
+
+<section class="features">
+
+##### Features
+
+-   [`2b334ad`](https://github.com/stdlib-js/stdlib/commit/2b334ad1a9801e0ad49444efb5d692992acb272a) - add C ndarray interface and refactor implementation for `stats/base/snanmeanpn` [(#4777)](https://github.com/stdlib-js/stdlib/pull/4777)
+
+</section>
+
+<!-- /.features -->
+
+</details>
+
+</section>
+
+<!-- /.package -->
+
+<section class="package" id="stats-base-snanmeanwd-unreleased">
+
+#### [@stdlib/stats/base/snanmeanwd](https://github.com/stdlib-js/stdlib/tree/develop/lib/node_modules/%40stdlib/stats/base/snanmeanwd)
+
+<details>
+
+<section class="features">
+
+##### Features
+
+-   [`94f7922`](https://github.com/stdlib-js/stdlib/commit/94f7922c7cd9dd157de963eb399e1c1dc3b4cfbd) - add C ndarray interface and refactor implementation for `stats/base/snanmeanwd` [(#4802)](https://github.com/stdlib-js/stdlib/pull/4802)
 
 </section>
 
@@ -17241,6 +17374,14 @@ A total of 48 people contributed to this release. Thank you to the following con
 
 <details>
 
+-   [`3da41b7`](https://github.com/stdlib-js/stdlib/commit/3da41b7ccb754f5ffa7f4f9fc61799d570871a19) - **feat:** update namespace TypeScript declarations [(#6058)](https://github.com/stdlib-js/stdlib/pull/6058) _(by stdlib-bot)_
+-   [`5cc0967`](https://github.com/stdlib-js/stdlib/commit/5cc0967af847836f11be2f3ce41f56c2d5345530) - **docs:** update namespace table of contents [(#6060)](https://github.com/stdlib-js/stdlib/pull/6060) _(by stdlib-bot)_
+-   [`94f7922`](https://github.com/stdlib-js/stdlib/commit/94f7922c7cd9dd157de963eb399e1c1dc3b4cfbd) - **feat:** add C ndarray interface and refactor implementation for `stats/base/snanmeanwd` [(#4802)](https://github.com/stdlib-js/stdlib/pull/4802) _(by Prashant Kumar Yadav, Athan Reines, Aayush Khanna)_
+-   [`2b334ad`](https://github.com/stdlib-js/stdlib/commit/2b334ad1a9801e0ad49444efb5d692992acb272a) - **feat:** add C ndarray interface and refactor implementation for `stats/base/snanmeanpn` [(#4777)](https://github.com/stdlib-js/stdlib/pull/4777) _(by Prashant Kumar Yadav, Athan Reines)_
+-   [`42252d8`](https://github.com/stdlib-js/stdlib/commit/42252d8953a420e826e3b80377a582ff52dce85b) - **feat:** add C ndarray interface and refactor implementation for `stats/base/dnanvariance` [(#5396)](https://github.com/stdlib-js/stdlib/pull/5396) _(by Prashant Kumar Yadav, Athan Reines)_
+-   [`2cb9d07`](https://github.com/stdlib-js/stdlib/commit/2cb9d076ac8129702b76a672350a6c25068d5b26) - **feat:** add C ndarray interface and refactor implementation for `stats/base/dsvariancepn` [(#5547)](https://github.com/stdlib-js/stdlib/pull/5547) _(by Prashant Kumar Yadav, Athan Reines, Aayush Khanna)_
+-   [`5883c68`](https://github.com/stdlib-js/stdlib/commit/5883c680f228c9b8781e495979e60166e6e91e79) - **feat:** add C ndarray interface and refactor implementation for `stats/base/dnanstdevch` [(#5422)](https://github.com/stdlib-js/stdlib/pull/5422) _(by Prashant Kumar Yadav, Athan Reines)_
+-   [`caa35d1`](https://github.com/stdlib-js/stdlib/commit/caa35d1abb3fc347fd43e0910ff412e93b511754) - **feat:** add C ndarray interface and refactor implementation for `stats/base/dnanstdevpn` [(#5494)](https://github.com/stdlib-js/stdlib/pull/5494) _(by Prashant Kumar Yadav, Aayush Khanna, Athan Reines)_
 -   [`216ed03`](https://github.com/stdlib-js/stdlib/commit/216ed034f920b72bd4ffc82724285333d28e33cc) - **docs:** update namespace table of contents [(#6010)](https://github.com/stdlib-js/stdlib/pull/6010) _(by stdlib-bot, Athan Reines)_
 -   [`dc9f39f`](https://github.com/stdlib-js/stdlib/commit/dc9f39f6f289ac4a78bdfb99571db2fbbdd6e7a2) - **chore:** address commit comments [(#6011)](https://github.com/stdlib-js/stdlib/pull/6011) _(by Deep Trivedi)_
 -   [`cb7c51d`](https://github.com/stdlib-js/stdlib/commit/cb7c51d44ec655d7aa6bdc76781a539597467865) - **chore:** address commit comments [(#6015)](https://github.com/stdlib-js/stdlib/pull/6015) _(by Deep Trivedi)_
