@@ -17477,6 +17477,7 @@ A total of 51 people contributed to this release. Thank you to the following con
 
 <details>
 
+-   [`d1ab920`](https://github.com/stdlib-js/stdlib/commit/d1ab920a2c15be31540dab8633678d66c70e0000) - **docs:** update namespace TypeScript declarations [(#6173)](https://github.com/stdlib-js/stdlib/pull/6173) _(by stdlib-bot)_
 -   [`508685d`](https://github.com/stdlib-js/stdlib/commit/508685d02da61d9501eddf2b91f43ba8ce49af11) - **docs:** update namespace table of contents [(#6175)](https://github.com/stdlib-js/stdlib/pull/6175) _(by stdlib-bot)_
 -   [`6373477`](https://github.com/stdlib-js/stdlib/commit/63734778216d7ccd30441d14d81bbe464474432e) - **feat:** add accessor protocol support and refactor `stats/base/nanvarianceyc` [(#6143)](https://github.com/stdlib-js/stdlib/pull/6143) _(by Rahul Kumar, Athan Reines)_
 -   [`04c3454`](https://github.com/stdlib-js/stdlib/commit/04c34541dd27ecad16ba67f3ce455acdc9b7cef6) - **chore:** address commit comments [(#5941)](https://github.com/stdlib-js/stdlib/pull/5941) _(by Pulkit Gupta)_
