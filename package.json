@@ -54,7 +54,6 @@
     "@stdlib/stats-base-dnanmeanpn": "^0.2.2",
     "@stdlib/stats-base-dnanmeanpw": "^0.2.2",
     "@stdlib/stats-base-dnanmeanwd": "^0.2.2",
-    "@stdlib/stats-base-dnanmin": "^0.2.2",
     "@stdlib/stats-base-dnanminabs": "^0.2.2",
     "@stdlib/stats-base-dnanmskmax": "^0.2.2",
     "@stdlib/stats-base-dnanmskmin": "^0.2.2",
