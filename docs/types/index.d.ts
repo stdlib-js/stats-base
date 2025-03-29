@@ -98,7 +98,6 @@ import sdsnanmeanors = require( '@stdlib/stats-base-sdsnanmeanors' );
 import smean = require( '@stdlib/stats-base-smean' );
 import smeankbn = require( '@stdlib/stats-base-smeankbn' );
 import smeankbn2 = require( '@stdlib/stats-base-smeankbn2' );
-import smeanli = require( '@stdlib/stats-base-smeanli' );
 import smeanlipw = require( '@stdlib/stats-base-smeanlipw' );
 import smeanors = require( '@stdlib/stats-base-smeanors' );
 import smeanpn = require( '@stdlib/stats-base-smeanpn' );
@@ -2235,32 +2234,6 @@ interface Namespace {
 	* // returns ~0.3333
 	*/
 	smeankbn2: typeof smeankbn2;
-
-	/**
-	* Computes the arithmetic mean of a single-precision floating-point strided array using a one-pass trial mean algorithm.
-	*
-	* @param N - number of indexed elements
-	* @param x - input array
-	* @param strideX - stride length
-	* @returns arithmetic mean
-	*
-	* @example
-	* var Float32Array = require( '@stdlib/array-float32' );
-	*
-	* var x = new Float32Array( [ 1.0, -2.0, 2.0 ] );
-	*
-	* var v = ns.smeanli( x.length, x, 1 );
-	* // returns ~0.3333
-	*
-	* @example
-	* var Float32Array = require( '@stdlib/array-float32' );
-	*
-	* var x = new Float32Array( [ 1.0, -2.0, 2.0 ] );
-	*
-	* var v = ns.smeanli.ndarray( x.length, x, 1, 0 );
-	* // returns ~0.3333
-	*/
-	smeanli: typeof smeanli;
 
 	/**
 	* Computes the arithmetic mean of a single-precision floating-point strided array using a one-pass trial mean algorithm with pairwise summation.
