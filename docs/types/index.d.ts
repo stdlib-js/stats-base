@@ -102,8 +102,6 @@ import smeanlipw = require( '@stdlib/stats-base-smeanlipw' );
 import smeanors = require( '@stdlib/stats-base-smeanors' );
 import smeanpn = require( '@stdlib/stats-base-smeanpn' );
 import smidrange = require( '@stdlib/stats-base-smidrange' );
-import smskmax = require( '@stdlib/stats-base-smskmax' );
-import smskmin = require( '@stdlib/stats-base-smskmin' );
 import smskrange = require( '@stdlib/stats-base-smskrange' );
 import snanmax = require( '@stdlib/stats-base-snanmax' );
 import snanmaxabs = require( '@stdlib/stats-base-snanmaxabs' );
@@ -2332,70 +2330,6 @@ interface Namespace {
 	* // returns 0.0
 	*/
 	smidrange: typeof smidrange;
-
-	/**
-	* Computes the maximum value of a single-precision floating-point strided array according to a mask.
-	*
-	* @param N - number of indexed elements
-	* @param x - input array
-	* @param strideX - `x` stride length
-	* @param mask - mask array
-	* @param strideMask - `mask` stride length
-	* @returns maximum value
-	*
-	* @example
-	* var Float32Array = require( '@stdlib/array-float32' );
-	* var Uint8Array = require( '@stdlib/array-uint8' );
-	*
-	* var x = new Float32Array( [ 1.0, -2.0, 4.0, 2.0 ] );
-	* var mask = new Uint8Array( [ 0, 0, 1, 0 ] );
-	*
-	* var v = ns.smskmax( x.length, x, 1, mask, 1 );
-	* // returns 2.0
-	*
-	* @example
-	* var Float32Array = require( '@stdlib/array-float32' );
-	* var Uint8Array = require( '@stdlib/array-uint8' );
-	*
-	* var x = new Float32Array( [ 1.0, -2.0, 4.0, 2.0 ] );
-	* var mask = new Uint8Array( [ 0, 0, 1, 0 ] );
-	*
-	* var v = ns.smskmax.ndarray( x.length, x, 1, 0, mask, 1, 0 );
-	* // returns 2.0
-	*/
-	smskmax: typeof smskmax;
-
-	/**
-	* Computes the minimum value of a single-precision floating-point strided array according to a mask.
-	*
-	* @param N - number of indexed elements
-	* @param x - input array
-	* @param strideX - `x` stride length
-	* @param mask - mask array
-	* @param strideMask - `mask` stride length
-	* @returns minimum value
-	*
-	* @example
-	* var Float32Array = require( '@stdlib/array-float32' );
-	* var Uint8Array = require( '@stdlib/array-uint8' );
-	*
-	* var x = new Float32Array( [ 1.0, -2.0, -4.0, 2.0 ] );
-	* var mask = new Uint8Array( [ 0, 0, 1, 0 ] );
-	*
-	* var v = ns.smskmin( x.length, x, 1, mask, 1 );
-	* // returns -2.0
-	*
-	* @example
-	* var Float32Array = require( '@stdlib/array-float32' );
-	* var Uint8Array = require( '@stdlib/array-uint8' );
-	*
-	* var x = new Float32Array( [ 1.0, -2.0, -4.0, 2.0 ] );
-	* var mask = new Uint8Array( [ 0, 0, 1, 0 ] );
-	*
-	* var v = ns.smskmin.ndarray( x.length, x, 1, 0, mask, 1, 0 );
-	* // returns -2.0
-	*/
-	smskmin: typeof smskmin;
 
 	/**
 	* Computes the range of a single-precision floating-point strided array according to a mask.
