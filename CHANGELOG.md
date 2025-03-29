@@ -46,6 +46,56 @@
 
 ##### BREAKING CHANGES
 
+-   [`5b42cc3`](https://github.com/stdlib-js/stdlib/commit/5b42cc3272b9366b85c4dc920bf3afbfb8c5fe79): remove `stats/base/smeanpw`
+
+    -   To migrate, users should access the same symbol via the `@stdlib/stats-strided/smeanpw` namespace.
+        Ref: https://github.com/stdlib-js/stdlib/issues/4797
+        ---
+        type: pre_commit_static_analysis_report
+        description: Results of running static analysis checks when committing changes.
+        report:
+          - task: lint_filenames
+            status: passed
+          - task: lint_editorconfig
+            status: passed
+          - task: lint_markdown
+            status: na
+          - task: lint_package_json
+            status: na
+          - task: lint_repl_help
+            status: na
+          - task: lint_javascript_src
+            status: passed
+          - task: lint_javascript_cli
+            status: na
+          - task: lint_javascript_examples
+            status: na
+          - task: lint_javascript_tests
+            status: na
+          - task: lint_javascript_benchmarks
+            status: na
+          - task: lint_python
+            status: na
+          - task: lint_r
+            status: na
+          - task: lint_c_src
+            status: na
+          - task: lint_c_examples
+            status: na
+          - task: lint_c_benchmarks
+            status: na
+          - task: lint_c_tests_fixtures
+            status: na
+          - task: lint_shell
+            status: na
+          - task: lint_typescript_declarations
+            status: passed
+          - task: lint_typescript_tests
+            status: na
+          - task: lint_license_headers
+            status: passed
+        ---
+
 -   [`d12ec2f`](https://github.com/stdlib-js/stdlib/commit/d12ec2f39eda5f16ed40d1f08ca20d2d8e5c8a3a): remove `stats/base/smeanli`
 
     -   To migrate, users should access the same symbol via the `@stdlib/stats-strided/smeanli` namespace.
@@ -20986,6 +21036,65 @@ This release closes the following issue:
 
 <!-- /.features -->
 
+<section class="breaking-changes">
+
+##### BREAKING CHANGES
+
+-   [`429bdf4`](https://github.com/stdlib-js/stdlib/commit/429bdf4b2fe4c47a3095714db71162123cb60dd5): remove `stats/base/smeanpw`
+
+    -   To migrate, users should update their require/import paths to use
+        `@stdlib/stats-strided/smeanpw`, which provides the same API and implementation.
+        Ref: https://github.com/stdlib-js/stdlib/issues/4797
+        ---
+        type: pre_commit_static_analysis_report
+        description: Results of running static analysis checks when committing changes.
+        report:
+          - task: lint_filenames
+            status: passed
+          - task: lint_editorconfig
+            status: passed
+          - task: lint_markdown
+            status: na
+          - task: lint_package_json
+            status: na
+          - task: lint_repl_help
+            status: na
+          - task: lint_javascript_src
+            status: na
+          - task: lint_javascript_cli
+            status: na
+          - task: lint_javascript_examples
+            status: na
+          - task: lint_javascript_tests
+            status: na
+          - task: lint_javascript_benchmarks
+            status: na
+          - task: lint_python
+            status: na
+          - task: lint_r
+            status: na
+          - task: lint_c_src
+            status: na
+          - task: lint_c_examples
+            status: na
+          - task: lint_c_benchmarks
+            status: na
+          - task: lint_c_tests_fixtures
+            status: na
+          - task: lint_shell
+            status: na
+          - task: lint_typescript_declarations
+            status: na
+          - task: lint_typescript_tests
+            status: na
+          - task: lint_license_headers
+            status: passed
+        ---
+
+</section>
+
+<!-- /.breaking-changes -->
+
 </details>
 
 </section>
@@ -21790,6 +21899,107 @@ This release closes the following issue:
 <section class="breaking-changes">
 
 ### BREAKING CHANGES
+
+-   [`429bdf4`](https://github.com/stdlib-js/stdlib/commit/429bdf4b2fe4c47a3095714db71162123cb60dd5): remove `stats/base/smeanpw`
+
+    -   To migrate, users should update their require/import paths to use
+        `@stdlib/stats-strided/smeanpw`, which provides the same API and implementation.
+        Ref: https://github.com/stdlib-js/stdlib/issues/4797
+        ---
+        type: pre_commit_static_analysis_report
+        description: Results of running static analysis checks when committing changes.
+        report:
+          - task: lint_filenames
+            status: passed
+          - task: lint_editorconfig
+            status: passed
+          - task: lint_markdown
+            status: na
+          - task: lint_package_json
+            status: na
+          - task: lint_repl_help
+            status: na
+          - task: lint_javascript_src
+            status: na
+          - task: lint_javascript_cli
+            status: na
+          - task: lint_javascript_examples
+            status: na
+          - task: lint_javascript_tests
+            status: na
+          - task: lint_javascript_benchmarks
+            status: na
+          - task: lint_python
+            status: na
+          - task: lint_r
+            status: na
+          - task: lint_c_src
+            status: na
+          - task: lint_c_examples
+            status: na
+          - task: lint_c_benchmarks
+            status: na
+          - task: lint_c_tests_fixtures
+            status: na
+          - task: lint_shell
+            status: na
+          - task: lint_typescript_declarations
+            status: na
+          - task: lint_typescript_tests
+            status: na
+          - task: lint_license_headers
+            status: passed
+        ---
+
+-   [`5b42cc3`](https://github.com/stdlib-js/stdlib/commit/5b42cc3272b9366b85c4dc920bf3afbfb8c5fe79): remove `stats/base/smeanpw`
+
+    -   To migrate, users should access the same symbol via the `@stdlib/stats-strided/smeanpw` namespace.
+        Ref: https://github.com/stdlib-js/stdlib/issues/4797
+        ---
+        type: pre_commit_static_analysis_report
+        description: Results of running static analysis checks when committing changes.
+        report:
+          - task: lint_filenames
+            status: passed
+          - task: lint_editorconfig
+            status: passed
+          - task: lint_markdown
+            status: na
+          - task: lint_package_json
+            status: na
+          - task: lint_repl_help
+            status: na
+          - task: lint_javascript_src
+            status: passed
+          - task: lint_javascript_cli
+            status: na
+          - task: lint_javascript_examples
+            status: na
+          - task: lint_javascript_tests
+            status: na
+          - task: lint_javascript_benchmarks
+            status: na
+          - task: lint_python
+            status: na
+          - task: lint_r
+            status: na
+          - task: lint_c_src
+            status: na
+          - task: lint_c_examples
+            status: na
+          - task: lint_c_benchmarks
+            status: na
+          - task: lint_c_tests_fixtures
+            status: na
+          - task: lint_shell
+            status: na
+          - task: lint_typescript_declarations
+            status: passed
+          - task: lint_typescript_tests
+            status: na
+          - task: lint_license_headers
+            status: passed
+        ---
 
 -   [`54d72aa`](https://github.com/stdlib-js/stdlib/commit/54d72aaeed8fa8289f5661bec17966b1318ff5ee): remove `stats/base/smeanli`
 
@@ -29320,6 +29530,9 @@ A total of 53 people contributed to this release. Thank you to the following con
 
 <details>
 
+-   [`429bdf4`](https://github.com/stdlib-js/stdlib/commit/429bdf4b2fe4c47a3095714db71162123cb60dd5) - **remove:** remove `stats/base/smeanpw` _(by Aayush Khanna)_
+-   [`a12088a`](https://github.com/stdlib-js/stdlib/commit/a12088a6203c3725098b48867ea97582f53153a2) - **refactor:** update paths _(by Aayush Khanna)_
+-   [`5b42cc3`](https://github.com/stdlib-js/stdlib/commit/5b42cc3272b9366b85c4dc920bf3afbfb8c5fe79) - **remove:** remove `stats/base/smeanpw` from namespace _(by Aayush Khanna)_
 -   [`54d72aa`](https://github.com/stdlib-js/stdlib/commit/54d72aaeed8fa8289f5661bec17966b1318ff5ee) - **remove:** remove `stats/base/smeanli` _(by Aayush Khanna)_
 -   [`44ca2b2`](https://github.com/stdlib-js/stdlib/commit/44ca2b23d9db331afa5718b3f1d0401ede95c3b0) - **refactor:** update paths _(by Aayush Khanna)_
 -   [`d12ec2f`](https://github.com/stdlib-js/stdlib/commit/d12ec2f39eda5f16ed40d1f08ca20d2d8e5c8a3a) - **remove:** remove `stats/base/smeanli` from namespace _(by Aayush Khanna)_
