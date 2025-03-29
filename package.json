@@ -55,6 +55,7 @@
     "@stdlib/stats-base-dnanmskmin": "^0.2.2",
     "@stdlib/stats-base-dnanmskrange": "^0.2.2",
     "@stdlib/stats-base-dnanstdev": "^0.2.2",
+    "@stdlib/stats-base-dnanvarianceyc": "^0.2.2",
     "@stdlib/stats-base-drange": "^0.2.2",
     "@stdlib/stats-base-dsem": "^0.2.2",
     "@stdlib/stats-base-dsemch": "^0.2.2",
