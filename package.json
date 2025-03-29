@@ -111,7 +111,6 @@
     "@stdlib/stats-base-range-by": "^0.2.2",
     "@stdlib/stats-base-sdsnanmean": "^0.2.2",
     "@stdlib/stats-base-sdsnanmeanors": "^0.2.2",
-    "@stdlib/stats-base-smaxabs": "^0.2.2",
     "@stdlib/stats-base-smaxabssorted": "^0.2.2",
     "@stdlib/stats-base-smaxsorted": "^0.2.2",
     "@stdlib/stats-base-smean": "^0.2.2",
