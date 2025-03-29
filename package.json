@@ -109,8 +109,6 @@
     "@stdlib/stats-base-nanvarianceyc": "^0.2.2",
     "@stdlib/stats-base-range": "^0.2.2",
     "@stdlib/stats-base-range-by": "^0.2.2",
-    "@stdlib/stats-base-scumax": "^0.2.2",
-    "@stdlib/stats-base-scumaxabs": "^0.2.2",
     "@stdlib/stats-base-scumin": "^0.2.2",
     "@stdlib/stats-base-scuminabs": "^0.2.2",
     "@stdlib/stats-base-sdsmean": "^0.2.2",

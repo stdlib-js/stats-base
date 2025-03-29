@@ -46,6 +46,106 @@
 
 ##### BREAKING CHANGES
 
+-   [`7fa21d4`](https://github.com/stdlib-js/stdlib/commit/7fa21d4ead531b9aad57178b2d9b8652b1adcdd2): remove `stats/base/scumaxabs`
+
+    -   To migrate, users should access the same symbol via the `@stdlib/stats-strided/scumaxabs` namespace.
+        Ref: https://github.com/stdlib-js/stdlib/issues/4797
+        ---
+        type: pre_commit_static_analysis_report
+        description: Results of running static analysis checks when committing changes.
+        report:
+          - task: lint_filenames
+            status: passed
+          - task: lint_editorconfig
+            status: passed
+          - task: lint_markdown
+            status: na
+          - task: lint_package_json
+            status: na
+          - task: lint_repl_help
+            status: na
+          - task: lint_javascript_src
+            status: passed
+          - task: lint_javascript_cli
+            status: na
+          - task: lint_javascript_examples
+            status: na
+          - task: lint_javascript_tests
+            status: na
+          - task: lint_javascript_benchmarks
+            status: na
+          - task: lint_python
+            status: na
+          - task: lint_r
+            status: na
+          - task: lint_c_src
+            status: na
+          - task: lint_c_examples
+            status: na
+          - task: lint_c_benchmarks
+            status: na
+          - task: lint_c_tests_fixtures
+            status: na
+          - task: lint_shell
+            status: na
+          - task: lint_typescript_declarations
+            status: passed
+          - task: lint_typescript_tests
+            status: na
+          - task: lint_license_headers
+            status: passed
+        ---
+
+-   [`65de58f`](https://github.com/stdlib-js/stdlib/commit/65de58f8acdbfaa15abd0b32d0840fc36da7a44c): remove `stats/base/scumax`
+
+    -   To migrate, users should access the same symbol via the `@stdlib/stats-strided/scumax` namespace.
+        Ref: https://github.com/stdlib-js/stdlib/issues/4797
+        ---
+        type: pre_commit_static_analysis_report
+        description: Results of running static analysis checks when committing changes.
+        report:
+          - task: lint_filenames
+            status: passed
+          - task: lint_editorconfig
+            status: passed
+          - task: lint_markdown
+            status: na
+          - task: lint_package_json
+            status: na
+          - task: lint_repl_help
+            status: na
+          - task: lint_javascript_src
+            status: passed
+          - task: lint_javascript_cli
+            status: na
+          - task: lint_javascript_examples
+            status: na
+          - task: lint_javascript_tests
+            status: na
+          - task: lint_javascript_benchmarks
+            status: na
+          - task: lint_python
+            status: na
+          - task: lint_r
+            status: na
+          - task: lint_c_src
+            status: na
+          - task: lint_c_examples
+            status: na
+          - task: lint_c_benchmarks
+            status: na
+          - task: lint_c_tests_fixtures
+            status: na
+          - task: lint_shell
+            status: na
+          - task: lint_typescript_declarations
+            status: passed
+          - task: lint_typescript_tests
+            status: na
+          - task: lint_license_headers
+            status: passed
+        ---
+
 -   [`6d30ac2`](https://github.com/stdlib-js/stdlib/commit/6d30ac2032c644487df826345073c0c87f0db3db): remove `stats/base/dvarmtk`
 
     -   To migrate, users should access the same symbol via the `@stdlib/stats-strided/dvarmtk` namespace.
@@ -19459,6 +19559,65 @@ This release closes the following issue:
 
 <!-- /.bug-fixes -->
 
+<section class="breaking-changes">
+
+##### BREAKING CHANGES
+
+-   [`0f39639`](https://github.com/stdlib-js/stdlib/commit/0f396390434ee1dc15c2a873be031dbd167a962a): remove `stats/base/scumax`
+
+    -   To migrate, users should update their require/import paths to use
+        `@stdlib/stats-strided/scumax`, which provides the same API and implementation.
+        Ref: https://github.com/stdlib-js/stdlib/issues/4797
+        ---
+        type: pre_commit_static_analysis_report
+        description: Results of running static analysis checks when committing changes.
+        report:
+          - task: lint_filenames
+            status: passed
+          - task: lint_editorconfig
+            status: passed
+          - task: lint_markdown
+            status: na
+          - task: lint_package_json
+            status: na
+          - task: lint_repl_help
+            status: na
+          - task: lint_javascript_src
+            status: na
+          - task: lint_javascript_cli
+            status: na
+          - task: lint_javascript_examples
+            status: na
+          - task: lint_javascript_tests
+            status: na
+          - task: lint_javascript_benchmarks
+            status: na
+          - task: lint_python
+            status: na
+          - task: lint_r
+            status: na
+          - task: lint_c_src
+            status: na
+          - task: lint_c_examples
+            status: na
+          - task: lint_c_benchmarks
+            status: na
+          - task: lint_c_tests_fixtures
+            status: na
+          - task: lint_shell
+            status: na
+          - task: lint_typescript_declarations
+            status: na
+          - task: lint_typescript_tests
+            status: na
+          - task: lint_license_headers
+            status: passed
+        ---
+
+</section>
+
+<!-- /.breaking-changes -->
+
 <section class="issues">
 
 ##### Closed Issues
@@ -19502,6 +19661,65 @@ A total of 3 issues were closed in this release:
 </section>
 
 <!-- /.bug-fixes -->
+
+<section class="breaking-changes">
+
+##### BREAKING CHANGES
+
+-   [`4f60a65`](https://github.com/stdlib-js/stdlib/commit/4f60a65310a9bc5c724d5c8dba8967d616c0237a): remove `stats/base/scumaxabs`
+
+    -   To migrate, users should update their require/import paths to use
+        `@stdlib/stats-strided/scumaxabs`, which provides the same API and implementation.
+        Ref: https://github.com/stdlib-js/stdlib/issues/4797
+        ---
+        type: pre_commit_static_analysis_report
+        description: Results of running static analysis checks when committing changes.
+        report:
+          - task: lint_filenames
+            status: passed
+          - task: lint_editorconfig
+            status: passed
+          - task: lint_markdown
+            status: na
+          - task: lint_package_json
+            status: na
+          - task: lint_repl_help
+            status: na
+          - task: lint_javascript_src
+            status: na
+          - task: lint_javascript_cli
+            status: na
+          - task: lint_javascript_examples
+            status: na
+          - task: lint_javascript_tests
+            status: na
+          - task: lint_javascript_benchmarks
+            status: na
+          - task: lint_python
+            status: na
+          - task: lint_r
+            status: na
+          - task: lint_c_src
+            status: na
+          - task: lint_c_examples
+            status: na
+          - task: lint_c_benchmarks
+            status: na
+          - task: lint_c_tests_fixtures
+            status: na
+          - task: lint_shell
+            status: na
+          - task: lint_typescript_declarations
+            status: na
+          - task: lint_typescript_tests
+            status: na
+          - task: lint_license_headers
+            status: passed
+        ---
+
+</section>
+
+<!-- /.breaking-changes -->
 
 </details>
 
@@ -20591,6 +20809,208 @@ This release closes the following issue:
 <section class="breaking-changes">
 
 ### BREAKING CHANGES
+
+-   [`4f60a65`](https://github.com/stdlib-js/stdlib/commit/4f60a65310a9bc5c724d5c8dba8967d616c0237a): remove `stats/base/scumaxabs`
+
+    -   To migrate, users should update their require/import paths to use
+        `@stdlib/stats-strided/scumaxabs`, which provides the same API and implementation.
+        Ref: https://github.com/stdlib-js/stdlib/issues/4797
+        ---
+        type: pre_commit_static_analysis_report
+        description: Results of running static analysis checks when committing changes.
+        report:
+          - task: lint_filenames
+            status: passed
+          - task: lint_editorconfig
+            status: passed
+          - task: lint_markdown
+            status: na
+          - task: lint_package_json
+            status: na
+          - task: lint_repl_help
+            status: na
+          - task: lint_javascript_src
+            status: na
+          - task: lint_javascript_cli
+            status: na
+          - task: lint_javascript_examples
+            status: na
+          - task: lint_javascript_tests
+            status: na
+          - task: lint_javascript_benchmarks
+            status: na
+          - task: lint_python
+            status: na
+          - task: lint_r
+            status: na
+          - task: lint_c_src
+            status: na
+          - task: lint_c_examples
+            status: na
+          - task: lint_c_benchmarks
+            status: na
+          - task: lint_c_tests_fixtures
+            status: na
+          - task: lint_shell
+            status: na
+          - task: lint_typescript_declarations
+            status: na
+          - task: lint_typescript_tests
+            status: na
+          - task: lint_license_headers
+            status: passed
+        ---
+
+-   [`7fa21d4`](https://github.com/stdlib-js/stdlib/commit/7fa21d4ead531b9aad57178b2d9b8652b1adcdd2): remove `stats/base/scumaxabs`
+
+    -   To migrate, users should access the same symbol via the `@stdlib/stats-strided/scumaxabs` namespace.
+        Ref: https://github.com/stdlib-js/stdlib/issues/4797
+        ---
+        type: pre_commit_static_analysis_report
+        description: Results of running static analysis checks when committing changes.
+        report:
+          - task: lint_filenames
+            status: passed
+          - task: lint_editorconfig
+            status: passed
+          - task: lint_markdown
+            status: na
+          - task: lint_package_json
+            status: na
+          - task: lint_repl_help
+            status: na
+          - task: lint_javascript_src
+            status: passed
+          - task: lint_javascript_cli
+            status: na
+          - task: lint_javascript_examples
+            status: na
+          - task: lint_javascript_tests
+            status: na
+          - task: lint_javascript_benchmarks
+            status: na
+          - task: lint_python
+            status: na
+          - task: lint_r
+            status: na
+          - task: lint_c_src
+            status: na
+          - task: lint_c_examples
+            status: na
+          - task: lint_c_benchmarks
+            status: na
+          - task: lint_c_tests_fixtures
+            status: na
+          - task: lint_shell
+            status: na
+          - task: lint_typescript_declarations
+            status: passed
+          - task: lint_typescript_tests
+            status: na
+          - task: lint_license_headers
+            status: passed
+        ---
+
+-   [`0f39639`](https://github.com/stdlib-js/stdlib/commit/0f396390434ee1dc15c2a873be031dbd167a962a): remove `stats/base/scumax`
+
+    -   To migrate, users should update their require/import paths to use
+        `@stdlib/stats-strided/scumax`, which provides the same API and implementation.
+        Ref: https://github.com/stdlib-js/stdlib/issues/4797
+        ---
+        type: pre_commit_static_analysis_report
+        description: Results of running static analysis checks when committing changes.
+        report:
+          - task: lint_filenames
+            status: passed
+          - task: lint_editorconfig
+            status: passed
+          - task: lint_markdown
+            status: na
+          - task: lint_package_json
+            status: na
+          - task: lint_repl_help
+            status: na
+          - task: lint_javascript_src
+            status: na
+          - task: lint_javascript_cli
+            status: na
+          - task: lint_javascript_examples
+            status: na
+          - task: lint_javascript_tests
+            status: na
+          - task: lint_javascript_benchmarks
+            status: na
+          - task: lint_python
+            status: na
+          - task: lint_r
+            status: na
+          - task: lint_c_src
+            status: na
+          - task: lint_c_examples
+            status: na
+          - task: lint_c_benchmarks
+            status: na
+          - task: lint_c_tests_fixtures
+            status: na
+          - task: lint_shell
+            status: na
+          - task: lint_typescript_declarations
+            status: na
+          - task: lint_typescript_tests
+            status: na
+          - task: lint_license_headers
+            status: passed
+        ---
+
+-   [`65de58f`](https://github.com/stdlib-js/stdlib/commit/65de58f8acdbfaa15abd0b32d0840fc36da7a44c): remove `stats/base/scumax`
+
+    -   To migrate, users should access the same symbol via the `@stdlib/stats-strided/scumax` namespace.
+        Ref: https://github.com/stdlib-js/stdlib/issues/4797
+        ---
+        type: pre_commit_static_analysis_report
+        description: Results of running static analysis checks when committing changes.
+        report:
+          - task: lint_filenames
+            status: passed
+          - task: lint_editorconfig
+            status: passed
+          - task: lint_markdown
+            status: na
+          - task: lint_package_json
+            status: na
+          - task: lint_repl_help
+            status: na
+          - task: lint_javascript_src
+            status: passed
+          - task: lint_javascript_cli
+            status: na
+          - task: lint_javascript_examples
+            status: na
+          - task: lint_javascript_tests
+            status: na
+          - task: lint_javascript_benchmarks
+            status: na
+          - task: lint_python
+            status: na
+          - task: lint_r
+            status: na
+          - task: lint_c_src
+            status: na
+          - task: lint_c_examples
+            status: na
+          - task: lint_c_benchmarks
+            status: na
+          - task: lint_c_tests_fixtures
+            status: na
+          - task: lint_shell
+            status: na
+          - task: lint_typescript_declarations
+            status: passed
+          - task: lint_typescript_tests
+            status: na
+          - task: lint_license_headers
+            status: passed
+        ---
 
 -   [`b01ceb8`](https://github.com/stdlib-js/stdlib/commit/b01ceb82d21ce71e69aa307adfcfc6a46f0dab88): remove `stats/base/dvarmtk`
 
@@ -27010,6 +27430,12 @@ A total of 53 people contributed to this release. Thank you to the following con
 
 <details>
 
+-   [`4f60a65`](https://github.com/stdlib-js/stdlib/commit/4f60a65310a9bc5c724d5c8dba8967d616c0237a) - **remove:** remove `stats/base/scumaxabs` _(by Aayush Khanna)_
+-   [`c20d551`](https://github.com/stdlib-js/stdlib/commit/c20d5510f41201455c5660f7ca658de68fb0a401) - **refactor:** update paths _(by Aayush Khanna)_
+-   [`7fa21d4`](https://github.com/stdlib-js/stdlib/commit/7fa21d4ead531b9aad57178b2d9b8652b1adcdd2) - **remove:** remove `stats/base/scumaxabs` from namespace _(by Aayush Khanna)_
+-   [`0f39639`](https://github.com/stdlib-js/stdlib/commit/0f396390434ee1dc15c2a873be031dbd167a962a) - **remove:** remove `stats/base/scumax` _(by Aayush Khanna)_
+-   [`a1b7394`](https://github.com/stdlib-js/stdlib/commit/a1b73948f39911b1e2b603f4e91395a47d0f0cee) - **refactor:** update paths _(by Aayush Khanna)_
+-   [`65de58f`](https://github.com/stdlib-js/stdlib/commit/65de58f8acdbfaa15abd0b32d0840fc36da7a44c) - **remove:** remove `stats/base/scumax` from namespace _(by Aayush Khanna)_
 -   [`b01ceb8`](https://github.com/stdlib-js/stdlib/commit/b01ceb82d21ce71e69aa307adfcfc6a46f0dab88) - **remove:** remove `stats/base/dvarmtk` _(by Aayush Khanna)_
 -   [`343de68`](https://github.com/stdlib-js/stdlib/commit/343de68121646ab73dd2d5c8b50805317c224ee4) - **refactor:** update paths _(by Aayush Khanna)_
 -   [`6d30ac2`](https://github.com/stdlib-js/stdlib/commit/6d30ac2032c644487df826345073c0c87f0db3db) - **remove:** remove `stats/base/dvarmtk` from namespace _(by Aayush Khanna)_
