@@ -46,6 +46,106 @@
 
 ##### BREAKING CHANGES
 
+-   [`1b08f10`](https://github.com/stdlib-js/stdlib/commit/1b08f10a19b1fc6d8d9d8e376ed4c32f7bf88bfc): remove `stats/base/dsemyc`
+
+    -   To migrate, users should access the same symbol via the `@stdlib/stats-strided/dsemyc` namespace.
+        Ref: https://github.com/stdlib-js/stdlib/issues/4797
+        ---
+        type: pre_commit_static_analysis_report
+        description: Results of running static analysis checks when committing changes.
+        report:
+          - task: lint_filenames
+            status: passed
+          - task: lint_editorconfig
+            status: passed
+          - task: lint_markdown
+            status: na
+          - task: lint_package_json
+            status: na
+          - task: lint_repl_help
+            status: na
+          - task: lint_javascript_src
+            status: passed
+          - task: lint_javascript_cli
+            status: na
+          - task: lint_javascript_examples
+            status: na
+          - task: lint_javascript_tests
+            status: na
+          - task: lint_javascript_benchmarks
+            status: na
+          - task: lint_python
+            status: na
+          - task: lint_r
+            status: na
+          - task: lint_c_src
+            status: na
+          - task: lint_c_examples
+            status: na
+          - task: lint_c_benchmarks
+            status: na
+          - task: lint_c_tests_fixtures
+            status: na
+          - task: lint_shell
+            status: na
+          - task: lint_typescript_declarations
+            status: passed
+          - task: lint_typescript_tests
+            status: na
+          - task: lint_license_headers
+            status: passed
+        ---
+
+-   [`ba8a2d7`](https://github.com/stdlib-js/stdlib/commit/ba8a2d730c356ff104a872ae9744a4c8357c034d): remove `stats/base/dsemwd`
+
+    -   To migrate, users should access the same symbol via the `@stdlib/stats-strided/dsemwd` namespace.
+        Ref: https://github.com/stdlib-js/stdlib/issues/4797
+        ---
+        type: pre_commit_static_analysis_report
+        description: Results of running static analysis checks when committing changes.
+        report:
+          - task: lint_filenames
+            status: passed
+          - task: lint_editorconfig
+            status: passed
+          - task: lint_markdown
+            status: na
+          - task: lint_package_json
+            status: na
+          - task: lint_repl_help
+            status: na
+          - task: lint_javascript_src
+            status: passed
+          - task: lint_javascript_cli
+            status: na
+          - task: lint_javascript_examples
+            status: na
+          - task: lint_javascript_tests
+            status: na
+          - task: lint_javascript_benchmarks
+            status: na
+          - task: lint_python
+            status: na
+          - task: lint_r
+            status: na
+          - task: lint_c_src
+            status: na
+          - task: lint_c_examples
+            status: na
+          - task: lint_c_benchmarks
+            status: na
+          - task: lint_c_tests_fixtures
+            status: na
+          - task: lint_shell
+            status: na
+          - task: lint_typescript_declarations
+            status: passed
+          - task: lint_typescript_tests
+            status: na
+          - task: lint_license_headers
+            status: passed
+        ---
+
 -   [`ef81042`](https://github.com/stdlib-js/stdlib/commit/ef8104213c818ce46be2bbd75ea7f31301f76210): remove `stats/base/dsemtk`
 
     -   To migrate, users should access the same symbol via the `@stdlib/stats-strided/dsemtk` namespace.
@@ -15797,6 +15897,65 @@ This release closes the following issue:
 
 <!-- /.features -->
 
+<section class="breaking-changes">
+
+##### BREAKING CHANGES
+
+-   [`8f2d3b9`](https://github.com/stdlib-js/stdlib/commit/8f2d3b97703cf297206b601a2d0878190c93f369): remove `stats/base/dsemwd`
+
+    -   To migrate, users should update their require/import paths to use
+        `@stdlib/stats-strided/dsemwd`, which provides the same API and implementation.
+        Ref: https://github.com/stdlib-js/stdlib/issues/4797
+        ---
+        type: pre_commit_static_analysis_report
+        description: Results of running static analysis checks when committing changes.
+        report:
+          - task: lint_filenames
+            status: passed
+          - task: lint_editorconfig
+            status: passed
+          - task: lint_markdown
+            status: na
+          - task: lint_package_json
+            status: na
+          - task: lint_repl_help
+            status: na
+          - task: lint_javascript_src
+            status: na
+          - task: lint_javascript_cli
+            status: na
+          - task: lint_javascript_examples
+            status: na
+          - task: lint_javascript_tests
+            status: na
+          - task: lint_javascript_benchmarks
+            status: na
+          - task: lint_python
+            status: na
+          - task: lint_r
+            status: na
+          - task: lint_c_src
+            status: na
+          - task: lint_c_examples
+            status: na
+          - task: lint_c_benchmarks
+            status: na
+          - task: lint_c_tests_fixtures
+            status: na
+          - task: lint_shell
+            status: na
+          - task: lint_typescript_declarations
+            status: na
+          - task: lint_typescript_tests
+            status: na
+          - task: lint_license_headers
+            status: passed
+        ---
+
+</section>
+
+<!-- /.breaking-changes -->
+
 </details>
 
 </section>
@@ -15818,6 +15977,65 @@ This release closes the following issue:
 </section>
 
 <!-- /.features -->
+
+<section class="breaking-changes">
+
+##### BREAKING CHANGES
+
+-   [`d19b6a9`](https://github.com/stdlib-js/stdlib/commit/d19b6a95bb7adfb06fe40b8a5315d30190c997ef): remove `stats/base/dsemyc`
+
+    -   To migrate, users should update their require/import paths to use
+        `@stdlib/stats-strided/dsemyc`, which provides the same API and implementation.
+        Ref: https://github.com/stdlib-js/stdlib/issues/4797
+        ---
+        type: pre_commit_static_analysis_report
+        description: Results of running static analysis checks when committing changes.
+        report:
+          - task: lint_filenames
+            status: passed
+          - task: lint_editorconfig
+            status: passed
+          - task: lint_markdown
+            status: na
+          - task: lint_package_json
+            status: na
+          - task: lint_repl_help
+            status: na
+          - task: lint_javascript_src
+            status: na
+          - task: lint_javascript_cli
+            status: na
+          - task: lint_javascript_examples
+            status: na
+          - task: lint_javascript_tests
+            status: na
+          - task: lint_javascript_benchmarks
+            status: na
+          - task: lint_python
+            status: na
+          - task: lint_r
+            status: na
+          - task: lint_c_src
+            status: na
+          - task: lint_c_examples
+            status: na
+          - task: lint_c_benchmarks
+            status: na
+          - task: lint_c_tests_fixtures
+            status: na
+          - task: lint_shell
+            status: na
+          - task: lint_typescript_declarations
+            status: na
+          - task: lint_typescript_tests
+            status: na
+          - task: lint_license_headers
+            status: passed
+        ---
+
+</section>
+
+<!-- /.breaking-changes -->
 
 </details>
 
@@ -17975,6 +18193,208 @@ This release closes the following issue:
 <section class="breaking-changes">
 
 ### BREAKING CHANGES
+
+-   [`d19b6a9`](https://github.com/stdlib-js/stdlib/commit/d19b6a95bb7adfb06fe40b8a5315d30190c997ef): remove `stats/base/dsemyc`
+
+    -   To migrate, users should update their require/import paths to use
+        `@stdlib/stats-strided/dsemyc`, which provides the same API and implementation.
+        Ref: https://github.com/stdlib-js/stdlib/issues/4797
+        ---
+        type: pre_commit_static_analysis_report
+        description: Results of running static analysis checks when committing changes.
+        report:
+          - task: lint_filenames
+            status: passed
+          - task: lint_editorconfig
+            status: passed
+          - task: lint_markdown
+            status: na
+          - task: lint_package_json
+            status: na
+          - task: lint_repl_help
+            status: na
+          - task: lint_javascript_src
+            status: na
+          - task: lint_javascript_cli
+            status: na
+          - task: lint_javascript_examples
+            status: na
+          - task: lint_javascript_tests
+            status: na
+          - task: lint_javascript_benchmarks
+            status: na
+          - task: lint_python
+            status: na
+          - task: lint_r
+            status: na
+          - task: lint_c_src
+            status: na
+          - task: lint_c_examples
+            status: na
+          - task: lint_c_benchmarks
+            status: na
+          - task: lint_c_tests_fixtures
+            status: na
+          - task: lint_shell
+            status: na
+          - task: lint_typescript_declarations
+            status: na
+          - task: lint_typescript_tests
+            status: na
+          - task: lint_license_headers
+            status: passed
+        ---
+
+-   [`1b08f10`](https://github.com/stdlib-js/stdlib/commit/1b08f10a19b1fc6d8d9d8e376ed4c32f7bf88bfc): remove `stats/base/dsemyc`
+
+    -   To migrate, users should access the same symbol via the `@stdlib/stats-strided/dsemyc` namespace.
+        Ref: https://github.com/stdlib-js/stdlib/issues/4797
+        ---
+        type: pre_commit_static_analysis_report
+        description: Results of running static analysis checks when committing changes.
+        report:
+          - task: lint_filenames
+            status: passed
+          - task: lint_editorconfig
+            status: passed
+          - task: lint_markdown
+            status: na
+          - task: lint_package_json
+            status: na
+          - task: lint_repl_help
+            status: na
+          - task: lint_javascript_src
+            status: passed
+          - task: lint_javascript_cli
+            status: na
+          - task: lint_javascript_examples
+            status: na
+          - task: lint_javascript_tests
+            status: na
+          - task: lint_javascript_benchmarks
+            status: na
+          - task: lint_python
+            status: na
+          - task: lint_r
+            status: na
+          - task: lint_c_src
+            status: na
+          - task: lint_c_examples
+            status: na
+          - task: lint_c_benchmarks
+            status: na
+          - task: lint_c_tests_fixtures
+            status: na
+          - task: lint_shell
+            status: na
+          - task: lint_typescript_declarations
+            status: passed
+          - task: lint_typescript_tests
+            status: na
+          - task: lint_license_headers
+            status: passed
+        ---
+
+-   [`8f2d3b9`](https://github.com/stdlib-js/stdlib/commit/8f2d3b97703cf297206b601a2d0878190c93f369): remove `stats/base/dsemwd`
+
+    -   To migrate, users should update their require/import paths to use
+        `@stdlib/stats-strided/dsemwd`, which provides the same API and implementation.
+        Ref: https://github.com/stdlib-js/stdlib/issues/4797
+        ---
+        type: pre_commit_static_analysis_report
+        description: Results of running static analysis checks when committing changes.
+        report:
+          - task: lint_filenames
+            status: passed
+          - task: lint_editorconfig
+            status: passed
+          - task: lint_markdown
+            status: na
+          - task: lint_package_json
+            status: na
+          - task: lint_repl_help
+            status: na
+          - task: lint_javascript_src
+            status: na
+          - task: lint_javascript_cli
+            status: na
+          - task: lint_javascript_examples
+            status: na
+          - task: lint_javascript_tests
+            status: na
+          - task: lint_javascript_benchmarks
+            status: na
+          - task: lint_python
+            status: na
+          - task: lint_r
+            status: na
+          - task: lint_c_src
+            status: na
+          - task: lint_c_examples
+            status: na
+          - task: lint_c_benchmarks
+            status: na
+          - task: lint_c_tests_fixtures
+            status: na
+          - task: lint_shell
+            status: na
+          - task: lint_typescript_declarations
+            status: na
+          - task: lint_typescript_tests
+            status: na
+          - task: lint_license_headers
+            status: passed
+        ---
+
+-   [`ba8a2d7`](https://github.com/stdlib-js/stdlib/commit/ba8a2d730c356ff104a872ae9744a4c8357c034d): remove `stats/base/dsemwd`
+
+    -   To migrate, users should access the same symbol via the `@stdlib/stats-strided/dsemwd` namespace.
+        Ref: https://github.com/stdlib-js/stdlib/issues/4797
+        ---
+        type: pre_commit_static_analysis_report
+        description: Results of running static analysis checks when committing changes.
+        report:
+          - task: lint_filenames
+            status: passed
+          - task: lint_editorconfig
+            status: passed
+          - task: lint_markdown
+            status: na
+          - task: lint_package_json
+            status: na
+          - task: lint_repl_help
+            status: na
+          - task: lint_javascript_src
+            status: passed
+          - task: lint_javascript_cli
+            status: na
+          - task: lint_javascript_examples
+            status: na
+          - task: lint_javascript_tests
+            status: na
+          - task: lint_javascript_benchmarks
+            status: na
+          - task: lint_python
+            status: na
+          - task: lint_r
+            status: na
+          - task: lint_c_src
+            status: na
+          - task: lint_c_examples
+            status: na
+          - task: lint_c_benchmarks
+            status: na
+          - task: lint_c_tests_fixtures
+            status: na
+          - task: lint_shell
+            status: na
+          - task: lint_typescript_declarations
+            status: passed
+          - task: lint_typescript_tests
+            status: na
+          - task: lint_license_headers
+            status: passed
+        ---
 
 -   [`aec6d30`](https://github.com/stdlib-js/stdlib/commit/aec6d30c64abe58de25c95e4fe1335017e6ca63d): remove `stats/base/dsemtk`
 
@@ -21970,6 +22390,12 @@ A total of 53 people contributed to this release. Thank you to the following con
 
 <details>
 
+-   [`d19b6a9`](https://github.com/stdlib-js/stdlib/commit/d19b6a95bb7adfb06fe40b8a5315d30190c997ef) - **remove:** remove `stats/base/dsemyc` _(by Aayush Khanna)_
+-   [`689e378`](https://github.com/stdlib-js/stdlib/commit/689e3782f9f61f28f58c7d6ea2c3147ee561b589) - **refactor:** update paths _(by Aayush Khanna)_
+-   [`1b08f10`](https://github.com/stdlib-js/stdlib/commit/1b08f10a19b1fc6d8d9d8e376ed4c32f7bf88bfc) - **remove:** remove `stats/base/dsemyc` from namespace _(by Aayush Khanna)_
+-   [`8f2d3b9`](https://github.com/stdlib-js/stdlib/commit/8f2d3b97703cf297206b601a2d0878190c93f369) - **remove:** remove `stats/base/dsemwd` _(by Aayush Khanna)_
+-   [`333c7a3`](https://github.com/stdlib-js/stdlib/commit/333c7a3c63d7b1f2ee4a227b3f031675bce33094) - **refactor:** update paths _(by Aayush Khanna)_
+-   [`ba8a2d7`](https://github.com/stdlib-js/stdlib/commit/ba8a2d730c356ff104a872ae9744a4c8357c034d) - **remove:** remove `stats/base/dsemwd` from namespace _(by Aayush Khanna)_
 -   [`aec6d30`](https://github.com/stdlib-js/stdlib/commit/aec6d30c64abe58de25c95e4fe1335017e6ca63d) - **remove:** remove `stats/base/dsemtk` _(by Aayush Khanna)_
 -   [`de3351f`](https://github.com/stdlib-js/stdlib/commit/de3351f1f34f906f537e5179211ace0821280102) - **refactor:** update paths _(by Aayush Khanna)_
 -   [`ef81042`](https://github.com/stdlib-js/stdlib/commit/ef8104213c818ce46be2bbd75ea7f31301f76210) - **remove:** remove `stats/base/dsemtk` from namespace _(by Aayush Khanna)_
