@@ -43,7 +43,6 @@ import dsem = require( '@stdlib/stats-base-dsem' );
 import dsempn = require( '@stdlib/stats-base-dsempn' );
 import dsmeanors = require( '@stdlib/stats-base-dsmeanors' );
 import dstdev = require( '@stdlib/stats-base-dstdev' );
-import dstdevch = require( '@stdlib/stats-base-dstdevch' );
 import dstdevpn = require( '@stdlib/stats-base-dstdevpn' );
 import dstdevtk = require( '@stdlib/stats-base-dstdevtk' );
 import dstdevwd = require( '@stdlib/stats-base-dstdevwd' );
@@ -843,33 +842,6 @@ interface Namespace {
 	* // returns ~2.0817
 	*/
 	dstdev: typeof dstdev;
-
-	/**
-	* Computes the standard deviation of a double-precision floating-point strided array using a one-pass trial mean algorithm.
-	*
-	* @param N - number of indexed elements
-	* @param correction - degrees of freedom adjustment
-	* @param x - input array
-	* @param strideX - stride length
-	* @returns standard deviation
-	*
-	* @example
-	* var Float64Array = require( '@stdlib/array-float64' );
-	*
-	* var x = new Float64Array( [ 1.0, -2.0, 2.0 ] );
-	*
-	* var v = ns.dstdevch( x.length, 1, x, 1 );
-	* // returns ~2.0817
-	*
-	* @example
-	* var Float64Array = require( '@stdlib/array-float64' );
-	*
-	* var x = new Float64Array( [ 1.0, -2.0, 2.0 ] );
-	*
-	* var v = ns.dstdevch.ndarray( x.length, 1, x, 1, 0 );
-	* // returns ~2.0817
-	*/
-	dstdevch: typeof dstdevch;
 
 	/**
 	* Computes the standard deviation of a double-precision floating-point strided array using a two-pass algorithm.
