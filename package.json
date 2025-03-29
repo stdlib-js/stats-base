@@ -59,6 +59,7 @@
     "@stdlib/stats-base-dsempn": "^0.2.2",
     "@stdlib/stats-base-dsmeanors": "^0.2.2",
     "@stdlib/stats-base-dstdev": "^0.2.2",
+    "@stdlib/stats-base-dvarianceyc": "^0.2.2",
     "@stdlib/stats-base-dvarm": "^0.2.2",
     "@stdlib/stats-base-dvarmpn": "^0.2.2",
     "@stdlib/stats-base-dvarmtk": "^0.2.2",
