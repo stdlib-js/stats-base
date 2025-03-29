@@ -95,7 +95,6 @@ import range = require( '@stdlib/stats-base-range' );
 import rangeBy = require( '@stdlib/stats-base-range-by' );
 import sdsnanmean = require( '@stdlib/stats-base-sdsnanmean' );
 import sdsnanmeanors = require( '@stdlib/stats-base-sdsnanmeanors' );
-import smaxabssorted = require( '@stdlib/stats-base-smaxabssorted' );
 import smaxsorted = require( '@stdlib/stats-base-smaxsorted' );
 import smean = require( '@stdlib/stats-base-smean' );
 import smeankbn = require( '@stdlib/stats-base-smeankbn' );
@@ -2159,32 +2158,6 @@ interface Namespace {
 	* // returns ~0.3333
 	*/
 	sdsnanmeanors: typeof sdsnanmeanors;
-
-	/**
-	* Computes the maximum absolute value of a sorted single-precision floating-point strided array.
-	*
-	* @param N - number of indexed elements
-	* @param x - sorted input array
-	* @param stride - stride length
-	* @returns maximum absolute value
-	*
-	* @example
-	* var Float32Array = require( '@stdlib/array-float32' );
-	*
-	* var x = new Float32Array( [ -1.0, -2.0, -3.0 ] );
-	*
-	* var v = ns.smaxabssorted( x.length, x, 1 );
-	* // returns 3.0
-	*
-	* @example
-	* var Float32Array = require( '@stdlib/array-float32' );
-	*
-	* var x = new Float32Array( [ -1.0, -2.0, -3.0 ] );
-	*
-	* var v = ns.smaxabssorted.ndarray( x.length, x, 1, 0 );
-	* // returns 3.0
-	*/
-	smaxabssorted: typeof smaxabssorted;
 
 	/**
 	* Computes the maximum value of a sorted single-precision floating-point strided array.
