@@ -46,6 +46,56 @@
 
 ##### BREAKING CHANGES
 
+-   [`d8fd846`](https://github.com/stdlib-js/stdlib/commit/d8fd846966f002dca771a10a8cbf1002c45bc4b8): remove `stats/base/sminabs`
+
+    -   To migrate, users should access the same symbol via the `@stdlib/stats-strided/sminabs` namespace.
+        Ref: https://github.com/stdlib-js/stdlib/issues/4797
+        ---
+        type: pre_commit_static_analysis_report
+        description: Results of running static analysis checks when committing changes.
+        report:
+          - task: lint_filenames
+            status: passed
+          - task: lint_editorconfig
+            status: passed
+          - task: lint_markdown
+            status: na
+          - task: lint_package_json
+            status: na
+          - task: lint_repl_help
+            status: na
+          - task: lint_javascript_src
+            status: passed
+          - task: lint_javascript_cli
+            status: na
+          - task: lint_javascript_examples
+            status: na
+          - task: lint_javascript_tests
+            status: na
+          - task: lint_javascript_benchmarks
+            status: na
+          - task: lint_python
+            status: na
+          - task: lint_r
+            status: na
+          - task: lint_c_src
+            status: na
+          - task: lint_c_examples
+            status: na
+          - task: lint_c_benchmarks
+            status: na
+          - task: lint_c_tests_fixtures
+            status: na
+          - task: lint_shell
+            status: na
+          - task: lint_typescript_declarations
+            status: passed
+          - task: lint_typescript_tests
+            status: na
+          - task: lint_license_headers
+            status: passed
+        ---
+
 -   [`51f1f80`](https://github.com/stdlib-js/stdlib/commit/51f1f80d68f2a682283c830e3d3ed70bc6b2c1d6): remove `stats/base/smin`
 
     -   To migrate, users should access the same symbol via the `@stdlib/stats-strided/smin` namespace.
@@ -21583,6 +21633,65 @@ This release closes the following issue:
 
 <!-- /.bug-fixes -->
 
+<section class="breaking-changes">
+
+##### BREAKING CHANGES
+
+-   [`bee5b1b`](https://github.com/stdlib-js/stdlib/commit/bee5b1bca41e64d75b4c4d9d069330bfe9b46fe8): remove `stats/base/sminabs`
+
+    -   To migrate, users should update their require/import paths to use
+        `@stdlib/stats-strided/sminabs`, which provides the same API and implementation.
+        Ref: https://github.com/stdlib-js/stdlib/issues/4797
+        ---
+        type: pre_commit_static_analysis_report
+        description: Results of running static analysis checks when committing changes.
+        report:
+          - task: lint_filenames
+            status: passed
+          - task: lint_editorconfig
+            status: passed
+          - task: lint_markdown
+            status: na
+          - task: lint_package_json
+            status: na
+          - task: lint_repl_help
+            status: na
+          - task: lint_javascript_src
+            status: na
+          - task: lint_javascript_cli
+            status: na
+          - task: lint_javascript_examples
+            status: na
+          - task: lint_javascript_tests
+            status: na
+          - task: lint_javascript_benchmarks
+            status: na
+          - task: lint_python
+            status: na
+          - task: lint_r
+            status: na
+          - task: lint_c_src
+            status: na
+          - task: lint_c_examples
+            status: na
+          - task: lint_c_benchmarks
+            status: na
+          - task: lint_c_tests_fixtures
+            status: na
+          - task: lint_shell
+            status: na
+          - task: lint_typescript_declarations
+            status: na
+          - task: lint_typescript_tests
+            status: na
+          - task: lint_license_headers
+            status: passed
+        ---
+
+</section>
+
+<!-- /.breaking-changes -->
+
 </details>
 
 </section>
@@ -22226,6 +22335,107 @@ This release closes the following issue:
 <section class="breaking-changes">
 
 ### BREAKING CHANGES
+
+-   [`bee5b1b`](https://github.com/stdlib-js/stdlib/commit/bee5b1bca41e64d75b4c4d9d069330bfe9b46fe8): remove `stats/base/sminabs`
+
+    -   To migrate, users should update their require/import paths to use
+        `@stdlib/stats-strided/sminabs`, which provides the same API and implementation.
+        Ref: https://github.com/stdlib-js/stdlib/issues/4797
+        ---
+        type: pre_commit_static_analysis_report
+        description: Results of running static analysis checks when committing changes.
+        report:
+          - task: lint_filenames
+            status: passed
+          - task: lint_editorconfig
+            status: passed
+          - task: lint_markdown
+            status: na
+          - task: lint_package_json
+            status: na
+          - task: lint_repl_help
+            status: na
+          - task: lint_javascript_src
+            status: na
+          - task: lint_javascript_cli
+            status: na
+          - task: lint_javascript_examples
+            status: na
+          - task: lint_javascript_tests
+            status: na
+          - task: lint_javascript_benchmarks
+            status: na
+          - task: lint_python
+            status: na
+          - task: lint_r
+            status: na
+          - task: lint_c_src
+            status: na
+          - task: lint_c_examples
+            status: na
+          - task: lint_c_benchmarks
+            status: na
+          - task: lint_c_tests_fixtures
+            status: na
+          - task: lint_shell
+            status: na
+          - task: lint_typescript_declarations
+            status: na
+          - task: lint_typescript_tests
+            status: na
+          - task: lint_license_headers
+            status: passed
+        ---
+
+-   [`d8fd846`](https://github.com/stdlib-js/stdlib/commit/d8fd846966f002dca771a10a8cbf1002c45bc4b8): remove `stats/base/sminabs`
+
+    -   To migrate, users should access the same symbol via the `@stdlib/stats-strided/sminabs` namespace.
+        Ref: https://github.com/stdlib-js/stdlib/issues/4797
+        ---
+        type: pre_commit_static_analysis_report
+        description: Results of running static analysis checks when committing changes.
+        report:
+          - task: lint_filenames
+            status: passed
+          - task: lint_editorconfig
+            status: passed
+          - task: lint_markdown
+            status: na
+          - task: lint_package_json
+            status: na
+          - task: lint_repl_help
+            status: na
+          - task: lint_javascript_src
+            status: passed
+          - task: lint_javascript_cli
+            status: na
+          - task: lint_javascript_examples
+            status: na
+          - task: lint_javascript_tests
+            status: na
+          - task: lint_javascript_benchmarks
+            status: na
+          - task: lint_python
+            status: na
+          - task: lint_r
+            status: na
+          - task: lint_c_src
+            status: na
+          - task: lint_c_examples
+            status: na
+          - task: lint_c_benchmarks
+            status: na
+          - task: lint_c_tests_fixtures
+            status: na
+          - task: lint_shell
+            status: na
+          - task: lint_typescript_declarations
+            status: passed
+          - task: lint_typescript_tests
+            status: na
+          - task: lint_license_headers
+            status: passed
+        ---
 
 -   [`b26c170`](https://github.com/stdlib-js/stdlib/commit/b26c17064c9c862a63b069c13f0af9a3e68dceb4): remove `stats/base/smin`
 
@@ -30160,6 +30370,9 @@ A total of 53 people contributed to this release. Thank you to the following con
 
 <details>
 
+-   [`bee5b1b`](https://github.com/stdlib-js/stdlib/commit/bee5b1bca41e64d75b4c4d9d069330bfe9b46fe8) - **remove:** remove `stats/base/sminabs` _(by Aayush Khanna)_
+-   [`816adc5`](https://github.com/stdlib-js/stdlib/commit/816adc5f64961310698b850e2b8bb4d472fa9127) - **refactor:** update paths _(by Aayush Khanna)_
+-   [`d8fd846`](https://github.com/stdlib-js/stdlib/commit/d8fd846966f002dca771a10a8cbf1002c45bc4b8) - **remove:** remove `stats/base/sminabs` from namespace _(by Aayush Khanna)_
 -   [`b26c170`](https://github.com/stdlib-js/stdlib/commit/b26c17064c9c862a63b069c13f0af9a3e68dceb4) - **remove:** remove `stats/base/smin` _(by Aayush Khanna)_
 -   [`a1e40cd`](https://github.com/stdlib-js/stdlib/commit/a1e40cde868d9195a9779a987915325f6efa3029) - **refactor:** update paths _(by Aayush Khanna)_
 -   [`51f1f80`](https://github.com/stdlib-js/stdlib/commit/51f1f80d68f2a682283c830e3d3ed70bc6b2c1d6) - **remove:** remove `stats/base/smin` from namespace _(by Aayush Khanna)_

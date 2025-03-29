@@ -102,7 +102,6 @@ import smeanlipw = require( '@stdlib/stats-base-smeanlipw' );
 import smeanors = require( '@stdlib/stats-base-smeanors' );
 import smeanpn = require( '@stdlib/stats-base-smeanpn' );
 import smidrange = require( '@stdlib/stats-base-smidrange' );
-import sminabs = require( '@stdlib/stats-base-sminabs' );
 import sminsorted = require( '@stdlib/stats-base-sminsorted' );
 import smskmax = require( '@stdlib/stats-base-smskmax' );
 import smskmin = require( '@stdlib/stats-base-smskmin' );
@@ -2334,32 +2333,6 @@ interface Namespace {
 	* // returns 0.0
 	*/
 	smidrange: typeof smidrange;
-
-	/**
-	* Computes the minimum absolute value of a single-precision floating-point strided array.
-	*
-	* @param N - number of indexed elements
-	* @param x - input array
-	* @param strideX - stride length
-	* @returns minimum absolute value
-	*
-	* @example
-	* var Float32Array = require( '@stdlib/array-float32' );
-	*
-	* var x = new Float32Array( [ 1.0, -2.0, 2.0 ] );
-	*
-	* var v = ns.sminabs( x.length, x, 1 );
-	* // returns 1.0
-	*
-	* @example
-	* var Float32Array = require( '@stdlib/array-float32' );
-	*
-	* var x = new Float32Array( [ 1.0, -2.0, 2.0 ] );
-	*
-	* var v = ns.sminabs.ndarray( x.length, x, 1, 0 );
-	* // returns 1.0
-	*/
-	sminabs: typeof sminabs;
 
 	/**
 	* Computes the minimum value of a sorted single-precision floating-point strided array.
