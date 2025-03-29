@@ -118,7 +118,6 @@
     "@stdlib/stats-base-smeanors": "^0.2.2",
     "@stdlib/stats-base-smeanpn": "^0.2.2",
     "@stdlib/stats-base-smidrange": "^0.2.2",
-    "@stdlib/stats-base-smin": "^0.2.2",
     "@stdlib/stats-base-sminabs": "^0.2.2",
     "@stdlib/stats-base-sminsorted": "^0.2.2",
     "@stdlib/stats-base-smskmax": "^0.2.2",
