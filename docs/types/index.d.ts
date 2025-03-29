@@ -41,8 +41,6 @@ import dnanmskrange = require( '@stdlib/stats-base-dnanmskrange' );
 import dnanstdev = require( '@stdlib/stats-base-dnanstdev' );
 import dsem = require( '@stdlib/stats-base-dsem' );
 import dsempn = require( '@stdlib/stats-base-dsempn' );
-import dsemtk = require( '@stdlib/stats-base-dsemtk' );
-import dsemwd = require( '@stdlib/stats-base-dsemwd' );
 import dsemyc = require( '@stdlib/stats-base-dsemyc' );
 import dsmean = require( '@stdlib/stats-base-dsmean' );
 import dsmeanors = require( '@stdlib/stats-base-dsmeanors' );
@@ -801,60 +799,6 @@ interface Namespace {
 	* // returns ~1.20185
 	*/
 	dsempn: typeof dsempn;
-
-	/**
-	* Computes the standard error of the mean for a double-precision floating-point strided array using a one-pass textbook algorithm.
-	*
-	* @param N - number of indexed elements
-	* @param correction - degrees of freedom adjustment
-	* @param x - input array
-	* @param strideX - stride length
-	* @returns standard error of the mean
-	*
-	* @example
-	* var Float64Array = require( '@stdlib/array-float64' );
-	*
-	* var x = new Float64Array( [ 1.0, -2.0, 2.0 ] );
-	*
-	* var v = ns.dsemtk( x.length, 1, x, 1 );
-	* // returns ~1.20185
-	*
-	* @example
-	* var Float64Array = require( '@stdlib/array-float64' );
-	*
-	* var x = new Float64Array( [ 1.0, -2.0, 2.0 ] );
-	*
-	* var v = ns.dsemtk.ndarray( x.length, 1, x, 1, 0 );
-	* // returns ~1.20185
-	*/
-	dsemtk: typeof dsemtk;
-
-	/**
-	* Computes the standard error of the mean for a double-precision floating-point strided array using Welford's algorithm.
-	*
-	* @param N - number of indexed elements
-	* @param correction - degrees of freedom adjustment
-	* @param x - input array
-	* @param strideX - stride length
-	* @returns standard error of the mean
-	*
-	* @example
-	* var Float64Array = require( '@stdlib/array-float64' );
-	*
-	* var x = new Float64Array( [ 1.0, -2.0, 2.0 ] );
-	*
-	* var v = ns.dsemwd( x.length, 1, x, 1 );
-	* // returns ~1.20185
-	*
-	* @example
-	* var Float64Array = require( '@stdlib/array-float64' );
-	*
-	* var x = new Float64Array( [ 1.0, -2.0, 2.0 ] );
-	*
-	* var v = ns.dsemwd.ndarray( x.length, 1, x, 1, 0 );
-	* // returns ~1.20185
-	*/
-	dsemwd: typeof dsemwd;
 
 	/**
 	* Computes the standard error of the mean for a double-precision floating-point strided array using a one-pass algorithm proposed by Youngs and Cramer.

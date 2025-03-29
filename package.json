@@ -57,8 +57,6 @@
     "@stdlib/stats-base-dnanstdev": "^0.2.2",
     "@stdlib/stats-base-dsem": "^0.2.2",
     "@stdlib/stats-base-dsempn": "^0.2.2",
-    "@stdlib/stats-base-dsemtk": "^0.2.2",
-    "@stdlib/stats-base-dsemwd": "^0.2.2",
     "@stdlib/stats-base-dsemyc": "^0.2.2",
     "@stdlib/stats-base-dsmean": "^0.2.2",
     "@stdlib/stats-base-dsmeanors": "^0.2.2",
