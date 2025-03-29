@@ -93,10 +93,6 @@ import nanvariancewd = require( '@stdlib/stats-base-nanvariancewd' );
 import nanvarianceyc = require( '@stdlib/stats-base-nanvarianceyc' );
 import range = require( '@stdlib/stats-base-range' );
 import rangeBy = require( '@stdlib/stats-base-range-by' );
-import scumin = require( '@stdlib/stats-base-scumin' );
-import scuminabs = require( '@stdlib/stats-base-scuminabs' );
-import sdsmean = require( '@stdlib/stats-base-sdsmean' );
-import sdsmeanors = require( '@stdlib/stats-base-sdsmeanors' );
 import sdsnanmean = require( '@stdlib/stats-base-sdsnanmean' );
 import sdsnanmeanors = require( '@stdlib/stats-base-sdsnanmeanors' );
 import smax = require( '@stdlib/stats-base-smax' );
@@ -2113,118 +2109,6 @@ interface Namespace {
 	* // returns 18.0
 	*/
 	rangeBy: typeof rangeBy;
-
-	/**
-	* Computes the cumulative minimum of single-precision floating-point strided array elements.
-	*
-	* @param N - number of indexed elements
-	* @param x - input array
-	* @param strideX - `x` stride length
-	* @param y - output array
-	* @param strideY - `y` stride length
-	* @returns output array
-	*
-	* @example
-	* var Float32Array = require( '@stdlib/array-float32' );
-	*
-	* var x = new Float32Array( [ 1.0, -2.0, 2.0 ] );
-	* var y = new Float32Array( x.length );
-	*
-	* ns.scumin( x.length, x, 1, y, 1 );
-	* // y => <Float32Array>[ 1.0, -2.0, -2.0 ]
-	*
-	* @example
-	* var Float32Array = require( '@stdlib/array-float32' );
-	*
-	* var x = new Float32Array( [ 1.0, -2.0, 2.0 ] );
-	* var y = new Float32Array( x.length );
-	*
-	* ns.scumin.ndarray( x.length, x, 1, 0, y, 1, 0 );
-	* // y => <Float32Array>[ 1.0, -2.0, -2.0 ]
-	*/
-	scumin: typeof scumin;
-
-	/**
-	* Computes the cumulative minimum absolute value of single-precision floating-point strided array elements.
-	*
-	* @param N - number of indexed elements
-	* @param x - input array
-	* @param strideX - `x` stride length
-	* @param y - output array
-	* @param strideY - `y` stride length
-	* @returns output array
-	*
-	* @example
-	* var Float32Array = require( '@stdlib/array-float32' );
-	*
-	* var x = new Float32Array( [ 1.0, -2.0, 2.0 ] );
-	* var y = new Float32Array( x.length );
-	*
-	* ns.scuminabs( x.length, x, 1, y, 1 );
-	* // y => <Float32Array>[ 1.0, 1.0, 1.0 ]
-	*
-	* @example
-	* var Float32Array = require( '@stdlib/array-float32' );
-	*
-	* var x = new Float32Array( [ 1.0, -2.0, 2.0 ] );
-	* var y = new Float32Array( x.length );
-	*
-	* ns.scuminabs.ndarray( x.length, x, 1, 0, y, 1, 0 );
-	* // y => <Float32Array>[ 1.0, 1.0, 1.0 ]
-	*/
-	scuminabs: typeof scuminabs;
-
-	/**
-	* Computes the arithmetic mean of a single-precision floating-point strided array using extended accumulation.
-	*
-	* @param N - number of indexed elements
-	* @param x - input array
-	* @param strideX - stride length
-	* @returns arithmetic mean
-	*
-	* @example
-	* var Float32Array = require( '@stdlib/array-float32' );
-	*
-	* var x = new Float32Array( [ 1.0, -2.0, 2.0 ] );
-	*
-	* var v = ns.sdsmean( x.length, x, 1 );
-	* // returns ~0.3333
-	*
-	* @example
-	* var Float32Array = require( '@stdlib/array-float32' );
-	*
-	* var x = new Float32Array( [ 1.0, -2.0, 2.0 ] );
-	*
-	* var v = ns.sdsmean.ndarray( x.length, x, 1, 0 );
-	* // returns ~0.3333
-	*/
-	sdsmean: typeof sdsmean;
-
-	/**
-	* Computes the arithmetic mean of a single-precision floating-point strided array using ordinary recursive summation with extended accumulation.
-	*
-	* @param N - number of indexed elements
-	* @param x - input array
-	* @param strideX - stride length
-	* @returns arithmetic mean
-	*
-	* @example
-	* var Float32Array = require( '@stdlib/array-float32' );
-	*
-	* var x = new Float32Array( [ 1.0, -2.0, 2.0 ] );
-	*
-	* var v = ns.sdsmeanors( x.length, x, 1 );
-	* // returns ~0.3333
-	*
-	* @example
-	* var Float32Array = require( '@stdlib/array-float32' );
-	*
-	* var x = new Float32Array( [ 1.0, -2.0, 2.0 ] );
-	*
-	* var v = ns.sdsmeanors.ndarray( x.length, x, 1, 0 );
-	* // returns ~0.3333
-	*/
-	sdsmeanors: typeof sdsmeanors;
 
 	/**
 	* Computes the arithmetic mean of a single-precision floating-point strided array, ignoring `NaN` values and using extended accumulation.
