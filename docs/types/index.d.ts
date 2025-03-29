@@ -42,7 +42,6 @@ import dnanstdev = require( '@stdlib/stats-base-dnanstdev' );
 import dsem = require( '@stdlib/stats-base-dsem' );
 import dsempn = require( '@stdlib/stats-base-dsempn' );
 import dsmeanors = require( '@stdlib/stats-base-dsmeanors' );
-import dsnanmeanpn = require( '@stdlib/stats-base-dsnanmeanpn' );
 import dsnanmeanwd = require( '@stdlib/stats-base-dsnanmeanwd' );
 import dstdev = require( '@stdlib/stats-base-dstdev' );
 import dstdevch = require( '@stdlib/stats-base-dstdevch' );
@@ -818,32 +817,6 @@ interface Namespace {
 	* // returns ~0.3333
 	*/
 	dsmeanors: typeof dsmeanors;
-
-	/**
-	* Computes the arithmetic mean of a single-precision floating-point strided array, ignoring `NaN` values, using a two-pass error correction algorithm with extended accumulation, and returning an extended precision result.
-	*
-	* @param N - number of indexed elements
-	* @param x - input array
-	* @param strideX - stride length
-	* @returns arithmetic mean
-	*
-	* @example
-	* var Float32Array = require( '@stdlib/array-float32' );
-	*
-	* var x = new Float32Array( [ 1.0, -2.0, NaN, 2.0 ] );
-	*
-	* var v = ns.dsnanmeanpn( x.length, x, 1 );
-	* // returns ~0.3333
-	*
-	* @example
-	* var Float32Array = require( '@stdlib/array-float32' );
-	*
-	* var x = new Float32Array( [ 1.0, -2.0, NaN, 2.0 ] );
-	*
-	* var v = ns.dsnanmeanpn.ndarray( x.length, x, 1, 0 );
-	* // returns ~0.3333
-	*/
-	dsnanmeanpn: typeof dsnanmeanpn;
 
 	/**
 	* Computes the arithmetic mean of a single-precision floating-point strided array, ignoring `NaN` values, using Welford's algorithm with extended accumulation, and returning an extended precision result.
