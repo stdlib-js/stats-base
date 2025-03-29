@@ -55,7 +55,6 @@
     "@stdlib/stats-base-dnanmskmin": "^0.2.2",
     "@stdlib/stats-base-dnanmskrange": "^0.2.2",
     "@stdlib/stats-base-dnanstdev": "^0.2.2",
-    "@stdlib/stats-base-dnanstdevch": "^0.2.2",
     "@stdlib/stats-base-dnanstdevpn": "^0.2.2",
     "@stdlib/stats-base-dnanstdevtk": "^0.2.2",
     "@stdlib/stats-base-dnanstdevwd": "^0.2.2",
