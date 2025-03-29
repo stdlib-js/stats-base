@@ -39,8 +39,6 @@ import dnanmskmax = require( '@stdlib/stats-base-dnanmskmax' );
 import dnanmskmin = require( '@stdlib/stats-base-dnanmskmin' );
 import dnanmskrange = require( '@stdlib/stats-base-dnanmskrange' );
 import dnanstdev = require( '@stdlib/stats-base-dnanstdev' );
-import dnanvarianceyc = require( '@stdlib/stats-base-dnanvarianceyc' );
-import drange = require( '@stdlib/stats-base-drange' );
 import dsem = require( '@stdlib/stats-base-dsem' );
 import dsemch = require( '@stdlib/stats-base-dsemch' );
 import dsempn = require( '@stdlib/stats-base-dsempn' );
@@ -750,59 +748,6 @@ interface Namespace {
 	* // returns ~2.0817
 	*/
 	dnanstdev: typeof dnanstdev;
-
-	/**
-	* Computes the variance of a double-precision floating-point strided array ignoring `NaN` values and using a one-pass algorithm proposed by Youngs and Cramer.
-	*
-	* @param N - number of indexed elements
-	* @param correction - degrees of freedom adjustment
-	* @param x - input array
-	* @param strideX - stride length
-	* @returns variance
-	*
-	* @example
-	* var Float64Array = require( '@stdlib/array-float64' );
-	*
-	* var x = new Float64Array( [ 1.0, -2.0, NaN, 2.0 ] );
-	*
-	* var v = ns.dnanvarianceyc( x.length, 1, x, 1 );
-	* // returns ~4.3333
-	*
-	* @example
-	* var Float64Array = require( '@stdlib/array-float64' );
-	*
-	* var x = new Float64Array( [ 1.0, -2.0, NaN, 2.0 ] );
-	*
-	* var v = ns.dnanvarianceyc.ndarray( x.length, 1, x, 1, 0 );
-	* // returns ~4.3333
-	*/
-	dnanvarianceyc: typeof dnanvarianceyc;
-
-	/**
-	* Computes the range of a double-precision floating-point strided array.
-	*
-	* @param N - number of indexed elements
-	* @param x - input array
-	* @param strideX - stride length
-	* @returns range
-	*
-	* @example
-	* var Float64Array = require( '@stdlib/array-float64' );
-	*
-	* var x = new Float64Array( [ 1.0, -2.0, 2.0 ] );
-	*
-	* var v = ns.drange( x.length, x, 1 );
-	* // returns 4.0
-	*
-	* @example
-	* var Float64Array = require( '@stdlib/array-float64' );
-	*
-	* var x = new Float64Array( [ 1.0, -2.0, 2.0 ] );
-	*
-	* var v = ns.drange.ndarray( x.length, x, 1, 0 );
-	* // returns 4.0
-	*/
-	drange: typeof drange;
 
 	/**
 	* Computes the standard error of the mean for a double-precision floating-point strided array.
