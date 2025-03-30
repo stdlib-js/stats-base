@@ -46,6 +46,56 @@
 
 ##### BREAKING CHANGES
 
+-   [`28636bf`](https://github.com/stdlib-js/stdlib/commit/28636bfa1618598f1705f13f96ead0a9ec305d35): remove `stats/base/smidrange`
+
+    -   To migrate, users should access the same symbol via the `@stdlib/stats-strided/smidrange` namespace.
+        Ref: https://github.com/stdlib-js/stdlib/issues/4797
+        ---
+        type: pre_commit_static_analysis_report
+        description: Results of running static analysis checks when committing changes.
+        report:
+          - task: lint_filenames
+            status: passed
+          - task: lint_editorconfig
+            status: passed
+          - task: lint_markdown
+            status: na
+          - task: lint_package_json
+            status: na
+          - task: lint_repl_help
+            status: na
+          - task: lint_javascript_src
+            status: passed
+          - task: lint_javascript_cli
+            status: na
+          - task: lint_javascript_examples
+            status: na
+          - task: lint_javascript_tests
+            status: na
+          - task: lint_javascript_benchmarks
+            status: na
+          - task: lint_python
+            status: na
+          - task: lint_r
+            status: na
+          - task: lint_c_src
+            status: na
+          - task: lint_c_examples
+            status: na
+          - task: lint_c_benchmarks
+            status: na
+          - task: lint_c_tests_fixtures
+            status: na
+          - task: lint_shell
+            status: na
+          - task: lint_typescript_declarations
+            status: passed
+          - task: lint_typescript_tests
+            status: na
+          - task: lint_license_headers
+            status: passed
+        ---
+
 -   [`c83bd2e`](https://github.com/stdlib-js/stdlib/commit/c83bd2e5530e3d13c152ba065eddd205ca433dbe): remove `stats/base/dsmeanors`
 
     -   To migrate, users should access the same symbol via the `@stdlib/stats-strided/dsmeanors` namespace.
@@ -23105,6 +23155,65 @@ This release closes the following issue:
 
 <!-- /.bug-fixes -->
 
+<section class="breaking-changes">
+
+##### BREAKING CHANGES
+
+-   [`3aca840`](https://github.com/stdlib-js/stdlib/commit/3aca840adab39372b0b641f9bf99e0b192e6150a): remove `stats/base/smidrange`
+
+    -   To migrate, users should update their require/import paths to use
+        `@stdlib/stats-strided/smidrange`, which provides the same API and implementation.
+        Ref: https://github.com/stdlib-js/stdlib/issues/4797
+        ---
+        type: pre_commit_static_analysis_report
+        description: Results of running static analysis checks when committing changes.
+        report:
+          - task: lint_filenames
+            status: passed
+          - task: lint_editorconfig
+            status: passed
+          - task: lint_markdown
+            status: na
+          - task: lint_package_json
+            status: na
+          - task: lint_repl_help
+            status: na
+          - task: lint_javascript_src
+            status: na
+          - task: lint_javascript_cli
+            status: na
+          - task: lint_javascript_examples
+            status: na
+          - task: lint_javascript_tests
+            status: na
+          - task: lint_javascript_benchmarks
+            status: na
+          - task: lint_python
+            status: na
+          - task: lint_r
+            status: na
+          - task: lint_c_src
+            status: na
+          - task: lint_c_examples
+            status: na
+          - task: lint_c_benchmarks
+            status: na
+          - task: lint_c_tests_fixtures
+            status: na
+          - task: lint_shell
+            status: na
+          - task: lint_typescript_declarations
+            status: na
+          - task: lint_typescript_tests
+            status: na
+          - task: lint_license_headers
+            status: passed
+        ---
+
+</section>
+
+<!-- /.breaking-changes -->
+
 </details>
 
 </section>
@@ -25169,6 +25278,107 @@ This release closes the following issue:
 <section class="breaking-changes">
 
 ### BREAKING CHANGES
+
+-   [`3aca840`](https://github.com/stdlib-js/stdlib/commit/3aca840adab39372b0b641f9bf99e0b192e6150a): remove `stats/base/smidrange`
+
+    -   To migrate, users should update their require/import paths to use
+        `@stdlib/stats-strided/smidrange`, which provides the same API and implementation.
+        Ref: https://github.com/stdlib-js/stdlib/issues/4797
+        ---
+        type: pre_commit_static_analysis_report
+        description: Results of running static analysis checks when committing changes.
+        report:
+          - task: lint_filenames
+            status: passed
+          - task: lint_editorconfig
+            status: passed
+          - task: lint_markdown
+            status: na
+          - task: lint_package_json
+            status: na
+          - task: lint_repl_help
+            status: na
+          - task: lint_javascript_src
+            status: na
+          - task: lint_javascript_cli
+            status: na
+          - task: lint_javascript_examples
+            status: na
+          - task: lint_javascript_tests
+            status: na
+          - task: lint_javascript_benchmarks
+            status: na
+          - task: lint_python
+            status: na
+          - task: lint_r
+            status: na
+          - task: lint_c_src
+            status: na
+          - task: lint_c_examples
+            status: na
+          - task: lint_c_benchmarks
+            status: na
+          - task: lint_c_tests_fixtures
+            status: na
+          - task: lint_shell
+            status: na
+          - task: lint_typescript_declarations
+            status: na
+          - task: lint_typescript_tests
+            status: na
+          - task: lint_license_headers
+            status: passed
+        ---
+
+-   [`28636bf`](https://github.com/stdlib-js/stdlib/commit/28636bfa1618598f1705f13f96ead0a9ec305d35): remove `stats/base/smidrange`
+
+    -   To migrate, users should access the same symbol via the `@stdlib/stats-strided/smidrange` namespace.
+        Ref: https://github.com/stdlib-js/stdlib/issues/4797
+        ---
+        type: pre_commit_static_analysis_report
+        description: Results of running static analysis checks when committing changes.
+        report:
+          - task: lint_filenames
+            status: passed
+          - task: lint_editorconfig
+            status: passed
+          - task: lint_markdown
+            status: na
+          - task: lint_package_json
+            status: na
+          - task: lint_repl_help
+            status: na
+          - task: lint_javascript_src
+            status: passed
+          - task: lint_javascript_cli
+            status: na
+          - task: lint_javascript_examples
+            status: na
+          - task: lint_javascript_tests
+            status: na
+          - task: lint_javascript_benchmarks
+            status: na
+          - task: lint_python
+            status: na
+          - task: lint_r
+            status: na
+          - task: lint_c_src
+            status: na
+          - task: lint_c_examples
+            status: na
+          - task: lint_c_benchmarks
+            status: na
+          - task: lint_c_tests_fixtures
+            status: na
+          - task: lint_shell
+            status: na
+          - task: lint_typescript_declarations
+            status: passed
+          - task: lint_typescript_tests
+            status: na
+          - task: lint_license_headers
+            status: passed
+        ---
 
 -   [`ebe023b`](https://github.com/stdlib-js/stdlib/commit/ebe023b662fbdd4a2d9b24851bab074cfa677ab9): remove `stats/base/dsmeanors`
 
@@ -35830,6 +36040,9 @@ A total of 53 people contributed to this release. Thank you to the following con
 
 <details>
 
+-   [`3aca840`](https://github.com/stdlib-js/stdlib/commit/3aca840adab39372b0b641f9bf99e0b192e6150a) - **remove:** remove `stats/base/smidrange` _(by Aayush Khanna)_
+-   [`c1d3885`](https://github.com/stdlib-js/stdlib/commit/c1d3885204c3351bc3298b2f7c18b4003ae060df) - **refactor:** update paths _(by Aayush Khanna)_
+-   [`28636bf`](https://github.com/stdlib-js/stdlib/commit/28636bfa1618598f1705f13f96ead0a9ec305d35) - **remove:** remove `stats/base/smidrange` from namespace _(by Aayush Khanna)_
 -   [`ebe023b`](https://github.com/stdlib-js/stdlib/commit/ebe023b662fbdd4a2d9b24851bab074cfa677ab9) - **remove:** remove `stats/base/dsmeanors` _(by Aayush Khanna)_
 -   [`ac97159`](https://github.com/stdlib-js/stdlib/commit/ac97159d577a2aa1550daf19dfb7c146dfd7bcef) - **refactor:** update paths _(by Aayush Khanna)_
 -   [`c83bd2e`](https://github.com/stdlib-js/stdlib/commit/c83bd2e5530e3d13c152ba065eddd205ca433dbe) - **remove:** remove `stats/base/dsmeanors` from namespace _(by Aayush Khanna)_
