@@ -46,6 +46,156 @@
 
 ##### BREAKING CHANGES
 
+-   [`4a2167f`](https://github.com/stdlib-js/stdlib/commit/4a2167fff0b8ae55edfee37243e05bfe3de8e111): remove `stats/base/snanmin`
+
+    -   To migrate, users should access the same symbol via the `@stdlib/stats-strided/snanmin` namespace.
+        Ref: https://github.com/stdlib-js/stdlib/issues/4797
+        ---
+        type: pre_commit_static_analysis_report
+        description: Results of running static analysis checks when committing changes.
+        report:
+          - task: lint_filenames
+            status: passed
+          - task: lint_editorconfig
+            status: passed
+          - task: lint_markdown
+            status: na
+          - task: lint_package_json
+            status: na
+          - task: lint_repl_help
+            status: na
+          - task: lint_javascript_src
+            status: passed
+          - task: lint_javascript_cli
+            status: na
+          - task: lint_javascript_examples
+            status: na
+          - task: lint_javascript_tests
+            status: na
+          - task: lint_javascript_benchmarks
+            status: na
+          - task: lint_python
+            status: na
+          - task: lint_r
+            status: na
+          - task: lint_c_src
+            status: na
+          - task: lint_c_examples
+            status: na
+          - task: lint_c_benchmarks
+            status: na
+          - task: lint_c_tests_fixtures
+            status: na
+          - task: lint_shell
+            status: na
+          - task: lint_typescript_declarations
+            status: passed
+          - task: lint_typescript_tests
+            status: na
+          - task: lint_license_headers
+            status: passed
+        ---
+
+-   [`6d3a77c`](https://github.com/stdlib-js/stdlib/commit/6d3a77c05b3ddabeb83e4468310444c767e1f9c3): remove `stats/base/snanmeanwd`
+
+    -   To migrate, users should access the same symbol via the `@stdlib/stats-strided/snanmeanwd` namespace.
+        Ref: https://github.com/stdlib-js/stdlib/issues/4797
+        ---
+        type: pre_commit_static_analysis_report
+        description: Results of running static analysis checks when committing changes.
+        report:
+          - task: lint_filenames
+            status: passed
+          - task: lint_editorconfig
+            status: passed
+          - task: lint_markdown
+            status: na
+          - task: lint_package_json
+            status: na
+          - task: lint_repl_help
+            status: na
+          - task: lint_javascript_src
+            status: passed
+          - task: lint_javascript_cli
+            status: na
+          - task: lint_javascript_examples
+            status: na
+          - task: lint_javascript_tests
+            status: na
+          - task: lint_javascript_benchmarks
+            status: na
+          - task: lint_python
+            status: na
+          - task: lint_r
+            status: na
+          - task: lint_c_src
+            status: na
+          - task: lint_c_examples
+            status: na
+          - task: lint_c_benchmarks
+            status: na
+          - task: lint_c_tests_fixtures
+            status: na
+          - task: lint_shell
+            status: na
+          - task: lint_typescript_declarations
+            status: passed
+          - task: lint_typescript_tests
+            status: na
+          - task: lint_license_headers
+            status: passed
+        ---
+
+-   [`88595c4`](https://github.com/stdlib-js/stdlib/commit/88595c4cb3af9128e714d62b06913e3297736e00): remove `stats/base/snanmeanpn`
+
+    -   To migrate, users should access the same symbol via the `@stdlib/stats-strided/snanmeanpn` namespace.
+        Ref: https://github.com/stdlib-js/stdlib/issues/4797
+        ---
+        type: pre_commit_static_analysis_report
+        description: Results of running static analysis checks when committing changes.
+        report:
+          - task: lint_filenames
+            status: passed
+          - task: lint_editorconfig
+            status: passed
+          - task: lint_markdown
+            status: na
+          - task: lint_package_json
+            status: na
+          - task: lint_repl_help
+            status: na
+          - task: lint_javascript_src
+            status: passed
+          - task: lint_javascript_cli
+            status: na
+          - task: lint_javascript_examples
+            status: na
+          - task: lint_javascript_tests
+            status: na
+          - task: lint_javascript_benchmarks
+            status: na
+          - task: lint_python
+            status: na
+          - task: lint_r
+            status: na
+          - task: lint_c_src
+            status: na
+          - task: lint_c_examples
+            status: na
+          - task: lint_c_benchmarks
+            status: na
+          - task: lint_c_tests_fixtures
+            status: na
+          - task: lint_shell
+            status: na
+          - task: lint_typescript_declarations
+            status: passed
+          - task: lint_typescript_tests
+            status: na
+          - task: lint_license_headers
+            status: passed
+        ---
+
 -   [`6833196`](https://github.com/stdlib-js/stdlib/commit/6833196824d3e4cbfa13c07c291aa0e814b86817): remove `stats/base/snanmeanors`
 
     -   To migrate, users should access the same symbol via the `@stdlib/stats-strided/snanmeanors` namespace.
@@ -22703,6 +22853,65 @@ A total of 3 issues were closed in this release:
 
 <!-- /.features -->
 
+<section class="breaking-changes">
+
+##### BREAKING CHANGES
+
+-   [`ba1f207`](https://github.com/stdlib-js/stdlib/commit/ba1f2071c9ca5becaa38b5ec050e547815727d9e): remove `stats/base/snanmeanpn`
+
+    -   To migrate, users should update their require/import paths to use
+        `@stdlib/stats-strided/snanmeanpn`, which provides the same API and implementation.
+        Ref: https://github.com/stdlib-js/stdlib/issues/4797
+        ---
+        type: pre_commit_static_analysis_report
+        description: Results of running static analysis checks when committing changes.
+        report:
+          - task: lint_filenames
+            status: passed
+          - task: lint_editorconfig
+            status: passed
+          - task: lint_markdown
+            status: na
+          - task: lint_package_json
+            status: na
+          - task: lint_repl_help
+            status: na
+          - task: lint_javascript_src
+            status: na
+          - task: lint_javascript_cli
+            status: na
+          - task: lint_javascript_examples
+            status: na
+          - task: lint_javascript_tests
+            status: na
+          - task: lint_javascript_benchmarks
+            status: na
+          - task: lint_python
+            status: na
+          - task: lint_r
+            status: na
+          - task: lint_c_src
+            status: na
+          - task: lint_c_examples
+            status: na
+          - task: lint_c_benchmarks
+            status: na
+          - task: lint_c_tests_fixtures
+            status: na
+          - task: lint_shell
+            status: na
+          - task: lint_typescript_declarations
+            status: na
+          - task: lint_typescript_tests
+            status: na
+          - task: lint_license_headers
+            status: passed
+        ---
+
+</section>
+
+<!-- /.breaking-changes -->
+
 </details>
 
 </section>
@@ -22724,6 +22933,65 @@ A total of 3 issues were closed in this release:
 </section>
 
 <!-- /.features -->
+
+<section class="breaking-changes">
+
+##### BREAKING CHANGES
+
+-   [`17db5da`](https://github.com/stdlib-js/stdlib/commit/17db5da5477e9789eb38472ab6e26f3d2cd683df): remove `stats/base/snanmeanwd`
+
+    -   To migrate, users should update their require/import paths to use
+        `@stdlib/stats-strided/snanmeanwd`, which provides the same API and implementation.
+        Ref: https://github.com/stdlib-js/stdlib/issues/4797
+        ---
+        type: pre_commit_static_analysis_report
+        description: Results of running static analysis checks when committing changes.
+        report:
+          - task: lint_filenames
+            status: passed
+          - task: lint_editorconfig
+            status: passed
+          - task: lint_markdown
+            status: na
+          - task: lint_package_json
+            status: na
+          - task: lint_repl_help
+            status: na
+          - task: lint_javascript_src
+            status: na
+          - task: lint_javascript_cli
+            status: na
+          - task: lint_javascript_examples
+            status: na
+          - task: lint_javascript_tests
+            status: na
+          - task: lint_javascript_benchmarks
+            status: na
+          - task: lint_python
+            status: na
+          - task: lint_r
+            status: na
+          - task: lint_c_src
+            status: na
+          - task: lint_c_examples
+            status: na
+          - task: lint_c_benchmarks
+            status: na
+          - task: lint_c_tests_fixtures
+            status: na
+          - task: lint_shell
+            status: na
+          - task: lint_typescript_declarations
+            status: na
+          - task: lint_typescript_tests
+            status: na
+          - task: lint_license_headers
+            status: passed
+        ---
+
+</section>
+
+<!-- /.breaking-changes -->
 
 </details>
 
@@ -22756,6 +23024,65 @@ A total of 3 issues were closed in this release:
 </section>
 
 <!-- /.bug-fixes -->
+
+<section class="breaking-changes">
+
+##### BREAKING CHANGES
+
+-   [`1cc2da7`](https://github.com/stdlib-js/stdlib/commit/1cc2da7861270784eb3d8a533a46219f5d29998a): remove `stats/base/snanmin`
+
+    -   To migrate, users should update their require/import paths to use
+        `@stdlib/stats-strided/snanmin`, which provides the same API and implementation.
+        Ref: https://github.com/stdlib-js/stdlib/issues/4797
+        ---
+        type: pre_commit_static_analysis_report
+        description: Results of running static analysis checks when committing changes.
+        report:
+          - task: lint_filenames
+            status: passed
+          - task: lint_editorconfig
+            status: passed
+          - task: lint_markdown
+            status: na
+          - task: lint_package_json
+            status: na
+          - task: lint_repl_help
+            status: na
+          - task: lint_javascript_src
+            status: na
+          - task: lint_javascript_cli
+            status: na
+          - task: lint_javascript_examples
+            status: na
+          - task: lint_javascript_tests
+            status: na
+          - task: lint_javascript_benchmarks
+            status: na
+          - task: lint_python
+            status: na
+          - task: lint_r
+            status: na
+          - task: lint_c_src
+            status: na
+          - task: lint_c_examples
+            status: na
+          - task: lint_c_benchmarks
+            status: na
+          - task: lint_c_tests_fixtures
+            status: na
+          - task: lint_shell
+            status: na
+          - task: lint_typescript_declarations
+            status: na
+          - task: lint_typescript_tests
+            status: na
+          - task: lint_license_headers
+            status: passed
+        ---
+
+</section>
+
+<!-- /.breaking-changes -->
 
 </details>
 
@@ -23098,6 +23425,309 @@ This release closes the following issue:
 <section class="breaking-changes">
 
 ### BREAKING CHANGES
+
+-   [`1cc2da7`](https://github.com/stdlib-js/stdlib/commit/1cc2da7861270784eb3d8a533a46219f5d29998a): remove `stats/base/snanmin`
+
+    -   To migrate, users should update their require/import paths to use
+        `@stdlib/stats-strided/snanmin`, which provides the same API and implementation.
+        Ref: https://github.com/stdlib-js/stdlib/issues/4797
+        ---
+        type: pre_commit_static_analysis_report
+        description: Results of running static analysis checks when committing changes.
+        report:
+          - task: lint_filenames
+            status: passed
+          - task: lint_editorconfig
+            status: passed
+          - task: lint_markdown
+            status: na
+          - task: lint_package_json
+            status: na
+          - task: lint_repl_help
+            status: na
+          - task: lint_javascript_src
+            status: na
+          - task: lint_javascript_cli
+            status: na
+          - task: lint_javascript_examples
+            status: na
+          - task: lint_javascript_tests
+            status: na
+          - task: lint_javascript_benchmarks
+            status: na
+          - task: lint_python
+            status: na
+          - task: lint_r
+            status: na
+          - task: lint_c_src
+            status: na
+          - task: lint_c_examples
+            status: na
+          - task: lint_c_benchmarks
+            status: na
+          - task: lint_c_tests_fixtures
+            status: na
+          - task: lint_shell
+            status: na
+          - task: lint_typescript_declarations
+            status: na
+          - task: lint_typescript_tests
+            status: na
+          - task: lint_license_headers
+            status: passed
+        ---
+
+-   [`4a2167f`](https://github.com/stdlib-js/stdlib/commit/4a2167fff0b8ae55edfee37243e05bfe3de8e111): remove `stats/base/snanmin`
+
+    -   To migrate, users should access the same symbol via the `@stdlib/stats-strided/snanmin` namespace.
+        Ref: https://github.com/stdlib-js/stdlib/issues/4797
+        ---
+        type: pre_commit_static_analysis_report
+        description: Results of running static analysis checks when committing changes.
+        report:
+          - task: lint_filenames
+            status: passed
+          - task: lint_editorconfig
+            status: passed
+          - task: lint_markdown
+            status: na
+          - task: lint_package_json
+            status: na
+          - task: lint_repl_help
+            status: na
+          - task: lint_javascript_src
+            status: passed
+          - task: lint_javascript_cli
+            status: na
+          - task: lint_javascript_examples
+            status: na
+          - task: lint_javascript_tests
+            status: na
+          - task: lint_javascript_benchmarks
+            status: na
+          - task: lint_python
+            status: na
+          - task: lint_r
+            status: na
+          - task: lint_c_src
+            status: na
+          - task: lint_c_examples
+            status: na
+          - task: lint_c_benchmarks
+            status: na
+          - task: lint_c_tests_fixtures
+            status: na
+          - task: lint_shell
+            status: na
+          - task: lint_typescript_declarations
+            status: passed
+          - task: lint_typescript_tests
+            status: na
+          - task: lint_license_headers
+            status: passed
+        ---
+
+-   [`17db5da`](https://github.com/stdlib-js/stdlib/commit/17db5da5477e9789eb38472ab6e26f3d2cd683df): remove `stats/base/snanmeanwd`
+
+    -   To migrate, users should update their require/import paths to use
+        `@stdlib/stats-strided/snanmeanwd`, which provides the same API and implementation.
+        Ref: https://github.com/stdlib-js/stdlib/issues/4797
+        ---
+        type: pre_commit_static_analysis_report
+        description: Results of running static analysis checks when committing changes.
+        report:
+          - task: lint_filenames
+            status: passed
+          - task: lint_editorconfig
+            status: passed
+          - task: lint_markdown
+            status: na
+          - task: lint_package_json
+            status: na
+          - task: lint_repl_help
+            status: na
+          - task: lint_javascript_src
+            status: na
+          - task: lint_javascript_cli
+            status: na
+          - task: lint_javascript_examples
+            status: na
+          - task: lint_javascript_tests
+            status: na
+          - task: lint_javascript_benchmarks
+            status: na
+          - task: lint_python
+            status: na
+          - task: lint_r
+            status: na
+          - task: lint_c_src
+            status: na
+          - task: lint_c_examples
+            status: na
+          - task: lint_c_benchmarks
+            status: na
+          - task: lint_c_tests_fixtures
+            status: na
+          - task: lint_shell
+            status: na
+          - task: lint_typescript_declarations
+            status: na
+          - task: lint_typescript_tests
+            status: na
+          - task: lint_license_headers
+            status: passed
+        ---
+
+-   [`6d3a77c`](https://github.com/stdlib-js/stdlib/commit/6d3a77c05b3ddabeb83e4468310444c767e1f9c3): remove `stats/base/snanmeanwd`
+
+    -   To migrate, users should access the same symbol via the `@stdlib/stats-strided/snanmeanwd` namespace.
+        Ref: https://github.com/stdlib-js/stdlib/issues/4797
+        ---
+        type: pre_commit_static_analysis_report
+        description: Results of running static analysis checks when committing changes.
+        report:
+          - task: lint_filenames
+            status: passed
+          - task: lint_editorconfig
+            status: passed
+          - task: lint_markdown
+            status: na
+          - task: lint_package_json
+            status: na
+          - task: lint_repl_help
+            status: na
+          - task: lint_javascript_src
+            status: passed
+          - task: lint_javascript_cli
+            status: na
+          - task: lint_javascript_examples
+            status: na
+          - task: lint_javascript_tests
+            status: na
+          - task: lint_javascript_benchmarks
+            status: na
+          - task: lint_python
+            status: na
+          - task: lint_r
+            status: na
+          - task: lint_c_src
+            status: na
+          - task: lint_c_examples
+            status: na
+          - task: lint_c_benchmarks
+            status: na
+          - task: lint_c_tests_fixtures
+            status: na
+          - task: lint_shell
+            status: na
+          - task: lint_typescript_declarations
+            status: passed
+          - task: lint_typescript_tests
+            status: na
+          - task: lint_license_headers
+            status: passed
+        ---
+
+-   [`ba1f207`](https://github.com/stdlib-js/stdlib/commit/ba1f2071c9ca5becaa38b5ec050e547815727d9e): remove `stats/base/snanmeanpn`
+
+    -   To migrate, users should update their require/import paths to use
+        `@stdlib/stats-strided/snanmeanpn`, which provides the same API and implementation.
+        Ref: https://github.com/stdlib-js/stdlib/issues/4797
+        ---
+        type: pre_commit_static_analysis_report
+        description: Results of running static analysis checks when committing changes.
+        report:
+          - task: lint_filenames
+            status: passed
+          - task: lint_editorconfig
+            status: passed
+          - task: lint_markdown
+            status: na
+          - task: lint_package_json
+            status: na
+          - task: lint_repl_help
+            status: na
+          - task: lint_javascript_src
+            status: na
+          - task: lint_javascript_cli
+            status: na
+          - task: lint_javascript_examples
+            status: na
+          - task: lint_javascript_tests
+            status: na
+          - task: lint_javascript_benchmarks
+            status: na
+          - task: lint_python
+            status: na
+          - task: lint_r
+            status: na
+          - task: lint_c_src
+            status: na
+          - task: lint_c_examples
+            status: na
+          - task: lint_c_benchmarks
+            status: na
+          - task: lint_c_tests_fixtures
+            status: na
+          - task: lint_shell
+            status: na
+          - task: lint_typescript_declarations
+            status: na
+          - task: lint_typescript_tests
+            status: na
+          - task: lint_license_headers
+            status: passed
+        ---
+
+-   [`88595c4`](https://github.com/stdlib-js/stdlib/commit/88595c4cb3af9128e714d62b06913e3297736e00): remove `stats/base/snanmeanpn`
+
+    -   To migrate, users should access the same symbol via the `@stdlib/stats-strided/snanmeanpn` namespace.
+        Ref: https://github.com/stdlib-js/stdlib/issues/4797
+        ---
+        type: pre_commit_static_analysis_report
+        description: Results of running static analysis checks when committing changes.
+        report:
+          - task: lint_filenames
+            status: passed
+          - task: lint_editorconfig
+            status: passed
+          - task: lint_markdown
+            status: na
+          - task: lint_package_json
+            status: na
+          - task: lint_repl_help
+            status: na
+          - task: lint_javascript_src
+            status: passed
+          - task: lint_javascript_cli
+            status: na
+          - task: lint_javascript_examples
+            status: na
+          - task: lint_javascript_tests
+            status: na
+          - task: lint_javascript_benchmarks
+            status: na
+          - task: lint_python
+            status: na
+          - task: lint_r
+            status: na
+          - task: lint_c_src
+            status: na
+          - task: lint_c_examples
+            status: na
+          - task: lint_c_benchmarks
+            status: na
+          - task: lint_c_tests_fixtures
+            status: na
+          - task: lint_shell
+            status: na
+          - task: lint_typescript_declarations
+            status: passed
+          - task: lint_typescript_tests
+            status: na
+          - task: lint_license_headers
+            status: passed
+        ---
 
 -   [`f0846c1`](https://github.com/stdlib-js/stdlib/commit/f0846c183420e8715556ca78350c5c37c1bf00f7): remove `stats/base/snanmeanors`
 
@@ -31840,6 +32470,15 @@ A total of 53 people contributed to this release. Thank you to the following con
 
 <details>
 
+-   [`1cc2da7`](https://github.com/stdlib-js/stdlib/commit/1cc2da7861270784eb3d8a533a46219f5d29998a) - **remove:** remove `stats/base/snanmin` _(by Aayush Khanna)_
+-   [`ce0db06`](https://github.com/stdlib-js/stdlib/commit/ce0db0686f8e0fb2c3c32df5a12058731aed3aa8) - **refactor:** update paths _(by Aayush Khanna)_
+-   [`4a2167f`](https://github.com/stdlib-js/stdlib/commit/4a2167fff0b8ae55edfee37243e05bfe3de8e111) - **remove:** remove `stats/base/snanmin` from namespace _(by Aayush Khanna)_
+-   [`17db5da`](https://github.com/stdlib-js/stdlib/commit/17db5da5477e9789eb38472ab6e26f3d2cd683df) - **remove:** remove `stats/base/snanmeanwd` _(by Aayush Khanna)_
+-   [`ada2598`](https://github.com/stdlib-js/stdlib/commit/ada259850a8448afa642e2e5cda6b3a8f9a7b785) - **refactor:** update paths _(by Aayush Khanna)_
+-   [`6d3a77c`](https://github.com/stdlib-js/stdlib/commit/6d3a77c05b3ddabeb83e4468310444c767e1f9c3) - **remove:** remove `stats/base/snanmeanwd` from namespace _(by Aayush Khanna)_
+-   [`ba1f207`](https://github.com/stdlib-js/stdlib/commit/ba1f2071c9ca5becaa38b5ec050e547815727d9e) - **remove:** remove `stats/base/snanmeanpn` _(by Aayush Khanna)_
+-   [`2d70fb0`](https://github.com/stdlib-js/stdlib/commit/2d70fb0472427a0870fd4ce7bb8b30993cf2f939) - **refactor:** update paths _(by Aayush Khanna)_
+-   [`88595c4`](https://github.com/stdlib-js/stdlib/commit/88595c4cb3af9128e714d62b06913e3297736e00) - **remove:** remove `stats/base/snanmeanpn` from namespace _(by Aayush Khanna)_
 -   [`f0846c1`](https://github.com/stdlib-js/stdlib/commit/f0846c183420e8715556ca78350c5c37c1bf00f7) - **remove:** remove `stats/base/snanmeanors` _(by Aayush Khanna)_
 -   [`cd6dfed`](https://github.com/stdlib-js/stdlib/commit/cd6dfedfaf5d92a8b79cfbb6592e70d184e78ca4) - **refactor:** update paths _(by Aayush Khanna)_
 -   [`6833196`](https://github.com/stdlib-js/stdlib/commit/6833196824d3e4cbfa13c07c291aa0e814b86817) - **remove:** remove `stats/base/snanmeanors` from namespace _(by Aayush Khanna)_
