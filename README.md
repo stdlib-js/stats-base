@@ -102,7 +102,7 @@ The namespace contains the following statistical functions:
 -   <span class="signature">[`dmeanvar( N, correction, x, strideX, out, strideOut )`][@stdlib/stats/base/dmeanvar]</span><span class="delimiter">: </span><span class="description">calculate the mean and variance of a double-precision floating-point strided array.</span>
 -   <span class="signature">[`dmeanvarpn( N, correction, x, strideX, out, strideOut )`][@stdlib/stats/base/dmeanvarpn]</span><span class="delimiter">: </span><span class="description">calculate the mean and variance of a double-precision floating-point strided array using a two-pass algorithm.</span>
 -   <span class="signature">[`dmskmax( N, x, strideX, mask, strideMask )`][@stdlib/stats/strided/dmskmax]</span><span class="delimiter">: </span><span class="description">calculate the maximum value of a double-precision floating-point strided array according to a mask.</span>
--   <span class="signature">[`dmskmin( N, x, strideX, mask, strideMask )`][@stdlib/stats/strided/dmskmin]</span><span class="delimiter">: </span><span class="description">calculate the minimum value of a double-precision floating-point strided array according to a mask.</span>
+-   <span class="signature">[`dmskmin( N, x, strideX, mask, strideMask )`][@stdlib/stats/base/dmskmin]</span><span class="delimiter">: </span><span class="description">calculate the minimum value of a double-precision floating-point strided array according to a mask.</span>
 -   <span class="signature">[`dmskrange( N, x, strideX, mask, strideMask )`][@stdlib/stats/base/dmskrange]</span><span class="delimiter">: </span><span class="description">calculate the range of a double-precision floating-point strided array according to a mask.</span>
 -   <span class="signature">[`dnanmeanpw( N, x, strideX )`][@stdlib/stats/strided/dnanmeanpw]</span><span class="delimiter">: </span><span class="description">calculate the arithmetic mean of a double-precision floating-point strided array, ignoring `NaN` values and using pairwise summation.</span>
 -   <span class="signature">[`dnanmeanwd( N, x, strideX )`][@stdlib/stats/strided/dnanmeanwd]</span><span class="delimiter">: </span><span class="description">calculate the arithmetic mean of a double-precision floating-point strided array, using Welford's algorithm and ignoring `NaN` values.</span>
@@ -345,11 +345,6 @@ For more information on the project, filing bug reports and feature requests, an
 
 ---
 
-## License
-
-See [LICENSE][stdlib-license].
-
-
 ## Copyright
 
 Copyright &copy; 2016-2025. The Stdlib [Authors][stdlib-authors].
@@ -396,8 +391,6 @@ Copyright &copy; 2016-2025. The Stdlib [Authors][stdlib-authors].
 [esm-readme]: https://github.com/stdlib-js/stats-base/blob/esm/README.md
 [branches-url]: https://github.com/stdlib-js/stats-base/blob/main/branches.md
 
-[stdlib-license]: https://raw.githubusercontent.com/stdlib-js/stats-base/main/LICENSE
-
 <!-- <toc-links> -->
 
 [@stdlib/stats/base/cumax]: https://github.com/stdlib-js/stats-base-cumax
@@ -424,7 +417,7 @@ Copyright &copy; 2016-2025. The Stdlib [Authors][stdlib-authors].
 
 [@stdlib/stats/strided/dmskmax]: https://github.com/stdlib-js/stats-strided-dmskmax
 
-[@stdlib/stats/strided/dmskmin]: https://github.com/stdlib-js/stats-strided-dmskmin
+[@stdlib/stats/base/dmskmin]: https://github.com/stdlib-js/stats-base-dmskmin
 
 [@stdlib/stats/base/dmskrange]: https://github.com/stdlib-js/stats-base-dmskrange
 
