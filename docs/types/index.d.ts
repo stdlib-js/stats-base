@@ -102,7 +102,6 @@ import smeanlipw = require( '@stdlib/stats-base-smeanlipw' );
 import smeanors = require( '@stdlib/stats-base-smeanors' );
 import smeanpn = require( '@stdlib/stats-base-smeanpn' );
 import smidrange = require( '@stdlib/stats-base-smidrange' );
-import snanmaxabs = require( '@stdlib/stats-base-snanmaxabs' );
 import snanmean = require( '@stdlib/stats-base-snanmean' );
 import snanmeanors = require( '@stdlib/stats-base-snanmeanors' );
 import snanmeanpn = require( '@stdlib/stats-base-snanmeanpn' );
@@ -2328,32 +2327,6 @@ interface Namespace {
 	* // returns 0.0
 	*/
 	smidrange: typeof smidrange;
-
-	/**
-	* Computes the maximum absolute value of a single-precision floating-point strided array, ignoring `NaN` values.
-	*
-	* @param N - number of indexed elements
-	* @param x - input array
-	* @param stride - stride length
-	* @returns maximum absolute value
-	*
-	* @example
-	* var Float32Array = require( '@stdlib/array-float32' );
-	*
-	* var x = new Float32Array( [ 1.0, -2.0, NaN, 2.0 ] );
-	*
-	* var v = ns.snanmaxabs( x.length, x, 1 );
-	* // returns 2.0
-	*
-	* @example
-	* var Float32Array = require( '@stdlib/array-float32' );
-	*
-	* var x = new Float32Array( [ 1.0, -2.0, NaN, 2.0 ] );
-	*
-	* var v = ns.snanmaxabs.ndarray( x.length, x, 1, 0 );
-	* // returns 2.0
-	*/
-	snanmaxabs: typeof snanmaxabs;
 
 	/**
 	* Computes the arithmetic mean of a single-precision floating-point strided array, ignoring `NaN` values.
