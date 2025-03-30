@@ -259,8 +259,8 @@ The namespace contains the following statistical functions:
 -   <span class="signature">[`snanvarianceyc( N, correction, x, stride )`][@stdlib/stats/base/snanvarianceyc]</span><span class="delimiter">: </span><span class="description">calculate the variance of a single-precision floating-point strided array ignoring `NaN` values and using a one-pass algorithm proposed by Youngs and Cramer.</span>
 -   <span class="signature">[`srange( N, x, strideX )`][@stdlib/stats/strided/srange]</span><span class="delimiter">: </span><span class="description">calculate the range of a single-precision floating-point strided array.</span>
 -   <span class="signature">[`sstdev( N, correction, x, stride )`][@stdlib/stats/base/sstdev]</span><span class="delimiter">: </span><span class="description">calculate the standard deviation of a single-precision floating-point strided array.</span>
--   <span class="signature">[`sstdevch( N, correction, x, strideX )`][@stdlib/stats/base/sstdevch]</span><span class="delimiter">: </span><span class="description">calculate the standard deviation of a single-precision floating-point strided array using a one-pass trial mean algorithm.</span>
--   <span class="signature">[`sstdevpn( N, correction, x, strideX )`][@stdlib/stats/base/sstdevpn]</span><span class="delimiter">: </span><span class="description">calculate the standard deviation of a single-precision floating-point strided array using a two-pass algorithm.</span>
+-   <span class="signature">[`sstdevch( N, correction, x, strideX )`][@stdlib/stats/strided/sstdevch]</span><span class="delimiter">: </span><span class="description">calculate the standard deviation of a single-precision floating-point strided array using a one-pass trial mean algorithm.</span>
+-   <span class="signature">[`sstdevpn( N, correction, x, strideX )`][@stdlib/stats/strided/sstdevpn]</span><span class="delimiter">: </span><span class="description">calculate the standard deviation of a single-precision floating-point strided array using a two-pass algorithm.</span>
 -   <span class="signature">[`sstdevtk( N, correction, x, strideX )`][@stdlib/stats/base/sstdevtk]</span><span class="delimiter">: </span><span class="description">calculate the standard deviation of a single-precision floating-point strided array using a one-pass textbook algorithm.</span>
 -   <span class="signature">[`sstdevwd( N, correction, x, stride )`][@stdlib/stats/base/sstdevwd]</span><span class="delimiter">: </span><span class="description">calculate the standard deviation of a single-precision floating-point strided array using Welford's algorithm.</span>
 -   <span class="signature">[`sstdevyc( N, correction, x, strideX )`][@stdlib/stats/base/sstdevyc]</span><span class="delimiter">: </span><span class="description">calculate the standard deviation of a single-precision floating-point strided array using a one-pass algorithm proposed by Youngs and Cramer.</span>
@@ -345,6 +345,11 @@ For more information on the project, filing bug reports and feature requests, an
 
 ---
 
+## License
+
+See [LICENSE][stdlib-license].
+
+
 ## Copyright
 
 Copyright &copy; 2016-2025. The Stdlib [Authors][stdlib-authors].
@@ -390,6 +395,8 @@ Copyright &copy; 2016-2025. The Stdlib [Authors][stdlib-authors].
 [esm-url]: https://github.com/stdlib-js/stats-base/tree/esm
 [esm-readme]: https://github.com/stdlib-js/stats-base/blob/esm/README.md
 [branches-url]: https://github.com/stdlib-js/stats-base/blob/main/branches.md
+
+[stdlib-license]: https://raw.githubusercontent.com/stdlib-js/stats-base/main/LICENSE
 
 <!-- <toc-links> -->
 
@@ -731,9 +738,9 @@ Copyright &copy; 2016-2025. The Stdlib [Authors][stdlib-authors].
 
 [@stdlib/stats/base/sstdev]: https://github.com/stdlib-js/stats-base-sstdev
 
-[@stdlib/stats/base/sstdevch]: https://github.com/stdlib-js/stats-base-sstdevch
+[@stdlib/stats/strided/sstdevch]: https://github.com/stdlib-js/stats-strided-sstdevch
 
-[@stdlib/stats/base/sstdevpn]: https://github.com/stdlib-js/stats-base-sstdevpn
+[@stdlib/stats/strided/sstdevpn]: https://github.com/stdlib-js/stats-strided-sstdevpn
 
 [@stdlib/stats/base/sstdevtk]: https://github.com/stdlib-js/stats-base-sstdevtk
 
