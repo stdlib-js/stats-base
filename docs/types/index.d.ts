@@ -127,7 +127,6 @@ import stdevtk = require( '@stdlib/stats-base-stdevtk' );
 import stdevwd = require( '@stdlib/stats-base-stdevwd' );
 import stdevyc = require( '@stdlib/stats-base-stdevyc' );
 import svariance = require( '@stdlib/stats-base-svariance' );
-import svariancech = require( '@stdlib/stats-base-svariancech' );
 import svariancepn = require( '@stdlib/stats-base-svariancepn' );
 import svariancetk = require( '@stdlib/stats-base-svariancetk' );
 import svariancewd = require( '@stdlib/stats-base-svariancewd' );
@@ -2981,33 +2980,6 @@ interface Namespace {
 	* // returns ~4.3333
 	*/
 	svariance: typeof svariance;
-
-	/**
-	* Computes the variance of a single-precision floating-point strided array using a one-pass trial mean algorithm.
-	*
-	* @param N - number of indexed elements
-	* @param correction - degrees of freedom adjustment
-	* @param x - input array
-	* @param strideX - stride length
-	* @returns variance
-	*
-	* @example
-	* var Float32Array = require( '@stdlib/array-float32' );
-	*
-	* var x = new Float32Array( [ 1.0, -2.0, 2.0 ] );
-	*
-	* var v = ns.svariancech( x.length, 1, x, 1 );
-	* // returns ~4.3333
-	*
-	* @example
-	* var Float32Array = require( '@stdlib/array-float32' );
-	*
-	* var x = new Float32Array( [ 1.0, -2.0, 2.0 ] );
-	*
-	* var v = ns.svariancech.ndarray( x.length, 1, x, 1, 0 );
-	* // returns ~4.3333
-	*/
-	svariancech: typeof svariancech;
 
 	/**
 	* Computes the variance of a single-precision floating-point strided array using a two-pass algorithm.

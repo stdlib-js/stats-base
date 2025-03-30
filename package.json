@@ -143,7 +143,6 @@
     "@stdlib/stats-base-stdevwd": "^0.2.2",
     "@stdlib/stats-base-stdevyc": "^0.2.2",
     "@stdlib/stats-base-svariance": "^0.2.2",
-    "@stdlib/stats-base-svariancech": "^0.2.2",
     "@stdlib/stats-base-svariancepn": "^0.2.2",
     "@stdlib/stats-base-svariancetk": "^0.2.2",
     "@stdlib/stats-base-svariancewd": "^0.2.2",
