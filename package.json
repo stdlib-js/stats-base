@@ -119,6 +119,7 @@
     "@stdlib/stats-base-smeanpn": "^0.2.2",
     "@stdlib/stats-base-smidrange": "^0.2.2",
     "@stdlib/stats-base-snanmean": "^0.2.2",
+    "@stdlib/stats-base-snanmin": "^0.2.2",
     "@stdlib/stats-base-snanminabs": "^0.2.2",
     "@stdlib/stats-base-snanmskmax": "^0.2.2",
     "@stdlib/stats-base-snanmskmin": "^0.2.2",
