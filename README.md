@@ -273,7 +273,7 @@ The namespace contains the following statistical functions:
 -   <span class="signature">[`svariance( N, correction, x, stride )`][@stdlib/stats/base/svariance]</span><span class="delimiter">: </span><span class="description">calculate the variance of a single-precision floating-point strided array.</span>
 -   <span class="signature">[`svariancech( N, correction, x, strideX )`][@stdlib/stats/strided/svariancech]</span><span class="delimiter">: </span><span class="description">calculate the variance of a single-precision floating-point strided array using a one-pass trial mean algorithm.</span>
 -   <span class="signature">[`svariancepn( N, correction, x, strideX )`][@stdlib/stats/strided/svariancepn]</span><span class="delimiter">: </span><span class="description">calculate the variance of a single-precision floating-point strided array using a two-pass algorithm.</span>
--   <span class="signature">[`svariancetk( N, correction, x, strideX )`][@stdlib/stats/strided/svariancetk]</span><span class="delimiter">: </span><span class="description">calculate the variance of a single-precision floating-point strided array using a one-pass textbook algorithm.</span>
+-   <span class="signature">[`svariancetk( N, correction, x, strideX )`][@stdlib/stats/base/svariancetk]</span><span class="delimiter">: </span><span class="description">calculate the variance of a single-precision floating-point strided array using a one-pass textbook algorithm.</span>
 -   <span class="signature">[`svariancewd( N, correction, x, stride )`][@stdlib/stats/base/svariancewd]</span><span class="delimiter">: </span><span class="description">calculate the variance of a single-precision floating-point strided array using Welford's algorithm.</span>
 -   <span class="signature">[`svarianceyc( N, correction, x, strideX )`][@stdlib/stats/base/svarianceyc]</span><span class="delimiter">: </span><span class="description">calculate the variance of a single-precision floating-point strided array using a one-pass algorithm proposed by Youngs and Cramer.</span>
 -   <span class="signature">[`variance( N, correction, x, stride )`][@stdlib/stats/base/variance]</span><span class="delimiter">: </span><span class="description">calculate the variance of a strided array.</span>
@@ -345,11 +345,6 @@ For more information on the project, filing bug reports and feature requests, an
 
 ---
 
-## License
-
-See [LICENSE][stdlib-license].
-
-
 ## Copyright
 
 Copyright &copy; 2016-2025. The Stdlib [Authors][stdlib-authors].
@@ -395,8 +390,6 @@ Copyright &copy; 2016-2025. The Stdlib [Authors][stdlib-authors].
 [esm-url]: https://github.com/stdlib-js/stats-base/tree/esm
 [esm-readme]: https://github.com/stdlib-js/stats-base/blob/esm/README.md
 [branches-url]: https://github.com/stdlib-js/stats-base/blob/main/branches.md
-
-[stdlib-license]: https://raw.githubusercontent.com/stdlib-js/stats-base/main/LICENSE
 
 <!-- <toc-links> -->
 
@@ -766,7 +759,7 @@ Copyright &copy; 2016-2025. The Stdlib [Authors][stdlib-authors].
 
 [@stdlib/stats/strided/svariancepn]: https://github.com/stdlib-js/stats-strided-svariancepn
 
-[@stdlib/stats/strided/svariancetk]: https://github.com/stdlib-js/stats-strided-svariancetk
+[@stdlib/stats/base/svariancetk]: https://github.com/stdlib-js/stats-base-svariancetk
 
 [@stdlib/stats/base/svariancewd]: https://github.com/stdlib-js/stats-base-svariancewd
 
