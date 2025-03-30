@@ -118,9 +118,7 @@ import snanvariancepn = require( '@stdlib/stats-base-snanvariancepn' );
 import snanvariancetk = require( '@stdlib/stats-base-snanvariancetk' );
 import snanvariancewd = require( '@stdlib/stats-base-snanvariancewd' );
 import snanvarianceyc = require( '@stdlib/stats-base-snanvarianceyc' );
-import srange = require( '@stdlib/stats-base-srange' );
 import sstdev = require( '@stdlib/stats-base-sstdev' );
-import sstdevch = require( '@stdlib/stats-base-sstdevch' );
 import sstdevpn = require( '@stdlib/stats-base-sstdevpn' );
 import sstdevtk = require( '@stdlib/stats-base-sstdevtk' );
 import sstdevwd = require( '@stdlib/stats-base-sstdevwd' );
@@ -2769,32 +2767,6 @@ interface Namespace {
 	snanvarianceyc: typeof snanvarianceyc;
 
 	/**
-	* Computes the range of a single-precision floating-point strided array.
-	*
-	* @param N - number of indexed elements
-	* @param x - input array
-	* @param strideX - stride length
-	* @returns range
-	*
-	* @example
-	* var Float32Array = require( '@stdlib/array-float32' );
-	*
-	* var x = new Float32Array( [ 1.0, -2.0, 2.0 ] );
-	*
-	* var v = ns.srange( x.length, x, 1 );
-	* // returns 4.0
-	*
-	* @example
-	* var Float32Array = require( '@stdlib/array-float32' );
-	*
-	* var x = new Float32Array( [ 1.0, -2.0, 2.0 ] );
-	*
-	* var v = ns.srange.ndarray( x.length, x, 1, 0 );
-	* // returns 4.0
-	*/
-	srange: typeof srange;
-
-	/**
 	* Computes the standard deviation of a single-precision floating-point strided array.
 	*
 	* @param N - number of indexed elements
@@ -2820,33 +2792,6 @@ interface Namespace {
 	* // returns ~2.0817
 	*/
 	sstdev: typeof sstdev;
-
-	/**
-	* Computes the standard deviation of a single-precision floating-point strided array using a one-pass trial mean algorithm.
-	*
-	* @param N - number of indexed elements
-	* @param correction - degrees of freedom adjustment
-	* @param x - input array
-	* @param strideX - stride length
-	* @returns standard deviation
-	*
-	* @example
-	* var Float32Array = require( '@stdlib/array-float32' );
-	*
-	* var x = new Float32Array( [ 1.0, -2.0, 2.0 ] );
-	*
-	* var v = ns.sstdevch( x.length, 1, x, 1 );
-	* // returns ~2.0817
-	*
-	* @example
-	* var Float32Array = require( '@stdlib/array-float32' );
-	*
-	* var x = new Float32Array( [ 1.0, -2.0, 2.0 ] );
-	*
-	* var v = ns.sstdevch.ndarray( x.length, 1, x, 1, 0 );
-	* // returns ~2.0817
-	*/
-	sstdevch: typeof sstdevch;
 
 	/**
 	* Computes the standard deviation of a single-precision floating-point strided array using a two-pass algorithm.
