@@ -4,7 +4,7 @@
 
 <section class="release" id="unreleased">
 
-## Unreleased (2025-03-30)
+## Unreleased (2025-03-31)
 
 <section class="packages">
 
@@ -36040,6 +36040,8 @@ A total of 53 people contributed to this release. Thank you to the following con
 
 <details>
 
+-   [`9998d76`](https://github.com/stdlib-js/stdlib/commit/9998d768131de91b59e2808ddf4ee552407d4175) - **docs:** update namespace table of contents [(#6461)](https://github.com/stdlib-js/stdlib/pull/6461) _(by stdlib-bot)_
+-   [`2366870`](https://github.com/stdlib-js/stdlib/commit/23668709f2da0d4a3e3f5eb401eebaf03eb328cd) - **refactor:** use const double for parameter in `stats/base/dists/betaprime/logpdf` [(#6452)](https://github.com/stdlib-js/stdlib/pull/6452) _(by Neeraj Pathak)_
 -   [`3aca840`](https://github.com/stdlib-js/stdlib/commit/3aca840adab39372b0b641f9bf99e0b192e6150a) - **remove:** remove `stats/base/smidrange` _(by Aayush Khanna)_
 -   [`c1d3885`](https://github.com/stdlib-js/stdlib/commit/c1d3885204c3351bc3298b2f7c18b4003ae060df) - **refactor:** update paths _(by Aayush Khanna)_
 -   [`28636bf`](https://github.com/stdlib-js/stdlib/commit/28636bfa1618598f1705f13f96ead0a9ec305d35) - **remove:** remove `stats/base/smidrange` from namespace _(by Aayush Khanna)_
