@@ -264,7 +264,6 @@
     "@stdlib/math-base-special-max": "^0.3.0",
     "@stdlib/math-base-special-min": "^0.2.3",
     "@stdlib/math-base-special-pow": "^0.3.0",
-    "@stdlib/math-base-special-riemann-zeta": "^0.2.2",
     "@stdlib/math-base-special-round": "^0.3.0",
     "@stdlib/math-base-special-roundn": "^0.2.2",
     "@stdlib/math-base-special-signum": "^0.2.2",
