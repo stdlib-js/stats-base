@@ -4,7 +4,7 @@
 
 <section class="release" id="unreleased">
 
-## Unreleased (2025-04-11)
+## Unreleased (2025-04-12)
 
 <section class="packages">
 
@@ -17043,6 +17043,28 @@ This release closes the following issue:
 </section>
 
 <!-- /.breaking-changes -->
+
+</details>
+
+</section>
+
+<!-- /.package -->
+
+<section class="package" id="stats-base-dmeanpn-unreleased">
+
+#### [@stdlib/stats/base/dmeanpn](https://github.com/stdlib-js/stdlib/tree/develop/lib/node_modules/%40stdlib/stats/base/dmeanpn)
+
+<details>
+
+<section class="features">
+
+##### Features
+
+-   [`ce86a5d`](https://github.com/stdlib-js/stdlib/commit/ce86a5d7a15f0bc79349d46ecbc661f270c7025b) - add C ndarray interface and refactor implementation for `stats/base/dmeanpn` [(#6510)](https://github.com/stdlib-js/stdlib/pull/6510)
+
+</section>
+
+<!-- /.features -->
 
 </details>
 
@@ -37058,7 +37080,13 @@ A total of 56 people contributed to this release. Thank you to the following con
 
 <details>
 
+-   [`6c04cd1`](https://github.com/stdlib-js/stdlib/commit/6c04cd1f675361f9c1ef7c7b2ec31793cff179f1) - **docs:** update namespace table of contents [(#6657)](https://github.com/stdlib-js/stdlib/pull/6657) _(by stdlib-bot)_
+-   [`b6ad3e2`](https://github.com/stdlib-js/stdlib/commit/b6ad3e2323bb7952819c34578467f382a7cace3e) - **chore:** clean-up _(by Athan Reines)_
+-   [`367e8f9`](https://github.com/stdlib-js/stdlib/commit/367e8f90bec98d87e4bf044f0cf8baf12602c3dd) - **chore:** clean-up _(by Athan Reines)_
+-   [`f3c9340`](https://github.com/stdlib-js/stdlib/commit/f3c9340d77cca871bb1b43860a29c5c3a19ca639) - **chore:** clean-up _(by Athan Reines)_
+-   [`ce86a5d`](https://github.com/stdlib-js/stdlib/commit/ce86a5d7a15f0bc79349d46ecbc661f270c7025b) - **feat:** add C ndarray interface and refactor implementation for `stats/base/dmeanpn` [(#6510)](https://github.com/stdlib-js/stdlib/pull/6510) _(by Gururaj Gurram, Athan Reines)_
 -   [`aceff02`](https://github.com/stdlib-js/stdlib/commit/aceff02882c33d9682e9a749164faea576f38f04) - **docs:** update namespace table of contents [(#6648)](https://github.com/stdlib-js/stdlib/pull/6648) _(by stdlib-bot)_
+-   [`799acef`](https://github.com/stdlib-js/stdlib/commit/799acef18a6b083622f677d136a424b1db112336) - **chore:** clean-up _(by Athan Reines)_
 -   [`b00201a`](https://github.com/stdlib-js/stdlib/commit/b00201a04d19fe4de3064906472f07b79a201ef7) - **chore:** clean-up _(by Athan Reines)_
 -   [`bba5f34`](https://github.com/stdlib-js/stdlib/commit/bba5f34762bd42ead771ac53349ec7c333cbf38a) - **chore:** clean-up _(by Athan Reines)_
 -   [`d598da2`](https://github.com/stdlib-js/stdlib/commit/d598da22bd1517f6a1ae8228695bc03bf1d77d37) - **chore:** clean-up _(by Athan Reines)_
