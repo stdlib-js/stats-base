@@ -813,6 +813,7 @@
     "@stdlib/stats-base-ndarray-dcumax": "github:stdlib-js/stats-base-ndarray-dcumax#main",
     "@stdlib/stats-base-ndarray-dmax": "github:stdlib-js/stats-base-ndarray-dmax#main",
     "@stdlib/stats-base-ndarray-max": "github:stdlib-js/stats-base-ndarray-max#main",
+    "@stdlib/stats-base-ndarray-max-by": "github:stdlib-js/stats-base-ndarray-max-by#main",
     "@stdlib/stats-base-ndarray-scumax": "github:stdlib-js/stats-base-ndarray-scumax#main",
     "@stdlib/stats-base-ndarray-smax": "github:stdlib-js/stats-base-ndarray-smax#main",
     "@stdlib/stats-strided-dcumax": "github:stdlib-js/stats-strided-dcumax#main",
