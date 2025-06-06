@@ -562,6 +562,17 @@
 
 ### BREAKING CHANGES
 
+-   [`a88c74b`](https://github.com/stdlib-js/stdlib/commit/a88c74b020fd021724a0ccfe42ce55f178243ee8): remove `stats/base/dnanstdev`
+
+    -   To migrate, users should update their require/import paths to use
+        `@stdlib/stats-strided/dnanstdev`, which provides the same API and implementation.
+        Ref: https://github.com/stdlib-js/stdlib/issues/4797
+
+-   [`ee59f0c`](https://github.com/stdlib-js/stdlib/commit/ee59f0c8bd8528bdcc8b351e16b2af8dcdd677c2): remove `dnanstdev`
+
+    -   To migrate, users should access the same symbol via the `@stdlib/stats-strided` namespace.
+        Ref: https://github.com/stdlib-js/stdlib/issues/4797
+
 -   [`42318e5`](https://github.com/stdlib-js/stdlib/commit/42318e559bece702813da65863b34fa801a51262): remove `stats/base/dnanmskrange`
 
     -   To migrate, users should update their require/import paths to use
@@ -1779,6 +1790,9 @@ A total of 415 issues were closed in this release:
 
 <details>
 
+-   [`a88c74b`](https://github.com/stdlib-js/stdlib/commit/a88c74b020fd021724a0ccfe42ce55f178243ee8) - **remove:** remove `stats/base/dnanstdev` _(by Gururaj Gurram)_
+-   [`9c993f8`](https://github.com/stdlib-js/stdlib/commit/9c993f89e63574c8b17ec62d4ca1b5d88e47bf3e) - **refactor:** update paths _(by Gururaj Gurram)_
+-   [`ee59f0c`](https://github.com/stdlib-js/stdlib/commit/ee59f0c8bd8528bdcc8b351e16b2af8dcdd677c2) - **remove:** remove `dnanstdev` from namespace _(by Gururaj Gurram)_
 -   [`42318e5`](https://github.com/stdlib-js/stdlib/commit/42318e559bece702813da65863b34fa801a51262) - **remove:** remove `stats/base/dnanmskrange` _(by Gururaj Gurram)_
 -   [`2db7567`](https://github.com/stdlib-js/stdlib/commit/2db75670d43471c0f502e46d2564582add3d6135) - **refactor:** update paths _(by Gururaj Gurram)_
 -   [`bdff4b4`](https://github.com/stdlib-js/stdlib/commit/bdff4b478c1ff427c473ad52c8d5bdbbd2d15a7c) - **remove:** remove `dnanmskrange` from namespace _(by Gururaj Gurram)_

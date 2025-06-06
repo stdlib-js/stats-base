@@ -101,7 +101,7 @@ The namespace contains the following statistical functions:
 -   <span class="signature">[`dnanmskmax( N, x, strideX, mask, strideMask )`][@stdlib/stats/strided/dnanmskmax]</span><span class="delimiter">: </span><span class="description">calculate the maximum value of a double-precision floating-point strided array according to a mask, ignoring `NaN` values.</span>
 -   <span class="signature">[`dnanmskmin( N, x, strideX, mask, strideMask )`][@stdlib/stats/strided/dnanmskmin]</span><span class="delimiter">: </span><span class="description">calculate the minimum value of a double-precision floating-point strided array according to a mask, ignoring `NaN` values.</span>
 -   <span class="signature">[`dnanmskrange( N, x, strideX, mask, strideMask )`][@stdlib/stats/strided/dnanmskrange]</span><span class="delimiter">: </span><span class="description">calculate the range of a double-precision floating-point strided array according to a mask, ignoring `NaN` values.</span>
--   <span class="signature">[`dnanstdev( N, correction, x, strideX )`][@stdlib/stats/base/dnanstdev]</span><span class="delimiter">: </span><span class="description">calculate the standard deviation of a double-precision floating-point strided array ignoring `NaN` values.</span>
+-   <span class="signature">[`dnanstdev( N, correction, x, strideX )`][@stdlib/stats/strided/dnanstdev]</span><span class="delimiter">: </span><span class="description">calculate the standard deviation of a double-precision floating-point strided array ignoring `NaN` values.</span>
 -   <span class="signature">[`dsem( N, correction, x, strideX )`][@stdlib/stats/base/dsem]</span><span class="delimiter">: </span><span class="description">calculate the standard error of the mean of a double-precision floating-point strided array.</span>
 -   <span class="signature">[`dsempn( N, correction, x, strideX )`][@stdlib/stats/base/dsempn]</span><span class="delimiter">: </span><span class="description">calculate the standard error of the mean of a double-precision floating-point strided array using a two-pass algorithm.</span>
 -   <span class="signature">[`dstdev( N, correction, x, strideX )`][@stdlib/stats/base/dstdev]</span><span class="delimiter">: </span><span class="description">calculate the standard deviation of a double-precision floating-point strided array.</span>
@@ -336,7 +336,7 @@ Copyright &copy; 2016-2025. The Stdlib [Authors][stdlib-authors].
 
 [@stdlib/stats/strided/dnanmskrange]: https://github.com/stdlib-js/stats-strided-dnanmskrange
 
-[@stdlib/stats/base/dnanstdev]: https://github.com/stdlib-js/stats-base-dnanstdev
+[@stdlib/stats/strided/dnanstdev]: https://github.com/stdlib-js/stats-strided-dnanstdev
 
 [@stdlib/stats/base/dsem]: https://github.com/stdlib-js/stats-base-dsem
 
