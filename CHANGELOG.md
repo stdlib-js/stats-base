@@ -562,6 +562,17 @@
 
 ### BREAKING CHANGES
 
+-   [`2edea92`](https://github.com/stdlib-js/stdlib/commit/2edea92f732322387a4fb6e4f672f9c494a53fe0): remove `stats/base/dnanmskmin`
+
+    -   To migrate, users should update their require/import paths to use
+        `@stdlib/stats-strided/dnanmskmin`, which provides the same API and implementation.
+        Ref: https://github.com/stdlib-js/stdlib/issues/4797
+
+-   [`ab62015`](https://github.com/stdlib-js/stdlib/commit/ab6201538e6ae0c0d7ccc1f787187416a4c5b58d): remove `dnanmskmin`
+
+    -   To migrate, users should access the same symbol via the `@stdlib/stats-strided` namespace.
+        Ref: https://github.com/stdlib-js/stdlib/issues/4797
+
 -   [`a2d6cbe`](https://github.com/stdlib-js/stdlib/commit/a2d6cbefb9d9d408f0fb89b7cec6b70cd6315427): remove `stats/base/dnanmskmax`
 
     -   To migrate, users should update their require/import paths to use
@@ -1757,6 +1768,9 @@ A total of 415 issues were closed in this release:
 
 <details>
 
+-   [`2edea92`](https://github.com/stdlib-js/stdlib/commit/2edea92f732322387a4fb6e4f672f9c494a53fe0) - **remove:** remove `stats/base/dnanmskmin` _(by Gururaj Gurram)_
+-   [`855d4a6`](https://github.com/stdlib-js/stdlib/commit/855d4a65217504b0e032ae90df8fbdaf7b98e1f1) - **refactor:** update paths _(by Gururaj Gurram)_
+-   [`ab62015`](https://github.com/stdlib-js/stdlib/commit/ab6201538e6ae0c0d7ccc1f787187416a4c5b58d) - **remove:** remove `dnanmskmin` from namespace _(by Gururaj Gurram)_
 -   [`a2d6cbe`](https://github.com/stdlib-js/stdlib/commit/a2d6cbefb9d9d408f0fb89b7cec6b70cd6315427) - **remove:** remove `stats/base/dnanmskmax` _(by Gururaj Gurram)_
 -   [`fe52935`](https://github.com/stdlib-js/stdlib/commit/fe52935c933cce3e5550436a283495fb1dec0898) - **refactor:** update paths _(by Gururaj Gurram)_
 -   [`d59e563`](https://github.com/stdlib-js/stdlib/commit/d59e563c9a551a8b058ba603f7e40afddd3f5788) - **remove:** remove `dnanmskmax` from namespace _(by Gururaj Gurram)_
