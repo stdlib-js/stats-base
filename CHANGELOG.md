@@ -566,6 +566,17 @@
 
 ### BREAKING CHANGES
 
+-   [`0cdc9aa`](https://github.com/stdlib-js/stdlib/commit/0cdc9aad7941b696f934c61ddbf99fd22767119f): remove `stats/base/dstdev`
+
+    -   To migrate, users should update their require/import paths to use
+        `@stdlib/stats-strided/dstdev`, which provides the same API and implementation.
+        Ref: https://github.com/stdlib-js/stdlib/issues/4797
+
+-   [`e6aa8cc`](https://github.com/stdlib-js/stdlib/commit/e6aa8cce22374977f6854c17b7fa9efbca67d5e9): remove `dstdev`
+
+    -   To migrate, users should access the same symbol via the `@stdlib/stats-strided` namespace.
+        Ref: https://github.com/stdlib-js/stdlib/issues/4797
+
 -   [`bc2c29e`](https://github.com/stdlib-js/stdlib/commit/bc2c29ea63c0e990892b96b791867c1b33487b98): remove `stats/base/snanmskrange`
 
     -   To migrate, users should update their require/import paths to use
@@ -1827,6 +1838,10 @@ A total of 416 issues were closed in this release:
 
 <details>
 
+-   [`0cdc9aa`](https://github.com/stdlib-js/stdlib/commit/0cdc9aad7941b696f934c61ddbf99fd22767119f) - **remove:** remove `stats/base/dstdev` _(by Gururaj Gurram)_
+-   [`76100b0`](https://github.com/stdlib-js/stdlib/commit/76100b038910770cca2f13dd6e715802e3da756c) - **refactor:** update paths _(by Gururaj Gurram)_
+-   [`e6aa8cc`](https://github.com/stdlib-js/stdlib/commit/e6aa8cce22374977f6854c17b7fa9efbca67d5e9) - **remove:** remove `dstdev` from namespace _(by Gururaj Gurram)_
+-   [`e0b7f74`](https://github.com/stdlib-js/stdlib/commit/e0b7f74093ddcbf5184374319fcad09f32d0013a) - **refactor:** remove unreachable code path _(by Athan Reines)_
 -   [`bc2c29e`](https://github.com/stdlib-js/stdlib/commit/bc2c29ea63c0e990892b96b791867c1b33487b98) - **remove:** remove `stats/base/snanmskrange` _(by Gururaj Gurram)_
 -   [`45d9704`](https://github.com/stdlib-js/stdlib/commit/45d97048bc76095265cac4f5a84121ee7ebdb891) - **refactor:** update paths _(by Gururaj Gurram)_
 -   [`e13d977`](https://github.com/stdlib-js/stdlib/commit/e13d977232202844501d1a9fb83d8c908417e32d) - **remove:** remove `snanmskrange` from namespace _(by Gururaj Gurram)_

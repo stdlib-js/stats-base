@@ -31,7 +31,6 @@ import dmeanvar = require( '@stdlib/stats-base-dmeanvar' );
 import dmeanvarpn = require( '@stdlib/stats-base-dmeanvarpn' );
 import dsem = require( '@stdlib/stats-base-dsem' );
 import dsempn = require( '@stdlib/stats-base-dsempn' );
-import dstdev = require( '@stdlib/stats-base-dstdev' );
 import dvarm = require( '@stdlib/stats-base-dvarm' );
 import dvarmpn = require( '@stdlib/stats-base-dvarmpn' );
 import max = require( '@stdlib/stats-base-max' );
@@ -423,33 +422,6 @@ interface Namespace {
 	* // returns ~1.20185
 	*/
 	dsempn: typeof dsempn;
-
-	/**
-	* Computes the standard deviation of a double-precision floating-point strided array.
-	*
-	* @param N - number of indexed elements
-	* @param correction - degrees of freedom adjustment
-	* @param x - input array
-	* @param stride - stride length
-	* @returns standard deviation
-	*
-	* @example
-	* var Float64Array = require( '@stdlib/array-float64' );
-	*
-	* var x = new Float64Array( [ 1.0, -2.0, 2.0 ] );
-	*
-	* var v = ns.dstdev( x.length, 1, x, 1 );
-	* // returns ~2.0817
-	*
-	* @example
-	* var Float64Array = require( '@stdlib/array-float64' );
-	*
-	* var x = new Float64Array( [ 1.0, -2.0, 2.0 ] );
-	*
-	* var v = ns.dstdev.ndarray( x.length, 1, x, 1, 0 );
-	* // returns ~2.0817
-	*/
-	dstdev: typeof dstdev;
 
 	/**
 	* Computes the variance of a double-precision floating-point strided array provided a known mean.
