@@ -91,7 +91,6 @@ import smeanlipw = require( '@stdlib/stats-base-smeanlipw' );
 import smeanors = require( '@stdlib/stats-base-smeanors' );
 import smeanpn = require( '@stdlib/stats-base-smeanpn' );
 import snanmean = require( '@stdlib/stats-base-snanmean' );
-import snanmskrange = require( '@stdlib/stats-base-snanmskrange' );
 import snanstdev = require( '@stdlib/stats-base-snanstdev' );
 import snanstdevch = require( '@stdlib/stats-base-snanstdevch' );
 import snanstdevpn = require( '@stdlib/stats-base-snanstdevpn' );
@@ -1971,38 +1970,6 @@ interface Namespace {
 	* // returns ~0.3333
 	*/
 	snanmean: typeof snanmean;
-
-	/**
-	* Computes the range of a single-precision floating-point strided array according to a mask, ignoring `NaN` values.
-	*
-	* @param N - number of indexed elements
-	* @param x - input array
-	* @param strideX - `x` stride length
-	* @param mask - mask array
-	* @param strideMask - `mask` stride length
-	* @returns range
-	*
-	* @example
-	* var Float32Array = require( '@stdlib/array-float32' );
-	* var Uint8Array = require( '@stdlib/array-uint8' );
-	*
-	* var x = new Float32Array( [ 1.0, -2.0, 4.0, 2.0, NaN ] );
-	* var mask = new Uint8Array( [ 0, 0, 1, 0, 0 ] );
-	*
-	* var v = ns.snanmskrange( x.length, x, 1, mask, 1 );
-	* // returns 4.0
-	*
-	* @example
-	* var Float32Array = require( '@stdlib/array-float32' );
-	* var Uint8Array = require( '@stdlib/array-uint8' );
-	*
-	* var x = new Float32Array( [ 1.0, -2.0, 4.0, 2.0, NaN ] );
-	* var mask = new Uint8Array( [ 0, 0, 1, 0, 0 ] );
-	*
-	* var v = ns.snanmskrange.ndarray( x.length, x, 1, 0, mask, 1, 0 );
-	* // returns 4.0
-	*/
-	snanmskrange: typeof snanmskrange;
 
 	/**
 	* Computes the standard deviation of a single-precision floating-point strided array ignoring `NaN` values.

@@ -566,6 +566,17 @@
 
 ### BREAKING CHANGES
 
+-   [`bc2c29e`](https://github.com/stdlib-js/stdlib/commit/bc2c29ea63c0e990892b96b791867c1b33487b98): remove `stats/base/snanmskrange`
+
+    -   To migrate, users should update their require/import paths to use
+        `@stdlib/stats-strided/snanmskrange`, which provides the same API and implementation.
+        Ref: https://github.com/stdlib-js/stdlib/issues/4797
+
+-   [`e13d977`](https://github.com/stdlib-js/stdlib/commit/e13d977232202844501d1a9fb83d8c908417e32d): remove `snanmskrange`
+
+    -   To migrate, users should access the same symbol via the `@stdlib/stats-strided` namespace.
+        Ref: https://github.com/stdlib-js/stdlib/issues/4797
+
 -   [`1e761ce`](https://github.com/stdlib-js/stdlib/commit/1e761ce564fa4ffaa933766068327dcd55fcba31): remove `stats/base/snanmskmin`
 
     -   To migrate, users should update their require/import paths to use
@@ -1816,6 +1827,9 @@ A total of 416 issues were closed in this release:
 
 <details>
 
+-   [`bc2c29e`](https://github.com/stdlib-js/stdlib/commit/bc2c29ea63c0e990892b96b791867c1b33487b98) - **remove:** remove `stats/base/snanmskrange` _(by Gururaj Gurram)_
+-   [`45d9704`](https://github.com/stdlib-js/stdlib/commit/45d97048bc76095265cac4f5a84121ee7ebdb891) - **refactor:** update paths _(by Gururaj Gurram)_
+-   [`e13d977`](https://github.com/stdlib-js/stdlib/commit/e13d977232202844501d1a9fb83d8c908417e32d) - **remove:** remove `snanmskrange` from namespace _(by Gururaj Gurram)_
 -   [`1e761ce`](https://github.com/stdlib-js/stdlib/commit/1e761ce564fa4ffaa933766068327dcd55fcba31) - **remove:** remove `stats/base/snanmskmin` _(by Gururaj Gurram)_
 -   [`81d17b1`](https://github.com/stdlib-js/stdlib/commit/81d17b1bba3c9f51cf9d6c9fc0103a6480dd1e5b) - **refactor:** update paths _(by Gururaj Gurram)_
 -   [`b028130`](https://github.com/stdlib-js/stdlib/commit/b0281309f91197c9c539ee4b7894957b7cf4d831) - **remove:** remove `snanmskmin` from namespace _(by Gururaj Gurram)_

@@ -108,7 +108,6 @@
     "@stdlib/stats-base-smeanors": "^0.2.2",
     "@stdlib/stats-base-smeanpn": "^0.2.2",
     "@stdlib/stats-base-snanmean": "^0.2.2",
-    "@stdlib/stats-base-snanmskrange": "^0.2.2",
     "@stdlib/stats-base-snanstdev": "^0.2.2",
     "@stdlib/stats-base-snanstdevch": "^0.2.2",
     "@stdlib/stats-base-snanstdevpn": "^0.2.2",
