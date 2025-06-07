@@ -566,6 +566,17 @@
 
 ### BREAKING CHANGES
 
+-   [`62eb56a`](https://github.com/stdlib-js/stdlib/commit/62eb56a526c332a843262a32e4cd87a419805d63): remove `stats/base/dsempn`
+
+    -   To migrate, users should update their require/import paths to use
+        `@stdlib/stats-strided/dsempn`, which provides the same API and implementation.
+        Ref: https://github.com/stdlib-js/stdlib/issues/4797
+
+-   [`a088915`](https://github.com/stdlib-js/stdlib/commit/a0889157d7723632f5b2c5229916c2ee6060aee8): remove `dsempn`
+
+    -   To migrate, users should access the same symbol via the `@stdlib/stats-strided` namespace.
+        Ref: https://github.com/stdlib-js/stdlib/issues/4797
+
 -   [`d6806fb`](https://github.com/stdlib-js/stdlib/commit/d6806fb329b278fd8f0bb6a800a3d984c03ef12c): remove `stats/base/dsem`
 
     -   To migrate, users should update their require/import paths to use
@@ -1849,6 +1860,9 @@ A total of 416 issues were closed in this release:
 
 <details>
 
+-   [`62eb56a`](https://github.com/stdlib-js/stdlib/commit/62eb56a526c332a843262a32e4cd87a419805d63) - **remove:** remove `stats/base/dsempn` _(by Gururaj Gurram)_
+-   [`06e5df7`](https://github.com/stdlib-js/stdlib/commit/06e5df79c7d8f12946d1dac18d7f632ee50fe780) - **refactor:** update paths _(by Gururaj Gurram)_
+-   [`a088915`](https://github.com/stdlib-js/stdlib/commit/a0889157d7723632f5b2c5229916c2ee6060aee8) - **remove:** remove `dsempn` from namespace _(by Gururaj Gurram)_
 -   [`d6806fb`](https://github.com/stdlib-js/stdlib/commit/d6806fb329b278fd8f0bb6a800a3d984c03ef12c) - **remove:** remove `stats/base/dsem` _(by Gururaj Gurram)_
 -   [`5e11dc3`](https://github.com/stdlib-js/stdlib/commit/5e11dc3efa9f3666ac5a3da7a24b9e864bc05acc) - **refactor:** update paths _(by Gururaj Gurram)_
 -   [`d2c3b4d`](https://github.com/stdlib-js/stdlib/commit/d2c3b4d02444221cbdcca8704931a3467448d257) - **remove:** remove `dsem` from namespace _(by Gururaj Gurram)_
