@@ -4,7 +4,7 @@
 
 <section class="release" id="unreleased">
 
-## Unreleased (2025-06-06)
+## Unreleased (2025-06-07)
 
 <section class="features">
 
@@ -1790,6 +1790,7 @@ A total of 415 issues were closed in this release:
 
 <details>
 
+-   [`4833ce6`](https://github.com/stdlib-js/stdlib/commit/4833ce619a3e26e217f6ae5db96fb3c6b3e4a604) - **docs:** update namespace table of contents [(#7243)](https://github.com/stdlib-js/stdlib/pull/7243) _(by stdlib-bot)_
 -   [`a88c74b`](https://github.com/stdlib-js/stdlib/commit/a88c74b020fd021724a0ccfe42ce55f178243ee8) - **remove:** remove `stats/base/dnanstdev` _(by Gururaj Gurram)_
 -   [`9c993f8`](https://github.com/stdlib-js/stdlib/commit/9c993f89e63574c8b17ec62d4ca1b5d88e47bf3e) - **refactor:** update paths _(by Gururaj Gurram)_
 -   [`ee59f0c`](https://github.com/stdlib-js/stdlib/commit/ee59f0c8bd8528bdcc8b351e16b2af8dcdd677c2) - **remove:** remove `dnanstdev` from namespace _(by Gururaj Gurram)_
