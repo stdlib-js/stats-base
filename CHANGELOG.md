@@ -567,6 +567,17 @@
 
 ### BREAKING CHANGES
 
+-   [`73c0e28`](https://github.com/stdlib-js/stdlib/commit/73c0e280f30d7132f5bceadf6efd45e4897e017d): remove `stats/base/sstdev`
+
+    -   To migrate, users should update their require/import paths to use
+        `@stdlib/stats-strided/sstdev`, which provides the same API and implementation.
+        Ref: https://github.com/stdlib-js/stdlib/issues/4797
+
+-   [`7a8e93d`](https://github.com/stdlib-js/stdlib/commit/7a8e93d9d1e213efcc3d239634cb5de935644afc): remove `sstdev`
+
+    -   To migrate, users should access the same symbol via the `@stdlib/stats-strided` namespace.
+        Ref: https://github.com/stdlib-js/stdlib/issues/4797
+
 -   [`c73699a`](https://github.com/stdlib-js/stdlib/commit/c73699afb5838b95439e14bbbd9d5c1d378db575): remove `stats/base/smean`
 
     -   To migrate, users should update their require/import paths to use
@@ -1883,6 +1894,9 @@ A total of 418 issues were closed in this release:
 
 <details>
 
+-   [`73c0e28`](https://github.com/stdlib-js/stdlib/commit/73c0e280f30d7132f5bceadf6efd45e4897e017d) - **remove:** remove `stats/base/sstdev` _(by Gururaj Gurram)_
+-   [`ea622d9`](https://github.com/stdlib-js/stdlib/commit/ea622d981caec008ecc84f33c2253e39c0267576) - **refactor:** update paths _(by Gururaj Gurram)_
+-   [`7a8e93d`](https://github.com/stdlib-js/stdlib/commit/7a8e93d9d1e213efcc3d239634cb5de935644afc) - **remove:** remove `sstdev` from namespace _(by Gururaj Gurram)_
 -   [`c73699a`](https://github.com/stdlib-js/stdlib/commit/c73699afb5838b95439e14bbbd9d5c1d378db575) - **remove:** remove `stats/base/smean` _(by Gururaj Gurram)_
 -   [`bcd0411`](https://github.com/stdlib-js/stdlib/commit/bcd04112308e7d7b42de2bc04599d490e429ebc8) - **refactor:** update paths _(by Gururaj Gurram)_
 -   [`69774be`](https://github.com/stdlib-js/stdlib/commit/69774bee8c709582e8deb45948b809fe3e31b306) - **remove:** remove `smean` from namespace _(by Gururaj Gurram)_
