@@ -567,6 +567,17 @@
 
 ### BREAKING CHANGES
 
+-   [`ff5fb17`](https://github.com/stdlib-js/stdlib/commit/ff5fb17181c9b77d2d89007e2c1cb3cfcde221e0): remove `stats/base/smeanpn`
+
+    -   To migrate, users should update their require/import paths to use
+        `@stdlib/stats-strided/smeanpn`, which provides the same API and implementation.
+        Ref: https://github.com/stdlib-js/stdlib/issues/4797
+
+-   [`08b54b3`](https://github.com/stdlib-js/stdlib/commit/08b54b3a9ee1f62f719c04036d9fbf09be1d1475): remove `smeanpn`
+
+    -   To migrate, users should access the same symbol via the `@stdlib/stats-strided` namespace.
+        Ref: https://github.com/stdlib-js/stdlib/issues/4797
+
 -   [`62eb56a`](https://github.com/stdlib-js/stdlib/commit/62eb56a526c332a843262a32e4cd87a419805d63): remove `stats/base/dsempn`
 
     -   To migrate, users should update their require/import paths to use
@@ -1861,6 +1872,9 @@ A total of 417 issues were closed in this release:
 
 <details>
 
+-   [`ff5fb17`](https://github.com/stdlib-js/stdlib/commit/ff5fb17181c9b77d2d89007e2c1cb3cfcde221e0) - **remove:** remove `stats/base/smeanpn` _(by Gururaj Gurram)_
+-   [`2427cd6`](https://github.com/stdlib-js/stdlib/commit/2427cd69540f848b9bd04134ff5ba5cb53b602f3) - **refactor:** update paths _(by Gururaj Gurram)_
+-   [`08b54b3`](https://github.com/stdlib-js/stdlib/commit/08b54b3a9ee1f62f719c04036d9fbf09be1d1475) - **remove:** remove `smeanpn` from namespace _(by Gururaj Gurram)_
 -   [`8e82087`](https://github.com/stdlib-js/stdlib/commit/8e820870a43e8b649135a6f664174efc81569de6) - **docs:** update namespace table of contents [(#7261)](https://github.com/stdlib-js/stdlib/pull/7261) _(by stdlib-bot)_
 -   [`03f6481`](https://github.com/stdlib-js/stdlib/commit/03f6481a6a63000e179e552d90de286b167e7402) - **docs:** add missing private annotations _(by Athan Reines)_
 -   [`ae34f8c`](https://github.com/stdlib-js/stdlib/commit/ae34f8c98aabdf4af97b5d3eae5bd9fc93fd294d) - **feat:** refactor and add protocol support to `stats/base/nanmin-by` [(#6464)](https://github.com/stdlib-js/stdlib/pull/6464) _(by Gautam Kaushik, Athan Reines, stdlib-bot, Gururaj Gurram)_
