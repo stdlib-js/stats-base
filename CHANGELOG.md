@@ -568,6 +568,17 @@
 
 ### BREAKING CHANGES
 
+-   [`d800fc8`](https://github.com/stdlib-js/stdlib/commit/d800fc8c475cfdb8cb116b7cbc7c5009996d6687): remove `stats/base/minabs`
+
+    -   To migrate, users should update their require/import paths to use
+        `@stdlib/stats-strided/minabs`, which provides the same API and implementation.
+        Ref: https://github.com/stdlib-js/stdlib/issues/4797
+
+-   [`9267ba8`](https://github.com/stdlib-js/stdlib/commit/9267ba84cd6549255346ce2d256698bd653eae83): remove `minabs`
+
+    -   To migrate, users should access the same symbol via the `@stdlib/stats-strided` namespace.
+        Ref: https://github.com/stdlib-js/stdlib/issues/4797
+
 -   [`f5e72da`](https://github.com/stdlib-js/stdlib/commit/f5e72dab44354dfc7218f7578eada19843f1353e): remove `stats/base/min-by`
 
     -   To migrate, users should update their require/import paths to use
@@ -1950,6 +1961,9 @@ A total of 419 issues were closed in this release:
 
 <details>
 
+-   [`d800fc8`](https://github.com/stdlib-js/stdlib/commit/d800fc8c475cfdb8cb116b7cbc7c5009996d6687) - **remove:** remove `stats/base/minabs` _(by Gururaj Gurram)_
+-   [`e22fdd7`](https://github.com/stdlib-js/stdlib/commit/e22fdd7fbc032bbfd0ea908aa743bb49111c9b73) - **refactor:** update paths _(by Gururaj Gurram)_
+-   [`9267ba8`](https://github.com/stdlib-js/stdlib/commit/9267ba84cd6549255346ce2d256698bd653eae83) - **remove:** remove `minabs` from namespace _(by Gururaj Gurram)_
 -   [`f5e72da`](https://github.com/stdlib-js/stdlib/commit/f5e72dab44354dfc7218f7578eada19843f1353e) - **remove:** remove `stats/base/min-by` _(by Gururaj Gurram)_
 -   [`43d18b4`](https://github.com/stdlib-js/stdlib/commit/43d18b4e771a2fcb6bc6c634641f267587d514e0) - **refactor:** update paths _(by Gururaj Gurram)_
 -   [`f6448fd`](https://github.com/stdlib-js/stdlib/commit/f6448fda2bc6d060a5ef318a932b3ab1d8b1a487) - **remove:** remove `min-by` from namespace _(by Gururaj Gurram)_
