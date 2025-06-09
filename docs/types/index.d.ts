@@ -32,7 +32,6 @@ import dmeanvarpn = require( '@stdlib/stats-base-dmeanvarpn' );
 import dvarm = require( '@stdlib/stats-base-dvarm' );
 import dvarmpn = require( '@stdlib/stats-base-dvarmpn' );
 import max = require( '@stdlib/stats-base-max' );
-import maxBy = require( '@stdlib/stats-base-max-by' );
 import maxabs = require( '@stdlib/stats-base-maxabs' );
 import maxsorted = require( '@stdlib/stats-base-maxsorted' );
 import mean = require( '@stdlib/stats-base-mean' );
@@ -441,49 +440,6 @@ interface Namespace {
 	* // returns 2.0
 	*/
 	max: typeof max;
-
-	/**
-	* Calculates the maximum value of a strided array via a callback function.
-	*
-	* ## Notes
-	*
-	* -   The callback function is provided four arguments:
-	*
-	*     -   `value`: array element
-	*     -   `aidx`: array index
-	*     -   `sidx`: strided index (offset + aidx*stride)
-	*     -   `array`: input array
-	*
-	* -   The callback function should return a numeric value. If the callback function does not return any value (or equivalently, explicitly returns `undefined`), the value is ignored.
-	*
-	* @param N - number of indexed elements
-	* @param x - input array
-	* @param stride - stride length
-	* @param clbk - callback
-	* @param thisArg - execution context
-	* @returns maximum value
-	*
-	* @example
-	* var x = [ -2.0, 1.0, 3.0, -5.0, 4.0, 0.0, -1.0, -3.0 ];
-	*
-	* function accessor( v ) {
-	*     return v * 2.0;
-	* }
-	*
-	* var v = ns.maxBy( x.length, x, 1, accessor );
-	* // returns 8.0
-	*
-	* @example
-	* var x = [ -2.0, 1.0, 3.0, -5.0, 4.0, 0.0, -1.0, -3.0 ];
-	*
-	* function accessor( v ) {
-	*     return v * 2.0;
-	* }
-	*
-	* var v = ns.maxBy.ndarray( x.length, x, 1, 0, accessor );
-	* // returns 8.0
-	*/
-	maxBy: typeof maxBy;
 
 	/**
 	* Computes the maximum absolute value of a strided array.
