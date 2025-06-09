@@ -568,6 +568,17 @@
 
 ### BREAKING CHANGES
 
+-   [`cb1f254`](https://github.com/stdlib-js/stdlib/commit/cb1f2546b2532177dd427e0a56c35e1641eaeb8a): remove `stats/base/min`
+
+    -   To migrate, users should update their require/import paths to use
+        `@stdlib/stats-strided/min`, which provides the same API and implementation.
+        Ref: https://github.com/stdlib-js/stdlib/issues/4797
+
+-   [`3f56701`](https://github.com/stdlib-js/stdlib/commit/3f56701f7577069581061c0f3336b9d02a82f86d): remove `min`
+
+    -   To migrate, users should access the same symbol via the `@stdlib/stats-strided` namespace.
+        Ref: https://github.com/stdlib-js/stdlib/issues/4797
+
 -   [`0243284`](https://github.com/stdlib-js/stdlib/commit/0243284ae1d34c0ac5ba1cb600be054936757c7d): remove `stats/base/minsorted`
 
     -   To migrate, users should update their require/import paths to use
@@ -1972,6 +1983,9 @@ A total of 419 issues were closed in this release:
 
 <details>
 
+-   [`cb1f254`](https://github.com/stdlib-js/stdlib/commit/cb1f2546b2532177dd427e0a56c35e1641eaeb8a) - **remove:** remove `stats/base/min` _(by Gururaj Gurram)_
+-   [`955aee8`](https://github.com/stdlib-js/stdlib/commit/955aee86dd40a98dc992ce091f17f0a2c6136b75) - **refactor:** update paths _(by Gururaj Gurram)_
+-   [`3f56701`](https://github.com/stdlib-js/stdlib/commit/3f56701f7577069581061c0f3336b9d02a82f86d) - **remove:** remove `min` from namespace _(by Gururaj Gurram)_
 -   [`0243284`](https://github.com/stdlib-js/stdlib/commit/0243284ae1d34c0ac5ba1cb600be054936757c7d) - **remove:** remove `stats/base/minsorted` _(by Gururaj Gurram)_
 -   [`6aa867f`](https://github.com/stdlib-js/stdlib/commit/6aa867fa03d6d855f7155aa4ebc05f56e035a77e) - **refactor:** update paths _(by Gururaj Gurram)_
 -   [`427c6f5`](https://github.com/stdlib-js/stdlib/commit/427c6f5ccc500bb942bfbb849078e6a515a500ce) - **remove:** remove `minsorted` from namespace _(by Gururaj Gurram)_
