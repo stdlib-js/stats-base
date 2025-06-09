@@ -31,7 +31,6 @@ import dmeanvar = require( '@stdlib/stats-base-dmeanvar' );
 import dmeanvarpn = require( '@stdlib/stats-base-dmeanvarpn' );
 import dvarm = require( '@stdlib/stats-base-dvarm' );
 import dvarmpn = require( '@stdlib/stats-base-dvarmpn' );
-import mean = require( '@stdlib/stats-base-mean' );
 import meankbn = require( '@stdlib/stats-base-meankbn' );
 import meankbn2 = require( '@stdlib/stats-base-meankbn2' );
 import meanors = require( '@stdlib/stats-base-meanors' );
@@ -410,28 +409,6 @@ interface Namespace {
 	* // returns ~4.3333
 	*/
 	dvarmpn: typeof dvarmpn;
-
-	/**
-	* Computes the arithmetic mean of a strided array.
-	*
-	* @param N - number of indexed elements
-	* @param x - input array
-	* @param stride - stride length
-	* @returns arithmetic mean
-	*
-	* @example
-	* var x = [ 1.0, -2.0, 2.0 ];
-	*
-	* var v = ns.mean( x.length, x, 1 );
-	* // returns ~0.3333
-	*
-	* @example
-	* var x = [ 1.0, -2.0, 2.0 ];
-	*
-	* var v = ns.mean.ndarray( x.length, x, 1, 0 );
-	* // returns ~0.3333
-	*/
-	mean: typeof mean;
 
 	/**
 	* Computes the arithmetic mean of a strided array using an improved Kahan–Babuška algorithm.
