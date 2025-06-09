@@ -40,7 +40,6 @@ import meanpw = require( '@stdlib/stats-base-meanpw' );
 import meanwd = require( '@stdlib/stats-base-meanwd' );
 import mediansorted = require( '@stdlib/stats-base-mediansorted' );
 import min = require( '@stdlib/stats-base-min' );
-import minsorted = require( '@stdlib/stats-base-minsorted' );
 import mskmax = require( '@stdlib/stats-base-mskmax' );
 import mskmin = require( '@stdlib/stats-base-mskmin' );
 import mskrange = require( '@stdlib/stats-base-mskrange' );
@@ -611,28 +610,6 @@ interface Namespace {
 	* // returns -2.0
 	*/
 	min: typeof min;
-
-	/**
-	* Computes the minimum value of a sorted strided array.
-	*
-	* @param N - number of indexed elements
-	* @param x - sorted input array
-	* @param strideX - stride length
-	* @returns minimum value
-	*
-	* @example
-	* var x = [ 1.0, 2.0, 3.0 ];
-	*
-	* var v = ns.minsorted( x.length, x, 1 );
-	* // returns 1.0
-	*
-	* @example
-	* var x = [ 1.0, 2.0, 3.0 ];
-	*
-	* var v = ns.minsorted.ndarray( x.length, x, 1, 0 );
-	* // returns 1.0
-	*/
-	minsorted: typeof minsorted;
 
 	/**
 	* Computes the maximum value of a strided array according to a mask.
