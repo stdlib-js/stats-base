@@ -568,6 +568,17 @@
 
 ### BREAKING CHANGES
 
+-   [`d8819ca`](https://github.com/stdlib-js/stdlib/commit/d8819cacbbe6df6f9b2804be065f69377dc049c6): remove `stats/base/max`
+
+    -   To migrate, users should update their require/import paths to use
+        `@stdlib/stats-strided/max`, which provides the same API and implementation.
+        Ref: https://github.com/stdlib-js/stdlib/issues/4797
+
+-   [`c104d4c`](https://github.com/stdlib-js/stdlib/commit/c104d4cc6846b3710ec79729d36247fcef7a2a7e): remove `max`
+
+    -   To migrate, users should access the same symbol via the `@stdlib/stats-strided` namespace.
+        Ref: https://github.com/stdlib-js/stdlib/issues/4797
+
 -   [`87a0891`](https://github.com/stdlib-js/stdlib/commit/87a0891516d77d1d3bf03810456a4fb523d29e29): remove `stats/base/maxsorted`
 
     -   To migrate, users should update their require/import paths to use
@@ -1928,6 +1939,9 @@ A total of 419 issues were closed in this release:
 
 <details>
 
+-   [`d8819ca`](https://github.com/stdlib-js/stdlib/commit/d8819cacbbe6df6f9b2804be065f69377dc049c6) - **remove:** remove `stats/base/max` _(by Gururaj Gurram)_
+-   [`8853274`](https://github.com/stdlib-js/stdlib/commit/885327441daddf70c02a0ca51925c960993fc4ce) - **refactor:** update paths _(by Gururaj Gurram)_
+-   [`c104d4c`](https://github.com/stdlib-js/stdlib/commit/c104d4cc6846b3710ec79729d36247fcef7a2a7e) - **remove:** remove `max` from namespace _(by Gururaj Gurram)_
 -   [`87a0891`](https://github.com/stdlib-js/stdlib/commit/87a0891516d77d1d3bf03810456a4fb523d29e29) - **remove:** remove `stats/base/maxsorted` _(by Gururaj Gurram)_
 -   [`2a2c43a`](https://github.com/stdlib-js/stdlib/commit/2a2c43a2ac52709b425d4d53488e186fcb744a50) - **refactor:** update paths _(by Gururaj Gurram)_
 -   [`3d180a1`](https://github.com/stdlib-js/stdlib/commit/3d180a13e474d0dacc369851992cf944a4b1304a) - **remove:** remove `maxsorted` from namespace _(by Gururaj Gurram)_
