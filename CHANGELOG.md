@@ -568,6 +568,17 @@
 
 ### BREAKING CHANGES
 
+-   [`f77221f`](https://github.com/stdlib-js/stdlib/commit/f77221fccf22acf2f963a0db088d89c3817e4aa9): remove `stats/base/mskmax`
+
+    -   To migrate, users should update their require/import paths to use
+        `@stdlib/stats-strided/mskmax`, which provides the same API and implementation.
+        Ref: https://github.com/stdlib-js/stdlib/issues/4797
+
+-   [`03e7d49`](https://github.com/stdlib-js/stdlib/commit/03e7d49548b0b185b9d831809888d3204bf5717f): remove `mskmax`
+
+    -   To migrate, users should access the same symbol via the `@stdlib/stats-strided` namespace.
+        Ref: https://github.com/stdlib-js/stdlib/issues/4797
+
 -   [`118bf00`](https://github.com/stdlib-js/stdlib/commit/118bf0075ed18b42a40e60470668e71161139c3b): remove `stats/base/mean`
 
     -   To migrate, users should update their require/import paths to use
@@ -2005,6 +2016,9 @@ A total of 419 issues were closed in this release:
 
 <details>
 
+-   [`f77221f`](https://github.com/stdlib-js/stdlib/commit/f77221fccf22acf2f963a0db088d89c3817e4aa9) - **remove:** remove `stats/base/mskmax` _(by Gururaj Gurram)_
+-   [`3dad15a`](https://github.com/stdlib-js/stdlib/commit/3dad15a335e8f20c1747ceacbefd6cecefce8c8d) - **refactor:** update paths _(by Gururaj Gurram)_
+-   [`03e7d49`](https://github.com/stdlib-js/stdlib/commit/03e7d49548b0b185b9d831809888d3204bf5717f) - **remove:** remove `mskmax` from namespace _(by Gururaj Gurram)_
 -   [`118bf00`](https://github.com/stdlib-js/stdlib/commit/118bf0075ed18b42a40e60470668e71161139c3b) - **remove:** remove `stats/base/mean` _(by Gururaj Gurram)_
 -   [`3565318`](https://github.com/stdlib-js/stdlib/commit/3565318e3639b3e44890ed15ccd73560d3cac14c) - **refactor:** update paths _(by Gururaj Gurram)_
 -   [`e0e12eb`](https://github.com/stdlib-js/stdlib/commit/e0e12ebbdd181db10731451a87755af4c7407648) - **remove:** remove `mean` from namespace _(by Gururaj Gurram)_
