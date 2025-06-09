@@ -32,7 +32,6 @@ import dmeanvarpn = require( '@stdlib/stats-base-dmeanvarpn' );
 import dvarm = require( '@stdlib/stats-base-dvarm' );
 import dvarmpn = require( '@stdlib/stats-base-dvarmpn' );
 import max = require( '@stdlib/stats-base-max' );
-import maxsorted = require( '@stdlib/stats-base-maxsorted' );
 import mean = require( '@stdlib/stats-base-mean' );
 import meankbn = require( '@stdlib/stats-base-meankbn' );
 import meankbn2 = require( '@stdlib/stats-base-meankbn2' );
@@ -439,28 +438,6 @@ interface Namespace {
 	* // returns 2.0
 	*/
 	max: typeof max;
-
-	/**
-	* Computes the maximum value of a sorted strided array.
-	*
-	* @param N - number of indexed elements
-	* @param x - sorted input array
-	* @param strideX - stride length
-	* @returns maximum value
-	*
-	* @example
-	* var x = [ 1.0, 2.0, 3.0 ];
-	*
-	* var v = ns.maxsorted( x.length, x, 1 );
-	* // returns 3.0
-	*
-	* @example
-	* var x = [ 1.0, 2.0, 3.0 ];
-	*
-	* var v = ns.maxsorted.ndarray( x.length, x, 1, 0 );
-	* // returns 3.0
-	*/
-	maxsorted: typeof maxsorted;
 
 	/**
 	* Computes the arithmetic mean of a strided array.
