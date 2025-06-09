@@ -56,7 +56,6 @@
     "@stdlib/stats-base-meanwd": "^0.2.2",
     "@stdlib/stats-base-mediansorted": "^0.2.2",
     "@stdlib/stats-base-min": "^0.2.2",
-    "@stdlib/stats-base-min-by": "^0.2.2",
     "@stdlib/stats-base-minabs": "^0.2.2",
     "@stdlib/stats-base-minsorted": "^0.2.2",
     "@stdlib/stats-base-mskmax": "^0.2.2",
