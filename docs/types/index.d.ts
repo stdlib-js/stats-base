@@ -38,7 +38,6 @@ import meanors = require( '@stdlib/stats-base-meanors' );
 import meanpn = require( '@stdlib/stats-base-meanpn' );
 import meanpw = require( '@stdlib/stats-base-meanpw' );
 import meanwd = require( '@stdlib/stats-base-meanwd' );
-import mediansorted = require( '@stdlib/stats-base-mediansorted' );
 import mskmax = require( '@stdlib/stats-base-mskmax' );
 import mskmin = require( '@stdlib/stats-base-mskmin' );
 import mskrange = require( '@stdlib/stats-base-mskrange' );
@@ -565,28 +564,6 @@ interface Namespace {
 	* // returns ~0.3333
 	*/
 	meanwd: typeof meanwd;
-
-	/**
-	* Computes the median value of a sorted strided array.
-	*
-	* @param N - number of indexed elements
-	* @param x - sorted input array
-	* @param strideX - stride length
-	* @returns median value
-	*
-	* @example
-	* var x = [ 1.0, 2.0, 3.0 ];
-	*
-	* var v = ns.mediansorted( x.length, x, 1 );
-	* // returns 2.0
-	*
-	* @example
-	* var x = [ 1.0, 2.0, 3.0 ];
-	*
-	* var v = ns.mediansorted.ndarray( x.length, x, 1, 0 );
-	* // returns 2.0
-	*/
-	mediansorted: typeof mediansorted;
 
 	/**
 	* Computes the maximum value of a strided array according to a mask.

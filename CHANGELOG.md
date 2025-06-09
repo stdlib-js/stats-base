@@ -568,6 +568,17 @@
 
 ### BREAKING CHANGES
 
+-   [`5024104`](https://github.com/stdlib-js/stdlib/commit/50241045481e8a6fc7c3421179594ef91b0906fe): remove `stats/base/mediansorted`
+
+    -   To migrate, users should update their require/import paths to use
+        `@stdlib/stats-strided/mediansorted`, which provides the same API and implementation.
+        Ref: https://github.com/stdlib-js/stdlib/issues/4797
+
+-   [`5b45116`](https://github.com/stdlib-js/stdlib/commit/5b4511657a05ca7ebb6c21cb292352959b2ee2aa): remove `mediansorted`
+
+    -   To migrate, users should access the same symbol via the `@stdlib/stats-strided` namespace.
+        Ref: https://github.com/stdlib-js/stdlib/issues/4797
+
 -   [`cb1f254`](https://github.com/stdlib-js/stdlib/commit/cb1f2546b2532177dd427e0a56c35e1641eaeb8a): remove `stats/base/min`
 
     -   To migrate, users should update their require/import paths to use
@@ -1983,6 +1994,9 @@ A total of 419 issues were closed in this release:
 
 <details>
 
+-   [`5024104`](https://github.com/stdlib-js/stdlib/commit/50241045481e8a6fc7c3421179594ef91b0906fe) - **remove:** remove `stats/base/mediansorted` _(by Gururaj Gurram)_
+-   [`8290e90`](https://github.com/stdlib-js/stdlib/commit/8290e903375a2740e5bd11274078d21183d5f1c8) - **refactor:** update paths _(by Gururaj Gurram)_
+-   [`5b45116`](https://github.com/stdlib-js/stdlib/commit/5b4511657a05ca7ebb6c21cb292352959b2ee2aa) - **remove:** remove `mediansorted` from namespace _(by Gururaj Gurram)_
 -   [`cb1f254`](https://github.com/stdlib-js/stdlib/commit/cb1f2546b2532177dd427e0a56c35e1641eaeb8a) - **remove:** remove `stats/base/min` _(by Gururaj Gurram)_
 -   [`955aee8`](https://github.com/stdlib-js/stdlib/commit/955aee86dd40a98dc992ce091f17f0a2c6136b75) - **refactor:** update paths _(by Gururaj Gurram)_
 -   [`3f56701`](https://github.com/stdlib-js/stdlib/commit/3f56701f7577069581061c0f3336b9d02a82f86d) - **remove:** remove `min` from namespace _(by Gururaj Gurram)_
