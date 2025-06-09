@@ -568,6 +568,17 @@
 
 ### BREAKING CHANGES
 
+-   [`a0a44c6`](https://github.com/stdlib-js/stdlib/commit/a0a44c6ccf89c9a7c0372169f4f455ebfcf3a35b): remove `stats/base/mskrange`
+
+    -   To migrate, users should update their require/import paths to use
+        `@stdlib/stats-strided/mskrange`, which provides the same API and implementation.
+        Ref: https://github.com/stdlib-js/stdlib/issues/4797
+
+-   [`0564116`](https://github.com/stdlib-js/stdlib/commit/05641167f4ac88dbca60704aa8fbe6c436d22437): remove `mskrange`
+
+    -   To migrate, users should access the same symbol via the `@stdlib/stats-strided` namespace.
+        Ref: https://github.com/stdlib-js/stdlib/issues/4797
+
 -   [`b78ba85`](https://github.com/stdlib-js/stdlib/commit/b78ba85558445f0855fcafc5055689fb26df0146): remove `stats/base/mskmin`
 
     -   To migrate, users should update their require/import paths to use
@@ -2027,6 +2038,9 @@ A total of 419 issues were closed in this release:
 
 <details>
 
+-   [`a0a44c6`](https://github.com/stdlib-js/stdlib/commit/a0a44c6ccf89c9a7c0372169f4f455ebfcf3a35b) - **remove:** remove `stats/base/mskrange` _(by Gururaj Gurram)_
+-   [`249e681`](https://github.com/stdlib-js/stdlib/commit/249e6814b2cb7f199a766af1ecb4c7f9bcac2542) - **refactor:** update paths _(by Gururaj Gurram)_
+-   [`0564116`](https://github.com/stdlib-js/stdlib/commit/05641167f4ac88dbca60704aa8fbe6c436d22437) - **remove:** remove `mskrange` from namespace _(by Gururaj Gurram)_
 -   [`b78ba85`](https://github.com/stdlib-js/stdlib/commit/b78ba85558445f0855fcafc5055689fb26df0146) - **remove:** remove `stats/base/mskmin` _(by Gururaj Gurram)_
 -   [`8718b15`](https://github.com/stdlib-js/stdlib/commit/8718b159e8d9083f3ae5d3c254d1e864af65b15c) - **refactor:** update paths _(by Gururaj Gurram)_
 -   [`e02f65e`](https://github.com/stdlib-js/stdlib/commit/e02f65ea2da695dc58891a760b88b04ed5a98498) - **remove:** remove `mskmin` from namespace _(by Gururaj Gurram)_
