@@ -57,7 +57,6 @@
     "@stdlib/stats-base-nanmeanors": "^0.2.2",
     "@stdlib/stats-base-nanmeanpn": "^0.2.2",
     "@stdlib/stats-base-nanmeanwd": "^0.2.2",
-    "@stdlib/stats-base-nanmin": "^0.2.2",
     "@stdlib/stats-base-nanmskmax": "^0.2.2",
     "@stdlib/stats-base-nanmskmin": "^0.2.2",
     "@stdlib/stats-base-nanmskrange": "^0.2.2",
