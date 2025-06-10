@@ -38,7 +38,6 @@ import meanpn = require( '@stdlib/stats-base-meanpn' );
 import meanpw = require( '@stdlib/stats-base-meanpw' );
 import meanwd = require( '@stdlib/stats-base-meanwd' );
 import nanmax = require( '@stdlib/stats-base-nanmax' );
-import nanmaxBy = require( '@stdlib/stats-base-nanmax-by' );
 import nanmean = require( '@stdlib/stats-base-nanmean' );
 import nanmeanors = require( '@stdlib/stats-base-nanmeanors' );
 import nanmeanpn = require( '@stdlib/stats-base-nanmeanpn' );
@@ -559,53 +558,6 @@ interface Namespace {
 	* // returns 2.0
 	*/
 	nanmax: typeof nanmax;
-
-	/**
-	* Calculates the maximum value of a strided array via a callback function, ignoring `NaN` values.
-	*
-	* ## Notes
-	*
-	* -   The callback function is provided four arguments:
-	*
-	*     -   `value`: array element
-	*     -   `aidx`: array index
-	*     -   `sidx`: strided index (offset + aidx*stride)
-	*     -   `array`: input array
-	*
-	* -   The callback function should return a numeric value.
-	*
-	* -   If the callback function does not return any value (or equivalently, explicitly returns `undefined`), the value is ignored.
-	*
-	* -   If the callback function returns `NaN`, the value is ignored.
-	*
-	* @param N - number of indexed elements
-	* @param x - input array
-	* @param stride - stride length
-	* @param clbk - callback
-	* @param thisArg - execution context
-	* @returns maximum value
-	*
-	* @example
-	* var x = [ -2.0, 1.0, 3.0, -5.0, 4.0, NaN, 0.0, -1.0, -3.0 ];
-	*
-	* function accessor( v ) {
-	*     return v * 2.0;
-	* }
-	*
-	* var v = ns.nanmaxBy( x.length, x, 1, accessor );
-	* // returns 8.0
-	*
-	* @example
-	* var x = [ -2.0, 1.0, 3.0, -5.0, 4.0, NaN, 0.0, -1.0, -3.0 ];
-	*
-	* function accessor( v ) {
-	*     return v * 2.0;
-	* }
-	*
-	* var v = ns.nanmaxBy.ndarray( x.length, x, 1, 0, accessor );
-	* // returns 8.0
-	*/
-	nanmaxBy: typeof nanmaxBy;
 
 	/**
 	* Computes the arithmetic mean of a strided array, ignoring `NaN` values.
