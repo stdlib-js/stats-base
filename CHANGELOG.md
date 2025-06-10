@@ -568,6 +568,17 @@
 
 ### BREAKING CHANGES
 
+-   [`dcc45ac`](https://github.com/stdlib-js/stdlib/commit/dcc45acac3c15c6cbce0a2a73131d3c6f7abb6b6): remove `stats/base/nanmax`
+
+    -   To migrate, users should update their require/import paths to use
+        `@stdlib/stats-strided/nanmax`, which provides the same API and implementation.
+        Ref: https://github.com/stdlib-js/stdlib/issues/4797
+
+-   [`d64ce7d`](https://github.com/stdlib-js/stdlib/commit/d64ce7d9a669ff40ae014e20cf1ed35f6d7dd735): remove `nanmax`
+
+    -   To migrate, users should access the same symbol via the `@stdlib/stats-strided` namespace.
+        Ref: https://github.com/stdlib-js/stdlib/issues/4797
+
 -   [`d790ece`](https://github.com/stdlib-js/stdlib/commit/d790ece586095766bac199def699b2e0e2061eeb): remove `stats/base/nanmax-by`
 
     -   To migrate, users should update their require/import paths to use
@@ -2060,6 +2071,9 @@ A total of 419 issues were closed in this release:
 
 <details>
 
+-   [`dcc45ac`](https://github.com/stdlib-js/stdlib/commit/dcc45acac3c15c6cbce0a2a73131d3c6f7abb6b6) - **remove:** remove `stats/base/nanmax` _(by Gururaj Gurram)_
+-   [`c313ded`](https://github.com/stdlib-js/stdlib/commit/c313ded7f981c1b180883cfafe1538cb48c10fe1) - **refactor:** update paths _(by Gururaj Gurram)_
+-   [`d64ce7d`](https://github.com/stdlib-js/stdlib/commit/d64ce7d9a669ff40ae014e20cf1ed35f6d7dd735) - **remove:** remove `nanmax` from namespace _(by Gururaj Gurram)_
 -   [`d790ece`](https://github.com/stdlib-js/stdlib/commit/d790ece586095766bac199def699b2e0e2061eeb) - **remove:** remove `stats/base/nanmax-by` _(by Gururaj Gurram)_
 -   [`e92388f`](https://github.com/stdlib-js/stdlib/commit/e92388f2e99794eed4be8908a2160e0ad9274321) - **refactor:** update paths _(by Gururaj Gurram)_
 -   [`fcfbee1`](https://github.com/stdlib-js/stdlib/commit/fcfbee12e33eb06ad3c3e3f753892d0b70105c11) - **remove:** remove `nanmax-by` from namespace _(by Gururaj Gurram)_
