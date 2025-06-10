@@ -55,7 +55,6 @@
     "@stdlib/stats-base-meanwd": "^0.2.2",
     "@stdlib/stats-base-nanmax": "^0.2.2",
     "@stdlib/stats-base-nanmax-by": "^0.2.2",
-    "@stdlib/stats-base-nanmaxabs": "^0.2.2",
     "@stdlib/stats-base-nanmean": "^0.2.2",
     "@stdlib/stats-base-nanmeanors": "^0.2.2",
     "@stdlib/stats-base-nanmeanpn": "^0.2.2",

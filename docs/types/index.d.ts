@@ -39,7 +39,6 @@ import meanpw = require( '@stdlib/stats-base-meanpw' );
 import meanwd = require( '@stdlib/stats-base-meanwd' );
 import nanmax = require( '@stdlib/stats-base-nanmax' );
 import nanmaxBy = require( '@stdlib/stats-base-nanmax-by' );
-import nanmaxabs = require( '@stdlib/stats-base-nanmaxabs' );
 import nanmean = require( '@stdlib/stats-base-nanmean' );
 import nanmeanors = require( '@stdlib/stats-base-nanmeanors' );
 import nanmeanpn = require( '@stdlib/stats-base-nanmeanpn' );
@@ -607,28 +606,6 @@ interface Namespace {
 	* // returns 8.0
 	*/
 	nanmaxBy: typeof nanmaxBy;
-
-	/**
-	* Computes the maximum absolute value of a strided array, ignoring `NaN` values.
-	*
-	* @param N - number of indexed elements
-	* @param x - input array
-	* @param stride - stride length
-	* @returns maximum absolute value
-	*
-	* @example
-	* var x = [ 1.0, -2.0, NaN, 2.0 ];
-	*
-	* var v = ns.nanmaxabs( x.length, x, 1 );
-	* // returns 2.0
-	*
-	* @example
-	* var x = [ 1.0, -2.0, NaN, 2.0 ];
-	*
-	* var v = ns.nanmaxabs.ndarray( x.length, x, 1, 0 );
-	* // returns 2.0
-	*/
-	nanmaxabs: typeof nanmaxabs;
 
 	/**
 	* Computes the arithmetic mean of a strided array, ignoring `NaN` values.
