@@ -4,7 +4,7 @@
 
 <section class="release" id="unreleased">
 
-## Unreleased (2025-06-10)
+## Unreleased (2025-06-11)
 
 <section class="features">
 
@@ -2104,6 +2104,7 @@ A total of 419 issues were closed in this release:
 
 <details>
 
+-   [`dafed6e`](https://github.com/stdlib-js/stdlib/commit/dafed6eea57d93f7f7d13229937c8b8b2e89ee00) - **docs:** update namespace table of contents [(#7315)](https://github.com/stdlib-js/stdlib/pull/7315) _(by stdlib-bot)_
 -   [`1955f0d`](https://github.com/stdlib-js/stdlib/commit/1955f0d429aa30e12da3ddcd4d427f2d0c1559cc) - **remove:** remove `stats/base/nanmin` _(by Gururaj Gurram)_
 -   [`ffc393b`](https://github.com/stdlib-js/stdlib/commit/ffc393ba0e5270509bc47ebd5350ae77c4a1ef7f) - **refactor:** update paths _(by Gururaj Gurram)_
 -   [`9dd5b59`](https://github.com/stdlib-js/stdlib/commit/9dd5b59fc6928a087e59700f79bba3f9222fff2b) - **remove:** remove `nanmin` from namespace _(by Gururaj Gurram)_
