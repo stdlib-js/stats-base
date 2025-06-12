@@ -573,6 +573,17 @@
 
 ### BREAKING CHANGES
 
+-   [`816c8e7`](https://github.com/stdlib-js/stdlib/commit/816c8e76c3743590be34c10bd3e86f2d87780d9e): remove `stats/base/meanwd`
+
+    -   To migrate, users should update their require/import paths to use
+        `@stdlib/stats-strided/meanwd`, which provides the same API and implementation.
+        Ref: https://github.com/stdlib-js/stdlib/issues/4797
+
+-   [`1b71e10`](https://github.com/stdlib-js/stdlib/commit/1b71e108756ecc58a9b127cad91cd6b800f8344e): remove `meanwd`
+
+    -   To migrate, users should access the same symbol via the `@stdlib/stats-strided` namespace.
+        Ref: https://github.com/stdlib-js/stdlib/issues/4797
+
 -   [`9be2917`](https://github.com/stdlib-js/stdlib/commit/9be2917baa8ee638ed63f9e9b6d1b03ab1135c87): remove `stats/base/meanpw`
 
     -   To migrate, users should update their require/import paths to use
@@ -2164,6 +2175,9 @@ A total of 424 issues were closed in this release:
 
 <details>
 
+-   [`816c8e7`](https://github.com/stdlib-js/stdlib/commit/816c8e76c3743590be34c10bd3e86f2d87780d9e) - **remove:** remove `stats/base/meanwd` _(by Gururaj Gurram)_
+-   [`4132ebf`](https://github.com/stdlib-js/stdlib/commit/4132ebfa530c08ce5c00e0545333c1f8042f5d2d) - **refactor:** update paths _(by Gururaj Gurram)_
+-   [`1b71e10`](https://github.com/stdlib-js/stdlib/commit/1b71e108756ecc58a9b127cad91cd6b800f8344e) - **remove:** remove `meanwd` from namespace _(by Gururaj Gurram)_
 -   [`9be2917`](https://github.com/stdlib-js/stdlib/commit/9be2917baa8ee638ed63f9e9b6d1b03ab1135c87) - **remove:** remove `stats/base/meanpw` _(by Gururaj Gurram)_
 -   [`3167368`](https://github.com/stdlib-js/stdlib/commit/3167368f2c7f75cf5479cfb5711b6932a178d466) - **refactor:** update paths _(by Gururaj Gurram)_
 -   [`ea21f0b`](https://github.com/stdlib-js/stdlib/commit/ea21f0bc39952cb1e5db4ae33b207ba7b1d8f8af) - **remove:** remove `meanpw` from namespace _(by Gururaj Gurram)_
