@@ -581,6 +581,17 @@
 
 ### BREAKING CHANGES
 
+-   [`2835574`](https://github.com/stdlib-js/stdlib/commit/28355742a0c784a4c2901060779bd3a507d94005): remove `stats/base/dvarmpn`
+
+    -   To migrate, users should update their require/import paths to use
+        `@stdlib/stats-strided/dvarmpn`, which provides the same API and implementation.
+        Ref: https://github.com/stdlib-js/stdlib/issues/4797
+
+-   [`6192ecd`](https://github.com/stdlib-js/stdlib/commit/6192ecda1c56e3d74510928b2b0438e7677eabbf): remove `dvarmpn`
+
+    -   To migrate, users should access the same symbol via the `@stdlib/stats-strided` namespace.
+        Ref: https://github.com/stdlib-js/stdlib/issues/4797
+
 -   [`816c8e7`](https://github.com/stdlib-js/stdlib/commit/816c8e76c3743590be34c10bd3e86f2d87780d9e): remove `stats/base/meanwd`
 
     -   To migrate, users should update their require/import paths to use
@@ -2183,6 +2194,9 @@ A total of 430 issues were closed in this release:
 
 <details>
 
+-   [`2835574`](https://github.com/stdlib-js/stdlib/commit/28355742a0c784a4c2901060779bd3a507d94005) - **remove:** remove `stats/base/dvarmpn` _(by Gururaj Gurram)_
+-   [`56d00d0`](https://github.com/stdlib-js/stdlib/commit/56d00d08cebb16cfc54062d5295a348aa0838535) - **refactor:** update paths _(by Gururaj Gurram)_
+-   [`6192ecd`](https://github.com/stdlib-js/stdlib/commit/6192ecda1c56e3d74510928b2b0438e7677eabbf) - **remove:** remove `dvarmpn` from namespace _(by Gururaj Gurram)_
 -   [`9cab7a5`](https://github.com/stdlib-js/stdlib/commit/9cab7a508014f0a0245dae4e6e3abbe328627d00) - **docs:** update namespace table of contents [(#7354)](https://github.com/stdlib-js/stdlib/pull/7354) _(by stdlib-bot)_
 -   [`92ef3fd`](https://github.com/stdlib-js/stdlib/commit/92ef3fd22836e7f55affb0e86a4e36df285a6e37) - **feat:** add C ndarray interface and refactor implementation for `stats/base/dvarm` [(#7269)](https://github.com/stdlib-js/stdlib/pull/7269) _(by Gururaj Gurram, Athan Reines, stdlib-bot)_
 -   [`99c73a5`](https://github.com/stdlib-js/stdlib/commit/99c73a545c63afee7c010f8b4da4607c40af8b20) - **feat:** add support for accessor arrays and refactor `stats/base/stdevch` [(#7344)](https://github.com/stdlib-js/stdlib/pull/7344) _(by Gururaj Gurram, stdlib-bot)_
