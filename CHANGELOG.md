@@ -659,6 +659,17 @@
 
 ### BREAKING CHANGES
 
+-   [`8aac235`](https://github.com/stdlib-js/stdlib/commit/8aac2356d862624b619505a56d4dcdd2cb0b6cdf): remove `stats/base/svariance`
+
+    -   To migrate, users should update their require/import paths to use
+        `@stdlib/stats-strided/svariance`, which provides the same API and implementation.
+        Ref: https://github.com/stdlib-js/stdlib/issues/4797
+
+-   [`7788023`](https://github.com/stdlib-js/stdlib/commit/7788023a2198f4f29ab14e91258fe5311526ea56): remove `svariance`
+
+    -   To migrate, users should access the same symbol via the `@stdlib/stats-strided` namespace.
+        Ref: https://github.com/stdlib-js/stdlib/issues/4797
+
 -   [`ebf0e0e`](https://github.com/stdlib-js/stdlib/commit/ebf0e0e53e4c472c3a2c61f07eea0d1843448be6): remove `stats/base/svariancewd`
 
     -   To migrate, users should update their require/import paths to use
@@ -2294,6 +2305,9 @@ A total of 471 issues were closed in this release:
 
 <details>
 
+-   [`8aac235`](https://github.com/stdlib-js/stdlib/commit/8aac2356d862624b619505a56d4dcdd2cb0b6cdf) - **remove:** remove `stats/base/svariance` _(by Gururaj Gurram)_
+-   [`9482ada`](https://github.com/stdlib-js/stdlib/commit/9482adac1b21fa0ea2784fce177da803c647e8bb) - **refactor:** update paths _(by Gururaj Gurram)_
+-   [`7788023`](https://github.com/stdlib-js/stdlib/commit/7788023a2198f4f29ab14e91258fe5311526ea56) - **remove:** remove `svariance` from namespace _(by Gururaj Gurram)_
 -   [`ebf0e0e`](https://github.com/stdlib-js/stdlib/commit/ebf0e0e53e4c472c3a2c61f07eea0d1843448be6) - **remove:** remove `stats/base/svariancewd` _(by Gururaj Gurram)_
 -   [`bb4c5ac`](https://github.com/stdlib-js/stdlib/commit/bb4c5acb86f6acbae8579ab5f45e161a0c984dd8) - **refactor:** update paths _(by Gururaj Gurram)_
 -   [`090426f`](https://github.com/stdlib-js/stdlib/commit/090426f2e350904bdf5bfecd6bc02c569237291c) - **remove:** remove `svariancewd` from namespace _(by Gururaj Gurram)_
