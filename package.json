@@ -252,7 +252,6 @@
     "@stdlib/ndarray-zeros-like": "^0.3.0",
     "@stdlib/number-float64-base-to-float32": "^0.2.2",
     "@stdlib/object-assign": "^0.2.2",
-    "@stdlib/random-array-bernoulli": "^0.2.1",
     "@stdlib/random-array-discrete-uniform": "^0.2.1",
     "@stdlib/random-array-exponential": "^0.2.1",
     "@stdlib/random-array-uniform": "^0.2.1",
