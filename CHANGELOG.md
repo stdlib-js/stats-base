@@ -702,6 +702,17 @@
 
 ### BREAKING CHANGES
 
+-   [`a7b1024`](https://github.com/stdlib-js/stdlib/commit/a7b102413d26c2d5c6c9e1aa01da54abeba724eb): remove `stats/base/dmeanvar`
+
+    -   To migrate, users should update their require/import paths to use
+        `@stdlib/stats-strided/dmeanvar`, which provides the same API and implementation.
+        Ref: https://github.com/stdlib-js/stdlib/issues/4797
+
+-   [`24476b8`](https://github.com/stdlib-js/stdlib/commit/24476b8094aa6c09ad32d157ff4f0faa2b1c207b): remove `dmeanvar`
+
+    -   To migrate, users should access the same symbol via the `@stdlib/stats-strided` namespace.
+        Ref: https://github.com/stdlib-js/stdlib/issues/4797
+
 -   [`8bb4237`](https://github.com/stdlib-js/stdlib/commit/8bb4237230cb442674543b3f3ba3b06d39b9da19): remove `stats/base/dmeanvarpn`
 
     -   To migrate, users should update their require/import paths to use
@@ -2359,6 +2370,9 @@ A total of 503 issues were closed in this release:
 
 <details>
 
+-   [`a7b1024`](https://github.com/stdlib-js/stdlib/commit/a7b102413d26c2d5c6c9e1aa01da54abeba724eb) - **remove:** remove `stats/base/dmeanvar` _(by Gururaj Gurram)_
+-   [`424afa0`](https://github.com/stdlib-js/stdlib/commit/424afa0b52647777021656a290edbc24a3176894) - **refactor:** update paths _(by Gururaj Gurram)_
+-   [`24476b8`](https://github.com/stdlib-js/stdlib/commit/24476b8094aa6c09ad32d157ff4f0faa2b1c207b) - **remove:** remove `dmeanvar` from namespace _(by Gururaj Gurram)_
 -   [`8bb4237`](https://github.com/stdlib-js/stdlib/commit/8bb4237230cb442674543b3f3ba3b06d39b9da19) - **remove:** remove `stats/base/dmeanvarpn` _(by Gururaj Gurram)_
 -   [`ae4b511`](https://github.com/stdlib-js/stdlib/commit/ae4b511f75c86f46f18bf259996eee93b6cead8f) - **refactor:** update paths _(by Gururaj Gurram)_
 -   [`c344562`](https://github.com/stdlib-js/stdlib/commit/c344562ecf774bbd46581c59fbf99a94a738e923) - **remove:** remove `dmeanvarpn` from namespace _(by Gururaj Gurram)_

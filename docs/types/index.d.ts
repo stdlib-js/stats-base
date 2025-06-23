@@ -27,7 +27,6 @@ import cuminabs = require( '@stdlib/stats-base-cuminabs' );
 import dists = require( '@stdlib/stats-base-dists' );
 import dmeanstdev = require( '@stdlib/stats-base-dmeanstdev' );
 import dmeanstdevpn = require( '@stdlib/stats-base-dmeanstdevpn' );
-import dmeanvar = require( '@stdlib/stats-base-dmeanvar' );
 import nanmean = require( '@stdlib/stats-base-nanmean' );
 import nanmeanors = require( '@stdlib/stats-base-nanmeanors' );
 import nanmeanpn = require( '@stdlib/stats-base-nanmeanpn' );
@@ -271,37 +270,6 @@ interface Namespace {
 	* // returns <Float64Array>[ ~0.3333, ~2.0817 ]
 	*/
 	dmeanstdevpn: typeof dmeanstdevpn;
-
-	/**
-	* Computes the mean and variance of a double-precision floating-point strided array.
-	*
-	* @param N - number of indexed elements
-	* @param correction - degrees of freedom adjustment
-	* @param x - input array
-	* @param strideX - `x` stride length
-	* @param out - output array
-	* @param strideOut - `out` stride length
-	* @returns output array
-	*
-	* @example
-	* var Float64Array = require( '@stdlib/array-float64' );
-	*
-	* var x = new Float64Array( [ 1.0, -2.0, 2.0 ] );
-	* var out = new Float64Array( 2 );
-	*
-	* var v = ns.dmeanvar( x.length, 1, x, 1, out, 1 );
-	* // returns <Float64Array>[ ~0.3333, ~4.3333 ]
-	*
-	* @example
-	* var Float64Array = require( '@stdlib/array-float64' );
-	*
-	* var x = new Float64Array( [ 1.0, -2.0, 2.0 ] );
-	* var out = new Float64Array( 2 );
-	*
-	* var v = ns.dmeanvar.ndarray( x.length, 1, x, 1, 0, out, 1, 0 );
-	* // returns <Float64Array>[ ~0.3333, ~4.3333 ]
-	*/
-	dmeanvar: typeof dmeanvar;
 
 	/**
 	* Computes the arithmetic mean of a strided array, ignoring `NaN` values.
