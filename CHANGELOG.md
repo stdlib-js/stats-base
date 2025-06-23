@@ -702,6 +702,17 @@
 
 ### BREAKING CHANGES
 
+-   [`5655aa5`](https://github.com/stdlib-js/stdlib/commit/5655aa56d479c95ac8499ef5f9090cc7d17fc715): remove `stats/base/nanmeanwd`
+
+    -   To migrate, users should update their require/import paths to use
+        `@stdlib/stats-strided/nanmeanwd`, which provides the same API and implementation.
+        Ref: https://github.com/stdlib-js/stdlib/issues/4797
+
+-   [`fcb734e`](https://github.com/stdlib-js/stdlib/commit/fcb734eb054495777531bf6648672fb207872845): remove `nanmeanwd`
+
+    -   To migrate, users should access the same symbol via the `@stdlib/stats-strided` namespace.
+        Ref: https://github.com/stdlib-js/stdlib/issues/4797
+
 -   [`b624e9e`](https://github.com/stdlib-js/stdlib/commit/b624e9e84c95af2b719c89add88364824d8cb251): remove `stats/base/dmeanstdev`
 
     -   To migrate, users should update their require/import paths to use
@@ -2392,6 +2403,9 @@ A total of 503 issues were closed in this release:
 
 <details>
 
+-   [`5655aa5`](https://github.com/stdlib-js/stdlib/commit/5655aa56d479c95ac8499ef5f9090cc7d17fc715) - **remove:** remove `stats/base/nanmeanwd` _(by Gururaj Gurram)_
+-   [`e97f5eb`](https://github.com/stdlib-js/stdlib/commit/e97f5ebcadbf66ed57e815ddb6fe900720711816) - **refactor:** update paths _(by Gururaj Gurram)_
+-   [`fcb734e`](https://github.com/stdlib-js/stdlib/commit/fcb734eb054495777531bf6648672fb207872845) - **remove:** remove `nanmeanwd` from namespace _(by Gururaj Gurram)_
 -   [`b624e9e`](https://github.com/stdlib-js/stdlib/commit/b624e9e84c95af2b719c89add88364824d8cb251) - **remove:** remove `stats/base/dmeanstdev` _(by Gururaj Gurram)_
 -   [`d87c1e7`](https://github.com/stdlib-js/stdlib/commit/d87c1e7dac3e47d1c9030c1f3f95b1ac260532b9) - **refactor:** update paths _(by Gururaj Gurram)_
 -   [`a25bdc8`](https://github.com/stdlib-js/stdlib/commit/a25bdc826e34553f1660da4d567916a625ed4aa1) - **remove:** remove `dmeanstdev` from namespace _(by Gururaj Gurram)_
