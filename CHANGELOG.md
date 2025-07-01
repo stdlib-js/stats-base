@@ -4,12 +4,13 @@
 
 <section class="release" id="unreleased">
 
-## Unreleased (2025-06-29)
+## Unreleased (2025-07-01)
 
 <section class="features">
 
 ### Features
 
+-   [`b01aeba`](https://github.com/stdlib-js/stdlib/commit/b01aeba0cb63c8a37967d8f09f3a1a4bebd5aa91) - add `stats/base/ztest/two-sample/results` [(#7448)](https://github.com/stdlib-js/stdlib/pull/7448)
 -   [`7e5c88b`](https://github.com/stdlib-js/stdlib/commit/7e5c88b980808074354a672c930472eb56130b7d) - add C ndarray interface and refactor implementation for `stats/base/smeankbn` [(#7494)](https://github.com/stdlib-js/stdlib/pull/7494)
 -   [`e559d14`](https://github.com/stdlib-js/stdlib/commit/e559d14a25bef7d018ad35133fe67188104d6e48) - add C ndarray interface and refactor implementation for `stats/base/smeankbn2` [(#7498)](https://github.com/stdlib-js/stdlib/pull/7498)
 -   [`716275f`](https://github.com/stdlib-js/stdlib/commit/716275fdf515090bb85f78ca5099be9011abcb66) - add C ndarray interface and refactor implementation for `stats/base/smeanlipw` [(#7500)](https://github.com/stdlib-js/stdlib/pull/7500)
@@ -693,6 +694,7 @@
 
 ### Bug Fixes
 
+-   [`f0d49c1`](https://github.com/stdlib-js/stdlib/commit/f0d49c177b252ac1182ebc831fec6c90e862d56d) - handle infinity case and increase tolerances for passing tests
 -   [`ef5b43f`](https://github.com/stdlib-js/stdlib/commit/ef5b43faeb24b8594802eeb0bfa665cafdbf4e85) - add missing build task
 -   [`1a48ebb`](https://github.com/stdlib-js/stdlib/commit/1a48ebbacff02aa8f374081b3b636bc2c0a027ef) - use correct Makefile for examples/c
 -   [`00add1e`](https://github.com/stdlib-js/stdlib/commit/00add1eb9ad8dd682b8759a7401a4e900509931d) - use correct return value
@@ -746,6 +748,72 @@
 <section class="breaking-changes">
 
 ### BREAKING CHANGES
+
+-   [`a1991ea`](https://github.com/stdlib-js/stdlib/commit/a1991eadd5b3b5a718363eaa70cd325866574bc5): remove `stats/base/variance`
+
+    -   To migrate, users should update their require/import paths to use
+        `@stdlib/stats-strided/variance`, which provides the same API and implementation.
+        Ref: https://github.com/stdlib-js/stdlib/issues/4797
+
+-   [`c345633`](https://github.com/stdlib-js/stdlib/commit/c345633f8162b7c27b94d71f48a478fa5a174999): remove `variance`
+
+    -   To migrate, users should access the same symbol via the `@stdlib/stats-strided` namespace.
+        Ref: https://github.com/stdlib-js/stdlib/issues/4797
+
+-   [`9269948`](https://github.com/stdlib-js/stdlib/commit/9269948a63af3fe89a07080ddcc2a722e7ea5b33): remove `stats/base/variancech`
+
+    -   To migrate, users should update their require/import paths to use
+        `@stdlib/stats-strided/variancech`, which provides the same API and implementation.
+        Ref: https://github.com/stdlib-js/stdlib/issues/4797
+
+-   [`0e2d1cd`](https://github.com/stdlib-js/stdlib/commit/0e2d1cd7814c85b64c4307363de4fcc65e50c339): remove `variancech`
+
+    -   To migrate, users should access the same symbol via the `@stdlib/stats-strided` namespace.
+        Ref: https://github.com/stdlib-js/stdlib/issues/4797
+
+-   [`4445e7a`](https://github.com/stdlib-js/stdlib/commit/4445e7ad033a632f987a3dee9bf9afde3ccba7a8): remove `stats/base/variancepn`
+
+    -   To migrate, users should update their require/import paths to use
+        `@stdlib/stats-strided/variancepn`, which provides the same API and implementation.
+        Ref: https://github.com/stdlib-js/stdlib/issues/4797
+
+-   [`72558ad`](https://github.com/stdlib-js/stdlib/commit/72558ad7139b4fb3bb662b0e95ba24fdf439a700): remove `variancepn`
+
+    -   To migrate, users should access the same symbol via the `@stdlib/stats-strided` namespace.
+        Ref: https://github.com/stdlib-js/stdlib/issues/4797
+
+-   [`d7da0e0`](https://github.com/stdlib-js/stdlib/commit/d7da0e01dd3a517cb55e5b651bfd80772dd19f79): remove `stats/base/variancetk`
+
+    -   To migrate, users should update their require/import paths to use
+        `@stdlib/stats-strided/variancetk`, which provides the same API and implementation.
+        Ref: https://github.com/stdlib-js/stdlib/issues/4797
+
+-   [`f647afc`](https://github.com/stdlib-js/stdlib/commit/f647afcd87e95c6444ad3f5d3652a13582901e3f): remove `variancetk`
+
+    -   To migrate, users should access the same symbol via the `@stdlib/stats-strided` namespace.
+        Ref: https://github.com/stdlib-js/stdlib/issues/4797
+
+-   [`b7d4e42`](https://github.com/stdlib-js/stdlib/commit/b7d4e42e1a3bf94f552ceb3d2fcf19fbf5da4449): remove `stats/base/variancewd`
+
+    -   To migrate, users should update their require/import paths to use
+        `@stdlib/stats-strided/variancewd`, which provides the same API and implementation.
+        Ref: https://github.com/stdlib-js/stdlib/issues/4797
+
+-   [`4b188ff`](https://github.com/stdlib-js/stdlib/commit/4b188ff7c846578420c778122caa4ee0c9584e09): remove `variancewd`
+
+    -   To migrate, users should access the same symbol via the `@stdlib/stats-strided` namespace.
+        Ref: https://github.com/stdlib-js/stdlib/issues/4797
+
+-   [`ca61d4d`](https://github.com/stdlib-js/stdlib/commit/ca61d4dabf27640e9420e9d03424e8db90c24816): remove `stats/base/varianceyc`
+
+    -   To migrate, users should update their require/import paths to use
+        `@stdlib/stats-strided/varianceyc`, which provides the same API and implementation.
+        Ref: https://github.com/stdlib-js/stdlib/issues/4797
+
+-   [`3eb90f3`](https://github.com/stdlib-js/stdlib/commit/3eb90f3b6844f5a4fb3946075efd26aa73d19eaa): remove `varianceyc`
+
+    -   To migrate, users should access the same symbol via the `@stdlib/stats-strided` namespace.
+        Ref: https://github.com/stdlib-js/stdlib/issues/4797
 
 -   [`1f79156`](https://github.com/stdlib-js/stdlib/commit/1f79156e32b643e7131c0e0dcf7bc480fd20c657): remove `stats/base/smeankbn`
 
@@ -2525,6 +2593,32 @@ A total of 508 issues were closed in this release:
 
 <details>
 
+-   [`a1991ea`](https://github.com/stdlib-js/stdlib/commit/a1991eadd5b3b5a718363eaa70cd325866574bc5) - **remove:** remove `stats/base/variance` _(by Gururaj Gurram)_
+-   [`e342a38`](https://github.com/stdlib-js/stdlib/commit/e342a388619ab71f5222105ec94c5029e42a4458) - **refactor:** update paths _(by Gururaj Gurram)_
+-   [`c345633`](https://github.com/stdlib-js/stdlib/commit/c345633f8162b7c27b94d71f48a478fa5a174999) - **remove:** remove `variance` from namespace _(by Gururaj Gurram)_
+-   [`9269948`](https://github.com/stdlib-js/stdlib/commit/9269948a63af3fe89a07080ddcc2a722e7ea5b33) - **remove:** remove `stats/base/variancech` _(by Gururaj Gurram)_
+-   [`0ddde83`](https://github.com/stdlib-js/stdlib/commit/0ddde834e00e55c588e91d04f49e89e6ae6839c3) - **refactor:** update paths _(by Gururaj Gurram)_
+-   [`0e2d1cd`](https://github.com/stdlib-js/stdlib/commit/0e2d1cd7814c85b64c4307363de4fcc65e50c339) - **remove:** remove `variancech` from namespace _(by Gururaj Gurram)_
+-   [`4445e7a`](https://github.com/stdlib-js/stdlib/commit/4445e7ad033a632f987a3dee9bf9afde3ccba7a8) - **remove:** remove `stats/base/variancepn` _(by Gururaj Gurram)_
+-   [`ad8dd23`](https://github.com/stdlib-js/stdlib/commit/ad8dd231d796efb1677112b8072caf8fbe1d6f69) - **refactor:** update paths _(by Gururaj Gurram)_
+-   [`72558ad`](https://github.com/stdlib-js/stdlib/commit/72558ad7139b4fb3bb662b0e95ba24fdf439a700) - **remove:** remove `variancepn` from namespace _(by Gururaj Gurram)_
+-   [`d7da0e0`](https://github.com/stdlib-js/stdlib/commit/d7da0e01dd3a517cb55e5b651bfd80772dd19f79) - **remove:** remove `stats/base/variancetk` _(by Gururaj Gurram)_
+-   [`f51215e`](https://github.com/stdlib-js/stdlib/commit/f51215e31f91fa5843f641deb8bf875ffa313596) - **refactor:** update paths _(by Gururaj Gurram)_
+-   [`f647afc`](https://github.com/stdlib-js/stdlib/commit/f647afcd87e95c6444ad3f5d3652a13582901e3f) - **remove:** remove `variancetk` from namespace _(by Gururaj Gurram)_
+-   [`b7d4e42`](https://github.com/stdlib-js/stdlib/commit/b7d4e42e1a3bf94f552ceb3d2fcf19fbf5da4449) - **remove:** remove `stats/base/variancewd` _(by Gururaj Gurram)_
+-   [`7088dfa`](https://github.com/stdlib-js/stdlib/commit/7088dfa1cab0860d25b5a0feb649ec572cbc1e98) - **refactor:** update paths _(by Gururaj Gurram)_
+-   [`4b188ff`](https://github.com/stdlib-js/stdlib/commit/4b188ff7c846578420c778122caa4ee0c9584e09) - **remove:** remove `variancewd` from namespace _(by Gururaj Gurram)_
+-   [`ca61d4d`](https://github.com/stdlib-js/stdlib/commit/ca61d4dabf27640e9420e9d03424e8db90c24816) - **remove:** remove `stats/base/varianceyc` _(by Gururaj Gurram)_
+-   [`33b006d`](https://github.com/stdlib-js/stdlib/commit/33b006da9166c233b4e423e1da318aa99f56db00) - **refactor:** update paths _(by Gururaj Gurram)_
+-   [`3eb90f3`](https://github.com/stdlib-js/stdlib/commit/3eb90f3b6844f5a4fb3946075efd26aa73d19eaa) - **remove:** remove `varianceyc` from namespace _(by Gururaj Gurram)_
+-   [`b01aeba`](https://github.com/stdlib-js/stdlib/commit/b01aeba0cb63c8a37967d8f09f3a1a4bebd5aa91) - **feat:** add `stats/base/ztest/two-sample/results` [(#7448)](https://github.com/stdlib-js/stdlib/pull/7448) _(by Gururaj Gurram, Athan Reines, stdlib-bot)_
+-   [`4b3f6b6`](https://github.com/stdlib-js/stdlib/commit/4b3f6b66882ec35af639463719e8e2fd57bd4d10) - **docs:** fix missing periods _(by Athan Reines)_
+-   [`4ea82ac`](https://github.com/stdlib-js/stdlib/commit/4ea82ac0995cffd3f126ffc51badb04da502d538) - **test:** fix description _(by Athan Reines)_
+-   [`5b3f1fe`](https://github.com/stdlib-js/stdlib/commit/5b3f1fe23bb75e6e6570f71420af877ca377dd76) - **test:** use approximate equality for native addon tests _(by Philipp Burckhardt)_
+-   [`f0d49c1`](https://github.com/stdlib-js/stdlib/commit/f0d49c177b252ac1182ebc831fec6c90e862d56d) - **fix:** handle infinity case and increase tolerances for passing tests _(by Philipp Burckhardt)_
+-   [`0a23889`](https://github.com/stdlib-js/stdlib/commit/0a23889dd55afcd8f1a85cd208a2397c931637bd) - **test:** increase tolerances for passing tests _(by Philipp Burckhardt)_
+-   [`7e24b8b`](https://github.com/stdlib-js/stdlib/commit/7e24b8ba0fff87a56584bb1a2fa106eb88267596) - **test:** slightly increase tolerances for passing tests _(by Philipp Burckhardt)_
+-   [`202df24`](https://github.com/stdlib-js/stdlib/commit/202df24a6e96c50d2b531bd2d86b743be06e7d5c) - **docs:** minor clean-up _(by Philipp Burckhardt)_
 -   [`1f79156`](https://github.com/stdlib-js/stdlib/commit/1f79156e32b643e7131c0e0dcf7bc480fd20c657) - **remove:** remove `stats/base/smeankbn` _(by Gururaj Gurram)_
 -   [`1372c9e`](https://github.com/stdlib-js/stdlib/commit/1372c9e1742e3ecdb9c2de0600c4da449bb3ed1c) - **refactor:** update paths _(by Gururaj Gurram)_
 -   [`cc5115d`](https://github.com/stdlib-js/stdlib/commit/cc5115d726af52ce3d38cb8b6001d10b9860ec04) - **remove:** remove `smeankbn` from namespace _(by Gururaj Gurram)_

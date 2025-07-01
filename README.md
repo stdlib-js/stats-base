@@ -140,12 +140,12 @@ The namespace contains the following statistical functions:
 -   <span class="signature">[`stdevtk( N, correction, x, stride )`][@stdlib/stats/base/stdevtk]</span><span class="delimiter">: </span><span class="description">calculate the standard deviation of a strided array using a one-pass textbook algorithm.</span>
 -   <span class="signature">[`stdevwd( N, correction, x, stride )`][@stdlib/stats/base/stdevwd]</span><span class="delimiter">: </span><span class="description">calculate the standard deviation of a strided array using Welford's algorithm.</span>
 -   <span class="signature">[`stdevyc( N, correction, x, stride )`][@stdlib/stats/base/stdevyc]</span><span class="delimiter">: </span><span class="description">calculate the standard deviation of a strided array using a one-pass algorithm proposed by Youngs and Cramer.</span>
--   <span class="signature">[`variance( N, correction, x, strideX )`][@stdlib/stats/base/variance]</span><span class="delimiter">: </span><span class="description">calculate the variance of a strided array.</span>
--   <span class="signature">[`variancech( N, correction, x, strideX )`][@stdlib/stats/base/variancech]</span><span class="delimiter">: </span><span class="description">calculate the variance of a strided array using a one-pass trial mean algorithm.</span>
--   <span class="signature">[`variancepn( N, correction, x, strideX )`][@stdlib/stats/base/variancepn]</span><span class="delimiter">: </span><span class="description">calculate the variance of a strided array using a two-pass algorithm.</span>
--   <span class="signature">[`variancetk( N, correction, x, strideX )`][@stdlib/stats/base/variancetk]</span><span class="delimiter">: </span><span class="description">calculate the variance of a strided array using a one-pass textbook algorithm.</span>
--   <span class="signature">[`variancewd( N, correction, x, stride )`][@stdlib/stats/base/variancewd]</span><span class="delimiter">: </span><span class="description">calculate the variance of a strided array using Welford's algorithm.</span>
--   <span class="signature">[`varianceyc( N, correction, x, strideX )`][@stdlib/stats/base/varianceyc]</span><span class="delimiter">: </span><span class="description">calculate the variance of a strided array using a one-pass algorithm proposed by Youngs and Cramer.</span>
+-   <span class="signature">[`variance( N, correction, x, strideX )`][@stdlib/stats/strided/variance]</span><span class="delimiter">: </span><span class="description">calculate the variance of a strided array.</span>
+-   <span class="signature">[`variancech( N, correction, x, strideX )`][@stdlib/stats/strided/variancech]</span><span class="delimiter">: </span><span class="description">calculate the variance of a strided array using a one-pass trial mean algorithm.</span>
+-   <span class="signature">[`variancepn( N, correction, x, strideX )`][@stdlib/stats/strided/variancepn]</span><span class="delimiter">: </span><span class="description">calculate the variance of a strided array using a two-pass algorithm.</span>
+-   <span class="signature">[`variancetk( N, correction, x, strideX )`][@stdlib/stats/strided/variancetk]</span><span class="delimiter">: </span><span class="description">calculate the variance of a strided array using a one-pass textbook algorithm.</span>
+-   <span class="signature">[`variancewd( N, correction, x, stride )`][@stdlib/stats/strided/variancewd]</span><span class="delimiter">: </span><span class="description">calculate the variance of a strided array using Welford's algorithm.</span>
+-   <span class="signature">[`varianceyc( N, correction, x, strideX )`][@stdlib/stats/strided/varianceyc]</span><span class="delimiter">: </span><span class="description">calculate the variance of a strided array using a one-pass algorithm proposed by Youngs and Cramer.</span>
 
 </div>
 
@@ -364,17 +364,17 @@ Copyright &copy; 2016-2025. The Stdlib [Authors][stdlib-authors].
 
 [@stdlib/stats/base/stdevyc]: https://github.com/stdlib-js/stats-base-stdevyc
 
-[@stdlib/stats/base/variance]: https://github.com/stdlib-js/stats-base-variance
+[@stdlib/stats/strided/variance]: https://github.com/stdlib-js/stats-strided-variance
 
-[@stdlib/stats/base/variancech]: https://github.com/stdlib-js/stats-base-variancech
+[@stdlib/stats/strided/variancech]: https://github.com/stdlib-js/stats-strided-variancech
 
-[@stdlib/stats/base/variancepn]: https://github.com/stdlib-js/stats-base-variancepn
+[@stdlib/stats/strided/variancepn]: https://github.com/stdlib-js/stats-strided-variancepn
 
-[@stdlib/stats/base/variancetk]: https://github.com/stdlib-js/stats-base-variancetk
+[@stdlib/stats/strided/variancetk]: https://github.com/stdlib-js/stats-strided-variancetk
 
-[@stdlib/stats/base/variancewd]: https://github.com/stdlib-js/stats-base-variancewd
+[@stdlib/stats/strided/variancewd]: https://github.com/stdlib-js/stats-strided-variancewd
 
-[@stdlib/stats/base/varianceyc]: https://github.com/stdlib-js/stats-base-varianceyc
+[@stdlib/stats/strided/varianceyc]: https://github.com/stdlib-js/stats-strided-varianceyc
 
 [@stdlib/stats/base/dists]: https://github.com/stdlib-js/stats-base-dists
 
