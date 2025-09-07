@@ -4,12 +4,21 @@
 
 <section class="release" id="unreleased">
 
-## Unreleased (2025-08-22)
+## Unreleased (2025-09-07)
 
 <section class="features">
 
 ### Features
 
+-   [`4323f9b`](https://github.com/stdlib-js/stdlib/commit/4323f9baeab70fd73e4a48328d2b493775f91fc5) - add `stats/base/ndarray/smaxsorted` [(#8036)](https://github.com/stdlib-js/stdlib/pull/8036)
+-   [`c9bc2a7`](https://github.com/stdlib-js/stdlib/commit/c9bc2a7e497e170d04a11db899b9e54279a85187) - add `stats/base/ndarray/dmaxsorted` [(#8035)](https://github.com/stdlib-js/stdlib/pull/8035)
+-   [`ebe64d8`](https://github.com/stdlib-js/stdlib/commit/ebe64d8193373cc0c513b402a8b9fc08de381d36) - add `stats/base/ndarray/maxsorted` [(#8034)](https://github.com/stdlib-js/stdlib/pull/8034)
+-   [`2ca02fb`](https://github.com/stdlib-js/stdlib/commit/2ca02fb23c28dd7d5d9d6853a0329ca044b68102) - add `stats/base/ndarray/snanmean` [(#7966)](https://github.com/stdlib-js/stdlib/pull/7966)
+-   [`ceaf138`](https://github.com/stdlib-js/stdlib/commit/ceaf138672e744c0d9af8373085c7eec0da521ee) - add `stats/base/ndarray/dnanmean` [(#7965)](https://github.com/stdlib-js/stdlib/pull/7965)
+-   [`6d4efd4`](https://github.com/stdlib-js/stdlib/commit/6d4efd4724f41ce832be624f9e2d23b6142fb046) - add `stats/base/ndarray/nanmean` [(#7967)](https://github.com/stdlib-js/stdlib/pull/7967)
+-   [`aab41ab`](https://github.com/stdlib-js/stdlib/commit/aab41abe42b3180f15b27efbfcb4b72f67709654) - add `stats/base/ndarray/snanmin` [(#7929)](https://github.com/stdlib-js/stdlib/pull/7929)
+-   [`d71aa90`](https://github.com/stdlib-js/stdlib/commit/d71aa90555968756dccfdc526690c8a486ae8c06) - add `stats/base/ndarray/dnanmin` [(#7928)](https://github.com/stdlib-js/stdlib/pull/7928)
+-   [`36e2e16`](https://github.com/stdlib-js/stdlib/commit/36e2e163e14336ff8e7d11b80f9c7a6528014f39) - add `stats/base/ndarray/nanmin` [(#7927)](https://github.com/stdlib-js/stdlib/pull/7927)
 -   [`5ef479c`](https://github.com/stdlib-js/stdlib/commit/5ef479c48bc3be02ff3b928ff4f7e9a113d6d193) - add `planck` and `bradford` distributions to namespace
 -   [`5e3f0ad`](https://github.com/stdlib-js/stdlib/commit/5e3f0ad64fdac2a68ee1b1fcf88081bdc274d1e7) - add `planck` distribution namespace
 -   [`48cbb5c`](https://github.com/stdlib-js/stdlib/commit/48cbb5ce2be9a5a371c6e245c4556b52ec7ac3d7) - add `bradford` distribution namespace
@@ -814,6 +823,39 @@
 <section class="breaking-changes">
 
 ### BREAKING CHANGES
+
+-   [`80a9821`](https://github.com/stdlib-js/stdlib/commit/80a98213f6ca2e1102cc07b3ea3c7c160a7c8ef1): remove `stats/base/sdsnanmeanors`
+
+    -   To migrate, users should update their require/import paths to use
+        `@stdlib/stats-strided/sdsnanmeanors`, which provides the same API and implementation.
+        Ref: https://github.com/stdlib-js/stdlib/issues/4797
+
+-   [`f83492e`](https://github.com/stdlib-js/stdlib/commit/f83492ed224ffb37c531108aaa1f753473ff31b0): remove `sdsnanmeanors`
+
+    -   To migrate, users should access the same symbol via the `@stdlib/stats-strided` namespace.
+        Ref: https://github.com/stdlib-js/stdlib/issues/4797
+
+-   [`9cf630c`](https://github.com/stdlib-js/stdlib/commit/9cf630c061fd2455e3c412af7e25c3e9d6bebe3f): remove `stats/base/sstdevwd`
+
+    -   To migrate, users should update their require/import paths to use
+        `@stdlib/stats-strided/sstdevwd`, which provides the same API and implementation.
+        Ref: https://github.com/stdlib-js/stdlib/issues/4797
+
+-   [`3dd2c2f`](https://github.com/stdlib-js/stdlib/commit/3dd2c2fd22fc083a724242d56a639610d1b8fd80): remove `sstdevwd`
+
+    -   To migrate, users should access the same symbol via the `@stdlib/stats-strided` namespace.
+        Ref: https://github.com/stdlib-js/stdlib/issues/4797
+
+-   [`c3cb90b`](https://github.com/stdlib-js/stdlib/commit/c3cb90b96da6774a8b5ab3da5f0762e938c907a5): remove `stats/base/snanmean`
+
+    -   To migrate, users should update their require/import paths to use
+        `@stdlib/stats-strided/snanmean`, which provides the same API and implementation.
+        Ref: https://github.com/stdlib-js/stdlib/issues/4797
+
+-   [`27d0969`](https://github.com/stdlib-js/stdlib/commit/27d0969bbf32df4406c82123b140336300ebd34d): remove `snanmean`
+
+    -   To migrate, users should access the same symbol via the `@stdlib/stats-strided` namespace.
+        Ref: https://github.com/stdlib-js/stdlib/issues/4797
 
 -   [`dfe367c`](https://github.com/stdlib-js/stdlib/commit/dfe367cbf0742a949c014531aa4b53e754b6d377): remove `stats/base/nanstdev`
 
@@ -2934,6 +2976,32 @@ A total of 535 issues were closed in this release:
 
 <details>
 
+-   [`80a9821`](https://github.com/stdlib-js/stdlib/commit/80a98213f6ca2e1102cc07b3ea3c7c160a7c8ef1) - **remove:** remove `stats/base/sdsnanmeanors` _(by Gururaj Gurram)_
+-   [`3255779`](https://github.com/stdlib-js/stdlib/commit/3255779bbbb9fc1b4ab755ac57aad2bc1c5dbd97) - **refactor:** update paths _(by Gururaj Gurram)_
+-   [`f83492e`](https://github.com/stdlib-js/stdlib/commit/f83492ed224ffb37c531108aaa1f753473ff31b0) - **remove:** remove `sdsnanmeanors` from namespace _(by Gururaj Gurram)_
+-   [`9cf630c`](https://github.com/stdlib-js/stdlib/commit/9cf630c061fd2455e3c412af7e25c3e9d6bebe3f) - **remove:** remove `stats/base/sstdevwd` _(by Gururaj Gurram)_
+-   [`26d86b8`](https://github.com/stdlib-js/stdlib/commit/26d86b8b1996eebbc5eaeb5a1ce62ba61ade78bf) - **refactor:** update paths _(by Gururaj Gurram)_
+-   [`3dd2c2f`](https://github.com/stdlib-js/stdlib/commit/3dd2c2fd22fc083a724242d56a639610d1b8fd80) - **remove:** remove `sstdevwd` from namespace _(by Gururaj Gurram)_
+-   [`c3cb90b`](https://github.com/stdlib-js/stdlib/commit/c3cb90b96da6774a8b5ab3da5f0762e938c907a5) - **remove:** remove `stats/base/snanmean` _(by Gururaj Gurram)_
+-   [`4ec3a47`](https://github.com/stdlib-js/stdlib/commit/4ec3a471ad594bf710eb4e78a6650136389cb0a7) - **refactor:** update paths _(by Gururaj Gurram)_
+-   [`27d0969`](https://github.com/stdlib-js/stdlib/commit/27d0969bbf32df4406c82123b140336300ebd34d) - **remove:** remove `snanmean` from namespace _(by Gururaj Gurram)_
+-   [`4323f9b`](https://github.com/stdlib-js/stdlib/commit/4323f9baeab70fd73e4a48328d2b493775f91fc5) - **feat:** add `stats/base/ndarray/smaxsorted` [(#8036)](https://github.com/stdlib-js/stdlib/pull/8036) _(by Gururaj Gurram, Athan Reines)_
+-   [`c9bc2a7`](https://github.com/stdlib-js/stdlib/commit/c9bc2a7e497e170d04a11db899b9e54279a85187) - **feat:** add `stats/base/ndarray/dmaxsorted` [(#8035)](https://github.com/stdlib-js/stdlib/pull/8035) _(by Gururaj Gurram, Athan Reines)_
+-   [`ebe64d8`](https://github.com/stdlib-js/stdlib/commit/ebe64d8193373cc0c513b402a8b9fc08de381d36) - **feat:** add `stats/base/ndarray/maxsorted` [(#8034)](https://github.com/stdlib-js/stdlib/pull/8034) _(by Gururaj Gurram, Athan Reines)_
+-   [`590cfd6`](https://github.com/stdlib-js/stdlib/commit/590cfd61459544b8398c0d965190d82c15fc7196) - **docs:** replace manual `for` loop in examples [(#8020)](https://github.com/stdlib-js/stdlib/pull/8020) _(by Harsh)_
+-   [`ceef77f`](https://github.com/stdlib-js/stdlib/commit/ceef77fd9f7d409cc5819829e8a01f7a5fe45148) - **docs:** replace manual `for` loop in examples [(#8019)](https://github.com/stdlib-js/stdlib/pull/8019) _(by Harsh)_
+-   [`167bba8`](https://github.com/stdlib-js/stdlib/commit/167bba841858a37cf5ca350365cf6a00980f17fb) - **chore:** fix keywords _(by Athan Reines)_
+-   [`2ca02fb`](https://github.com/stdlib-js/stdlib/commit/2ca02fb23c28dd7d5d9d6853a0329ca044b68102) - **feat:** add `stats/base/ndarray/snanmean` [(#7966)](https://github.com/stdlib-js/stdlib/pull/7966) _(by Gururaj Gurram, Athan Reines)_
+-   [`b33ec59`](https://github.com/stdlib-js/stdlib/commit/b33ec59f183293ed7a357db25b00e9fae40337ae) - **docs:** fix hyphenation _(by Athan Reines)_
+-   [`ceaf138`](https://github.com/stdlib-js/stdlib/commit/ceaf138672e744c0d9af8373085c7eec0da521ee) - **feat:** add `stats/base/ndarray/dnanmean` [(#7965)](https://github.com/stdlib-js/stdlib/pull/7965) _(by Gururaj Gurram)_
+-   [`6d4efd4`](https://github.com/stdlib-js/stdlib/commit/6d4efd4724f41ce832be624f9e2d23b6142fb046) - **feat:** add `stats/base/ndarray/nanmean` [(#7967)](https://github.com/stdlib-js/stdlib/pull/7967) _(by Gururaj Gurram)_
+-   [`5c1bb3c`](https://github.com/stdlib-js/stdlib/commit/5c1bb3c262b799be2c9b8ff6a6d6ec678cd51e24) - **docs:** be consistent with backticks around NaN _(by Philipp Burckhardt)_
+-   [`aab41ab`](https://github.com/stdlib-js/stdlib/commit/aab41abe42b3180f15b27efbfcb4b72f67709654) - **feat:** add `stats/base/ndarray/snanmin` [(#7929)](https://github.com/stdlib-js/stdlib/pull/7929) _(by Gururaj Gurram)_
+-   [`d71aa90`](https://github.com/stdlib-js/stdlib/commit/d71aa90555968756dccfdc526690c8a486ae8c06) - **feat:** add `stats/base/ndarray/dnanmin` [(#7928)](https://github.com/stdlib-js/stdlib/pull/7928) _(by Gururaj Gurram)_
+-   [`36e2e16`](https://github.com/stdlib-js/stdlib/commit/36e2e163e14336ff8e7d11b80f9c7a6528014f39) - **feat:** add `stats/base/ndarray/nanmin` [(#7927)](https://github.com/stdlib-js/stdlib/pull/7927) _(by Gururaj Gurram)_
+-   [`1f159ee`](https://github.com/stdlib-js/stdlib/commit/1f159ee7f00e50c35c89ac61558fde3e64367d58) - **test:** fix test cases for `stats/base/ndarray/*nanmin` [(#7926)](https://github.com/stdlib-js/stdlib/pull/7926) _(by Gururaj Gurram)_
+-   [`a7ee897`](https://github.com/stdlib-js/stdlib/commit/a7ee897ffbec2a6a758563fd68277591352f22a8) - **docs:** encode Markdown stdlib package URLs [(#7933)](https://github.com/stdlib-js/stdlib/pull/7933) _(by stdlib-bot)_
+-   [`eb3218e`](https://github.com/stdlib-js/stdlib/commit/eb3218e35b0e498a31f286f8cf889e509a6d7792) - **style:** remove extra empty line [(#7932)](https://github.com/stdlib-js/stdlib/pull/7932) _(by stdlib-bot)_
 -   [`168c7c1`](https://github.com/stdlib-js/stdlib/commit/168c7c18aa58007cf9d7785b9cde69e8e7157c21) - **revert:** docs: fix example code _(by Philipp Burckhardt)_
 -   [`5678272`](https://github.com/stdlib-js/stdlib/commit/5678272af1d4f9e08fd667e54cb46083075b5d3d) - **revert:** feat: add missing `stats/base` exports to namespace _(by Philipp Burckhardt)_
 -   [`5ef479c`](https://github.com/stdlib-js/stdlib/commit/5ef479c48bc3be02ff3b928ff4f7e9a113d6d193) - **feat:** add `planck` and `bradford` distributions to namespace _(by Philipp Burckhardt)_
