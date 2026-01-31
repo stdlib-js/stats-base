@@ -42,13 +42,18 @@ limitations under the License.
 ## Usage
 
 ```javascript
+import stats from 'https://cdn.jsdelivr.net/gh/stdlib-js/stats-base@esm/index.mjs';
+```
+The previous example will load the latest bundled code from the esm branch. Alternatively, you may load a specific version by loading the file from one of the [tagged bundles](https://github.com/stdlib-js/stats-base/tags). For example,
+
+```javascript
 import stats from 'https://cdn.jsdelivr.net/gh/stdlib-js/stats-base@v0.4.0-esm/index.mjs';
 ```
 
 You can also import the following named exports from the package:
 
 ```javascript
-import { cumax, cumaxabs, cumin, cuminabs, dists, dmeankbn2, dmeanli, dmeanlipw, dmeanors, dmeanpw, dmeanwd, dmediansorted, dmidrange, dmin, dminabs, dminsorted, dnanmax, dnanmaxabs, ndarray, sdsnanmean, snanstdev, snanstdevch, snanstdevpn, snanstdevtk, snanstdevwd, snanstdevyc, snanvariance, snanvariancech, snanvariancepn, snanvariancetk, snanvariancewd, snanvarianceyc } from 'https://cdn.jsdelivr.net/gh/stdlib-js/stats-base@v0.4.0-esm/index.mjs';
+import { cumax, cumaxabs, cumin, cuminabs, dists, dmeankbn2, dmeanli, dmeanlipw, dmeanors, dmeanpw, dmeanwd, dmediansorted, dmidrange, dmin, dminabs, dminsorted, dnanmax, dnanmaxabs, ndarray, sdsnanmean, snanstdev, snanstdevch, snanstdevpn, snanstdevtk, snanstdevwd, snanstdevyc, snanvariance, snanvariancech, snanvariancepn, snanvariancetk, snanvariancewd, snanvarianceyc } from 'https://cdn.jsdelivr.net/gh/stdlib-js/stats-base@esm/index.mjs';
 ```
 
 #### stats
@@ -128,7 +133,7 @@ The namespace contains the following statistical functions:
 <script type="module">
 
 import objectKeys from 'https://cdn.jsdelivr.net/gh/stdlib-js/utils-keys@esm/index.mjs';
-import ns from 'https://cdn.jsdelivr.net/gh/stdlib-js/stats-base@v0.4.0-esm/index.mjs';
+import ns from 'https://cdn.jsdelivr.net/gh/stdlib-js/stats-base@esm/index.mjs';
 
 console.log( objectKeys( ns ) );
 
