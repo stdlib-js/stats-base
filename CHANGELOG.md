@@ -2,6 +2,87 @@
 
 > Package changelog.
 
+<section class="release" id="v0.4.1">
+
+## 0.4.1 (2026-02-08)
+
+<section class="features">
+
+### Features
+
+-   [`42ada99`](https://github.com/stdlib-js/stdlib/commit/42ada99a46614cf0d14f2f8f70c5d95869e08bd8) - add C implementation of `stats/base/ndarray/dmaxabs` [(#10039)](https://github.com/stdlib-js/stdlib/pull/10039)
+-   [`06e3710`](https://github.com/stdlib-js/stdlib/commit/06e37102b1e86507533abe95f50c4c44e4ddcf54) - add C implementation for `stats/base/ndarray/dminabs` [(#10046)](https://github.com/stdlib-js/stdlib/pull/10046)
+-   [`cef8ee6`](https://github.com/stdlib-js/stdlib/commit/cef8ee6f3805b44b0784449befe4399584dd3b47) - update `stats/base/ndarray` TypeScript declarations [(#10001)](https://github.com/stdlib-js/stdlib/pull/10001)
+
+</section>
+
+<!-- /.features -->
+
+<section class="commits">
+
+### Commits
+
+<details>
+
+-   [`65ac870`](https://github.com/stdlib-js/stdlib/commit/65ac870bcc9363ee25cdde72514d9e0783b5395e) - **bench:** use string interpolation in `stats/base/cumax` [(#10135)](https://github.com/stdlib-js/stdlib/pull/10135) _(by Om-A-osc, Athan Reines)_
+-   [`84c8c5c`](https://github.com/stdlib-js/stdlib/commit/84c8c5c9581cc66cbfad9d74f75270a01677abf5) - **bench:** refractor to use string interpolation in `stats/base/sdsnanmean` [(#10137)](https://github.com/stdlib-js/stdlib/pull/10137) _(by Shubham)_
+-   [`8b905a5`](https://github.com/stdlib-js/stdlib/commit/8b905a5660d1c61e3cbac7ad25e376eb4988dcb4) - **bench:** refractor to use string interpolation in `stats/base/snanstdevpn` [(#10138)](https://github.com/stdlib-js/stdlib/pull/10138) _(by Shubham)_
+-   [`f52da9e`](https://github.com/stdlib-js/stdlib/commit/f52da9e13bdc5a66f81238e00794dc4d04713f50) - **bench:** refractor to use string interpolation in `stats/base/snanstdevch` [(#10139)](https://github.com/stdlib-js/stdlib/pull/10139) _(by Shubham)_
+-   [`7826bce`](https://github.com/stdlib-js/stdlib/commit/7826bce4fef1d743e5ed065281e2c067e657c8de) - **bench:** refractor to use string interpolation in `stats/base/snanstdev` [(#10140)](https://github.com/stdlib-js/stdlib/pull/10140) _(by Shubham)_
+-   [`45ed6fc`](https://github.com/stdlib-js/stdlib/commit/45ed6fc6c6eee93a191b1ba9ecf89e058ad3e57d) - **bench:** refractor to use string interpolation in `stats/base/snanstdevwd` [(#10141)](https://github.com/stdlib-js/stdlib/pull/10141) _(by Shubham)_
+-   [`6253df4`](https://github.com/stdlib-js/stdlib/commit/6253df45cc1376691e0bf7e044c14d64d0ceb179) - **bench:** refractor to use string interpolation in `stats/base/snanstdevtk` [(#10142)](https://github.com/stdlib-js/stdlib/pull/10142) _(by Shubham)_
+-   [`2636ccd`](https://github.com/stdlib-js/stdlib/commit/2636ccdeb3d938f63e50fd110d3aad0a3cf57805) - **bench:** use string interpolation in `stats/base/ndarray/dmskmax` [(#10144)](https://github.com/stdlib-js/stdlib/pull/10144) _(by Om-A-osc)_
+-   [`baaed47`](https://github.com/stdlib-js/stdlib/commit/baaed472c168e6b26437cf48137cdf79c3fd544b) - **bench:** refractor to use string interpolation in `stats/base/dists/triangular` [(#10063)](https://github.com/stdlib-js/stdlib/pull/10063) _(by Shubham, Athan Reines)_
+-   [`42ada99`](https://github.com/stdlib-js/stdlib/commit/42ada99a46614cf0d14f2f8f70c5d95869e08bd8) - **feat:** add C implementation of `stats/base/ndarray/dmaxabs` [(#10039)](https://github.com/stdlib-js/stdlib/pull/10039) _(by Bhargav Dabhade)_
+-   [`9b98e3f`](https://github.com/stdlib-js/stdlib/commit/9b98e3f6a8a80db920ed4aa05264e356aa019605) - **refactor:** reduce FLOPs _(by Athan Reines)_
+-   [`1212357`](https://github.com/stdlib-js/stdlib/commit/121235768111adbe05f293a18ec2ca2ca75815df) - **bench:** use string interpolation in `stats/base/dists/cauchy/pdf` [(#10064)](https://github.com/stdlib-js/stdlib/pull/10064) _(by Om-A-osc)_
+-   [`ad89c98`](https://github.com/stdlib-js/stdlib/commit/ad89c984e5b495cb695c61e1140d99067d8ebf1b) - **bench:** refractor to use string interpolation in `stats/base/dists/kumaraswamy` [(#10066)](https://github.com/stdlib-js/stdlib/pull/10066) _(by Shubham)_
+-   [`8cd8362`](https://github.com/stdlib-js/stdlib/commit/8cd836257e3921abc52ad245dce15642aea6288e) - **bench:** refactor to use string interpolation in `stats/base/dists/bernoulli/ctor` [(#10053)](https://github.com/stdlib-js/stdlib/pull/10053) _(by Lokesh Ranjan, Athan Reines)_
+-   [`06e3710`](https://github.com/stdlib-js/stdlib/commit/06e37102b1e86507533abe95f50c4c44e4ddcf54) - **feat:** add C implementation for `stats/base/ndarray/dminabs` [(#10046)](https://github.com/stdlib-js/stdlib/pull/10046) _(by Samarth Kolarkar, Athan Reines)_
+-   [`b1ac7f1`](https://github.com/stdlib-js/stdlib/commit/b1ac7f156f4a3e4fba31d27f4797843676515519) - **bench:** refactor to use string interpolation in `stats/base/dists/arcsine/ctor` [(#10054)](https://github.com/stdlib-js/stdlib/pull/10054) _(by Lokesh Ranjan)_
+-   [`06188d1`](https://github.com/stdlib-js/stdlib/commit/06188d19cb37068a0aa27c391a443a48fd6b6b56) - **bench:** fix types _(by Athan Reines)_
+-   [`b2b06e2`](https://github.com/stdlib-js/stdlib/commit/b2b06e25153452e89a95ed63ae1ae4f7646d7c1d) - **bench:** fix dtypes _(by Athan Reines)_
+-   [`8842552`](https://github.com/stdlib-js/stdlib/commit/884255265619ee97385a996f5444d6a437c789a1) - **bench:** refactor to use string interpolation in `stats/base/dists/betaprime` [(#10050)](https://github.com/stdlib-js/stdlib/pull/10050) _(by Harsh Yadav)_
+-   [`9d71f4b`](https://github.com/stdlib-js/stdlib/commit/9d71f4b4d116829abcea63c67ffb7b61d798e11c) - **bench:** refactor to use string interpolation in `stats/base/dists/beta` [(#10049)](https://github.com/stdlib-js/stdlib/pull/10049) _(by Harsh Yadav)_
+-   [`66c95d7`](https://github.com/stdlib-js/stdlib/commit/66c95d76361e89d0774e48eaeeda47a0224dd954) - **bench:** update random value generation for `stats/base/dists/poisson` [(#10008)](https://github.com/stdlib-js/stdlib/pull/10008) _(by Bhargav Dabhade)_
+-   [`c581849`](https://github.com/stdlib-js/stdlib/commit/c5818493ad7d9bc39aa8ccae27a8a6b3b905406b) - **bench:** update random value generation for `stats/base/dists/uniform` [(#10010)](https://github.com/stdlib-js/stdlib/pull/10010) _(by Lokesh Ranjan, Athan Reines)_
+-   [`647b041`](https://github.com/stdlib-js/stdlib/commit/647b041046ea97ebc3cc35297e13f87134438c75) - **bench:** update random value generation for `stats/base/dists/uniform` [(#10007)](https://github.com/stdlib-js/stdlib/pull/10007) _(by Lokesh Ranjan)_
+-   [`0712008`](https://github.com/stdlib-js/stdlib/commit/07120085d6b5279bbd4eee82128e9e54d2dae2d2) - **bench:** update random value generation for `stats/base/dists/poisson` [(#9997)](https://github.com/stdlib-js/stdlib/pull/9997) _(by Lokesh Ranjan, Athan Reines)_
+-   [`d995add`](https://github.com/stdlib-js/stdlib/commit/d995add873841c6b6dc99502d72cde529caa7bf9) - **bench:** update random value generation for `stats/base/dists/poisson` [(#9998)](https://github.com/stdlib-js/stdlib/pull/9998) _(by Lokesh Ranjan)_
+-   [`186140c`](https://github.com/stdlib-js/stdlib/commit/186140c35eeb2285177275b7c4027f95406d444a) - **bench:** update random value generation [(#9991)](https://github.com/stdlib-js/stdlib/pull/9991) _(by Harsh Yadav)_
+-   [`7b6aa5d`](https://github.com/stdlib-js/stdlib/commit/7b6aa5da510d61fdc069869e35128fe60e06b6f0) - **bench:** refactor to use string interpolation in `stats/base/dists/bernoulli` [(#9992)](https://github.com/stdlib-js/stdlib/pull/9992) _(by Lokesh Ranjan)_
+-   [`f5f5199`](https://github.com/stdlib-js/stdlib/commit/f5f5199a93a6a91e708a30552586919367ba2289) - **bench:** update random value generation [(#9989)](https://github.com/stdlib-js/stdlib/pull/9989) _(by Harsh Yadav)_
+-   [`ec0d83c`](https://github.com/stdlib-js/stdlib/commit/ec0d83c87503b82fc4a192b6886ea3feab4b3448) - **docs:** update namespace table of contents [(#10003)](https://github.com/stdlib-js/stdlib/pull/10003) _(by stdlib-bot)_
+-   [`cef8ee6`](https://github.com/stdlib-js/stdlib/commit/cef8ee6f3805b44b0784449befe4399584dd3b47) - **feat:** update `stats/base/ndarray` TypeScript declarations [(#10001)](https://github.com/stdlib-js/stdlib/pull/10001) _(by stdlib-bot)_
+
+</details>
+
+</section>
+
+<!-- /.commits -->
+
+<section class="contributors">
+
+### Contributors
+
+A total of 7 people contributed to this release. Thank you to the following contributors:
+
+-   Athan Reines
+-   Bhargav Dabhade
+-   Harsh Yadav
+-   Lokesh Ranjan
+-   Om-A-osc
+-   Samarth Kolarkar
+-   Shubham
+
+</section>
+
+<!-- /.contributors -->
+
+</section>
+
+<!-- /.release -->
+
 <section class="release" id="v0.4.0">
 
 ## 0.4.0 (2026-01-31)
