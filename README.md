@@ -42,13 +42,13 @@ limitations under the License.
 ## Usage
 
 ```javascript
-import stats from 'https://cdn.jsdelivr.net/gh/stdlib-js/stats-base@deno/mod.js';
+import stats from 'https://cdn.jsdelivr.net/gh/stdlib-js/stats-base@v0.4.1-deno/mod.js';
 ```
 
 You can also import the following named exports from the package:
 
 ```javascript
-import { cumax, cumaxabs, cumin, cuminabs, dists, dmeankbn2, dmeanli, dmeanlipw, dmeanors, dmeanpw, dmeanwd, dmediansorted, dmidrange, dmin, dminabs, dminsorted, dnanmax, dnanmaxabs, ndarray, sdsnanmean, snanstdev, snanstdevch, snanstdevpn, snanstdevtk, snanstdevwd, snanstdevyc, snanvariance, snanvariancech, snanvariancepn, snanvariancetk, snanvariancewd, snanvarianceyc } from 'https://cdn.jsdelivr.net/gh/stdlib-js/stats-base@deno/mod.js';
+import { cumax, cumaxabs, cumin, cuminabs, dists, dmeankbn2, dmeanli, dmeanlipw, dmeanors, dmeanpw, dmeanwd, dmediansorted, dmidrange, dmin, dminabs, dminsorted, dnanmax, dnanmaxabs, ndarray, sdsnanmean, snanstdev, snanstdevch, snanstdevpn, snanstdevtk, snanstdevwd, snanstdevyc, snanvariance, snanvariancech, snanvariancepn, snanvariancetk, snanvariancewd, snanvarianceyc } from 'https://cdn.jsdelivr.net/gh/stdlib-js/stats-base@v0.4.1-deno/mod.js';
 ```
 
 #### stats
@@ -123,7 +123,7 @@ The namespace contains the following statistical functions:
 
 ```javascript
 import objectKeys from 'https://cdn.jsdelivr.net/gh/stdlib-js/utils-keys@deno/mod.js';
-import ns from 'https://cdn.jsdelivr.net/gh/stdlib-js/stats-base@deno/mod.js';
+import ns from 'https://cdn.jsdelivr.net/gh/stdlib-js/stats-base@v0.4.1-deno/mod.js';
 
 console.log( objectKeys( ns ) );
 ```
