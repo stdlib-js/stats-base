@@ -2,6 +2,113 @@
 
 > Package changelog.
 
+<section class="release" id="unreleased">
+
+## Unreleased (2026-02-23)
+
+<section class="features">
+
+### Features
+
+-   [`e53e179`](https://github.com/stdlib-js/stdlib/commit/e53e179ec5f9b063604744804b989bd6ebe2381a) - add `stats/base/ndarray/dnanstdev` [(#10271)](https://github.com/stdlib-js/stdlib/pull/10271)
+-   [`5a64342`](https://github.com/stdlib-js/stdlib/commit/5a643426403fa397b0bd695ff1deeddd002cc641) - add C implementation for `stats/base/ndarray/snanrange` [(#10258)](https://github.com/stdlib-js/stdlib/pull/10258)
+-   [`8bfb552`](https://github.com/stdlib-js/stdlib/commit/8bfb5524d89a26ed6d0524d72d11e5a893338c5d) - add C implementation for `stats/base/ndarray/snanmax` [(#10198)](https://github.com/stdlib-js/stdlib/pull/10198)
+-   [`0f2ea57`](https://github.com/stdlib-js/stdlib/commit/0f2ea572ed30d6c259cb103182a1237ec430b983) - add Wald distribution variance package [(#9730)](https://github.com/stdlib-js/stdlib/pull/9730)
+-   [`3088f39`](https://github.com/stdlib-js/stdlib/commit/3088f3987094c907d9b81fbdeeea5ac58a915ac3) - add implementation of `stats/base/dists/wald/kurtosis` [(#10216)](https://github.com/stdlib-js/stdlib/pull/10216)
+-   [`96f2808`](https://github.com/stdlib-js/stdlib/commit/96f28086b0a4bf03556f5ba91078d68c1823a27d) - add implementation of `stats/base/dists/wald/skewness` [(#10206)](https://github.com/stdlib-js/stdlib/pull/10206)
+-   [`5dfd41d`](https://github.com/stdlib-js/stdlib/commit/5dfd41df5e698950034ed3e54d9f32dc9ff03355) - add C implementation for `stats/base/ndarray/srangeabs` [(#10240)](https://github.com/stdlib-js/stdlib/pull/10240)
+
+</section>
+
+<!-- /.features -->
+
+<section class="commits">
+
+### Commits
+
+<details>
+
+-   [`f9c61b1`](https://github.com/stdlib-js/stdlib/commit/f9c61b1b1f411ee4b15cf97b5cae853500bc6483) - **bench:** refactor to use string interpolation in `stats/base/dists/gumbel/ctor` [(#10397)](https://github.com/stdlib-js/stdlib/pull/10397) _(by Lokesh Ranjan)_
+-   [`ff420ae`](https://github.com/stdlib-js/stdlib/commit/ff420aed1e79bd9e89c7394571e2692c4108583c) - **bench:** fix description _(by Athan Reines)_
+-   [`c14812b`](https://github.com/stdlib-js/stdlib/commit/c14812bfee0ec6951166b9ff869289a39eba4174) - **style:** add missing decimal _(by Athan Reines)_
+-   [`e53e179`](https://github.com/stdlib-js/stdlib/commit/e53e179ec5f9b063604744804b989bd6ebe2381a) - **feat:** add `stats/base/ndarray/dnanstdev` [(#10271)](https://github.com/stdlib-js/stdlib/pull/10271) _(by Pratik)_
+-   [`88c63b2`](https://github.com/stdlib-js/stdlib/commit/88c63b2692cdefa8caa7b42906478865bedd0521) - **bench:** update random value generation for `stats/base/dists/exponential` [(#10330)](https://github.com/stdlib-js/stdlib/pull/10330) _(by Siddhartha Mondal, Philipp Burckhardt)_
+-   [`18db4f6`](https://github.com/stdlib-js/stdlib/commit/18db4f6ca8230913325b71f53a49ad0aac41b10b) - **bench:** update random value generation for `stats/base/dists/frechet` [(#10335)](https://github.com/stdlib-js/stdlib/pull/10335) _(by Lokesh Ranjan)_
+-   [`f5199d6`](https://github.com/stdlib-js/stdlib/commit/f5199d619314724b7b0627f41aba3114b559cec8) - **bench:** update random value generation for `stats/base/dists/frechet` [(#10317)](https://github.com/stdlib-js/stdlib/pull/10317) _(by Lokesh Ranjan, Philipp Burckhardt)_
+-   [`2e3e0e9`](https://github.com/stdlib-js/stdlib/commit/2e3e0e9f450c5fbcf1cab51d1d87a558afcaa93a) - **bench:** update random value generation for `stats/base/dists/f` [(#10316)](https://github.com/stdlib-js/stdlib/pull/10316) _(by Lokesh Ranjan)_
+-   [`5a64342`](https://github.com/stdlib-js/stdlib/commit/5a643426403fa397b0bd695ff1deeddd002cc641) - **feat:** add C implementation for `stats/base/ndarray/snanrange` [(#10258)](https://github.com/stdlib-js/stdlib/pull/10258) _(by Bhargav Dabhade, Sachin Pangal)_
+-   [`0feb882`](https://github.com/stdlib-js/stdlib/commit/0feb882c947d76d28bc6a7cd6b32d1c3431611d2) - **bench:** use single-colon for method and property access benchmarks _(by Philipp Burckhardt)_
+-   [`8d7f767`](https://github.com/stdlib-js/stdlib/commit/8d7f767735bb60e4ef54292f14da380f077fa953) - **test:** remove non-equal branch when testing against fixtures _(by Philipp Burckhardt)_
+-   [`a0c2995`](https://github.com/stdlib-js/stdlib/commit/a0c2995765caeb58bd72a0f9031f9d247c9a2cb0) - **test:** use Distributions for fixtures generation for independent verification _(by Philipp Burckhardt)_
+-   [`f884c94`](https://github.com/stdlib-js/stdlib/commit/f884c94958214a509cf48747280543d3b5ec396f) - **chore:** minor clean-up _(by Philipp Burckhardt)_
+-   [`33e3d9f`](https://github.com/stdlib-js/stdlib/commit/33e3d9f96ce3fc32b31dd3f46a017c92b73b0425) - **chore:** minor clean-up _(by Philipp Burckhardt)_
+-   [`2e38ad1`](https://github.com/stdlib-js/stdlib/commit/2e38ad1d6a8f51a4dbe8ed07072961774e8bbdfa) - **test:** fix variable acess and regenerate fixtures _(by Philipp Burckhardt)_
+-   [`6ecc272`](https://github.com/stdlib-js/stdlib/commit/6ecc272a3117e71d4a9b0ec55864e5fed4e2386c) - **chore:** fix example code and add missing semicolon _(by Philipp Burckhardt)_
+-   [`f38e8a7`](https://github.com/stdlib-js/stdlib/commit/f38e8a7b433e0e9888eb57c83f4374073089ad85) - **docs:** clean-up parameters in Julia fixtures scripts _(by Philipp Burckhardt)_
+-   [`5360fda`](https://github.com/stdlib-js/stdlib/commit/5360fda9c2b6ace5ef3ebb3acdf96920d1ab6089) - **docs:** use correct PDF reference link in `stats/base/dists/signrank/pdf` [(#10303)](https://github.com/stdlib-js/stdlib/pull/10303) _(by Shubham)_
+-   [`8bfb552`](https://github.com/stdlib-js/stdlib/commit/8bfb5524d89a26ed6d0524d72d11e5a893338c5d) - **feat:** add C implementation for `stats/base/ndarray/snanmax` [(#10198)](https://github.com/stdlib-js/stdlib/pull/10198) _(by Samarth Kolarkar, orthodox-64)_
+-   [`4126555`](https://github.com/stdlib-js/stdlib/commit/412655574507fcca6df462c015ab741d7353fec0) - **bench:** update random value generation for `stats/base/dists/gumbel/skewness` [(#10261)](https://github.com/stdlib-js/stdlib/pull/10261) _(by Bhargav Dabhade)_
+-   [`bf1ee75`](https://github.com/stdlib-js/stdlib/commit/bf1ee75f724235ffc70d27d16a58d18c7e4e0d56) - **bench:** refactor to use string interpolation in `stats/base/dists/logistic` [(#10105)](https://github.com/stdlib-js/stdlib/pull/10105) _(by Shubham)_
+-   [`0f2ea57`](https://github.com/stdlib-js/stdlib/commit/0f2ea572ed30d6c259cb103182a1237ec430b983) - **feat:** add Wald distribution variance package [(#9730)](https://github.com/stdlib-js/stdlib/pull/9730) _(by Manit Roy)_
+-   [`7b1ec1e`](https://github.com/stdlib-js/stdlib/commit/7b1ec1ee410f8c2a2e49d70bcf878e57ddb966d9) - **bench:** refactor to use string interpolation in `stats/base/dists/frechet` [(#10122)](https://github.com/stdlib-js/stdlib/pull/10122) _(by Shubham)_
+-   [`337e9e8`](https://github.com/stdlib-js/stdlib/commit/337e9e8ceed38e6409a2ec0b2268e79a15dc6ff1) - **bench:** refactor to use string interpolation in `stats/base/dists/cosine` [(#10169)](https://github.com/stdlib-js/stdlib/pull/10169) _(by Bhargav Dabhade)_
+-   [`e7e6955`](https://github.com/stdlib-js/stdlib/commit/e7e695564ed321e40640ba406cf85d8c2f854fc3) - **bench:** use string interpolation in `stats/base/ndarray/nanmeanpn` [(#10170)](https://github.com/stdlib-js/stdlib/pull/10170) _(by Om-A-osc)_
+-   [`3088f39`](https://github.com/stdlib-js/stdlib/commit/3088f3987094c907d9b81fbdeeea5ac58a915ac3) - **feat:** add implementation of `stats/base/dists/wald/kurtosis` [(#10216)](https://github.com/stdlib-js/stdlib/pull/10216) _(by Bhargav Dabhade, Philipp Burckhardt)_
+-   [`96f2808`](https://github.com/stdlib-js/stdlib/commit/96f28086b0a4bf03556f5ba91078d68c1823a27d) - **feat:** add implementation of `stats/base/dists/wald/skewness` [(#10206)](https://github.com/stdlib-js/stdlib/pull/10206) _(by Bhargav Dabhade, Philipp Burckhardt)_
+-   [`5dfd41d`](https://github.com/stdlib-js/stdlib/commit/5dfd41df5e698950034ed3e54d9f32dc9ff03355) - **feat:** add C implementation for `stats/base/ndarray/srangeabs` [(#10240)](https://github.com/stdlib-js/stdlib/pull/10240) _(by Bhargav Dabhade, Philipp Burckhardt)_
+-   [`564b95d`](https://github.com/stdlib-js/stdlib/commit/564b95d10f2ba27c7ecc0db98712df489458c657) - **bench:** refactor to use string interpolation in `stats/base/dists/cauchy` [(#10249)](https://github.com/stdlib-js/stdlib/pull/10249) _(by Vishal Gaikwad, Philipp Burckhardt)_
+-   [`a76fdd9`](https://github.com/stdlib-js/stdlib/commit/a76fdd9159a85d9e63982dce2c3a87861d1bf662) - **bench:** update random value generation for `stats/base/dists/f` [(#10238)](https://github.com/stdlib-js/stdlib/pull/10238) _(by Lokesh Ranjan, Philipp Burckhardt)_
+-   [`749de6f`](https://github.com/stdlib-js/stdlib/commit/749de6f8c437bf7daad8413ff86175781c934df2) - **bench:** refactor to use string interpolation in `stats/base/dists/bradford` [(#10234)](https://github.com/stdlib-js/stdlib/pull/10234) _(by Vishal Gaikwad)_
+-   [`46aeb95`](https://github.com/stdlib-js/stdlib/commit/46aeb956e694d0e7fe1fd1a95a706d230c7bc4a9) - **bench:** update random value generation for `stats/base/dists/gumbel/stdev` [(#10241)](https://github.com/stdlib-js/stdlib/pull/10241) _(by Bhargav Dabhade, Philipp Burckhardt)_
+-   [`1d869c7`](https://github.com/stdlib-js/stdlib/commit/1d869c731b86a36a2463698a060cdfb6d2b401f2) - **bench:** update random value generation for stats/base/dists/gumbel/variance [(#10242)](https://github.com/stdlib-js/stdlib/pull/10242) _(by Bhargav Dabhade, Philipp Burckhardt)_
+-   [`1c014d0`](https://github.com/stdlib-js/stdlib/commit/1c014d0bd6d77de7c034db4fe86060fab87a4a53) - **bench:** refactor to use string interpolation in `stats/base/snanvarianceyc` [(#10243)](https://github.com/stdlib-js/stdlib/pull/10243) _(by Bhargav Dabhade)_
+-   [`6a53aa7`](https://github.com/stdlib-js/stdlib/commit/6a53aa7c12756f57916ccbaeab9f09913aa9b8ee) - **bench:** refactor to use string interpolation in `stats/base/snanvariancewd` [(#10244)](https://github.com/stdlib-js/stdlib/pull/10244) _(by Bhargav Dabhade)_
+-   [`3f082c4`](https://github.com/stdlib-js/stdlib/commit/3f082c405532bdd617a97fb6b4f4ea3dac67a633) - **bench:** refactor to use string interpolation in `stats/base/snanvariancetk` [(#10245)](https://github.com/stdlib-js/stdlib/pull/10245) _(by Bhargav Dabhade)_
+-   [`1bb7d5b`](https://github.com/stdlib-js/stdlib/commit/1bb7d5bec1f232fd5541f56734612f40bb63cf89) - **bench:** refactor to use string interpolation in `stats/base/cumaxabs` [(#10161)](https://github.com/stdlib-js/stdlib/pull/10161) _(by Vishal Gaikwad)_
+-   [`582219e`](https://github.com/stdlib-js/stdlib/commit/582219ec5e332c28c5bd1e5f3cdbb9f7904d6b1c) - **bench:** use string interpolation in `stats/base/ndarray/nanmean` [(#10164)](https://github.com/stdlib-js/stdlib/pull/10164) _(by Om-A-osc)_
+-   [`7476e20`](https://github.com/stdlib-js/stdlib/commit/7476e2084236526a362d28d3c6f335cc4331fd8c) - **bench:** use string interpolation in `stats/base/ndarray/nanmaxabs` [(#10165)](https://github.com/stdlib-js/stdlib/pull/10165) _(by Om-A-osc)_
+-   [`61e0c07`](https://github.com/stdlib-js/stdlib/commit/61e0c078903198eb07fe30301f14c3180186f5c9) - **bench:** use string interpolation in `stats/base/ndarray/nanmeanors` [(#10163)](https://github.com/stdlib-js/stdlib/pull/10163) _(by Om-A-osc)_
+-   [`6bd2cc0`](https://github.com/stdlib-js/stdlib/commit/6bd2cc0e88930b003aacdae33981e3050a1c99a7) - **bench:** refactor to use string interpolation in `stats/base/snanvariancech` [(#10202)](https://github.com/stdlib-js/stdlib/pull/10202) _(by Shubham)_
+-   [`3ec99c9`](https://github.com/stdlib-js/stdlib/commit/3ec99c94c286bafabeee0971d4beb29b3a3fc756) - **bench:** refactor to use string interpolation in `stats/base/snanvariancepn` [(#10204)](https://github.com/stdlib-js/stdlib/pull/10204) _(by Shubham)_
+-   [`40cc554`](https://github.com/stdlib-js/stdlib/commit/40cc554a45933e2bc58e7d6ec4ba7b1611006a41) - **bench:** refactor to use string interpolation in `stats/base/snanvariance` [(#10200)](https://github.com/stdlib-js/stdlib/pull/10200) _(by Shubham)_
+-   [`81fd782`](https://github.com/stdlib-js/stdlib/commit/81fd7822d544bff51fccb618844e07f7edf31e8b) - **bench:** use string interpolation in `stats/base/dists/chi` [(#10171)](https://github.com/stdlib-js/stdlib/pull/10171) _(by Om-A-osc)_
+-   [`0a3bfa2`](https://github.com/stdlib-js/stdlib/commit/0a3bfa2d83ccf5139c1557f07b936fac61cf5838) - **chore:** minor clean-up _(by Philipp Burckhardt)_
+-   [`a7bba71`](https://github.com/stdlib-js/stdlib/commit/a7bba712251731591ce02227e24f4d61042e1710) - **style:** fix indentation _(by Philipp Burckhardt)_
+
+</details>
+
+</section>
+
+<!-- /.commits -->
+
+<section class="contributors">
+
+### Contributors
+
+A total of 13 people contributed to this release. Thank you to the following contributors:
+
+-   Athan Reines
+-   Bhargav Dabhade
+-   Lokesh Ranjan
+-   Manit Roy
+-   Om-A-osc
+-   Philipp Burckhardt
+-   Pratik
+-   Sachin Pangal
+-   Samarth Kolarkar
+-   Shubham
+-   Siddhartha Mondal
+-   Vishal Gaikwad
+-   orthodox-64
+
+</section>
+
+<!-- /.contributors -->
+
+</section>
+
+<!-- /.release -->
+
 <section class="release" id="v0.4.1">
 
 ## 0.4.1 (2026-02-08)
