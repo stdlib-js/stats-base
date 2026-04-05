@@ -4,12 +4,13 @@
 
 <section class="release" id="unreleased">
 
-## Unreleased (2026-03-23)
+## Unreleased (2026-04-05)
 
 <section class="features">
 
 ### Features
 
+-   [`f4a0718`](https://github.com/stdlib-js/stdlib/commit/f4a07184f537ba8ef7928eb6cca51d0e1732f50e) - add implementation for `stats/base/dists/halfnormal/logpdf` [(#9708)](https://github.com/stdlib-js/stdlib/pull/9708)
 -   [`f63b6ef`](https://github.com/stdlib-js/stdlib/commit/f63b6ef8ab403a18dfd58ae0884361c8d829d9f1) - add C implementation for `@stdlib/stats-base/dists/poisson/pmf` [(#10839)](https://github.com/stdlib-js/stdlib/pull/10839)
 -   [`73c6b3c`](https://github.com/stdlib-js/stdlib/commit/73c6b3cbef45a92a3fc5a5cfb12a5fc4c15e7f3d) - add `stats/base/ndarray/nanmskmidrange` [(#9513)](https://github.com/stdlib-js/stdlib/pull/9513)
 -   [`6b97f56`](https://github.com/stdlib-js/stdlib/commit/6b97f569bd1dbf7f00d80d636404afbc43a53c8c) - add `stats/base/ndarray/snanmskmidrange` [(#9536)](https://github.com/stdlib-js/stdlib/pull/9536)
@@ -61,6 +62,15 @@ A total of 10 issues were closed in this release:
 
 <details>
 
+-   [`eccfc1f`](https://github.com/stdlib-js/stdlib/commit/eccfc1f2de5e3c6273592c477af066f384d8cbc5) - **style:** enable lint rule _(by Athan Reines)_
+-   [`f4a0718`](https://github.com/stdlib-js/stdlib/commit/f4a07184f537ba8ef7928eb6cca51d0e1732f50e) - **feat:** add implementation for `stats/base/dists/halfnormal/logpdf` [(#9708)](https://github.com/stdlib-js/stdlib/pull/9708) _(by Om-A-osc, Philipp Burckhardt)_
+-   [`8448f5a`](https://github.com/stdlib-js/stdlib/commit/8448f5a44bad7e305d50ac9e92ba195bac863389) - **chore:** ensure consistent use of semicolons [(#11170)](https://github.com/stdlib-js/stdlib/pull/11170) _(by Philipp Burckhardt, Athan Reines)_
+-   [`9b24a18`](https://github.com/stdlib-js/stdlib/commit/9b24a18438dfa2c5450cc8677543caf19366f84a) - **docs:** add missing JSDoc comment _(by Athan Reines)_
+-   [`f9dbbfa`](https://github.com/stdlib-js/stdlib/commit/f9dbbfaf48e1830f1c9fb685856eac2edba3fac6) - **docs:** fix C examples [(#11138)](https://github.com/stdlib-js/stdlib/pull/11138) _(by anee3, Athan Reines)_
+-   [`86e456b`](https://github.com/stdlib-js/stdlib/commit/86e456b4797c0520c1b019037bf18c6cca629a0c) - **docs:** fix incorrect return annotation in `stats/base/dists/weibull/pdf` [(#11119)](https://github.com/stdlib-js/stdlib/pull/11119) _(by Om-A-osc)_
+-   [`cd05946`](https://github.com/stdlib-js/stdlib/commit/cd05946c9680de3ec0a5f3d4f67020f7ab71b03e) - **docs:** fix incorrect return annotation in `stats/base/dists/weibull/logcdf` [(#11118)](https://github.com/stdlib-js/stdlib/pull/11118) _(by Om-A-osc)_
+-   [`d02089a`](https://github.com/stdlib-js/stdlib/commit/d02089a716cf72e62eb60d54f909f0b439a05196) - **chore:** minor clean-up _(by Philipp Burckhardt)_
+-   [`18f1915`](https://github.com/stdlib-js/stdlib/commit/18f191560f9322727ee126619e9e083187b64821) - **chore:** minor clean-up _(by Philipp Burckhardt)_
 -   [`e712c8e`](https://github.com/stdlib-js/stdlib/commit/e712c8e864d3a4c771e3457f49fe8dec354be34b) - **chore:** address commit comments for commit `29ff047` [(#10856)](https://github.com/stdlib-js/stdlib/pull/10856) _(by Partha Das, stdlib-bot)_
 -   [`5a50a24`](https://github.com/stdlib-js/stdlib/commit/5a50a24c0187fa2eff6c40ed60db7e9281406990) - **docs:** fix broken Markdown link [(#10733)](https://github.com/stdlib-js/stdlib/pull/10733) _(by travisBREAKS)_
 -   [`4f32811`](https://github.com/stdlib-js/stdlib/commit/4f3281135aa10fd6a204e9f7d1776e16615bafe1) - **chore:** address commit comments for commit `bfbe62b` [(#10998)](https://github.com/stdlib-js/stdlib/pull/10998) _(by Blessed Oigbochie)_
@@ -224,7 +234,7 @@ A total of 10 issues were closed in this release:
 
 ### Contributors
 
-A total of 22 people contributed to this release. Thank you to the following contributors:
+A total of 23 people contributed to this release. Thank you to the following contributors:
 
 -   ANKIT SINGH YADAV
 -   Athan Reines
@@ -246,6 +256,7 @@ A total of 22 people contributed to this release. Thank you to the following con
 -   Vipeen Kumar
 -   Vishal Gaikwad
 -   Vishal..
+-   anee3
 -   orthodox-64
 -   travisBREAKS
 
