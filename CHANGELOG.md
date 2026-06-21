@@ -4,12 +4,18 @@
 
 <section class="release" id="unreleased">
 
-## Unreleased (2026-05-13)
+## Unreleased (2026-06-21)
 
 <section class="features">
 
 ### Features
 
+-   [`82270fb`](https://github.com/stdlib-js/stdlib/commit/82270fbca651dba57b5e9aa2c64e8ffcdf57d249) - add `stats/base/dists/anglit/mean` [(#10627)](https://github.com/stdlib-js/stdlib/pull/10627)
+-   [`5fee63e`](https://github.com/stdlib-js/stdlib/commit/5fee63ec1080a0c5a4b7aa91deefcb814497bf69) - add `stats/base/dists/anglit/median` [(#10628)](https://github.com/stdlib-js/stdlib/pull/10628)
+-   [`d657500`](https://github.com/stdlib-js/stdlib/commit/d6575009529673f2cd56ae36893388ce3013f305) - add C implementation for `stats/base/dists/erlang/logpdf` [(#10719)](https://github.com/stdlib-js/stdlib/pull/10719)
+-   [`5766b42`](https://github.com/stdlib-js/stdlib/commit/5766b42bf2f2c7e14cb247e48c8ad87014557ada) - update `stats/base/ndarray` TypeScript declarations [(#12612)](https://github.com/stdlib-js/stdlib/pull/12612)
+-   [`5ccb887`](https://github.com/stdlib-js/stdlib/commit/5ccb88741162d07ade0c4c62c2bab284e8908aa1) - add `dvariance` to namespace
+-   [`f51c52a`](https://github.com/stdlib-js/stdlib/commit/f51c52a121e764076d14e2d4c704bce0aaa8779f) - add `stats/base/ndarray/dvariance` [(#11745)](https://github.com/stdlib-js/stdlib/pull/11745)
 -   [`4479454`](https://github.com/stdlib-js/stdlib/commit/44794544dd42a8689596d1a6be15d59fa9de328f) - add `stats/base/dists/wald/mode` [(#10205)](https://github.com/stdlib-js/stdlib/pull/10205)
 -   [`dc09169`](https://github.com/stdlib-js/stdlib/commit/dc09169e3f87a3ca9e3f9bea511468b6b496f91f) - add C implementation of `stats/base/ndarray/dmeanwd` [(#10784)](https://github.com/stdlib-js/stdlib/pull/10784)
 -   [`61b1d19`](https://github.com/stdlib-js/stdlib/commit/61b1d19140c82a0925fd5de8b975aefa35783dc6) - add C implementation for `stats/base/ndarray/dmeanpn` [(#10493)](https://github.com/stdlib-js/stdlib/pull/10493)
@@ -72,13 +78,41 @@
 
 <!-- /.features -->
 
+<section class="bug-fixes">
+
+### Bug Fixes
+
+-   [`d8fdfb7`](https://github.com/stdlib-js/stdlib/commit/d8fdfb7f6a2db0cce8664d288887789b8f0987b8) - improve type specificity for JSON serialization [(#12504)](https://github.com/stdlib-js/stdlib/pull/12504)
+-   [`2b9b521`](https://github.com/stdlib-js/stdlib/commit/2b9b52153789b56fedef02c1f9aa8158929b2730) - pass `sigma` to `skewness` in `stats/base/dists/rayleigh/ctor` [(#12721)](https://github.com/stdlib-js/stdlib/pull/12721)
+-   [`03bb27c`](https://github.com/stdlib-js/stdlib/commit/03bb27c0d63fdbea701e3de9c9fcde3fe5100999) - use scale parameter name `c` in `base/dists/levy/cdf` [(#12488)](https://github.com/stdlib-js/stdlib/pull/12488)
+-   [`93d712b`](https://github.com/stdlib-js/stdlib/commit/93d712b9f648a28afc6f039173a3715139a90991) - update parameter names [(#12487)](https://github.com/stdlib-js/stdlib/pull/12487)
+-   [`4f9ef5b`](https://github.com/stdlib-js/stdlib/commit/4f9ef5b858789502bd4356a3693723edd6d714d6) - update parameter name [(#12485)](https://github.com/stdlib-js/stdlib/pull/12485)
+-   [`2a2228d`](https://github.com/stdlib-js/stdlib/commit/2a2228d7ae175857ca7677a3b008d9fd334ae0ef) - update parameter name [(#12486)](https://github.com/stdlib-js/stdlib/pull/12486)
+-   [`5d9b12d`](https://github.com/stdlib-js/stdlib/commit/5d9b12d1437c68dca5d2ecd84b1407e756893dbf) - rename `logpdf` to `logpmf` in `base/dists/geometric/ctor` [(#12500)](https://github.com/stdlib-js/stdlib/pull/12500)
+
+</section>
+
+<!-- /.bug-fixes -->
+
+<section class="breaking-changes">
+
+### BREAKING CHANGES
+
+-   [`594bb70`](https://github.com/stdlib-js/stdlib/commit/594bb702605bb473be30d637ae25cb3d8d95c97e): rename class to use camel case
+
+    -   To migrate, users should replace `Lognormal` with `LogNormal`.
+
+</section>
+
+<!-- /.breaking-changes -->
+
 <section class="issues">
 
 ### Closed Issues
 
-A total of 11 issues were closed in this release:
+A total of 12 issues were closed in this release:
 
-[#3503](https://github.com/stdlib-js/stdlib/issues/3503), [#3756](https://github.com/stdlib-js/stdlib/issues/3756), [#3793](https://github.com/stdlib-js/stdlib/issues/3793), [#10018](https://github.com/stdlib-js/stdlib/issues/10018), [#10662](https://github.com/stdlib-js/stdlib/issues/10662), [#10849](https://github.com/stdlib-js/stdlib/issues/10849), [#10850](https://github.com/stdlib-js/stdlib/issues/10850), [#10851](https://github.com/stdlib-js/stdlib/issues/10851), [#10978](https://github.com/stdlib-js/stdlib/issues/10978), [#10979](https://github.com/stdlib-js/stdlib/issues/10979), [#11289](https://github.com/stdlib-js/stdlib/issues/11289)
+[#3503](https://github.com/stdlib-js/stdlib/issues/3503), [#3571](https://github.com/stdlib-js/stdlib/issues/3571), [#3756](https://github.com/stdlib-js/stdlib/issues/3756), [#3793](https://github.com/stdlib-js/stdlib/issues/3793), [#10018](https://github.com/stdlib-js/stdlib/issues/10018), [#10662](https://github.com/stdlib-js/stdlib/issues/10662), [#10849](https://github.com/stdlib-js/stdlib/issues/10849), [#10850](https://github.com/stdlib-js/stdlib/issues/10850), [#10851](https://github.com/stdlib-js/stdlib/issues/10851), [#10978](https://github.com/stdlib-js/stdlib/issues/10978), [#10979](https://github.com/stdlib-js/stdlib/issues/10979), [#11289](https://github.com/stdlib-js/stdlib/issues/11289)
 
 </section>
 
@@ -90,6 +124,94 @@ A total of 11 issues were closed in this release:
 
 <details>
 
+-   [`1f05813`](https://github.com/stdlib-js/stdlib/commit/1f05813f67d394f9472e2ed7d0226f53b58d6b3f) - **docs:** fix note [(#12982)](https://github.com/stdlib-js/stdlib/pull/12982) _(by Philipp Burckhardt)_
+-   [`7f1c224`](https://github.com/stdlib-js/stdlib/commit/7f1c224c981787d37ef0360e22c7b6cbd4a007de) - **docs:** update descriptions [(#12969)](https://github.com/stdlib-js/stdlib/pull/12969) _(by Philipp Burckhardt)_
+-   [`50a34cf`](https://github.com/stdlib-js/stdlib/commit/50a34cffd477b655ab96d0aefd61744ef964a58f) - **style:** remove extra trailing newlines [(#12968)](https://github.com/stdlib-js/stdlib/pull/12968) _(by Philipp Burckhardt)_
+-   [`8ca8ea2`](https://github.com/stdlib-js/stdlib/commit/8ca8ea2b4c2f7d764b3d5847a3a00908b13d2121) - **test:** fix filename [(#12974)](https://github.com/stdlib-js/stdlib/pull/12974) _(by Philipp Burckhardt)_
+-   [`4f96827`](https://github.com/stdlib-js/stdlib/commit/4f96827674fd2a842336a3fa476cd3d63fa68021) - **chore:** clean-up tests and documentation _(by Athan Reines)_
+-   [`82270fb`](https://github.com/stdlib-js/stdlib/commit/82270fbca651dba57b5e9aa2c64e8ffcdf57d249) - **feat:** add `stats/base/dists/anglit/mean` [(#10627)](https://github.com/stdlib-js/stdlib/pull/10627) _(by Om-A-osc, Neeraj Pathak, Philipp Burckhardt)_
+-   [`5fee63e`](https://github.com/stdlib-js/stdlib/commit/5fee63ec1080a0c5a4b7aa91deefcb814497bf69) - **feat:** add `stats/base/dists/anglit/median` [(#10628)](https://github.com/stdlib-js/stdlib/pull/10628) _(by Om-A-osc, Neeraj Pathak, Philipp Burckhardt)_
+-   [`900a4e2`](https://github.com/stdlib-js/stdlib/commit/900a4e20acd9a33d8120673e2c607c280168955d) - **refactor:** rename internal variables [(#12955)](https://github.com/stdlib-js/stdlib/pull/12955) _(by Philipp Burckhardt)_
+-   [`13be950`](https://github.com/stdlib-js/stdlib/commit/13be9508ead024cad29c0426a02339b942fd92f5) - **chore:** propagate `Uint64.from` and decimal-literal fixes to siblings [(#12954)](https://github.com/stdlib-js/stdlib/pull/12954) _(by Philipp Burckhardt)_
+-   [`b8c28ee`](https://github.com/stdlib-js/stdlib/commit/b8c28ee715091e82fec21000a95fdb33fabed2fc) - **style:** add missing decimal [(#12937)](https://github.com/stdlib-js/stdlib/pull/12937) _(by Philipp Burckhardt)_
+-   [`8e421b2`](https://github.com/stdlib-js/stdlib/commit/8e421b2b823a08ff0e325792d3714d37fdf5a5da) - **style:** add missing decimal _(by Athan Reines)_
+-   [`d380d8c`](https://github.com/stdlib-js/stdlib/commit/d380d8c633b019d4bdf2f7255cec5b1e14303acc) - **docs:** fix example placement _(by Athan Reines)_
+-   [`dbe4c82`](https://github.com/stdlib-js/stdlib/commit/dbe4c820ea98330253b4054a5bc9b04b2293415b) - **docs:** propagate fixes to sibling packages [(#12677)](https://github.com/stdlib-js/stdlib/pull/12677) _(by Philipp Burckhardt, Athan Reines)_
+-   [`60a4b85`](https://github.com/stdlib-js/stdlib/commit/60a4b8520b6f93a86c9f949a93c150bcd698d62d) - **refactor:** rename internal variables [(#12925)](https://github.com/stdlib-js/stdlib/pull/12925) _(by Philipp Burckhardt)_
+-   [`d8fdfb7`](https://github.com/stdlib-js/stdlib/commit/d8fdfb7f6a2db0cce8664d288887789b8f0987b8) - **fix:** improve type specificity for JSON serialization [(#12504)](https://github.com/stdlib-js/stdlib/pull/12504) _(by Philipp Burckhardt)_
+-   [`91c5dd1`](https://github.com/stdlib-js/stdlib/commit/91c5dd10beac7d3e2763585abd74c5d29ff429f8) - **style:** add missing spaces [(#12920)](https://github.com/stdlib-js/stdlib/pull/12920) _(by Philipp Burckhardt)_
+-   [`c622071`](https://github.com/stdlib-js/stdlib/commit/c6220711cca10efa75dad796fcd27921c2d38ca7) - **docs:** modernize `stats/base/dists/erlang/mgf` examples [(#12924)](https://github.com/stdlib-js/stdlib/pull/12924) _(by Philipp Burckhardt)_
+-   [`d657500`](https://github.com/stdlib-js/stdlib/commit/d6575009529673f2cd56ae36893388ce3013f305) - **feat:** add C implementation for `stats/base/dists/erlang/logpdf` [(#10719)](https://github.com/stdlib-js/stdlib/pull/10719) _(by Kamal Singh Rautela, Neeraj Pathak, Philipp Burckhardt)_
+-   [`aae2976`](https://github.com/stdlib-js/stdlib/commit/aae2976d68e8b9177bf4f3c8123b0576c583ee8e) - **refactor:** update paths _(by Neeraj Pathak)_
+-   [`5eb4a95`](https://github.com/stdlib-js/stdlib/commit/5eb4a95e4377c83f2acc5108ffc155a92cb0071f) - **chore:** update keywords [(#12816)](https://github.com/stdlib-js/stdlib/pull/12816) _(by Philipp Burckhardt)_
+-   [`0cd5a91`](https://github.com/stdlib-js/stdlib/commit/0cd5a91823f96d5f6599731354414806b542ab01) - **chore:** update keywords [(#12830)](https://github.com/stdlib-js/stdlib/pull/12830) _(by Philipp Burckhardt)_
+-   [`9a18379`](https://github.com/stdlib-js/stdlib/commit/9a1837946aaf63554733e77e96fa07a0fe6bfba7) - **docs:** describe `mu` as location parameter in `stats/base/dists/logistic/mgf` [(#12874)](https://github.com/stdlib-js/stdlib/pull/12874) _(by Philipp Burckhardt)_
+-   [`cbe79e4`](https://github.com/stdlib-js/stdlib/commit/cbe79e479b16b66d34f8e7b0e513797bb00e06ed) - **refactor:** rename internal variables [(#12894)](https://github.com/stdlib-js/stdlib/pull/12894) _(by Philipp Burckhardt)_
+-   [`77195c3`](https://github.com/stdlib-js/stdlib/commit/77195c343d9d48e264a58f8ec213d0df53ca7317) - **docs:** update namespace table of contents [(#12835)](https://github.com/stdlib-js/stdlib/pull/12835) _(by stdlib-bot)_
+-   [`cae5335`](https://github.com/stdlib-js/stdlib/commit/cae53357950b4c389b0020878c268995cd79d222) - **docs:** propagate develop fixes to sibling packages [(#12736)](https://github.com/stdlib-js/stdlib/pull/12736) _(by Philipp Burckhardt)_
+-   [`2b9b521`](https://github.com/stdlib-js/stdlib/commit/2b9b52153789b56fedef02c1f9aa8158929b2730) - **fix:** pass `sigma` to `skewness` in `stats/base/dists/rayleigh/ctor` [(#12721)](https://github.com/stdlib-js/stdlib/pull/12721) _(by Philipp Burckhardt)_
+-   [`e1dbf10`](https://github.com/stdlib-js/stdlib/commit/e1dbf101e15b1caf71e3dc24884869a23bd5b47e) - **docs:** fix notes concerning edge case behavior [(#12711)](https://github.com/stdlib-js/stdlib/pull/12711) _(by Philipp Burckhardt)_
+-   [`21d7848`](https://github.com/stdlib-js/stdlib/commit/21d78480cab3cd0e896d4a7a4a6fe6e62c2c7e31) - **docs:** move JS examples before C API documentation [(#12704)](https://github.com/stdlib-js/stdlib/pull/12704) _(by Philipp Burckhardt)_
+-   [`437234c`](https://github.com/stdlib-js/stdlib/commit/437234c10dcf8d6024f59f98f18d5d19ecf49026) - **docs:** fix REPL text notes [(#12682)](https://github.com/stdlib-js/stdlib/pull/12682) _(by Philipp Burckhardt)_
+-   [`8d60f41`](https://github.com/stdlib-js/stdlib/commit/8d60f410502fcc75f7d3dc133a20b9202ce7f324) - **docs:** fix JSDoc descriptions [(#12637)](https://github.com/stdlib-js/stdlib/pull/12637) _(by Philipp Burckhardt)_
+-   [`acdf74c`](https://github.com/stdlib-js/stdlib/commit/acdf74c933e2adac96f2d81a2e04836ea6a168f9) - **docs:** fix `stats/base/dists/discrete-uniform` JSDoc summaries [(#12669)](https://github.com/stdlib-js/stdlib/pull/12669) _(by Philipp Burckhardt)_
+-   [`096d2fc`](https://github.com/stdlib-js/stdlib/commit/096d2fc19ccc525dbe4806689db87bb105fa7077) - **chore:** add keywords [(#12647)](https://github.com/stdlib-js/stdlib/pull/12647) _(by Philipp Burckhardt)_
+-   [`fffefe0`](https://github.com/stdlib-js/stdlib/commit/fffefe026c538bfec930719a8e6e1fa395ab8482) - **docs:** update `stats/base/dists/t` TypeScript declarations [(#12611)](https://github.com/stdlib-js/stdlib/pull/12611) _(by stdlib-bot)_
+-   [`38c7b12`](https://github.com/stdlib-js/stdlib/commit/38c7b1259c24a6918201d210b99b1639a3d27f95) - **docs:** update `stats/base/dists/binomial` TypeScript declarations [(#12596)](https://github.com/stdlib-js/stdlib/pull/12596) _(by stdlib-bot)_
+-   [`06cce2c`](https://github.com/stdlib-js/stdlib/commit/06cce2c6cd7e514b993d64dd9614604e885562db) - **docs:** update `stats/base/dists/arcsine` TypeScript declarations [(#12595)](https://github.com/stdlib-js/stdlib/pull/12595) _(by stdlib-bot)_
+-   [`d50cd4e`](https://github.com/stdlib-js/stdlib/commit/d50cd4e8c3f72c95107cb4e67ea873aa254631fd) - **docs:** update `stats/base/dists/chisquare` TypeScript declarations [(#12598)](https://github.com/stdlib-js/stdlib/pull/12598) _(by stdlib-bot)_
+-   [`475d2a4`](https://github.com/stdlib-js/stdlib/commit/475d2a4b917d816bfde1f199f00f746110723066) - **docs:** update `stats/base/dists/invgamma` TypeScript declarations [(#12603)](https://github.com/stdlib-js/stdlib/pull/12603) _(by stdlib-bot)_
+-   [`e5989f9`](https://github.com/stdlib-js/stdlib/commit/e5989f9fbbf926c8986246ff1aa6f1fcaa3058f9) - **docs:** update `stats/base/dists/kumaraswamy` TypeScript declarations [(#12604)](https://github.com/stdlib-js/stdlib/pull/12604) _(by stdlib-bot)_
+-   [`d1e7564`](https://github.com/stdlib-js/stdlib/commit/d1e75645e79c0cc2e5ac4b784260bc8728d8e6d4) - **docs:** update `stats/base/dists/cosine` TypeScript declarations [(#12599)](https://github.com/stdlib-js/stdlib/pull/12599) _(by stdlib-bot)_
+-   [`f83b869`](https://github.com/stdlib-js/stdlib/commit/f83b869b588bb84e82c2215695b78b862aeee072) - **docs:** update `stats/base/dists/logistic` TypeScript declarations [(#12606)](https://github.com/stdlib-js/stdlib/pull/12606) _(by stdlib-bot)_
+-   [`9447665`](https://github.com/stdlib-js/stdlib/commit/94476650507644281e2918ef3b9007c712e3decd) - **docs:** update `stats/base/dists/degenerate` TypeScript declarations [(#12600)](https://github.com/stdlib-js/stdlib/pull/12600) _(by stdlib-bot)_
+-   [`09ebafd`](https://github.com/stdlib-js/stdlib/commit/09ebafdd905642f8f652a34fbd2af17981e97a7b) - **docs:** update `stats/base/dists/chi` TypeScript declarations [(#12597)](https://github.com/stdlib-js/stdlib/pull/12597) _(by stdlib-bot)_
+-   [`72bcd83`](https://github.com/stdlib-js/stdlib/commit/72bcd83880399c89cd8b88deca1d00b1ae288c2a) - **docs:** update `stats/base/dists/studentized-range` TypeScript declarations [(#12610)](https://github.com/stdlib-js/stdlib/pull/12610) _(by stdlib-bot)_
+-   [`59ab38e`](https://github.com/stdlib-js/stdlib/commit/59ab38ed2a7a6f96f5773e0a4b7a889ddef912bf) - **docs:** update `stats/base/dists/lognormal` TypeScript declarations [(#12607)](https://github.com/stdlib-js/stdlib/pull/12607) _(by stdlib-bot)_
+-   [`1924425`](https://github.com/stdlib-js/stdlib/commit/1924425b157a247c71f03ea9b3ff074a3bdc12f2) - **docs:** update `stats/base/dists/negative-binomial` TypeScript declarations [(#12608)](https://github.com/stdlib-js/stdlib/pull/12608) _(by stdlib-bot)_
+-   [`71ca43c`](https://github.com/stdlib-js/stdlib/commit/71ca43c0a9d13a80668f8102a35ac0c5c47537ee) - **docs:** update `stats/base/dists/rayleigh` TypeScript declarations [(#12609)](https://github.com/stdlib-js/stdlib/pull/12609) _(by stdlib-bot)_
+-   [`6831b5a`](https://github.com/stdlib-js/stdlib/commit/6831b5a309aad7a6e7f5460fb60a2244d2d6bcf4) - **docs:** update `stats/base/dists/frechet` TypeScript declarations [(#12601)](https://github.com/stdlib-js/stdlib/pull/12601) _(by stdlib-bot)_
+-   [`5766b42`](https://github.com/stdlib-js/stdlib/commit/5766b42bf2f2c7e14cb247e48c8ad87014557ada) - **feat:** update `stats/base/ndarray` TypeScript declarations [(#12612)](https://github.com/stdlib-js/stdlib/pull/12612) _(by stdlib-bot)_
+-   [`9cc0f8a`](https://github.com/stdlib-js/stdlib/commit/9cc0f8ad37849993582227cd466d2ff43a111548) - **docs:** update `stats/base/dists/levy` TypeScript declarations [(#12605)](https://github.com/stdlib-js/stdlib/pull/12605) _(by stdlib-bot)_
+-   [`bfca061`](https://github.com/stdlib-js/stdlib/commit/bfca0616aed6f5970ccd9ae204c2b5519a221fb1) - **docs:** update `stats/base/dists/gumbel` TypeScript declarations [(#12602)](https://github.com/stdlib-js/stdlib/pull/12602) _(by stdlib-bot)_
+-   [`6e9254b`](https://github.com/stdlib-js/stdlib/commit/6e9254b32595b7c8e5f3eb3e06a697c67e1a4055) - **docs:** add missing empty `notes` section blocks [(#12564)](https://github.com/stdlib-js/stdlib/pull/12564) _(by Philipp Burckhardt)_
+-   [`8e32423`](https://github.com/stdlib-js/stdlib/commit/8e32423156316049de0700cfcb4d3da2b173f008) - **refactor:** align TypeScript declarations across stats packages [(#12512)](https://github.com/stdlib-js/stdlib/pull/12512) _(by Philipp Burckhardt)_
+-   [`359a92f`](https://github.com/stdlib-js/stdlib/commit/359a92fc942dbc65cb930cffd08d0ac6eb445d90) - **docs:** normalize stride parameter descriptions in `stats/base/cumin` [(#12547)](https://github.com/stdlib-js/stdlib/pull/12547) _(by Philipp Burckhardt)_
+-   [`7587c51`](https://github.com/stdlib-js/stdlib/commit/7587c516c9cf38a7048079bf01c42135061b8d98) - **docs:** propagate TSDoc declaration fixes to sibling packages [(#12524)](https://github.com/stdlib-js/stdlib/pull/12524) _(by Philipp Burckhardt)_
+-   [`bccd3c3`](https://github.com/stdlib-js/stdlib/commit/bccd3c3ff447205446f7a41b19134620f8ce2642) - **docs:** follow-up fixes for commits merged to `develop` on 2026-06-03 [(#12511)](https://github.com/stdlib-js/stdlib/pull/12511) _(by Philipp Burckhardt)_
+-   [`b0bd12b`](https://github.com/stdlib-js/stdlib/commit/b0bd12be8db74dcde712428f3fb0086068e558d2) - **chore:** add `univariate` keyword to outliers in `stats/base/dists` [(#12507)](https://github.com/stdlib-js/stdlib/pull/12507) _(by Philipp Burckhardt)_
+-   [`594bb70`](https://github.com/stdlib-js/stdlib/commit/594bb702605bb473be30d637ae25cb3d8d95c97e) - **refactor:** correct class name casing in `base/dists/lognormal/ctor` [(#12499)](https://github.com/stdlib-js/stdlib/pull/12499) _(by Philipp Burckhardt)_
+-   [`03bb27c`](https://github.com/stdlib-js/stdlib/commit/03bb27c0d63fdbea701e3de9c9fcde3fe5100999) - **fix:** use scale parameter name `c` in `base/dists/levy/cdf` [(#12488)](https://github.com/stdlib-js/stdlib/pull/12488) _(by Philipp Burckhardt)_
+-   [`93d712b`](https://github.com/stdlib-js/stdlib/commit/93d712b9f648a28afc6f039173a3715139a90991) - **fix:** update parameter names [(#12487)](https://github.com/stdlib-js/stdlib/pull/12487) _(by Philipp Burckhardt)_
+-   [`e8a15dd`](https://github.com/stdlib-js/stdlib/commit/e8a15dd05466add8b27998c945d4ee5d524bb8d0) - **refactor:** remove unused generic in `stats/base/ndarray/minsorted` [(#12494)](https://github.com/stdlib-js/stdlib/pull/12494) _(by Philipp Burckhardt)_
+-   [`4f9ef5b`](https://github.com/stdlib-js/stdlib/commit/4f9ef5b858789502bd4356a3693723edd6d714d6) - **fix:** update parameter name [(#12485)](https://github.com/stdlib-js/stdlib/pull/12485) _(by Philipp Burckhardt)_
+-   [`2a2228d`](https://github.com/stdlib-js/stdlib/commit/2a2228d7ae175857ca7677a3b008d9fd334ae0ef) - **fix:** update parameter name [(#12486)](https://github.com/stdlib-js/stdlib/pull/12486) _(by Philipp Burckhardt)_
+-   [`056a080`](https://github.com/stdlib-js/stdlib/commit/056a080213e54c3030bb98128e96b26b4139627a) - **refactor:** remove unused generics [(#12495)](https://github.com/stdlib-js/stdlib/pull/12495) _(by Philipp Burckhardt)_
+-   [`f59b324`](https://github.com/stdlib-js/stdlib/commit/f59b324c3c652580e17c4c4baae8168faab8af8c) - **docs:** fix typos and copy-paste errors in `stats` TypeScript declarations [(#12482)](https://github.com/stdlib-js/stdlib/pull/12482) _(by Philipp Burckhardt, Athan Reines)_
+-   [`5d9b12d`](https://github.com/stdlib-js/stdlib/commit/5d9b12d1437c68dca5d2ecd84b1407e756893dbf) - **fix:** rename `logpdf` to `logpmf` in `base/dists/geometric/ctor` [(#12500)](https://github.com/stdlib-js/stdlib/pull/12500) _(by Philipp Burckhardt)_
+-   [`3418475`](https://github.com/stdlib-js/stdlib/commit/3418475fabc0de813b178807a80853d2867cc326) - **docs:** correct `mu` description and `b` JSDoc type in `stats/base/dists/laplace/mgf` [(#12449)](https://github.com/stdlib-js/stdlib/pull/12449) _(by Philipp Burckhardt)_
+-   [`eeae769`](https://github.com/stdlib-js/stdlib/commit/eeae769abe635aa7199ed3f0e84c922e37e17926) - **chore:** fix description and `dist` keyword [(#12455)](https://github.com/stdlib-js/stdlib/pull/12455) _(by Philipp Burckhardt)_
+-   [`510d710`](https://github.com/stdlib-js/stdlib/commit/510d7100ba882850675520a6fe8be6219fb05076) - **docs:** propagate recent develop fixes to sibling packages [(#12400)](https://github.com/stdlib-js/stdlib/pull/12400) _(by Philipp Burckhardt)_
+-   [`afb44ae`](https://github.com/stdlib-js/stdlib/commit/afb44ae05ba673e5c777e19761a25dd90bd2d0ac) - **docs:** fix C API parameter name in heading [(#12404)](https://github.com/stdlib-js/stdlib/pull/12404) _(by Philipp Burckhardt)_
+-   [`faef343`](https://github.com/stdlib-js/stdlib/commit/faef34302cc1067c306c01763973ce53fc4933e3) - **style:** use explicit float literal in `stats/base/dists/gumbel/cdf` [(#12379)](https://github.com/stdlib-js/stdlib/pull/12379) _(by Philipp Burckhardt)_
+-   [`fdcf93d`](https://github.com/stdlib-js/stdlib/commit/fdcf93d000432eedb131d8c0a03fbb269e91e66e) - **docs:** update example variables and document domain [(#12301)](https://github.com/stdlib-js/stdlib/pull/12301) _(by Philipp Burckhardt)_
+-   [`3c1e93d`](https://github.com/stdlib-js/stdlib/commit/3c1e93d70791ae8598c0bd192986066d665a2e9d) - **refactor:** replace `isProbability` with inline range check in `stats/base/dists/bernoulli/mgf` [(#12292)](https://github.com/stdlib-js/stdlib/pull/12292) _(by Philipp Burckhardt)_
+-   [`a8f48d4`](https://github.com/stdlib-js/stdlib/commit/a8f48d46b166e8916d17b98b7008978d86ebac7a) - **refactor:** hardcode pre-computed constant and fix return annotation [(#12299)](https://github.com/stdlib-js/stdlib/pull/12299) _(by Philipp Burckhardt, Athan Reines)_
+-   [`3fe5568`](https://github.com/stdlib-js/stdlib/commit/3fe55682827c8e66b74576d5cf6fe396001d4571) - **docs:** propagate fixes from `develop` across `stats`, `blas`, and `plot` siblings [(#12267)](https://github.com/stdlib-js/stdlib/pull/12267) _(by Philipp Burckhardt, Athan Reines)_
+-   [`ac45b11`](https://github.com/stdlib-js/stdlib/commit/ac45b111df7cfa06bf92673d621b6e0d91ec0703) - **refactor:** use `main` as require alias in `stats/base/dists/frechet` [(#12260)](https://github.com/stdlib-js/stdlib/pull/12260) _(by Philipp Burckhardt)_
+-   [`47f803e`](https://github.com/stdlib-js/stdlib/commit/47f803efb7e6e84fb26a7ded647b9a398b29a226) - **docs:** fix scale parameter reference in `@stdlib/stats-base/dists/levy/entropy` [(#12258)](https://github.com/stdlib-js/stdlib/pull/12258) _(by Philipp Burckhardt)_
+-   [`e1dd43f`](https://github.com/stdlib-js/stdlib/commit/e1dd43fddd1f3e3bbe14af8f0341fc3127595c54) - **docs:** update namespace table of contents [(#12225)](https://github.com/stdlib-js/stdlib/pull/12225) _(by stdlib-bot)_
+-   [`80996a6`](https://github.com/stdlib-js/stdlib/commit/80996a67956c190a908c92e6c5902aa6182cbea9) - **chore:** align keywords with sibling `stdev` packages [(#12219)](https://github.com/stdlib-js/stdlib/pull/12219) _(by Philipp Burckhardt)_
+-   [`5ccb887`](https://github.com/stdlib-js/stdlib/commit/5ccb88741162d07ade0c4c62c2bab284e8908aa1) - **feat:** add `dvariance` to namespace _(by Athan Reines)_
+-   [`f51c52a`](https://github.com/stdlib-js/stdlib/commit/f51c52a121e764076d14e2d4c704bce0aaa8779f) - **feat:** add `stats/base/ndarray/dvariance` [(#11745)](https://github.com/stdlib-js/stdlib/pull/11745) _(by Pratik, Athan Reines)_
+-   [`4589958`](https://github.com/stdlib-js/stdlib/commit/45899588d2b46feadb809778e13c156bc9cae2aa) - **refactor:** use floating-point zero literals in `stats/base/dists/rayleigh` [(#12204)](https://github.com/stdlib-js/stdlib/pull/12204) _(by Philipp Burckhardt)_
+-   [`906bab9`](https://github.com/stdlib-js/stdlib/commit/906bab98b9f33bc8c3a92e58eeafa2942990d5ab) - **docs:** propagate lint and example fixes to `math` and `stats` siblings [(#12146)](https://github.com/stdlib-js/stdlib/pull/12146) _(by Philipp Burckhardt)_
+-   [`5f6ce93`](https://github.com/stdlib-js/stdlib/commit/5f6ce933d6e8794302bf652392b22d8811eef537) - **docs:** update namespace table of contents [(#12141)](https://github.com/stdlib-js/stdlib/pull/12141) _(by stdlib-bot)_
+-   [`b517ce1`](https://github.com/stdlib-js/stdlib/commit/b517ce16f647ffe2270573dff57755fe7ba69027) - **docs:** propagate description and example fixes in `stats/base/dists/*` [(#12132)](https://github.com/stdlib-js/stdlib/pull/12132) _(by Philipp Burckhardt)_
+-   [`3220a54`](https://github.com/stdlib-js/stdlib/commit/3220a542b8dff991c11047065b68123ece76ab1b) - **chore:** propagate `ndarray/*` and `normal/*` fixes [(#12117)](https://github.com/stdlib-js/stdlib/pull/12117) _(by Philipp Burckhardt)_
+-   [`f2c2f39`](https://github.com/stdlib-js/stdlib/commit/f2c2f3967d9ee8afddc1206e69ddc015ff8f590a) - **docs:** normalize description in `stats/base/dists/exponential/logcdf` [(#12116)](https://github.com/stdlib-js/stdlib/pull/12116) _(by Philipp Burckhardt)_
+-   [`bac6704`](https://github.com/stdlib-js/stdlib/commit/bac67041cbbeeba2ed88f0030d28290e095d02c8) - **chore:** update example and add missing space in `stats/base/dists/normal/mean` [(#12104)](https://github.com/stdlib-js/stdlib/pull/12104) _(by Philipp Burckhardt)_
+-   [`f39d0f8`](https://github.com/stdlib-js/stdlib/commit/f39d0f85d898915a1c8fd30cbc7c5847f0aa8916) - **docs:** update namespace table of contents [(#12109)](https://github.com/stdlib-js/stdlib/pull/12109) _(by stdlib-bot)_
 -   [`5e6cc52`](https://github.com/stdlib-js/stdlib/commit/5e6cc5227f955ebcce1827cd5f87261c0ec44001) - **docs:** normalize descriptions in `stats/base/dists/cosine/{ctor,logcdf}` [(#12103)](https://github.com/stdlib-js/stdlib/pull/12103) _(by Philipp Burckhardt)_
 -   [`1d12a90`](https://github.com/stdlib-js/stdlib/commit/1d12a90aff52e001ed123ce3f7a42e034f57c021) - **docs:** use correct `s` predicate in `stats/base/dists/cosine/mgf` [(#12101)](https://github.com/stdlib-js/stdlib/pull/12101) _(by Philipp Burckhardt)_
 -   [`81c4786`](https://github.com/stdlib-js/stdlib/commit/81c478690aac530a21505bae986e75ba5689aaf4) - **docs:** add negative-scale `@example` to `stats/base/dists/lognormal/cdf` [(#12093)](https://github.com/stdlib-js/stdlib/pull/12093) _(by Philipp Burckhardt)_
@@ -169,11 +291,11 @@ A total of 11 issues were closed in this release:
 -   [`ebb4588`](https://github.com/stdlib-js/stdlib/commit/ebb4588375df8c2a79333553c2ef7b2e34c7be4d) - **bench:** refactor to use dynamic memory allocation in `stats/base/snanvariancewd` [(#11646)](https://github.com/stdlib-js/stdlib/pull/11646) _(by Uday Kakade)_
 -   [`4f4db47`](https://github.com/stdlib-js/stdlib/commit/4f4db47267b97a9400433a9ac54cecf2969609b0) - **bench:** refactor to use dynamic memory allocation in `stats/base/snanvarianceyc` [(#11647)](https://github.com/stdlib-js/stdlib/pull/11647) _(by Uday Kakade)_
 -   [`0f96d30`](https://github.com/stdlib-js/stdlib/commit/0f96d3092e11bed46e6cd83efd770c2d6fa77af1) - **docs:** update namespace table of contents [(#11637)](https://github.com/stdlib-js/stdlib/pull/11637) _(by stdlib-bot, Philipp Burckhardt)_
--   [`52a160e`](https://github.com/stdlib-js/stdlib/commit/52a160e49ca32d8041b88604de65b47935b521fa) - **bench:** refactor to use dynamic memory allocation in `blas/base/sdsnanmean` [(#11604)](https://github.com/stdlib-js/stdlib/pull/11604) _(by Uday Kakade)_
--   [`483f9f5`](https://github.com/stdlib-js/stdlib/commit/483f9f50458690009bdfe4266ce6dc95eebb9c24) - **bench:** refactor to use dynamic memory allocation in `blas/base/snanstdev` [(#11607)](https://github.com/stdlib-js/stdlib/pull/11607) _(by Uday Kakade)_
--   [`bf9d681`](https://github.com/stdlib-js/stdlib/commit/bf9d681bb656cb9356a7480a63e306353d52464a) - **bench:** refactor to use dynamic memory allocation in `blas/base/snanstdevch` [(#11609)](https://github.com/stdlib-js/stdlib/pull/11609) _(by Uday Kakade)_
--   [`7804aaa`](https://github.com/stdlib-js/stdlib/commit/7804aaa23131173d59d96417301c981129c248d7) - **bench:** refactor to use dynamic memory allocation in `blas/base/snanstdevchpn` [(#11611)](https://github.com/stdlib-js/stdlib/pull/11611) _(by Uday Kakade)_
--   [`4ac66ae`](https://github.com/stdlib-js/stdlib/commit/4ac66ae1c4bb0fced3efc36152899723c3ebf4dc) - **bench:** refactor to use dynamic memory allocation in `blas/base/snanstdevtk` [(#11613)](https://github.com/stdlib-js/stdlib/pull/11613) _(by Uday Kakade)_
+-   [`52a160e`](https://github.com/stdlib-js/stdlib/commit/52a160e49ca32d8041b88604de65b47935b521fa) - **bench:** refactor to use dynamic memory allocation in `stats/base/sdsnanmean` [(#11604)](https://github.com/stdlib-js/stdlib/pull/11604) _(by Uday Kakade)_
+-   [`483f9f5`](https://github.com/stdlib-js/stdlib/commit/483f9f50458690009bdfe4266ce6dc95eebb9c24) - **bench:** refactor to use dynamic memory allocation in `stats/base/snanstdev` [(#11607)](https://github.com/stdlib-js/stdlib/pull/11607) _(by Uday Kakade)_
+-   [`bf9d681`](https://github.com/stdlib-js/stdlib/commit/bf9d681bb656cb9356a7480a63e306353d52464a) - **bench:** refactor to use dynamic memory allocation in `stats/base/snanstdevch` [(#11609)](https://github.com/stdlib-js/stdlib/pull/11609) _(by Uday Kakade)_
+-   [`7804aaa`](https://github.com/stdlib-js/stdlib/commit/7804aaa23131173d59d96417301c981129c248d7) - **bench:** refactor to use dynamic memory allocation in `stats/base/snanstdevpn` [(#11611)](https://github.com/stdlib-js/stdlib/pull/11611) _(by Uday Kakade)_
+-   [`4ac66ae`](https://github.com/stdlib-js/stdlib/commit/4ac66ae1c4bb0fced3efc36152899723c3ebf4dc) - **bench:** refactor to use dynamic memory allocation in `stats/base/snanstdevtk` [(#11613)](https://github.com/stdlib-js/stdlib/pull/11613) _(by Uday Kakade)_
 -   [`67cdf3c`](https://github.com/stdlib-js/stdlib/commit/67cdf3cc8be241859493c2da00974d595eef73cb) - **chore:** propagate recent doctest and lint fixes to sibling packages [(#11585)](https://github.com/stdlib-js/stdlib/pull/11585) _(by Philipp Burckhardt)_
 -   [`0873811`](https://github.com/stdlib-js/stdlib/commit/0873811a6cdde040bef142386df8f1fe2c64d4df) - **docs:** inline ndarray output in doctests and add missing article [(#11557)](https://github.com/stdlib-js/stdlib/pull/11557) _(by Philipp Burckhardt)_
 -   [`32bbc2a`](https://github.com/stdlib-js/stdlib/commit/32bbc2a24552b2fd512383f3f9ff53fb53cae574) - **feat:** add `svariancetk`, `svariancewd`, `svarianceyc` to namespace [(#11580)](https://github.com/stdlib-js/stdlib/pull/11580) _(by Pratik)_
@@ -397,7 +519,7 @@ A total of 11 issues were closed in this release:
 
 ### Contributors
 
-A total of 29 people contributed to this release. Thank you to the following contributors:
+A total of 30 people contributed to this release. Thank you to the following contributors:
 
 -   ANKIT SINGH YADAV
 -   Athan Reines
@@ -412,6 +534,7 @@ A total of 29 people contributed to this release. Thank you to the following con
 -   Lokesh Ranjan
 -   Manit Roy
 -   Mara Averick
+-   Neeraj Pathak
 -   Om Anand
 -   Om-A-osc
 -   Partha Das
