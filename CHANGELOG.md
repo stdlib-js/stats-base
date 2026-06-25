@@ -4,12 +4,13 @@
 
 <section class="release" id="unreleased">
 
-## Unreleased (2026-06-21)
+## Unreleased (2026-06-25)
 
 <section class="features">
 
 ### Features
 
+-   [`dd0ce91`](https://github.com/stdlib-js/stdlib/commit/dd0ce916cb3e3706c4784e430e501bf7d930d469) - add C implementation for `stats/base/dists/erlang/cdf` [(#11104)](https://github.com/stdlib-js/stdlib/pull/11104)
 -   [`82270fb`](https://github.com/stdlib-js/stdlib/commit/82270fbca651dba57b5e9aa2c64e8ffcdf57d249) - add `stats/base/dists/anglit/mean` [(#10627)](https://github.com/stdlib-js/stdlib/pull/10627)
 -   [`5fee63e`](https://github.com/stdlib-js/stdlib/commit/5fee63ec1080a0c5a4b7aa91deefcb814497bf69) - add `stats/base/dists/anglit/median` [(#10628)](https://github.com/stdlib-js/stdlib/pull/10628)
 -   [`d657500`](https://github.com/stdlib-js/stdlib/commit/d6575009529673f2cd56ae36893388ce3013f305) - add C implementation for `stats/base/dists/erlang/logpdf` [(#10719)](https://github.com/stdlib-js/stdlib/pull/10719)
@@ -98,6 +99,10 @@
 
 ### BREAKING CHANGES
 
+-   [`fcca2dc`](https://github.com/stdlib-js/stdlib/commit/fcca2dc42eb46f8957fc9e3a4fd0691917f38daf): remove `d*` symbols from namespace
+
+    -   To migrate, users should access the same symbols in the `stats/strided/*` namespace.
+
 -   [`594bb70`](https://github.com/stdlib-js/stdlib/commit/594bb702605bb473be30d637ae25cb3d8d95c97e): rename class to use camel case
 
     -   To migrate, users should replace `Lognormal` with `LogNormal`.
@@ -110,9 +115,9 @@
 
 ### Closed Issues
 
-A total of 12 issues were closed in this release:
+A total of 13 issues were closed in this release:
 
-[#3503](https://github.com/stdlib-js/stdlib/issues/3503), [#3571](https://github.com/stdlib-js/stdlib/issues/3571), [#3756](https://github.com/stdlib-js/stdlib/issues/3756), [#3793](https://github.com/stdlib-js/stdlib/issues/3793), [#10018](https://github.com/stdlib-js/stdlib/issues/10018), [#10662](https://github.com/stdlib-js/stdlib/issues/10662), [#10849](https://github.com/stdlib-js/stdlib/issues/10849), [#10850](https://github.com/stdlib-js/stdlib/issues/10850), [#10851](https://github.com/stdlib-js/stdlib/issues/10851), [#10978](https://github.com/stdlib-js/stdlib/issues/10978), [#10979](https://github.com/stdlib-js/stdlib/issues/10979), [#11289](https://github.com/stdlib-js/stdlib/issues/11289)
+[#3503](https://github.com/stdlib-js/stdlib/issues/3503), [#3568](https://github.com/stdlib-js/stdlib/issues/3568), [#3571](https://github.com/stdlib-js/stdlib/issues/3571), [#3756](https://github.com/stdlib-js/stdlib/issues/3756), [#3793](https://github.com/stdlib-js/stdlib/issues/3793), [#10018](https://github.com/stdlib-js/stdlib/issues/10018), [#10662](https://github.com/stdlib-js/stdlib/issues/10662), [#10849](https://github.com/stdlib-js/stdlib/issues/10849), [#10850](https://github.com/stdlib-js/stdlib/issues/10850), [#10851](https://github.com/stdlib-js/stdlib/issues/10851), [#10978](https://github.com/stdlib-js/stdlib/issues/10978), [#10979](https://github.com/stdlib-js/stdlib/issues/10979), [#11289](https://github.com/stdlib-js/stdlib/issues/11289)
 
 </section>
 
@@ -124,6 +129,14 @@ A total of 12 issues were closed in this release:
 
 <details>
 
+-   [`fcca2dc`](https://github.com/stdlib-js/stdlib/commit/fcca2dc42eb46f8957fc9e3a4fd0691917f38daf) - **remove:** remove migrated `stats/strided/*` imports from `stats/base/*` namespace [(#13103)](https://github.com/stdlib-js/stdlib/pull/13103) _(by Neeraj Pathak)_
+-   [`dd0ce91`](https://github.com/stdlib-js/stdlib/commit/dd0ce916cb3e3706c4784e430e501bf7d930d469) - **feat:** add C implementation for `stats/base/dists/erlang/cdf` [(#11104)](https://github.com/stdlib-js/stdlib/pull/11104) _(by Lokesh Ranjan, Neeraj Pathak, Philipp Burckhardt)_
+-   [`2b13bb1`](https://github.com/stdlib-js/stdlib/commit/2b13bb1a58ff9778770ef55dadc2b4b1ed675de0) - **refactor:** rename internal variable [(#13089)](https://github.com/stdlib-js/stdlib/pull/13089) _(by Philipp Burckhardt)_
+-   [`dadabba`](https://github.com/stdlib-js/stdlib/commit/dadabba66e44060c40b231ebf1862aa0453e5285) - **chore:** resolve C compiler warnings _(by Athan Reines)_
+-   [`fa820b3`](https://github.com/stdlib-js/stdlib/commit/fa820b3ef9805587eae34c589ee0cd91f89de1b2) - **chore:** resolve C compiler warning _(by Athan Reines)_
+-   [`aed59d8`](https://github.com/stdlib-js/stdlib/commit/aed59d8fb4f75747d24fef73037981716ca2da19) - **refactor:** update paths _(by Neeraj Pathak)_
+-   [`83e6c53`](https://github.com/stdlib-js/stdlib/commit/83e6c53cb1b78e74ae7e012deff629ba8a6730c3) - **docs:** fix descriptions [(#12971)](https://github.com/stdlib-js/stdlib/pull/12971) _(by Philipp Burckhardt)_
+-   [`9a4e514`](https://github.com/stdlib-js/stdlib/commit/9a4e5147a82a0b9db7105bc76fb0d616b7309fc8) - **style:** remove extra trailing newlines [(#13016)](https://github.com/stdlib-js/stdlib/pull/13016) _(by Philipp Burckhardt)_
 -   [`1f05813`](https://github.com/stdlib-js/stdlib/commit/1f05813f67d394f9472e2ed7d0226f53b58d6b3f) - **docs:** fix note [(#12982)](https://github.com/stdlib-js/stdlib/pull/12982) _(by Philipp Burckhardt)_
 -   [`7f1c224`](https://github.com/stdlib-js/stdlib/commit/7f1c224c981787d37ef0360e22c7b6cbd4a007de) - **docs:** update descriptions [(#12969)](https://github.com/stdlib-js/stdlib/pull/12969) _(by Philipp Burckhardt)_
 -   [`50a34cf`](https://github.com/stdlib-js/stdlib/commit/50a34cffd477b655ab96d0aefd61744ef964a58f) - **style:** remove extra trailing newlines [(#12968)](https://github.com/stdlib-js/stdlib/pull/12968) _(by Philipp Burckhardt)_
