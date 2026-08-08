@@ -4,12 +4,50 @@
 
 <section class="release" id="unreleased">
 
-## Unreleased (2026-06-26)
+## Unreleased (2026-08-08)
 
 <section class="features">
 
 ### Features
 
+-   [`5ca7350`](https://github.com/stdlib-js/stdlib/commit/5ca73502c25e79cf39e6a2eb338c1dd7d18b923b) - add C implementation for `stats/base/ndarray/smean` [(#10090)](https://github.com/stdlib-js/stdlib/pull/10090)
+-   [`6b8dac1`](https://github.com/stdlib-js/stdlib/commit/6b8dac1420da9cbaf0df6d357fb772fe4c4dde36) - add C implementation for `stats/base/ndarray/dmediansorted` [(#13912)](https://github.com/stdlib-js/stdlib/pull/13912)
+-   [`b71fe53`](https://github.com/stdlib-js/stdlib/commit/b71fe5300106bed0cad2897c06e8f82ccc998700) - add C implementation for `stats/base/ndarray/smeankbn2` [(#13977)](https://github.com/stdlib-js/stdlib/pull/13977)
+-   [`8785193`](https://github.com/stdlib-js/stdlib/commit/87851930caa54e3162acb1fc1316434e74fbeb74) - add C implementation for `stats/base/ndarray/smeanli` [(#14017)](https://github.com/stdlib-js/stdlib/pull/14017)
+-   [`9e08b03`](https://github.com/stdlib-js/stdlib/commit/9e08b032fcd809b5eaaea6d9f4e834b3f9edf88f) - add C implementation for `@stdlib/stats-base/ndarray/dmeanli` [(#13826)](https://github.com/stdlib-js/stdlib/pull/13826)
+-   [`f1c6572`](https://github.com/stdlib-js/stdlib/commit/f1c65722a3e378195187b5c815f50cbda36e1e3d) - add `stats/base/dists/wald/mgf` [(#12399)](https://github.com/stdlib-js/stdlib/pull/12399)
+-   [`525c0cb`](https://github.com/stdlib-js/stdlib/commit/525c0cb527f9e8d116489aaf0dbb722abc471aeb) - add C implementation for `stats/base/dists/invgamma/quantile` [(#13640)](https://github.com/stdlib-js/stdlib/pull/13640)
+-   [`72cc422`](https://github.com/stdlib-js/stdlib/commit/72cc422f63246e16aad23b6d93ba01406a6267eb) - add `stats/base/dists/anglit/pdf` [(#13642)](https://github.com/stdlib-js/stdlib/pull/13642)
+-   [`fd3be1e`](https://github.com/stdlib-js/stdlib/commit/fd3be1e9ce03cd0f58fb6ee9d775a9c801ace05f) - add C implementation for `stats/base/dists/binomial/quantile` [(#4415)](https://github.com/stdlib-js/stdlib/pull/4415)
+-   [`34af926`](https://github.com/stdlib-js/stdlib/commit/34af92690ca2581ae6fc94b17b5023c61810ceb6) - add C implementation for `stats/base/dists/binomial/logpmf` [(#4417)](https://github.com/stdlib-js/stdlib/pull/4417)
+-   [`cd1b1aa`](https://github.com/stdlib-js/stdlib/commit/cd1b1aa168f9119c8465c27d2b9d9973bc95084d) - add `stats/base/dists/anglit/skewness` [(#13600)](https://github.com/stdlib-js/stdlib/pull/13600)
+-   [`c7f2c99`](https://github.com/stdlib-js/stdlib/commit/c7f2c99626308f188fdd071df7e5b47209b1eeff) - add `stats/base/dists/burr-type3/cdf` [(#5916)](https://github.com/stdlib-js/stdlib/pull/5916)
+-   [`01a27ec`](https://github.com/stdlib-js/stdlib/commit/01a27ec5dc2458180b2632fe68b4ed8892591ee9) - add `stats/base/dists/wald/cdf` [(#9709)](https://github.com/stdlib-js/stdlib/pull/9709)
+-   [`619d162`](https://github.com/stdlib-js/stdlib/commit/619d1625df3e8820888e35bdd3cb6542783de424) - add `stats/base/dists/log-logistic/variance` [(#13598)](https://github.com/stdlib-js/stdlib/pull/13598)
+-   [`27626ae`](https://github.com/stdlib-js/stdlib/commit/27626ae743400778da734c069ee493a10d4fca75) - add C implementation for `stats/base/dists/binomial/cdf` [(#4413)](https://github.com/stdlib-js/stdlib/pull/4413)
+-   [`a82a225`](https://github.com/stdlib-js/stdlib/commit/a82a2255378b0800f8eca51b43bd51a9ac9ab4c2) - add C implementation for `stats/base/dists/signrank/cdf` [(#4482)](https://github.com/stdlib-js/stdlib/pull/4482)
+-   [`4bbc3b1`](https://github.com/stdlib-js/stdlib/commit/4bbc3b1150a0556576ab5a539235643df5428061) - add C implementation for `stats/base/dists/hypergeometric/kurtosis` [(#10360)](https://github.com/stdlib-js/stdlib/pull/10360)
+-   [`fa5ac3e`](https://github.com/stdlib-js/stdlib/commit/fa5ac3e85a7a4cf1f3ced529eb6285b039718191) - add C implementation for `stats/base/dists/beta/cdf` [(#11450)](https://github.com/stdlib-js/stdlib/pull/11450)
+-   [`79dfbc4`](https://github.com/stdlib-js/stdlib/commit/79dfbc46e00386199e58ef0ed8f8643e25d09018) - add `stats/base/dists/anglit/cdf` [(#10596)](https://github.com/stdlib-js/stdlib/pull/10596)
+-   [`1e6f938`](https://github.com/stdlib-js/stdlib/commit/1e6f9381e2369ce05701f80b22a4509756731046) - add `stats/base/dists/anglit/entropy` [(#10620)](https://github.com/stdlib-js/stdlib/pull/10620)
+-   [`6b72eb2`](https://github.com/stdlib-js/stdlib/commit/6b72eb247c24153524b8119fae3ef37bac78883b) - add `stats/base/dists/anglit/mode` [(#10629)](https://github.com/stdlib-js/stdlib/pull/10629)
+-   [`48157fa`](https://github.com/stdlib-js/stdlib/commit/48157fa9f40922efe577aaa2d2a7b1eb2a28dd96) - add C implementation for `stats/base/dists/lognormal/logcdf` [(#10882)](https://github.com/stdlib-js/stdlib/pull/10882)
+-   [`ef6a8d0`](https://github.com/stdlib-js/stdlib/commit/ef6a8d06633359aa718f4aef91a1a257782748b2) - add C implementation for `stats/base/dists/frechet/pdf` [(#10843)](https://github.com/stdlib-js/stdlib/pull/10843)
+-   [`82d0e4a`](https://github.com/stdlib-js/stdlib/commit/82d0e4a5005a4dd8a0e8b3e6105427cccfa93cf7) - add C implementation for `stats/base/dists/f/pdf` [(#11201)](https://github.com/stdlib-js/stdlib/pull/11201)
+-   [`f2d8482`](https://github.com/stdlib-js/stdlib/commit/f2d848262509972427073b12bc8f18f6789a5a76) - add `stats/base/dists/anglit/stdev` [(#11489)](https://github.com/stdlib-js/stdlib/pull/11489)
+-   [`c2fcbc0`](https://github.com/stdlib-js/stdlib/commit/c2fcbc0e51871744c2c42464051f45c030fdc936) - add C implementation for `stats/base/dists/lognormal/cdf` [(#10809)](https://github.com/stdlib-js/stdlib/pull/10809)
+-   [`f7d36db`](https://github.com/stdlib-js/stdlib/commit/f7d36db4ab721d8fce25339830ab9b7c9838d23c) - add `stats/base/dists/anglit/variance` [(#11284)](https://github.com/stdlib-js/stdlib/pull/11284)
+-   [`e3c68d4`](https://github.com/stdlib-js/stdlib/commit/e3c68d4fc52c2239968a6c2cd8c74168545deca7) - add `stats/base/dists/log-logistic/cdf` [(#11283)](https://github.com/stdlib-js/stdlib/pull/11283)
+-   [`85820dd`](https://github.com/stdlib-js/stdlib/commit/85820ddc1c9673141b7c6a25cba01148f6dd4643) - add `stats/base/dists/log-logistic/quantile` [(#11295)](https://github.com/stdlib-js/stdlib/pull/11295)
+-   [`bbd919d`](https://github.com/stdlib-js/stdlib/commit/bbd919d7189f2d13d8d12a3f5a269aacc4481eee) - add `stats/base/dists/log-logistic/median` [(#11217)](https://github.com/stdlib-js/stdlib/pull/11217)
+-   [`f8cdc1b`](https://github.com/stdlib-js/stdlib/commit/f8cdc1b698a9a0a2913d44b40ac5c975f175e4ff) - add `stats/base/dists/log-logistic/mean` [(#11221)](https://github.com/stdlib-js/stdlib/pull/11221)
+-   [`eb582c8`](https://github.com/stdlib-js/stdlib/commit/eb582c8d528d367c271e67132712722cce8ab794) - add `stats/base/dists/log-logistic/mode` [(#11224)](https://github.com/stdlib-js/stdlib/pull/11224)
+-   [`10e10b8`](https://github.com/stdlib-js/stdlib/commit/10e10b8c25e44a1807bc3fef189570c11218433c) - add C implementation for `stats/base/dists/chisquare/pdf` [(#11634)](https://github.com/stdlib-js/stdlib/pull/11634)
+-   [`f52a463`](https://github.com/stdlib-js/stdlib/commit/f52a463381839ad535627b7231b00ec8b7624515) - add `stats/base/dists/tukey-lambda/mode` [(#11911)](https://github.com/stdlib-js/stdlib/pull/11911)
+-   [`aebd92a`](https://github.com/stdlib-js/stdlib/commit/aebd92a2abde124cc3838fdfc2f2d88136eae9e2) - add `stats/base/dists/anglit/quantile` [(#10716)](https://github.com/stdlib-js/stdlib/pull/10716)
+-   [`88ed88f`](https://github.com/stdlib-js/stdlib/commit/88ed88ffa11b6cc1837e75f7fb9024a89ab3d94d) - add C implementation for `stats/base/dists/poisson/entropy` [(#10874)](https://github.com/stdlib-js/stdlib/pull/10874)
+-   [`151e6e9`](https://github.com/stdlib-js/stdlib/commit/151e6e94f4491c50441f8ad8399ce20bd44564d4) - add C implementation for `stats/base/dists/lognormal/logpdf` [(#10881)](https://github.com/stdlib-js/stdlib/pull/10881)
+-   [`e500017`](https://github.com/stdlib-js/stdlib/commit/e5000177e6955107b030ae82d6eac5916d24a46a) - add `stats/base/dists/log-logistic/pdf` [(#11203)](https://github.com/stdlib-js/stdlib/pull/11203)
 -   [`dd0ce91`](https://github.com/stdlib-js/stdlib/commit/dd0ce916cb3e3706c4784e430e501bf7d930d469) - add C implementation for `stats/base/dists/erlang/cdf` [(#11104)](https://github.com/stdlib-js/stdlib/pull/11104)
 -   [`82270fb`](https://github.com/stdlib-js/stdlib/commit/82270fbca651dba57b5e9aa2c64e8ffcdf57d249) - add `stats/base/dists/anglit/mean` [(#10627)](https://github.com/stdlib-js/stdlib/pull/10627)
 -   [`5fee63e`](https://github.com/stdlib-js/stdlib/commit/5fee63ec1080a0c5a4b7aa91deefcb814497bf69) - add `stats/base/dists/anglit/median` [(#10628)](https://github.com/stdlib-js/stdlib/pull/10628)
@@ -83,6 +121,7 @@
 
 ### Bug Fixes
 
+-   [`dbaac4d`](https://github.com/stdlib-js/stdlib/commit/dbaac4d30875963b59dff855f0c29abaf16e66f8) - update types for ndarray specifying the alternative hypothesis
 -   [`e6cc42b`](https://github.com/stdlib-js/stdlib/commit/e6cc42bab0268753252236d0e7511c97443754cc) - correct typo in enum name and fix C examples [(#13088)](https://github.com/stdlib-js/stdlib/pull/13088)
 -   [`d8fdfb7`](https://github.com/stdlib-js/stdlib/commit/d8fdfb7f6a2db0cce8664d288887789b8f0987b8) - improve type specificity for JSON serialization [(#12504)](https://github.com/stdlib-js/stdlib/pull/12504)
 -   [`2b9b521`](https://github.com/stdlib-js/stdlib/commit/2b9b52153789b56fedef02c1f9aa8158929b2730) - pass `sigma` to `skewness` in `stats/base/dists/rayleigh/ctor` [(#12721)](https://github.com/stdlib-js/stdlib/pull/12721)
@@ -116,9 +155,9 @@
 
 ### Closed Issues
 
-A total of 13 issues were closed in this release:
+A total of 23 issues were closed in this release:
 
-[#3503](https://github.com/stdlib-js/stdlib/issues/3503), [#3568](https://github.com/stdlib-js/stdlib/issues/3568), [#3571](https://github.com/stdlib-js/stdlib/issues/3571), [#3756](https://github.com/stdlib-js/stdlib/issues/3756), [#3793](https://github.com/stdlib-js/stdlib/issues/3793), [#10018](https://github.com/stdlib-js/stdlib/issues/10018), [#10662](https://github.com/stdlib-js/stdlib/issues/10662), [#10849](https://github.com/stdlib-js/stdlib/issues/10849), [#10850](https://github.com/stdlib-js/stdlib/issues/10850), [#10851](https://github.com/stdlib-js/stdlib/issues/10851), [#10978](https://github.com/stdlib-js/stdlib/issues/10978), [#10979](https://github.com/stdlib-js/stdlib/issues/10979), [#11289](https://github.com/stdlib-js/stdlib/issues/11289)
+[#209](https://github.com/stdlib-js/stdlib/issues/209), [#3465](https://github.com/stdlib-js/stdlib/issues/3465), [#3468](https://github.com/stdlib-js/stdlib/issues/3468), [#3474](https://github.com/stdlib-js/stdlib/issues/3474), [#3503](https://github.com/stdlib-js/stdlib/issues/3503), [#3568](https://github.com/stdlib-js/stdlib/issues/3568), [#3571](https://github.com/stdlib-js/stdlib/issues/3571), [#3612](https://github.com/stdlib-js/stdlib/issues/3612), [#3660](https://github.com/stdlib-js/stdlib/issues/3660), [#3677](https://github.com/stdlib-js/stdlib/issues/3677), [#3747](https://github.com/stdlib-js/stdlib/issues/3747), [#3756](https://github.com/stdlib-js/stdlib/issues/3756), [#3786](https://github.com/stdlib-js/stdlib/issues/3786), [#3793](https://github.com/stdlib-js/stdlib/issues/3793), [#3883](https://github.com/stdlib-js/stdlib/issues/3883), [#10018](https://github.com/stdlib-js/stdlib/issues/10018), [#10662](https://github.com/stdlib-js/stdlib/issues/10662), [#10849](https://github.com/stdlib-js/stdlib/issues/10849), [#10850](https://github.com/stdlib-js/stdlib/issues/10850), [#10851](https://github.com/stdlib-js/stdlib/issues/10851), [#10978](https://github.com/stdlib-js/stdlib/issues/10978), [#10979](https://github.com/stdlib-js/stdlib/issues/10979), [#11289](https://github.com/stdlib-js/stdlib/issues/11289)
 
 </section>
 
@@ -130,6 +169,109 @@ A total of 13 issues were closed in this release:
 
 <details>
 
+-   [`5ca7350`](https://github.com/stdlib-js/stdlib/commit/5ca73502c25e79cf39e6a2eb338c1dd7d18b923b) - **feat:** add C implementation for `stats/base/ndarray/smean` [(#10090)](https://github.com/stdlib-js/stdlib/pull/10090) _(by Atharva Patange, Athan Reines, Sachin Pangal)_
+-   [`6b8dac1`](https://github.com/stdlib-js/stdlib/commit/6b8dac1420da9cbaf0df6d357fb772fe4c4dde36) - **feat:** add C implementation for `stats/base/ndarray/dmediansorted` [(#13912)](https://github.com/stdlib-js/stdlib/pull/13912) _(by Atharva Patange)_
+-   [`b71fe53`](https://github.com/stdlib-js/stdlib/commit/b71fe5300106bed0cad2897c06e8f82ccc998700) - **feat:** add C implementation for `stats/base/ndarray/smeankbn2` [(#13977)](https://github.com/stdlib-js/stdlib/pull/13977) _(by Atharva Patange, Athan Reines)_
+-   [`d3a4161`](https://github.com/stdlib-js/stdlib/commit/d3a41618b4c38b288d148c02343033a5fbd157f9) - **bench:** fix require path _(by Athan Reines)_
+-   [`8785193`](https://github.com/stdlib-js/stdlib/commit/87851930caa54e3162acb1fc1316434e74fbeb74) - **feat:** add C implementation for `stats/base/ndarray/smeanli` [(#14017)](https://github.com/stdlib-js/stdlib/pull/14017) _(by Atharva Patange, Athan Reines)_
+-   [`b149fa7`](https://github.com/stdlib-js/stdlib/commit/b149fa757b98c9bc6050f91c5415c3e0a607f83d) - **chore:** clean-up [(#14014)](https://github.com/stdlib-js/stdlib/pull/14014) _(by Philipp Burckhardt, Athan Reines)_
+-   [`8500b0f`](https://github.com/stdlib-js/stdlib/commit/8500b0fd74343085c08370004e90cf35cffb360e) - **test:** migrate `stats/base/dists/erlang/skewness` to ULP-based assertions [(#14022)](https://github.com/stdlib-js/stdlib/pull/14022) _(by Athan Reines)_
+-   [`9e08b03`](https://github.com/stdlib-js/stdlib/commit/9e08b032fcd809b5eaaea6d9f4e834b3f9edf88f) - **feat:** add C implementation for `@stdlib/stats-base/ndarray/dmeanli` [(#13826)](https://github.com/stdlib-js/stdlib/pull/13826) _(by Ujjwal Verma, Athan Reines)_
+-   [`7856f37`](https://github.com/stdlib-js/stdlib/commit/7856f376f03f88ec07da988496a43d6fcafd4481) - **docs:** update descriptions and comments _(by Athan Reines)_
+-   [`000a481`](https://github.com/stdlib-js/stdlib/commit/000a481049f6b1a5a808a5752b1ddcde750dafab) - **docs:** update comments _(by Athan Reines)_
+-   [`ad94429`](https://github.com/stdlib-js/stdlib/commit/ad944294ccfe76a87926468637863f127fc005c4) - **docs:** update Markdown equation elements [(#13995)](https://github.com/stdlib-js/stdlib/pull/13995) _(by stdlib-bot)_
+-   [`7b64d86`](https://github.com/stdlib-js/stdlib/commit/7b64d86d19a7dde54b04f244eabc86f12fcfe4a5) - **test:** migrate `stats/base/dists/arcsine/cdf` to ULP-based testing [(#13986)](https://github.com/stdlib-js/stdlib/pull/13986) _(by Jannatul Mawa, Athan Reines)_
+-   [`1d6be7a`](https://github.com/stdlib-js/stdlib/commit/1d6be7a287ef9b738f9a8dfdd9c3fe37b92399a0) - **test:** migrate `stats/base/dists/pareto-type1/cdf` to ULP-based assertions [(#13941)](https://github.com/stdlib-js/stdlib/pull/13941) _(by Philipp Burckhardt)_
+-   [`f1c6572`](https://github.com/stdlib-js/stdlib/commit/f1c65722a3e378195187b5c815f50cbda36e1e3d) - **feat:** add `stats/base/dists/wald/mgf` [(#12399)](https://github.com/stdlib-js/stdlib/pull/12399) _(by Manit Roy, Athan Reines, Philipp Burckhardt)_
+-   [`075cabd`](https://github.com/stdlib-js/stdlib/commit/075cabdcc90e9f333a2329ae382fca574ee3f841) - **docs:** fix descriptions [(#13938)](https://github.com/stdlib-js/stdlib/pull/13938) _(by Philipp Burckhardt)_
+-   [`7ae11bc`](https://github.com/stdlib-js/stdlib/commit/7ae11bca9e05607a14425d165dfed57584b880b8) - **chore:** clean-up [(#13834)](https://github.com/stdlib-js/stdlib/pull/13834) _(by Philipp Burckhardt)_
+-   [`22fe7a6`](https://github.com/stdlib-js/stdlib/commit/22fe7a64a77d8fecc54da41dac870f2249b0c731) - **bench:** update benchmarks to use decimal literals [(#13849)](https://github.com/stdlib-js/stdlib/pull/13849) _(by Karan Anand)_
+-   [`3371e44`](https://github.com/stdlib-js/stdlib/commit/3371e4463d04c07659080c2a6dcf82898f2b7f56) - **test:** migrate `stats/base/dists/t/quantile` to ULP-based assertions [(#13847)](https://github.com/stdlib-js/stdlib/pull/13847) _(by Philipp Burckhardt)_
+-   [`be0b1f5`](https://github.com/stdlib-js/stdlib/commit/be0b1f501a4af5546f7ff6ee979585e22bdd56a6) - **chore:** clean-up [(#13780)](https://github.com/stdlib-js/stdlib/pull/13780) _(by Philipp Burckhardt, Athan Reines)_
+-   [`10ee0a5`](https://github.com/stdlib-js/stdlib/commit/10ee0a56ed60ae3d051ff0426b8e203a29c44cdc) - **chore:** clean-up [(#13754)](https://github.com/stdlib-js/stdlib/pull/13754) _(by Philipp Burckhardt)_
+-   [`c5d65b1`](https://github.com/stdlib-js/stdlib/commit/c5d65b14d15dd90690666291af0ae6550d50c6d2) - **chore:** clean-up [(#13725)](https://github.com/stdlib-js/stdlib/pull/13725) _(by Philipp Burckhardt, Athan Reines)_
+-   [`a103b47`](https://github.com/stdlib-js/stdlib/commit/a103b474ac08bc97bfdeac4674230abc02d17ae5) - **docs:** fix descriptions [(#13696)](https://github.com/stdlib-js/stdlib/pull/13696) _(by Philipp Burckhardt)_
+-   [`8df3c50`](https://github.com/stdlib-js/stdlib/commit/8df3c505604130c2c0cdf20814d2126c9ef58e69) - **docs:** fix parameter descriptions and update spacing [(#13671)](https://github.com/stdlib-js/stdlib/pull/13671) _(by Philipp Burckhardt)_
+-   [`b06219c`](https://github.com/stdlib-js/stdlib/commit/b06219c7a1fa57a41fa94841738a83f2d98f62bd) - **chore:** clean-up [(#13653)](https://github.com/stdlib-js/stdlib/pull/13653) _(by Philipp Burckhardt)_
+-   [`01a20c0`](https://github.com/stdlib-js/stdlib/commit/01a20c0a25103830414ec613971c0088fc65a2b6) - **style:** remove extraneous whitespace [(#13654)](https://github.com/stdlib-js/stdlib/pull/13654) _(by Philipp Burckhardt)_
+-   [`525c0cb`](https://github.com/stdlib-js/stdlib/commit/525c0cb527f9e8d116489aaf0dbb722abc471aeb) - **feat:** add C implementation for `stats/base/dists/invgamma/quantile` [(#13640)](https://github.com/stdlib-js/stdlib/pull/13640) _(by Ujjwal Verma, Philipp Burckhardt)_
+-   [`72cc422`](https://github.com/stdlib-js/stdlib/commit/72cc422f63246e16aad23b6d93ba01406a6267eb) - **feat:** add `stats/base/dists/anglit/pdf` [(#13642)](https://github.com/stdlib-js/stdlib/pull/13642) _(by Neeraj Pathak)_
+-   [`620be0b`](https://github.com/stdlib-js/stdlib/commit/620be0baebda152a786918d03a5d00994aed26b2) - **chore:** clean-up [(#13643)](https://github.com/stdlib-js/stdlib/pull/13643) _(by Philipp Burckhardt, Athan Reines)_
+-   [`fd3be1e`](https://github.com/stdlib-js/stdlib/commit/fd3be1e9ce03cd0f58fb6ee9d775a9c801ace05f) - **feat:** add C implementation for `stats/base/dists/binomial/quantile` [(#4415)](https://github.com/stdlib-js/stdlib/pull/4415) _(by Prashant Kumar Yadav, Philipp Burckhardt, stdlib-bot)_
+-   [`34af926`](https://github.com/stdlib-js/stdlib/commit/34af92690ca2581ae6fc94b17b5023c61810ceb6) - **feat:** add C implementation for `stats/base/dists/binomial/logpmf` [(#4417)](https://github.com/stdlib-js/stdlib/pull/4417) _(by Prashant Kumar Yadav, Philipp Burckhardt, stdlib-bot)_
+-   [`0204d5b`](https://github.com/stdlib-js/stdlib/commit/0204d5b64b628abb922b32e83dfa5d4919b2a4b1) - **chore:** update keywords [(#11902)](https://github.com/stdlib-js/stdlib/pull/11902) _(by Philipp Burckhardt)_
+-   [`4b25135`](https://github.com/stdlib-js/stdlib/commit/4b2513556546cf3dfcc8fb9adb61d5dccaedbcbe) - **chore:** clean-up [(#13626)](https://github.com/stdlib-js/stdlib/pull/13626) _(by Philipp Burckhardt)_
+-   [`cd1b1aa`](https://github.com/stdlib-js/stdlib/commit/cd1b1aa168f9119c8465c27d2b9d9973bc95084d) - **feat:** add `stats/base/dists/anglit/skewness` [(#13600)](https://github.com/stdlib-js/stdlib/pull/13600) _(by Neeraj Pathak, Philipp Burckhardt)_
+-   [`c7f2c99`](https://github.com/stdlib-js/stdlib/commit/c7f2c99626308f188fdd071df7e5b47209b1eeff) - **feat:** add `stats/base/dists/burr-type3/cdf` [(#5916)](https://github.com/stdlib-js/stdlib/pull/5916) _(by Vivek Maurya, Neeraj Pathak, Philipp Burckhardt, stdlib-bot)_
+-   [`01a27ec`](https://github.com/stdlib-js/stdlib/commit/01a27ec5dc2458180b2632fe68b4ed8892591ee9) - **feat:** add `stats/base/dists/wald/cdf` [(#9709)](https://github.com/stdlib-js/stdlib/pull/9709) _(by Neeraj Pathak, Athan Reines, Philipp Burckhardt)_
+-   [`619d162`](https://github.com/stdlib-js/stdlib/commit/619d1625df3e8820888e35bdd3cb6542783de424) - **feat:** add `stats/base/dists/log-logistic/variance` [(#13598)](https://github.com/stdlib-js/stdlib/pull/13598) _(by Neeraj Pathak, Philipp Burckhardt)_
+-   [`27626ae`](https://github.com/stdlib-js/stdlib/commit/27626ae743400778da734c069ee493a10d4fca75) - **feat:** add C implementation for `stats/base/dists/binomial/cdf` [(#4413)](https://github.com/stdlib-js/stdlib/pull/4413) _(by Prashant Kumar Yadav, Philipp Burckhardt, stdlib-bot)_
+-   [`a82a225`](https://github.com/stdlib-js/stdlib/commit/a82a2255378b0800f8eca51b43bd51a9ac9ab4c2) - **feat:** add C implementation for `stats/base/dists/signrank/cdf` [(#4482)](https://github.com/stdlib-js/stdlib/pull/4482) _(by Dev Goel, Neeraj Pathak, Philipp Burckhardt, stdlib-bot)_
+-   [`4bbc3b1`](https://github.com/stdlib-js/stdlib/commit/4bbc3b1150a0556576ab5a539235643df5428061) - **feat:** add C implementation for `stats/base/dists/hypergeometric/kurtosis` [(#10360)](https://github.com/stdlib-js/stdlib/pull/10360) _(by Vishal.., Neeraj Pathak, Philipp Burckhardt)_
+-   [`fa5ac3e`](https://github.com/stdlib-js/stdlib/commit/fa5ac3e85a7a4cf1f3ced529eb6285b039718191) - **feat:** add C implementation for `stats/base/dists/beta/cdf` [(#11450)](https://github.com/stdlib-js/stdlib/pull/11450) _(by Lokesh Ranjan, Neeraj Pathak, Philipp Burckhardt, stdlib-bot)_
+-   [`caa6641`](https://github.com/stdlib-js/stdlib/commit/caa664132db8e198b76a35c688d6c326b6614673) - **docs:** update descriptions [(#13604)](https://github.com/stdlib-js/stdlib/pull/13604) _(by Philipp Burckhardt, Athan Reines)_
+-   [`4a0c3be`](https://github.com/stdlib-js/stdlib/commit/4a0c3be4719f713b69a8ff6b66cc3b0573bf4444) - **docs:** update Markdown equation elements _(by stdlib-bot)_
+-   [`f25221d`](https://github.com/stdlib-js/stdlib/commit/f25221d5fcb5e84cb0ad4951db6f08f254c12d15) - **docs:** update Markdown equation elements _(by stdlib-bot)_
+-   [`6c38993`](https://github.com/stdlib-js/stdlib/commit/6c38993a7eabe55b575ff98f2b997eb31a146eef) - **docs:** update Markdown equation SVGs _(by stdlib-bot)_
+-   [`2cee50a`](https://github.com/stdlib-js/stdlib/commit/2cee50a75da1437551b91682b8785dbae8ab897f) - **docs:** update Markdown equation elements [(#13547)](https://github.com/stdlib-js/stdlib/pull/13547) _(by stdlib-bot, Athan Reines)_
+-   [`36ee366`](https://github.com/stdlib-js/stdlib/commit/36ee366130c07464017ccf0b49b9645a8f644a5f) - **chore:** clean-up [(#13539)](https://github.com/stdlib-js/stdlib/pull/13539) _(by Philipp Burckhardt)_
+-   [`4a96d8c`](https://github.com/stdlib-js/stdlib/commit/4a96d8c9dfad79378cf96fa9e046ed9f79ac1d23) - **chore:** clean-up [(#13522)](https://github.com/stdlib-js/stdlib/pull/13522) _(by Philipp Burckhardt, Athan Reines)_
+-   [`cf00dcc`](https://github.com/stdlib-js/stdlib/commit/cf00dcc6afd4c446c396910dd7b0d89bdaff7410) - **chore:** resolve lint errors _(by Athan Reines)_
+-   [`79dfbc4`](https://github.com/stdlib-js/stdlib/commit/79dfbc46e00386199e58ef0ed8f8643e25d09018) - **feat:** add `stats/base/dists/anglit/cdf` [(#10596)](https://github.com/stdlib-js/stdlib/pull/10596) _(by Bhargav Dabhade, Neeraj Pathak, Philipp Burckhardt)_
+-   [`1e6f938`](https://github.com/stdlib-js/stdlib/commit/1e6f9381e2369ce05701f80b22a4509756731046) - **feat:** add `stats/base/dists/anglit/entropy` [(#10620)](https://github.com/stdlib-js/stdlib/pull/10620) _(by Bhargav Dabhade, Neeraj Pathak, Philipp Burckhardt)_
+-   [`6b72eb2`](https://github.com/stdlib-js/stdlib/commit/6b72eb247c24153524b8119fae3ef37bac78883b) - **feat:** add `stats/base/dists/anglit/mode` [(#10629)](https://github.com/stdlib-js/stdlib/pull/10629) _(by Om-A-osc, Neeraj Pathak, Philipp Burckhardt)_
+-   [`5447bd7`](https://github.com/stdlib-js/stdlib/commit/5447bd7b304d6f3dad93aa05ed567b934078c544) - **docs:** update descriptions [(#13511)](https://github.com/stdlib-js/stdlib/pull/13511) _(by Philipp Burckhardt)_
+-   [`fd2d15a`](https://github.com/stdlib-js/stdlib/commit/fd2d15ac502fd4ecbb5e5a92b88f223a035c6917) - **chore:** update keywords [(#13496)](https://github.com/stdlib-js/stdlib/pull/13496) _(by Philipp Burckhardt)_
+-   [`981720b`](https://github.com/stdlib-js/stdlib/commit/981720b14da698964856967c883c1db26b9f703a) - **refactor:** update paths _(by Neeraj Pathak)_
+-   [`0f24d0d`](https://github.com/stdlib-js/stdlib/commit/0f24d0d9f742c471f083ad6c00df814e05053d12) - **docs:** update descriptions and comments [(#13451)](https://github.com/stdlib-js/stdlib/pull/13451) _(by Philipp Burckhardt)_
+-   [`c3b1dd3`](https://github.com/stdlib-js/stdlib/commit/c3b1dd3b3b827501949c2aaa834e7d626d2d97be) - **docs:** update description [(#13449)](https://github.com/stdlib-js/stdlib/pull/13449) _(by Philipp Burckhardt, Athan Reines)_
+-   [`2180fed`](https://github.com/stdlib-js/stdlib/commit/2180fed844c032e1dd39b8465fa44d934b3d94fc) - **docs:** add link [(#13406)](https://github.com/stdlib-js/stdlib/pull/13406) _(by Philipp Burckhardt)_
+-   [`945328a`](https://github.com/stdlib-js/stdlib/commit/945328aa14e710f4b828b8fa303173c660c77817) - **chore:** clean-up [(#13390)](https://github.com/stdlib-js/stdlib/pull/13390) _(by Philipp Burckhardt)_
+-   [`a3c9b30`](https://github.com/stdlib-js/stdlib/commit/a3c9b303010968027e67b5ebdd61340616246cd4) - **docs:** update descriptions [(#13370)](https://github.com/stdlib-js/stdlib/pull/13370) _(by Philipp Burckhardt, Athan Reines)_
+-   [`b5b7b4c`](https://github.com/stdlib-js/stdlib/commit/b5b7b4cf9937655b9167cb0145394c787f36faeb) - **refactor:** add `isnan` guards [(#13362)](https://github.com/stdlib-js/stdlib/pull/13362) _(by Philipp Burckhardt)_
+-   [`2671115`](https://github.com/stdlib-js/stdlib/commit/2671115d6032e59f3ada1b661085d8999f31a88c) - **refactor:** add explicit `isnan` guards [(#13343)](https://github.com/stdlib-js/stdlib/pull/13343) _(by Philipp Burckhardt)_
+-   [`dbaac4d`](https://github.com/stdlib-js/stdlib/commit/dbaac4d30875963b59dff855f0c29abaf16e66f8) - **fix:** update types for ndarray specifying the alternative hypothesis _(by Athan Reines)_
+-   [`67f7557`](https://github.com/stdlib-js/stdlib/commit/67f7557ca13ab425513196b26601e46f8a059ac2) - **chore:** clean-up [(#13283)](https://github.com/stdlib-js/stdlib/pull/13283) _(by Philipp Burckhardt)_
+-   [`112dcfc`](https://github.com/stdlib-js/stdlib/commit/112dcfcf5333be07ec3986193a011220762a0591) - **docs:** fix string interpolation and missing JSDoc annotations [(#13284)](https://github.com/stdlib-js/stdlib/pull/13284) _(by Philipp Burckhardt)_
+-   [`6e257ba`](https://github.com/stdlib-js/stdlib/commit/6e257ba3c4b7378563f97f474f98794949b3dce1) - **chore:** fix copy-paste mistakes [(#13281)](https://github.com/stdlib-js/stdlib/pull/13281) _(by Philipp Burckhardt)_
+-   [`1c6fea0`](https://github.com/stdlib-js/stdlib/commit/1c6fea0027204331d9152f97079bc4a0a0957a2d) - **style:** fix variable order _(by Athan Reines)_
+-   [`020a634`](https://github.com/stdlib-js/stdlib/commit/020a6344f135347ec4c374632c8d0819480f81ad) - **style:** add parentheses _(by Athan Reines)_
+-   [`691b3a0`](https://github.com/stdlib-js/stdlib/commit/691b3a0a1670484c6cb893f4699608b72f1afe98) - **chore:** fix Makefiles, lower test tolerances, and various clean-up _(by Athan Reines)_
+-   [`7d1419f`](https://github.com/stdlib-js/stdlib/commit/7d1419f8f35d4c552c375512b282be16640b771d) - **test:** fix tests and clean-up docs _(by Athan Reines)_
+-   [`a1a8d32`](https://github.com/stdlib-js/stdlib/commit/a1a8d32760b84fd7d0ef0edd5a55193a6f27da50) - **chore:** clean-up _(by Athan Reines)_
+-   [`48157fa`](https://github.com/stdlib-js/stdlib/commit/48157fa9f40922efe577aaa2d2a7b1eb2a28dd96) - **feat:** add C implementation for `stats/base/dists/lognormal/logcdf` [(#10882)](https://github.com/stdlib-js/stdlib/pull/10882) _(by Kamal Singh Rautela, Philipp Burckhardt)_
+-   [`ef6a8d0`](https://github.com/stdlib-js/stdlib/commit/ef6a8d06633359aa718f4aef91a1a257782748b2) - **feat:** add C implementation for `stats/base/dists/frechet/pdf` [(#10843)](https://github.com/stdlib-js/stdlib/pull/10843) _(by Siddhartha Mondal, Philipp Burckhardt, stdlib-bot)_
+-   [`82d0e4a`](https://github.com/stdlib-js/stdlib/commit/82d0e4a5005a4dd8a0e8b3e6105427cccfa93cf7) - **feat:** add C implementation for `stats/base/dists/f/pdf` [(#11201)](https://github.com/stdlib-js/stdlib/pull/11201) _(by Kamal Singh Rautela, Philipp Burckhardt)_
+-   [`f2d8482`](https://github.com/stdlib-js/stdlib/commit/f2d848262509972427073b12bc8f18f6789a5a76) - **feat:** add `stats/base/dists/anglit/stdev` [(#11489)](https://github.com/stdlib-js/stdlib/pull/11489) _(by Om-A-osc, Philipp Burckhardt)_
+-   [`c2fcbc0`](https://github.com/stdlib-js/stdlib/commit/c2fcbc0e51871744c2c42464051f45c030fdc936) - **feat:** add C implementation for `stats/base/dists/lognormal/cdf` [(#10809)](https://github.com/stdlib-js/stdlib/pull/10809) _(by Bhargav Dabhade, Neeraj Pathak)_
+-   [`f7d36db`](https://github.com/stdlib-js/stdlib/commit/f7d36db4ab721d8fce25339830ab9b7c9838d23c) - **feat:** add `stats/base/dists/anglit/variance` [(#11284)](https://github.com/stdlib-js/stdlib/pull/11284) _(by Om-A-osc, Philipp Burckhardt)_
+-   [`e3c68d4`](https://github.com/stdlib-js/stdlib/commit/e3c68d4fc52c2239968a6c2cd8c74168545deca7) - **feat:** add `stats/base/dists/log-logistic/cdf` [(#11283)](https://github.com/stdlib-js/stdlib/pull/11283) _(by Partha Das, Philipp Burckhardt)_
+-   [`85820dd`](https://github.com/stdlib-js/stdlib/commit/85820ddc1c9673141b7c6a25cba01148f6dd4643) - **feat:** add `stats/base/dists/log-logistic/quantile` [(#11295)](https://github.com/stdlib-js/stdlib/pull/11295) _(by Partha Das, Neeraj Pathak, Philipp Burckhardt)_
+-   [`26f6338`](https://github.com/stdlib-js/stdlib/commit/26f63380e6d7f701abbdc1761a3a86a0595dd958) - **docs:** update namespace table of contents [(#13277)](https://github.com/stdlib-js/stdlib/pull/13277) _(by stdlib-bot, Philipp Burckhardt)_
+-   [`4e24379`](https://github.com/stdlib-js/stdlib/commit/4e2437977c866640169dacfcdaff16b55ab879aa) - **docs:** fix string interpolation and update comments [(#13261)](https://github.com/stdlib-js/stdlib/pull/13261) _(by Philipp Burckhardt, Athan Reines)_
+-   [`8975f00`](https://github.com/stdlib-js/stdlib/commit/8975f00a25cb5ce66c932529659354ae5d8454dd) - **docs:** update descriptions [(#13219)](https://github.com/stdlib-js/stdlib/pull/13219) _(by Philipp Burckhardt)_
+-   [`aa769b3`](https://github.com/stdlib-js/stdlib/commit/aa769b3189e5b987405fa766b34a1ef4b822e7d7) - **style:** add missing parentheses _(by Athan Reines)_
+-   [`88234e7`](https://github.com/stdlib-js/stdlib/commit/88234e7886ce7a9606c595950d45a0e824ba61ba) - **style:** add missing parentheses _(by Athan Reines)_
+-   [`9be3f0e`](https://github.com/stdlib-js/stdlib/commit/9be3f0eac2cff3869d3811ddb285558ae2dc7b69) - **refactor:** avoid duplicated computation _(by Athan Reines)_
+-   [`df0ddfb`](https://github.com/stdlib-js/stdlib/commit/df0ddfb1af389bea424bd861807639b412c111fa) - **style:** add missing line breaks _(by Athan Reines)_
+-   [`1fa83d8`](https://github.com/stdlib-js/stdlib/commit/1fa83d83893fb97733d382d860bdb30c172edd53) - **docs:** fix descriptions _(by Athan Reines)_
+-   [`0e72a75`](https://github.com/stdlib-js/stdlib/commit/0e72a753c7aba1ea72cbb4a6d71ef9731f944460) - **docs:** fix descriptions _(by Athan Reines)_
+-   [`202e91c`](https://github.com/stdlib-js/stdlib/commit/202e91c2dcf434f065d94866e076fdb5a7aa36a7) - **bench:** fix description _(by Athan Reines)_
+-   [`a94b67c`](https://github.com/stdlib-js/stdlib/commit/a94b67c366d66ab13e7001d686c0d190d271741e) - **chore:** fix description and remove linebreaks _(by Athan Reines)_
+-   [`bbd919d`](https://github.com/stdlib-js/stdlib/commit/bbd919d7189f2d13d8d12a3f5a269aacc4481eee) - **feat:** add `stats/base/dists/log-logistic/median` [(#11217)](https://github.com/stdlib-js/stdlib/pull/11217) _(by Partha Das, Neeraj Pathak, Philipp Burckhardt)_
+-   [`f8cdc1b`](https://github.com/stdlib-js/stdlib/commit/f8cdc1b698a9a0a2913d44b40ac5c975f175e4ff) - **feat:** add `stats/base/dists/log-logistic/mean` [(#11221)](https://github.com/stdlib-js/stdlib/pull/11221) _(by Partha Das, Neeraj Pathak, Philipp Burckhardt)_
+-   [`eb582c8`](https://github.com/stdlib-js/stdlib/commit/eb582c8d528d367c271e67132712722cce8ab794) - **feat:** add `stats/base/dists/log-logistic/mode` [(#11224)](https://github.com/stdlib-js/stdlib/pull/11224) _(by Partha Das, Neeraj Pathak, Philipp Burckhardt)_
+-   [`10e10b8`](https://github.com/stdlib-js/stdlib/commit/10e10b8c25e44a1807bc3fef189570c11218433c) - **feat:** add C implementation for `stats/base/dists/chisquare/pdf` [(#11634)](https://github.com/stdlib-js/stdlib/pull/11634) _(by Kamal Singh Rautela, Neeraj Pathak, Philipp Burckhardt)_
+-   [`f52a463`](https://github.com/stdlib-js/stdlib/commit/f52a463381839ad535627b7231b00ec8b7624515) - **feat:** add `stats/base/dists/tukey-lambda/mode` [(#11911)](https://github.com/stdlib-js/stdlib/pull/11911) _(by Shubham, Neeraj Pathak, Philipp Burckhardt)_
+-   [`5dee19d`](https://github.com/stdlib-js/stdlib/commit/5dee19dbe000c3512c48f5546478b66a41a2a062) - **bench:** use consistent assertions [(#13229)](https://github.com/stdlib-js/stdlib/pull/13229) _(by Philipp Burckhardt)_
+-   [`fe3bace`](https://github.com/stdlib-js/stdlib/commit/fe3bacee0706a1562d6654c859ce2644dc69ba56) - **bench:** add missing function documentation and ensure consistency with other benchmarks [(#13221)](https://github.com/stdlib-js/stdlib/pull/13221) _(by Philipp Burckhardt)_
+-   [`aebd92a`](https://github.com/stdlib-js/stdlib/commit/aebd92a2abde124cc3838fdfc2f2d88136eae9e2) - **feat:** add `stats/base/dists/anglit/quantile` [(#10716)](https://github.com/stdlib-js/stdlib/pull/10716) _(by Om-A-osc, Athan Reines, Neeraj Pathak, Philipp Burckhardt)_
+-   [`88ed88f`](https://github.com/stdlib-js/stdlib/commit/88ed88ffa11b6cc1837e75f7fb9024a89ab3d94d) - **feat:** add C implementation for `stats/base/dists/poisson/entropy` [(#10874)](https://github.com/stdlib-js/stdlib/pull/10874) _(by Kamal Singh Rautela, Neeraj Pathak, Philipp Burckhardt)_
+-   [`151e6e9`](https://github.com/stdlib-js/stdlib/commit/151e6e94f4491c50441f8ad8399ce20bd44564d4) - **feat:** add C implementation for `stats/base/dists/lognormal/logpdf` [(#10881)](https://github.com/stdlib-js/stdlib/pull/10881) _(by Kamal Singh Rautela, Neeraj Pathak, Philipp Burckhardt)_
+-   [`e500017`](https://github.com/stdlib-js/stdlib/commit/e5000177e6955107b030ae82d6eac5916d24a46a) - **feat:** add `stats/base/dists/log-logistic/pdf` [(#11203)](https://github.com/stdlib-js/stdlib/pull/11203) _(by Partha Das, Neeraj Pathak, Philipp Burckhardt)_
+-   [`0d7bf9d`](https://github.com/stdlib-js/stdlib/commit/0d7bf9d3a61ebe401eb6f8f8e12a9ea096eb3ccf) - **docs:** rename link reference label [(#13195)](https://github.com/stdlib-js/stdlib/pull/13195) _(by Philipp Burckhardt)_
+-   [`ca49ceb`](https://github.com/stdlib-js/stdlib/commit/ca49ceb1e17979e0ecb77bc50dedd14b7515b46f) - **refactor:** rename internal variable [(#13167)](https://github.com/stdlib-js/stdlib/pull/13167) _(by Philipp Burckhardt)_
+-   [`4a927af`](https://github.com/stdlib-js/stdlib/commit/4a927afaffbf44d28e2ac942fb5b6cfbe1455e35) - **refactor:** rename internal variable [(#13156)](https://github.com/stdlib-js/stdlib/pull/13156) _(by Philipp Burckhardt)_
 -   [`fba0af3`](https://github.com/stdlib-js/stdlib/commit/fba0af3d48d889ebd262a0c135238961004ac9fa) - **refactor:** use a function wrapper for native binding [(#13002)](https://github.com/stdlib-js/stdlib/pull/13002) _(by Philipp Burckhardt)_
 -   [`e6cc42b`](https://github.com/stdlib-js/stdlib/commit/e6cc42bab0268753252236d0e7511c97443754cc) - **fix:** correct typo in enum name and fix C examples [(#13088)](https://github.com/stdlib-js/stdlib/pull/13088) _(by anee3)_
 -   [`fcca2dc`](https://github.com/stdlib-js/stdlib/commit/fcca2dc42eb46f8957fc9e3a4fd0691917f38daf) - **remove:** remove migrated `stats/strided/*` imports from `stats/base/*` namespace [(#13103)](https://github.com/stdlib-js/stdlib/pull/13103) _(by Neeraj Pathak)_
@@ -535,13 +677,16 @@ A total of 13 issues were closed in this release:
 
 ### Contributors
 
-A total of 30 people contributed to this release. Thank you to the following contributors:
+A total of 36 people contributed to this release. Thank you to the following contributors:
 
 -   ANKIT SINGH YADAV
 -   Athan Reines
+-   Atharva Patange
 -   Bhargav Dabhade
 -   Blessed Oigbochie
+-   Dev Goel
 -   Guneet Gill
+-   Jannatul Mawa
 -   Kamal Singh Rautela
 -   Karan Anand
 -   Kaustubh Patange
@@ -555,15 +700,18 @@ A total of 30 people contributed to this release. Thank you to the following con
 -   Om-A-osc
 -   Partha Das
 -   Philipp Burckhardt
+-   Prashant Kumar Yadav
 -   Pratik
 -   Sachin Pangal
 -   Samarth Kolarkar
 -   Shubham
 -   Siddhartha Mondal
 -   Uday Kakade
+-   Ujjwal Verma
 -   Vipeen Kumar
 -   Vishal Gaikwad
 -   Vishal..
+-   Vivek Maurya
 -   anee3
 -   orthodox-64
 -   travisBREAKS
