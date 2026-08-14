@@ -4,12 +4,15 @@
 
 <section class="release" id="unreleased">
 
-## Unreleased (2026-08-08)
+## Unreleased (2026-08-14)
 
 <section class="features">
 
 ### Features
 
+-   [`e45106f`](https://github.com/stdlib-js/stdlib/commit/e45106f37b6021036f74a084df5b76efb7326c60) - add C implementation for `stats/base/ndarray/dnanmean` [(#14049)](https://github.com/stdlib-js/stdlib/pull/14049)
+-   [`473d131`](https://github.com/stdlib-js/stdlib/commit/473d131c7e3b76fb4942727c1d94f9051c578aff) - add C implementation for `stats/base/ndarray/dnanmeanpn` [(#14120)](https://github.com/stdlib-js/stdlib/pull/14120)
+-   [`44b9204`](https://github.com/stdlib-js/stdlib/commit/44b92048a179718d7e0c04375a0408464606b2db) - add C implementation for `stats/base/ndarray/dnanmeanors` [(#14053)](https://github.com/stdlib-js/stdlib/pull/14053)
 -   [`5ca7350`](https://github.com/stdlib-js/stdlib/commit/5ca73502c25e79cf39e6a2eb338c1dd7d18b923b) - add C implementation for `stats/base/ndarray/smean` [(#10090)](https://github.com/stdlib-js/stdlib/pull/10090)
 -   [`6b8dac1`](https://github.com/stdlib-js/stdlib/commit/6b8dac1420da9cbaf0df6d357fb772fe4c4dde36) - add C implementation for `stats/base/ndarray/dmediansorted` [(#13912)](https://github.com/stdlib-js/stdlib/pull/13912)
 -   [`b71fe53`](https://github.com/stdlib-js/stdlib/commit/b71fe5300106bed0cad2897c06e8f82ccc998700) - add C implementation for `stats/base/ndarray/smeankbn2` [(#13977)](https://github.com/stdlib-js/stdlib/pull/13977)
@@ -121,6 +124,7 @@
 
 ### Bug Fixes
 
+-   [`ebbf2de`](https://github.com/stdlib-js/stdlib/commit/ebbf2de9f235cc98990c0cd3b020beac567667fa) - pass const qualified views [(#14052)](https://github.com/stdlib-js/stdlib/pull/14052)
 -   [`dbaac4d`](https://github.com/stdlib-js/stdlib/commit/dbaac4d30875963b59dff855f0c29abaf16e66f8) - update types for ndarray specifying the alternative hypothesis
 -   [`e6cc42b`](https://github.com/stdlib-js/stdlib/commit/e6cc42bab0268753252236d0e7511c97443754cc) - correct typo in enum name and fix C examples [(#13088)](https://github.com/stdlib-js/stdlib/pull/13088)
 -   [`d8fdfb7`](https://github.com/stdlib-js/stdlib/commit/d8fdfb7f6a2db0cce8664d288887789b8f0987b8) - improve type specificity for JSON serialization [(#12504)](https://github.com/stdlib-js/stdlib/pull/12504)
@@ -169,6 +173,47 @@ A total of 23 issues were closed in this release:
 
 <details>
 
+-   [`27d30be`](https://github.com/stdlib-js/stdlib/commit/27d30bed3aa1a2e5828f39994eb39e16cb43047f) - **test:** migrate `stats/base/dists/normal/entropy` to ULP-based assertions [(#14227)](https://github.com/stdlib-js/stdlib/pull/14227) _(by Athan Reines)_
+-   [`0ede2c6`](https://github.com/stdlib-js/stdlib/commit/0ede2c6542bc507b9fdab60f997ee447a0fab893) - **test:** migrate `stats/base/dists/laplace/mgf` to ULP-based assertions [(#14223)](https://github.com/stdlib-js/stdlib/pull/14223) _(by Athan Reines)_
+-   [`d5b5117`](https://github.com/stdlib-js/stdlib/commit/d5b511716a4d3d5937ae30351532753aea78d404) - **test:** migrate `stats/base/dists/invgamma/mean` to ULP-based assertions [(#14236)](https://github.com/stdlib-js/stdlib/pull/14236) _(by Athan Reines)_
+-   [`e8d99e1`](https://github.com/stdlib-js/stdlib/commit/e8d99e1d5634b4080f95e70e42bab0e93961493a) - **test:** migrate `stats/base/dists/logistic/entropy` to ULP-based assertions [(#14218)](https://github.com/stdlib-js/stdlib/pull/14218) _(by Athan Reines)_
+-   [`5822b6f`](https://github.com/stdlib-js/stdlib/commit/5822b6fa524f9619c806cc21e0ed033c23c304af) - **test:** migrate `stats/base/dists/laplace/pdf` to ULP-based assertions [(#14213)](https://github.com/stdlib-js/stdlib/pull/14213) _(by Athan Reines)_
+-   [`5f8108e`](https://github.com/stdlib-js/stdlib/commit/5f8108ecdd886bd931b2f6d61cd53a4ae5f08da7) - **docs:** update namespace table of contents [(#14216)](https://github.com/stdlib-js/stdlib/pull/14216) _(by stdlib-bot)_
+-   [`6f563d5`](https://github.com/stdlib-js/stdlib/commit/6f563d5f65c22965e60a82e70c73a5e687df4b00) - **style:** add missing spaces [(#14201)](https://github.com/stdlib-js/stdlib/pull/14201) _(by Philipp Burckhardt)_
+-   [`7c88159`](https://github.com/stdlib-js/stdlib/commit/7c88159a9896362c2408622adff00be3eef14420) - **test:** migrate `stats/base/dists/negative-binomial/logpmf` to ULP-based assertions [(#14199)](https://github.com/stdlib-js/stdlib/pull/14199) _(by Athan Reines)_
+-   [`57b9c44`](https://github.com/stdlib-js/stdlib/commit/57b9c44d351a44858b83509810dd96116ac6bb28) - **test:** migrate `stats/base/dists/gamma/pdf` to ULP-based assertions [(#14206)](https://github.com/stdlib-js/stdlib/pull/14206) _(by Athan Reines)_
+-   [`0d59e49`](https://github.com/stdlib-js/stdlib/commit/0d59e491d662cb131869b6437c113dda340daf24) - **test:** migrate `stats/base/dists/chisquare/mgf` to ULP-based assertions [(#14209)](https://github.com/stdlib-js/stdlib/pull/14209) _(by Athan Reines)_
+-   [`2498242`](https://github.com/stdlib-js/stdlib/commit/24982425e037f773cf22d504b9b235a49c04d23b) - **test:** migrate `stats/base/dists/uniform/logpdf` to ULP-based assertions [(#14210)](https://github.com/stdlib-js/stdlib/pull/14210) _(by Philipp Burckhardt)_
+-   [`83e21db`](https://github.com/stdlib-js/stdlib/commit/83e21db95ac994a1b151aa723e8a36c9245e2eeb) - **test:** migrate `stats/base/dists/cosine/stdev` to ULP-based assertions [(#14211)](https://github.com/stdlib-js/stdlib/pull/14211) _(by Athan Reines)_
+-   [`b768913`](https://github.com/stdlib-js/stdlib/commit/b768913ab00423562638323ec95bb6bea56b0db9) - **test:** migrate `stats/base/dists/erlang/mode` to ULP-based assertions [(#14189)](https://github.com/stdlib-js/stdlib/pull/14189) _(by Athan Reines)_
+-   [`ed143dc`](https://github.com/stdlib-js/stdlib/commit/ed143dcf897b1fe7309d1686ee63ce605e3f545a) - **chore:** add keyword [(#14181)](https://github.com/stdlib-js/stdlib/pull/14181) _(by Philipp Burckhardt, Athan Reines)_
+-   [`d4855f5`](https://github.com/stdlib-js/stdlib/commit/d4855f53879f5eff85801596b21a52fe3f8281ad) - **docs:** update Markdown equation elements _(by stdlib-bot)_
+-   [`bcff88e`](https://github.com/stdlib-js/stdlib/commit/bcff88e9f8cb2f0b8124d94ab810d7e2eee7a948) - **docs:** update Markdown equation elements _(by stdlib-bot)_
+-   [`048e06b`](https://github.com/stdlib-js/stdlib/commit/048e06b6a6d7655a5bf4c20840e14f2449b34950) - **test:** migrate `stats/base/dists/kumaraswamy/mean` to ULP-based assertions [(#14163)](https://github.com/stdlib-js/stdlib/pull/14163) _(by Athan Reines)_
+-   [`2f6c686`](https://github.com/stdlib-js/stdlib/commit/2f6c686a77739f4d4b33c717457c7698f791e968) - **test:** migrate `stats/base/dists/pareto-type1/median` to ULP-based assertions [(#14155)](https://github.com/stdlib-js/stdlib/pull/14155) _(by Athan Reines)_
+-   [`c6230dd`](https://github.com/stdlib-js/stdlib/commit/c6230dd99b8485b978ccbbf55e3bf3d4aba54359) - **test:** migrate `stats/base/dists/gamma/quantile` to ULP-based assertions [(#14167)](https://github.com/stdlib-js/stdlib/pull/14167) _(by Athan Reines)_
+-   [`10f021c`](https://github.com/stdlib-js/stdlib/commit/10f021cc611f590a73d6e5fd8d7a17ec5351480f) - **docs:** fix example and description [(#14168)](https://github.com/stdlib-js/stdlib/pull/14168) _(by Philipp Burckhardt)_
+-   [`a9cfa23`](https://github.com/stdlib-js/stdlib/commit/a9cfa239b23fce770c9bb7a6f35ce073fc807020) - **test:** migrate `stats/base/dists/beta/median` to ULP-based assertions [(#14174)](https://github.com/stdlib-js/stdlib/pull/14174) _(by Athan Reines)_
+-   [`99b2dea`](https://github.com/stdlib-js/stdlib/commit/99b2dea681f348b20578ff3b0d6f2be4c4dc0c81) - **test:** migrate `stats/base/dists/arcsine/logcdf` to ULP-based assertions [(#14180)](https://github.com/stdlib-js/stdlib/pull/14180) _(by Athan Reines)_
+-   [`e45106f`](https://github.com/stdlib-js/stdlib/commit/e45106f37b6021036f74a084df5b76efb7326c60) - **feat:** add C implementation for `stats/base/ndarray/dnanmean` [(#14049)](https://github.com/stdlib-js/stdlib/pull/14049) _(by Ujjwal Verma, Athan Reines)_
+-   [`473d131`](https://github.com/stdlib-js/stdlib/commit/473d131c7e3b76fb4942727c1d94f9051c578aff) - **feat:** add C implementation for `stats/base/ndarray/dnanmeanpn` [(#14120)](https://github.com/stdlib-js/stdlib/pull/14120) _(by Ujjwal Verma, Athan Reines)_
+-   [`44b9204`](https://github.com/stdlib-js/stdlib/commit/44b92048a179718d7e0c04375a0408464606b2db) - **feat:** add C implementation for `stats/base/ndarray/dnanmeanors` [(#14053)](https://github.com/stdlib-js/stdlib/pull/14053) _(by Ujjwal Verma, Athan Reines)_
+-   [`6d5eafc`](https://github.com/stdlib-js/stdlib/commit/6d5eafc44e2a11f86270fcc55cd91df950fb5758) - **test:** migrate `stats/base/dists/signrank/quantile` to ULP-based assertions [(#14154)](https://github.com/stdlib-js/stdlib/pull/14154) _(by Athan Reines)_
+-   [`fc38da1`](https://github.com/stdlib-js/stdlib/commit/fc38da1a46f93f15193f2e2072077027f4f2af24) - **docs:** fix example [(#14152)](https://github.com/stdlib-js/stdlib/pull/14152) _(by Philipp Burckhardt, Athan Reines)_
+-   [`ccc3c46`](https://github.com/stdlib-js/stdlib/commit/ccc3c46246b611479e4df9aa7d4ca0a523e28731) - **chore:** clean-up [(#14138)](https://github.com/stdlib-js/stdlib/pull/14138) _(by Philipp Burckhardt)_
+-   [`a2e365c`](https://github.com/stdlib-js/stdlib/commit/a2e365c213841d741b3c69533efc5cfaaa8212e0) - **test:** migrate `stats/base/dists/laplace/logcdf` to ULP-based assertions [(#14141)](https://github.com/stdlib-js/stdlib/pull/14141) _(by Athan Reines)_
+-   [`44cb452`](https://github.com/stdlib-js/stdlib/commit/44cb45281476abad44f0adaccbc0e1fafdbd04ee) - **test:** migrate `stats/base/dists/f/mode` to ULP-based assertions [(#14147)](https://github.com/stdlib-js/stdlib/pull/14147) _(by Athan Reines)_
+-   [`af0c6b6`](https://github.com/stdlib-js/stdlib/commit/af0c6b67ada2bab7296e693588b4d7e04c41ae3f) - **docs:** fix C API parameter descriptions [(#14134)](https://github.com/stdlib-js/stdlib/pull/14134) _(by Philipp Burckhardt)_
+-   [`476cf1d`](https://github.com/stdlib-js/stdlib/commit/476cf1d820ed2fd05550d80e8d53b531690430f2) - **test:** migrate `stats/base/dists/pareto-type1/quantile` to ULP-based assertions [(#14129)](https://github.com/stdlib-js/stdlib/pull/14129) _(by Athan Reines)_
+-   [`d844b50`](https://github.com/stdlib-js/stdlib/commit/d844b501d6650be72ff85cff2e8d4ad5a917a6a0) - **test:** migrate `stats/base/dists/pareto-type1/kurtosis` to ULP-based assertions [(#14119)](https://github.com/stdlib-js/stdlib/pull/14119) _(by Athan Reines)_
+-   [`5ee4874`](https://github.com/stdlib-js/stdlib/commit/5ee48744ae9c4ba3a46ee2d4aa27a1ffb7362332) - **test:** migrate `stats/base/dists/weibull/logcdf` to ULP-based assertions [(#14109)](https://github.com/stdlib-js/stdlib/pull/14109) _(by Athan Reines)_
+-   [`9733443`](https://github.com/stdlib-js/stdlib/commit/97334439df4be90461f99e0a5346e82e9bfed456) - **test:** migrate `stats/base/dists/uniform/entropy` to ULP-based assertions [(#14108)](https://github.com/stdlib-js/stdlib/pull/14108) _(by Philipp Burckhardt)_
+-   [`f6d52ce`](https://github.com/stdlib-js/stdlib/commit/f6d52ce8ab90649eb6c7d2802b003e2b6773949e) - **test:** migrate `stats/base/dists/negative-binomial/pmf` to ULP-based assertions [(#14101)](https://github.com/stdlib-js/stdlib/pull/14101) _(by Athan Reines)_
+-   [`ae08f7c`](https://github.com/stdlib-js/stdlib/commit/ae08f7cb4fe984df6e38a721649aed5ad9267e67) - **test:** migrate `stats/base/dists/hypergeometric/pmf` to ULP-based assertions [(#14091)](https://github.com/stdlib-js/stdlib/pull/14091) _(by Athan Reines)_
+-   [`65a5d15`](https://github.com/stdlib-js/stdlib/commit/65a5d155944a423ba8d9e564fefb839c2e949544) - **test:** migrate `stats/base/dists/chi/quantile` to ULP-based assertions [(#14086)](https://github.com/stdlib-js/stdlib/pull/14086) _(by Philipp Burckhardt)_
+-   [`12769a7`](https://github.com/stdlib-js/stdlib/commit/12769a7152892853b8380b386a43d4ce6777321e) - **test:** migrate `stats/base/dists/halfnormal/stdev` to ULP-based assertions [(#14084)](https://github.com/stdlib-js/stdlib/pull/14084) _(by Athan Reines)_
+-   [`3f3fce8`](https://github.com/stdlib-js/stdlib/commit/3f3fce8c869a5f1ef3898964964ae8cfad803894) - **test:** migrate `stats/base/dists/lognormal/variance` to ULP-based assertions [(#14069)](https://github.com/stdlib-js/stdlib/pull/14069) _(by Athan Reines)_
+-   [`ebbf2de`](https://github.com/stdlib-js/stdlib/commit/ebbf2de9f235cc98990c0cd3b020beac567667fa) - **fix:** pass const qualified views [(#14052)](https://github.com/stdlib-js/stdlib/pull/14052) _(by Philipp Burckhardt, Athan Reines)_
 -   [`5ca7350`](https://github.com/stdlib-js/stdlib/commit/5ca73502c25e79cf39e6a2eb338c1dd7d18b923b) - **feat:** add C implementation for `stats/base/ndarray/smean` [(#10090)](https://github.com/stdlib-js/stdlib/pull/10090) _(by Atharva Patange, Athan Reines, Sachin Pangal)_
 -   [`6b8dac1`](https://github.com/stdlib-js/stdlib/commit/6b8dac1420da9cbaf0df6d357fb772fe4c4dde36) - **feat:** add C implementation for `stats/base/ndarray/dmediansorted` [(#13912)](https://github.com/stdlib-js/stdlib/pull/13912) _(by Atharva Patange)_
 -   [`b71fe53`](https://github.com/stdlib-js/stdlib/commit/b71fe5300106bed0cad2897c06e8f82ccc998700) - **feat:** add C implementation for `stats/base/ndarray/smeankbn2` [(#13977)](https://github.com/stdlib-js/stdlib/pull/13977) _(by Atharva Patange, Athan Reines)_
